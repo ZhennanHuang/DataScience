@@ -11,7 +11,13 @@ namespace Demo.Controllers
         // GET: Home
         public ActionResult Index()
         {
+
             return View();
+        }
+        [HttpPost]
+        public ActionResult charts(HttpContext context) {
+            context.Request.ContentType = "application/json";
+            return null;
         }
 
     }

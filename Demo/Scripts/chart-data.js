@@ -1,13 +1,32 @@
 
-var change = document.getElementById('changeChart');
+/*var change = document.getElementById('changeChart');
 
 change.onclick = function () {
     //document.getElementById('charts').style.display="none"
     var select1 = document.getElementById('select1').value;
     var select2 = document.getElementById('select2').value;
     var select3 = document.getElementById('select3').value;
-    
-}
+}*/
+$("#changeChart").click(function () {
+    var select1 = document.getElementById('select1').value;
+    var select2 = document.getElementById('select2').value;
+    var select3 = document.getElementById('select3').value;
+    data = JSON.stringify({ t1: select1, t2: select2, t3: select3 });
+    alert(data);
+    $.ajax({
+        type: "post",
+        dataType: "json",
+        url: "/Home/charts",
+        data: data,
+        conteneType:"application/json",
+        success: function () {
+            alert("xxxx")
+        },
+        error: function(){
+            alert("error")
+        }
+    })
+});
 
 var randomScalingFactor = function () { return Math.round(Math.random() * 1000) };
 	
