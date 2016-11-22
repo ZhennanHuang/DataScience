@@ -14,10 +14,12 @@ namespace Demo.Controllers
 
             return View();
         }
+        
         [HttpPost]
         public ActionResult charts(HttpContext context) {
             context.Request.ContentType = "application/json";
-            return null;
+            string list = "sada:weq";
+            return Json(list);
         }
 
     }
