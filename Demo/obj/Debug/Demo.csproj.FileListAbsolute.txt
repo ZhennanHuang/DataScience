@@ -90,3 +90,11 @@ C:\Users\zh4n15\Source\Repos\DataScience\Demo\bin\System.Web.Mvc.xml
 C:\Users\zh4n15\Source\Repos\DataScience\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
 C:\Users\zh4n15\Source\Repos\DataScience\Demo\obj\Debug\Demo.dll
 C:\Users\zh4n15\Source\Repos\DataScience\Demo\obj\Debug\Demo.pdb
+C:\Users\zh4n15\Source\Repos\DataScience\Demo\bin\MongoDB.Bson.dll
+C:\Users\zh4n15\Source\Repos\DataScience\Demo\bin\MongoDB.Driver.Core.dll
+C:\Users\zh4n15\Source\Repos\DataScience\Demo\bin\MongoDB.Driver.dll
+C:\Users\zh4n15\Source\Repos\DataScience\Demo\bin\MongoDB.Driver.Legacy.dll
+C:\Users\zh4n15\Source\Repos\DataScience\Demo\bin\MongoDB.Bson.xml
+C:\Users\zh4n15\Source\Repos\DataScience\Demo\bin\MongoDB.Driver.xml
+C:\Users\zh4n15\Source\Repos\DataScience\Demo\bin\MongoDB.Driver.Core.xml
+C:\Users\zh4n15\Source\Repos\DataScience\Demo\bin\MongoDB.Driver.Legacy.xml
