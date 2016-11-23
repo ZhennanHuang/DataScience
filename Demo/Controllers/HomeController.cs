@@ -15,7 +15,7 @@ namespace Demo.Controllers
         public MongoCollection Collections;
         // GET: Home
         public HomeController() {
-            var mongoClient = new MongoClient("mongodb://COMP6235:wkbbsdh8oDY2@svm-hf1g10-comp6235-temp.ecs.soton.ac.uk:27017/"+"health_data");
+            var mongoClient = new MongoClient("mongodb://localhost"+"datascience");
 
             //var server = mongoClient.GetServer();
             //MongoDatabase = server.GetDatabase(Settings.Default.DB);
