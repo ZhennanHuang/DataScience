@@ -23,7 +23,6 @@ namespace Demo.Controllers
 
             mongoClient.GetServer().Ping();
      
-            
         }
         public ActionResult Index()
         {
