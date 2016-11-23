@@ -20,7 +20,7 @@ namespace Demo.Controllers
             //MongoDatabase = server.GetDatabase(Settings.Default.DB);
             //var db = mongoClient.GetDatabase(Settings.Default.DB);
 
-            MongoDatabase.Server.Ping();
+            mongoClient.GetServer().Ping();
             
         }
         public ActionResult Index()
