@@ -25,21 +25,21 @@ namespace Demo.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("health_data")]
+        public string DB {
+            get {
+                return ((string)(this["DB"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("mongodb://COMP6235:wkbbsdh8oDY2@svm-hf1g10-comp6235-temp.ecs.soton.ac.uk:27017/he" +
             "alth_data")]
         public string connectingString {
             get {
                 return ((string)(this["connectingString"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("health_data")]
-        public string DB {
-            get {
-                return ((string)(this["DB"]));
             }
         }
     }

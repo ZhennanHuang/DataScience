@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using Demo.Models;
 using MongoDB.Driver;
 using Demo.Properties;
+using System.Configuration;
 
 namespace Demo.Controllers
 {
@@ -15,18 +16,28 @@ namespace Demo.Controllers
         public MongoCollection Collections;
         // GET: Home
         public HomeController() {
-            var mongoClient = new MongoClient("mongodb://localhost"+"datascience");
+            //var client = new MongoClient("mongodb://localhost");
+            //var db = client.GetDatabase("datascience");
 
-            //var server = mongoClient.GetServer();
-            //MongoDatabase = server.GetDatabase(Settings.Default.DB);
-            //var db = mongoClient.GetDatabase(Settings.Default.DB);
+            //var collection = db.ListCollections().ToList();
+            //Collections = db.GetCollection<>("col");
+            var client = new MongoClient(ConfigurationManager.AppSettings["connectionString"]);
+            MongoServer server = client.GetServer();
+            MongoDatabase db = server.GetDatabase("test");
+            MongoCollection<person> Persons = db.GetCollection<person>("persons");
+            long a = Persons.Count();
+            
+            foreach (person Aperson in Persons.FindAll())
+            {
+                string name = Aperson.Name;
+                
+            }
 
-            mongoClient.GetServer().Ping();
-     
+
         }
         public ActionResult Index()
         {
-            Collections = MongoDatabase.GetCollection("uk");
+            Collections = MongoDatabase.GetCollection("col");
             long count = Collections.Count();
             return null;
         }
