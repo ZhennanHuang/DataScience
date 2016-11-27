@@ -16,24 +16,18 @@ namespace Demo.Controllers
         public MongoCollection Collections;
         // GET: Home
         public HomeController() {
-            //var client = new MongoClient("mongodb://localhost");
-            //var db = client.GetDatabase("datascience");
-
-            //var collection = db.ListCollections().ToList();
-            //Collections = db.GetCollection<>("col");
             var client = new MongoClient(ConfigurationManager.AppSettings["connectionString"]);
             MongoServer server = client.GetServer();
             MongoDatabase db = server.GetDatabase("test");
-            MongoCollection<person> Persons = db.GetCollection<person>("persons");
-            long a = Persons.Count();
-            
-            foreach (person Aperson in Persons.FindAll())
+            MongoCollection<food> Food = db.GetCollection<food>("expenditure");
+            long a = Food.Count();
+            foreach (food food in Food.FindAll())
             {
-                string name = Aperson.Name;
-                
+                string id = food._id.ToString();
+                double category = food.category;
+                int q = food.quintile;
+                string y = food.year.ToString();
             }
-
-
         }
         public ActionResult Index()
         {
