@@ -14,14 +14,15 @@ namespace Demo.Controllers
     {
         public MongoDatabase MongoDatabase;
         public MongoCollection Collections;
+
         // GET: Home
         public HomeController() {
             var client = new MongoClient(ConfigurationManager.AppSettings["connectionString"]);
             MongoServer server = client.GetServer();
             MongoDatabase db = server.GetDatabase("test");
-            MongoCollection<food> Food = db.GetCollection<food>("expenditure");
-            long a = Food.Count();
-            foreach (food food in Food.FindAll())
+            Collections = db.GetCollection<food>("expenditure");
+            long a = Collections.Count();
+            foreach (food food in Collections.FindAllAs<food>())
             {
                 string id = food._id.ToString();
                 double category = food.category;
@@ -31,7 +32,6 @@ namespace Demo.Controllers
         }
         public ActionResult Index()
         {
-            Collections = MongoDatabase.GetCollection("col");
             long count = Collections.Count();
             return null;
         }
