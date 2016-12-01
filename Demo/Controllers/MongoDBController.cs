@@ -25,8 +25,6 @@ namespace Demo.Models
         {
             
             string connection = "mongodb://COMP6235:wkbbsdh8oDY2@svm-hf1g10-comp6235-temp.ecs.soton.ac.uk:27017";
-           
-
 
         }
     }
