@@ -16,7 +16,7 @@ namespace Demo.Models
         public string purchase { get; set; }
         public int quintile { get; set; }
         public string expense_units { get; set; }
-        public double expense { get; set; }
+        public double? expense { get; set; }
         public string purchase_units { get; set; }
         //[DisplayFormat(DataFormatString = "{yyyy}")]
         //public DateTime year { get; set; }
@@ -26,12 +26,12 @@ namespace Demo.Models
    //     [BsonDateTimeOptions]
         public int year { get; set ; }
         public List<string> description { get; set; }
-        [BsonRepresentation(BsonType.Double)]
-        public decimal purchase_percentage_change { get; set; }
-        [BsonRepresentation(BsonType.Double)]
-        public decimal expense_percentage_change { get; set; }
-        [BsonRepresentation(BsonType.Double)]
-        public decimal ppu { get; set; }    
+       // [BsonRepresentation(BsonType.Double, AllowTruncation = true)]
+        public double? purchase_percentage_change { get; set; }
+       // [BsonRepresentation(BsonType.Double, AllowTruncation = true)]
+        public double? expense_percentage_change { get; set; }
+       // [BsonRepresentation(BsonType.Double,AllowTruncation =true)]
+        public double? ppu { get; set; }    
     }
    
 }
