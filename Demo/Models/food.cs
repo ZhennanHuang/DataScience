@@ -25,12 +25,13 @@ namespace Demo.Models
         //[DisplayFormat(DataFormatString ="{0:yyyy}")]
    //     [BsonDateTimeOptions]
         public int year { get; set ; }
-        public Array description { get; set; }
-        public double purchase_percentage_change { get; set; }
-        public double expense_percentage_change { get; set; }
-        public double ppu { get; set; }
-
-        
+        public List<string> description { get; set; }
+        [BsonRepresentation(BsonType.Double)]
+        public decimal purchase_percentage_change { get; set; }
+        [BsonRepresentation(BsonType.Double)]
+        public decimal expense_percentage_change { get; set; }
+        [BsonRepresentation(BsonType.Double)]
+        public decimal ppu { get; set; }    
     }
    
 }
