@@ -32,7 +32,7 @@ namespace Demo.Controllers
         {
             long count = Collections.Count();
             food f1 = Collections.FindOneAs<food>();
-            return null;
+            return View();
         }
         
         [HttpPost]
@@ -41,6 +41,9 @@ namespace Demo.Controllers
                 return Json("Success");
             else
                 return Json("Error");
+        }
+        public ActionResult chart() {
+            return View();
         }
     }
 }

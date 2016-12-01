@@ -7,28 +7,34 @@ change.onclick = function () {
     var select2 = document.getElementById('select2').value;
     var select3 = document.getElementById('select3').value;
 }*/
+var randomScalingFactor = function () { return Math.round(Math.random() * 1000) };
 $("#changeChart").click(function () {
-    var select1 = document.getElementById('select1').value;
-    var select2 = document.getElementById('select2').value;
-    var select3 = document.getElementById('select3').value;
-    data = JSON.stringify({ t1: select1, t2: select2, t3: select3 });
-    alert(data);
-    $.ajax({
-        type: "post",
-        dataType: "json",
-        url: "/Home/charts",
-        data: data,
-        conteneType:"application/json",
-        success: function () {
-            alert("xxxx")
-        },
-        error: function(){
-            alert("error")
-        }
-    })
+    randomScalingFactor = function () { return Math.round(Math.random() * 1000) };
+    var chart1 = document.getElementById("line-chart").getContext("2d");
+    window.myLine = new Chart(chart1).Line(lineChartData, {
+        responsive: true
+    });
+    //var select1 = document.getElementById('select1').value;
+    //var select2 = document.getElementById('select2').value;
+    //var select3 = document.getElementById('select3').value;
+    //data = JSON.stringify({ t1: select1, t2: select2, t3: select3 });
+
+    //$.ajax({
+    //    type: "post",
+    //    dataType: "json",
+    //    url: "/Home/charts",
+    //    data: data,
+    //    conteneType:"application/json",
+    //    success: function () {
+    //        alert(data)
+    //    },
+    //    error: function(){
+    //        alert("error")
+    //    }
+    //})
 });
 
-var randomScalingFactor = function () { return Math.round(Math.random() * 1000) };
+
 	
 	var lineChartData = {
 			labels : ["January","February","March","April","May","June","July"],

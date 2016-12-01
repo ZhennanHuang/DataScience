@@ -167,6 +167,7 @@
     <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Scripts\lumino.glyphs.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\myJs.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -200,6 +201,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Home\chart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -209,6 +211,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\chart\" />
     <Folder Include="Views\MongoDB\" />
   </ItemGroup>
   <PropertyGroup>
