@@ -16,17 +16,37 @@ namespace Demo.Controllers
     public class HomeController : Controller
     {
         public MongoDatabase MongoDatabase;
+        //public MongoCollection Collections;
+
+        //// GET: Home
+        //public HomeController()
+        //{
+        //    var client = new MongoClient(ConfigurationManager.AppSettings["connectionString"]);
+        //    MongoServer server = client.GetServer();
+        //    MongoDatabase db = server.GetDatabase("expenditure");
+        //    Collections = db.GetCollection<food>("expenditure");
+        //    long a = Collections.Count();
+
+        //    foreach (food food in Collections.FindAllAs<food>())
+        //    {
+        //        string id = food._id.ToString();
+        //        int q = food.quintile;
+        //    }
+        //}
         public MongoDB.Driver.MongoCollection Collections;
+        List<food> foodList = new List<food>();
         // GET: Home
-        public HomeController() {
+        public HomeController()
+        {
             var client = new MongoClient(ConfigurationManager.AppSettings["connectionString"]);
-            //MongoServer server = client.GetServer();
+
             var db = client.GetDatabase("expenditure");
             var Collections = db.GetCollection<food>("expenditure");
-            //var list = Collections.Find<food>(new BsonDocument("year", 2002)).ToList();
-            //long a = Collections.Count();
+
             var List = Collections.Find(x => x.year == 2002).ToList();
-            foreach (var f in List) {
+            foodList = List;
+            foreach (var f in List)
+            {
                 string category = f.category;
                 double? ppu = f.ppu;
                 double? ppue = f.ppu_percentage_change;
@@ -35,16 +55,18 @@ namespace Demo.Controllers
         }
         public ActionResult Index()
         {
-            long count = Collections.Count();
-            food f1 = Collections.FindOneAs<food>();
+            //long count = Collections.Count();
+            //food f1 = Collections.FindOneAs<food>();
             
             return View();
         }
         
         [HttpPost]
         public ActionResult charts(DropDownList ddl) {
+            //var json = Collections.FindAllAs<food>().ToList();
             if (ddl != null)
-                return Json("Success");
+                return Json(foodList.ToJson());
+                //return Json(json.ToJson());
             else
                 return Json("Error");
         }

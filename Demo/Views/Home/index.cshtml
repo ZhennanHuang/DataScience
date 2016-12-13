@@ -187,8 +187,10 @@
                     <button name="submit" type="submit"  id="changeChart" class="btn-group-xs">Submit</button>
                 </div>
         </div>
-
-        <div class="row" id="charts">
+        <div id="scatter"></div>
+        <div><input type="button" value="Category">
+        <input type="button" id="Quintile" value="Quintile"></div>
+        @*<div class="row" id="charts">
             <div class="col-lg-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">Site Traffic Overview</div>
@@ -199,7 +201,7 @@
                     </div>
                 </div>
             </div>
-        </div><!--/.row-->
+        </div>*@
         <div class="row" id="charts2" style="display:none">
             <div class="col-lg-12">
                 <div class="panel panel-default">
@@ -215,15 +217,235 @@
 
 
     </div>	<!--/.main-->
-
+    
+    
+    <script src="~/Scripts/myJs.js"></script>
     <script src="~/Scripts/jquery-1.11.1.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
-    <script src="~/Scripts/chart.min.js"></script>
+    @*<script src="~/Scripts/chart.min.js"></script>
     <script src="~/Scripts/chart-data.js"></script>
     <script src="~/Scripts/easypiechart.js"></script>
-    <script src="~/Scripts/easypiechart-data.js"></script>
+    <script src="~/Scripts/easypiechart-data.js"></script>*@
     <script src="~/Scripts/bootstrap-datepicker.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script>
+        $("#changeChart").click(function () {
+            
+            var select1 = document.getElementById('select1').value;
+            var select2 = document.getElementById('select2').value;
+            var select3 = document.getElementById('select3').value;
+            var margin = { top: 20, right: 170, bottom: 30, left: 40 },
+                width = 1000 - margin.left - margin.right,
+                height = 500 - margin.top - margin.bottom;
 
+            var x = d3.scale.ordinal()
+                .rangeRoundBands([0, width], 1)
+
+            var y = d3.scale.linear()
+                .range([height, 0]);
+
+            var color = d3.scale.category10();
+
+            var xAxis = d3.svg.axis()
+                .scale(x)
+                .orient("bottom");
+            var yAxis = d3.svg.axis()
+                .scale(y)
+                .orient("left");
+            var xCat = "quintile";
+            var colorCat = "category";
+
+            var svg = d3.select("#scatter").append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+              .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            var line1 = svg.append("line")
+                    .attr("x1", 0)
+                    .attr("x2", width)
+                    .attr("y1", height - 100)
+                    .attr("y2", height - 100)
+                    .attr("stroke-width", 1)
+                    .attr("stroke", "black")
+            var line1 = svg.append("line")
+                    .attr("x1", 0)
+                    .attr("x2", width)
+                    .attr("y1", height - 300)
+                    .attr("y2", height - 300)
+                    .attr("stroke-width", 1)
+                    .attr("stroke", "black")
+            var text1 = svg.append("text")
+                  .attr("class", "label")
+                  .attr("x", width)
+                  .attr("y", height - 120)
+                  .style("text-anchor", "end")
+                  .style("font-size", "20px")
+                  .text("Inelastic");
+            var text1 = svg.append("text")
+                  .attr("class", "label")
+                  .attr("x", width)
+                  .attr("y", height - 320)
+                  .style("text-anchor", "end")
+                  .style("font-size", "20px")
+                  .text("Elastic");
+            data = JSON.stringify({ t1: select1, t2: select2, t3: select3 });
+
+            $.ajax({
+                type: "post",
+                dataType: "json",
+                url: "/Home/charts",
+                data: data,
+                conteneType:"application/json",
+                success: function (d) {
+                    alert(Object.keys(d).length)
+                    d3.json(d, function (error, data) {
+                        if (error) throw error;
+
+                        data.forEach(function (d) {
+                            d.category = +d.category;
+                            d.elasticity = +d.elasticity;
+                            d.quintile = +d.quintile;
+                            d.number = +d.number
+                        });
+
+                        x.domain(data.map(function (d) { return d[xCat]; }));
+                        y.domain(d3.extent(data, function (d) { return d.elasticity; })).nice();
+
+                        var fade = function (opacity) {
+                            return function (g, i) {
+                                svg.selectAll(".dot")
+                                    .filter(function (d) {
+                                        return d.number % 10 != (i + 1) % 10;
+
+                                    })
+                                  .transition()
+                                  .style("opacity", opacity)
+                                ;
+                            };
+                        };
+
+                        svg.append("g")
+                            .attr("class", "x axis")
+                            .attr("transform", "translate(0," + height + ")")
+                            .call(xAxis)
+                          .append("text")
+                            .attr("class", "label")
+                            .attr("x", width)
+                            .attr("y", -6)
+                            .style("text-anchor", "end")
+                            .style("font-size", "12px")
+                            .text("Income Quintile");
+
+                        svg.append("g")
+                            .attr("class", "y axis")
+                            .call(yAxis)
+                          .append("text")
+                            .attr("class", "label")
+                            .attr("transform", "rotate(-90)")
+                            .attr("y", 6)
+                            .attr("dy", ".71em")
+                            .style("text-anchor", "end")
+                            .style("font-size", "12px")
+                            .text("Price Elasticity")
+                        var tip = d3.tip()
+                                    .attr("class", "d3-tip")
+                                    .offset([-10, 0])
+                                    .html(function (d) {
+                                        return "Elasticity" + ": " + d.elasticity;
+                                    });
+                        svg.call(tip);
+
+                        var objects = svg.append("svg")
+                                    .classed("objects", true)
+                                    .attr("width", width)
+                                    .attr("height", height);
+
+                        objects.selectAll(".dot")
+                            .data(data)
+                          .enter().append("circle")
+                            .attr("class", "dot")
+                            .attr("r", 8)
+                            .attr("transform", function (d) { return "translate(" + x(d[xCat]) + "," + y(d.elasticity) + ")"; })
+                            .style("fill", function (d) { return color(d[colorCat]); })
+                              .on("mousedown", tip.show)
+                              .on("mouseup", tip.hide)
+                              .on("mouseover", fade(0.1))
+                              .on("mouseout", fade(1))
+                        ;
+
+                        var legend = svg.selectAll(".legend")
+                            .data(color.domain())
+                          .enter().append("g")
+                            .attr("class", "leg")
+                            .attr("transform", function (d, i) { return "translate(0," + i * 20 + ")"; });
+
+                        legend.append("rect")
+                            .attr("class", "rect")
+                            .attr("x", width + margin.right - 40)
+                            .attr("width", 18)
+                            .attr("height", 18)
+                            .style("fill", color);
+
+                        legend.append("text")
+                            .attr("class", "text")
+                            .attr("x", width + margin.right - 50)
+                            .attr("y", 9)
+                            .attr("dy", ".35em")
+                            .style("text-anchor", "end")
+                            .text(function (d) { return "Category " + d; });
+
+                        d3.select("input").on("click", change);
+                        d3.select("#Quintile").on("click", change2);
+
+                        function change() {
+
+                            x.domain(data.map(function (d) { return d.category; }));
+
+                            var svg = d3.select("#scatter").transition();
+
+                            svg.select(".x.axis").duration(750).call(xAxis).select(".label").text("Category");
+
+                            objects.selectAll(".dot").transition()
+                                .duration(1000)
+                                .attr("transform", function (d) { return "translate(" + x(d.category) + "," + y(d.elasticity) + ")"; })
+                                .style("fill", function (d) { return color(d.quintile); });
+
+                            var legend = svg.selectAll(".leg").transition();
+                            var rect = svg.selectAll(".rect").transition().style("fill", color);
+                            var text = svg.selectAll(".text").transition().attr("dy", ".35em").text(function (d) { return "Quintile " + d; });;
+
+                        }
+                        function change2() {
+
+                            x.domain(data.map(function (d) { return d.quintile; }));
+
+                            var svg = d3.select("#scatter").transition();
+
+                            svg.select(".x.axis").duration(750).call(xAxis).select(".label").text("Quintile");
+
+                            objects.selectAll(".dot").transition()
+                                .duration(1000)
+                                .attr("transform", function (d) { return "translate(" + x(d.quintile) + "," + y(d.elasticity) + ")"; })
+                                .style("fill", function (d) { return color(d.category); });
+
+                            var legend = svg.selectAll(".leg").transition();
+                            var rect = svg.selectAll(".rect").transition().style("fill", color);
+                            var text = svg.selectAll(".text").transition().attr("dy", ".35em").text(function (d) { return "Category " + d; });;
+
+                        }
+                    });
+                },
+                error: function(){
+                    alert("error")
+                }
+            })
+        });
+        
+
+        
+    </script>
 </body>
 </html>
 

@@ -178,7 +178,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DropDownList.cs" />
-    <Compile Include="Controllers\MongoDBController.cs" />
     <Compile Include="Models\food.cs" />
     <Compile Include="Models\person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
