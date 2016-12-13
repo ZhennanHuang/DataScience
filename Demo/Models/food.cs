@@ -24,6 +24,7 @@ namespace Demo.Models
         public double? expense_percentage_change { get; set; }
         public double? ppu_percentage_change { get; set; }
         public double? ppu { get; set; }
+        public Boolean ignored { get; set; }
     }
    
 }
