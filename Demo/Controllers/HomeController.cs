@@ -38,20 +38,20 @@ namespace Demo.Controllers
         // GET: Home
         public HomeController()
         {
-            var client = new MongoClient(ConfigurationManager.AppSettings["connectionString"]);
+            //var client = new MongoClient(ConfigurationManager.AppSettings["connectionString"]);
 
-            var db = client.GetDatabase("expenditure");
-            var Collections = db.GetCollection<food>("expenditure");
+            //var db = client.GetDatabase("expenditure");
+            //var Collections = db.GetCollection<food>("expenditure");
 
-            var List = Collections.Find(x => x.year == 2002).ToList();
-            foodList = List;
-            foreach (var f in List)
-            {
-                string category = f.category;
-                double? ppu = f.ppu;
-                double? ppue = f.ppu_percentage_change;
-                string unit = f.purchase_units;
-            }
+            //var List = Collections.Find(x => x.year == 2002).ToList();
+            //foodList = List;
+            //foreach (var f in List)
+            //{
+            //    string category = f.category;
+            //    double? ppu = f.ppu;
+            //    double? ppue = f.ppu_percentage_change;
+            //    string unit = f.purchase_units;
+            //}
         }
         public ActionResult Index()
         {
