@@ -93,7 +93,7 @@ var svg = d3.select("#scatter").append("svg")
 	
 
 
-d3.csv("data.csv", function(error, data) {
+d3.csv("demodata.csv", function(error, data) {
   if (error) throw error;
 
   data.forEach(function(d) {
@@ -116,31 +116,31 @@ d3.csv("data.csv", function(error, data) {
   var line = svg.append("line")
 		.attr("x1",0)
 		.attr("x2",width)
-		.attr("y1",height*2.5/4)
-		.attr("y2",height*2.5/4)
+		.attr("y1",height*1.5/4)
+		.attr("y2",height*1.5/4)
 		.attr("stroke-width", 1)
 		.attr("stroke", "black")
   var line1 = svg.append("line")
 		.attr("x1",0)
 		.attr("x2",width)
-		.attr("y1",height*0.5/4)
-		.attr("y2",height*0.5/4)
+		.attr("y1",height*3.5/4)
+		.attr("y2",height*3.5/4)
 		.attr("stroke-width", 1)
 		.attr("stroke", "black")
   var text = svg.append("text")
       .attr("class", "label")
       .attr("x", width)
-      .attr("y", height*2.5/4-10)
-      .style("text-anchor", "end")
-	  .style("font-size", "20px")
-      .text("Inelastic");
-var text1 = svg.append("text")
-      .attr("class", "label")
-      .attr("x", width)
-      .attr("y", height*0.5/4-10)
+      .attr("y", height*1.5/4-10)
       .style("text-anchor", "end")
 	  .style("font-size", "20px")
       .text("Elastic");
+var text1 = svg.append("text")
+      .attr("class", "label")
+      .attr("x", width)
+      .attr("y", height*3.5/4-10)
+      .style("text-anchor", "end")
+	  .style("font-size", "20px")
+      .text("Inelastic");
   
   var fade = function(opacity) {
         return function(g, i) {
