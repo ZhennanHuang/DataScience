@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font: 12px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: rgba(0, 0, 0, 50);
+  shape-rendering: crispEdges;
+}
+
+.axisLine {
+  fill: none;
+  shape-rendering: crispEdges;
+  stroke: rgba(0, 0, 0, 1);
+  stroke-width: 5px;
+}
+
+.dot {
+  stroke: #000;
+  fill-opacity: .65;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(24, 24, 24, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(24, 24, 24, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+<body>
+<div id="scatter"></div>
+<input type="button" value="Category">
+<input type="button" id="Quintile" value="Quintile">
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script>
+
+var margin = {top: 20, right: 170, bottom: 30, left: 40},
+    width = 1000 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var x = d3.scale.ordinal()
+	.rangeRoundBands([0, width], 1)
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var color = d3.scale.category10();
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+
+
+var svg = d3.select("#scatter").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	
+var line1 = svg.append("line")
+		.attr("x1",0)
+		.attr("x2",width)
+		.attr("y1",height-100)
+		.attr("y2",height-100)
+		.attr("stroke-width", 1)
+		.attr("stroke", "black")
+var line1 = svg.append("line")
+		.attr("x1",0)
+		.attr("x2",width)
+		.attr("y1",height-300)
+		.attr("y2",height-300)
+		.attr("stroke-width", 1)
+		.attr("stroke", "black")
+var text1 = svg.append("text")
+      .attr("class", "label")
+      .attr("x", width)
+      .attr("y", height-120)
+      .style("text-anchor", "end")
+	  .style("font-size", "20px")
+      .text("Inelastic");
+var text1 = svg.append("text")
+      .attr("class", "label")
+      .attr("x", width)
+      .attr("y", height-320)
+      .style("text-anchor", "end")
+	  .style("font-size", "20px")
+      .text("Elastic");
+
+d3.csv("loglog.csv", function(error, data) {
+  if (error) throw error;
+
+  data.forEach(function(d) {
+    d.category = +d.Category;
+	d.elasticity = +d.Elasticity;
+	d.quintile = +d.Quintile;
+	d.id = +d.id
+  });
+  
+  var xCat="Quintile";
+  var yCat="Elasticity";
+  var colorCat="Category";
+
+  x.domain(data.map(function(d) { return d[xCat]; }));
+  y.domain([-4,4]);
+  var no_category=322;
+  
+var fade = function(opacity) {
+        return function(g, i) {
+          svg.selectAll(".dot")
+              .filter(function(d) {
+			  console.log(i);
+                return d.id%no_category != (i+1)%no_category ;
+				
+              })
+            .transition()
+            .style("opacity", opacity)
+			;
+        };
+      };
+	  
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("x", width)
+      .attr("y", -6)
+      .style("text-anchor", "end")
+	  .style("font-size", "12px")
+      .text("Income Quintile");
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+	  .style("font-size", "12px")
+      .text("Price Elasticity")
+  var tip = d3.tip()
+			  .attr("class", "d3-tip")
+			  .offset([-10, 0])
+			  .html(function(d) {
+				return "Elasticity" + ": " + d[yCat];
+			  });
+  svg.call(tip);
+  
+  var objects = svg.append("svg")
+			  .classed("objects", true)
+			  .attr("width", width)
+			  .attr("height", height);
+			  
+  objects.selectAll(".dot")
+      .data(data)
+    .enter().append("circle")
+      .attr("class", "dot")
+      .attr("r", 8)
+      .attr("transform", function(d){return "translate(" + x(d[xCat]) + "," + y(d[yCat]) + ")";})
+      .style("fill", function(d) { return color(d[colorCat]); })
+		.on("mousedown", tip.show)
+		.on("mouseup", tip.hide)
+		.on("mouseover",fade(0.01))
+		.on("mouseout",fade(1))
+		;
+
+  var legend = svg.selectAll(".legend")
+      .data(color.domain())
+    .enter().append("g")
+      .attr("class", "leg")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  legend.append("rect")
+      .attr("class", "rect")
+      .attr("x", width+margin.right-40)
+      .attr("width", 18)
+      .attr("height", 18)
+      .style("fill", color);
+
+  legend.append("text")
+      .attr("class", "text")
+      .attr("x", width+margin.right-50)
+      .attr("y", 9)
+      .attr("dy", ".35em")
+      .style("text-anchor", "end")
+      .text(function(d) { return "Category "; });
+	  
+ d3.select("input").on("click", change);
+ d3.select("#Quintile").on("click", change2);
+
+ function change() {
+	xCat='Category';
+	colorCat='Quintile';
+	x.domain(data.map(function(d) { return d[xCat]; }));
+
+	var svg = d3.select("#scatter").transition();
+	
+	svg.select(".x.axis").duration(750).call(xAxis).select(".label").text(xCat);
+
+	objects.selectAll(".dot").transition()
+		.duration(1000)
+		.attr("transform", function(d){return "translate(" + x(d[xCat]) + "," + y(d[yCat]) + ")";})
+		.style("fill", function(d) { return color(d[colorCat]); });
+		
+	var legend = svg.selectAll(".leg").transition();
+	var rect = svg.selectAll(".rect").transition().style("fill", color);
+	var text = svg.selectAll(".text").transition().attr("dy", ".35em").text(function(d) { return colorCat+" "+d; });
+      
+	}
+ function change2() {
+	xCat='Quintile';
+	colorCat='Category';
+	x.domain(data.map(function(d) { return d[xCat]; }));
+
+	var svg = d3.select("#scatter").transition();
+	
+	svg.select(".x.axis").duration(750).call(xAxis).select(".label").text(xCat);
+
+	objects.selectAll(".dot").transition()
+		.duration(1000)
+		.attr("transform", function(d){return "translate(" + x(d[xCat]) + "," + y(d[yCat]) + ")";})
+		.style("fill", function(d) { return color(d[colorCat]); });
+		
+	var legend = svg.selectAll(".leg").transition();
+	var rect = svg.selectAll(".rect").transition().style("fill", color);
+	var text = svg.selectAll(".text").transition().attr("dy", ".35em").text(function(d) { return colorCat+" "+d; });
+      
+	}
+
+	
+
+});
+
+</script>
