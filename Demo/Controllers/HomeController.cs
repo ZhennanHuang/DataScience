@@ -70,7 +70,10 @@ namespace Demo.Controllers
             else
                 return Json("Error");
         }
-        public ActionResult chart() {
+        public ActionResult charts() {
+            return View();
+        }
+        public ActionResult readOnly() {
             return View();
         }
     }

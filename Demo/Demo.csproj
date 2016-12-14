@@ -140,8 +140,18 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\datepicker.css" />
     <Content Include="Content\datepicker3.css" />
+    <Content Include="Content\easypiechart.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\gmap.css" />
+    <Content Include="Content\ionicons.css" />
+    <Content Include="Content\ionicons.min.css" />
+    <Content Include="Content\jquery-ui.min.css" />
+    <Content Include="Content\jquery.ui.plupload.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\style.css" />
     <Content Include="Content\styles.css" />
+    <Content Include="Content\throbber.gif" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap-datepicker.js" />
@@ -159,12 +169,18 @@
     <Content Include="Scripts\chart.min.js" />
     <Content Include="Scripts\easypiechart-data.js" />
     <Content Include="Scripts\easypiechart.js" />
+    <Content Include="Scripts\gmaps-scripts.js" />
+    <Content Include="Scripts\gmaps.js" />
     <Content Include="Scripts\html5shiv.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-1.11.1.min.js" />
+    <Content Include="Scripts\jquery-ui-1.10.3.js" />
+    <Content Include="Scripts\jquery-ui-1.10.3.min.js" />
+    <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\lumino.glyphs.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\myJs.js" />
@@ -195,12 +211,14 @@
     </Content>
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\index.cshtml" />
+    <Content Include="Views\Home\charts.cshtml" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Home\chart.cshtml" />
+    <Content Include="Views\Home\index.cshtml" />
+    <Content Include="Views\Home\readOnly.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -210,6 +228,28 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\bootstrap-slider\" />
+    <Folder Include="Content\bootstrap-wysihtml5\" />
+    <Folder Include="Content\bs-datetimepicker\" />
+    <Folder Include="Content\colorpicker\" />
+    <Folder Include="Content\datatables\" />
+    <Folder Include="Content\datepicker\" />
+    <Folder Include="Content\daterangepicker\" />
+    <Folder Include="Content\fullcalendar\" />
+    <Folder Include="Content\iCheck\" />
+    <Folder Include="Content\images\" />
+    <Folder Include="Content\ionslider\" />
+    <Folder Include="Content\jQueryUI\" />
+    <Folder Include="Content\jvectormap\" />
+    <Folder Include="Content\morris\" />
+    <Folder Include="Content\multiselect\" />
+    <Folder Include="Content\timepicker\" />
+    <Folder Include="Scripts\css\" />
+    <Folder Include="Scripts\Director\" />
+    <Folder Include="Scripts\fonts\" />
+    <Folder Include="Scripts\js\" />
+    <Folder Include="Scripts\plugins\" />
+    <Folder Include="Scripts\sass\" />
     <Folder Include="Views\chart\" />
     <Folder Include="Views\MongoDB\" />
   </ItemGroup>
