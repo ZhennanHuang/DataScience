@@ -1,0 +1,467 @@
+﻿
+@{
+    ViewBag.Title = "index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lumino - Dashboard</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/datepicker3.css" rel="stylesheet" />
+    <link href="~/Content/styles.css" rel="stylesheet" />
+
+    <!--Icons-->
+    <script src="~/Scripts/lumino.glyphs.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span>Lumino</span>Admin</a>
+                <ul class="user-menu">
+                    <li class="dropdown pull-right">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> User <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> Profile</a></li>
+                            <li><a href="#"><svg class="glyph stroked gear"><use xlink:href="#stroked-gear"></use></svg> Settings</a></li>
+                            <li><a href="#"><svg class="glyph stroked cancel"><use xlink:href="#stroked-cancel"></use></svg> Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
+        <form role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+        </form>
+        <ul class="nav menu">
+            <li class="active"><a href="index.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> Dashboard</a></li>
+            <li><a href="widgets.html"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Widgets</a></li>
+            <li><a href="charts.html"><svg class="glyph stroked line-graph"><use xlink:href="#stroked-line-graph"></use></svg> Charts</a></li>
+            <li><a href="tables.html"><svg class="glyph stroked table"><use xlink:href="#stroked-table"></use></svg> Tables</a></li>
+            <li><a href="forms.html"><svg class="glyph stroked pencil"><use xlink:href="#stroked-pencil"></use></svg> Forms</a></li>
+            <li><a href="panels.html"><svg class="glyph stroked app-window"><use xlink:href="#stroked-app-window"></use></svg> Alerts &amp; Panels</a></li>
+            <li><a href="icons.html"><svg class="glyph stroked star"><use xlink:href="#stroked-star"></use></svg> Icons</a></li>
+            <li class="parent ">
+                <a href="#">
+                    <span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Dropdown
+                </a>
+                <ul class="children collapse" id="sub-item-1">
+                    <li>
+                        <a class="" href="#">
+                            <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Sub Item 1
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="#">
+                            <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Sub Item 2
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="#">
+                            <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Sub Item 3
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li role="presentation" class="divider"></li>
+        </ul>
+
+    </div><!--/.sidebar-->
+
+    <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main" style="width:100%;margin-left:0;">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="#"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
+                <li class="active">Icons</li>
+            </ol>
+        </div><!--/.row-->
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Dashboard</h1>
+            </div>
+        </div><!--/.row-->
+
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="panel panel-blue panel-widget ">
+                    <div class="row no-padding">
+                        <div class="col-sm-3 col-lg-5 widget-left">
+                            <svg class="glyph stroked bag"><use xlink:href="#stroked-bag"></use></svg>
+                        </div>
+                        <div class="col-sm-9 col-lg-7 widget-right">
+                            <div class="large">120</div>
+                            <div class="text-muted">New Orders</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="panel panel-orange panel-widget">
+                    <div class="row no-padding">
+                        <div class="col-sm-3 col-lg-5 widget-left">
+                            <svg class="glyph stroked empty-message"><use xlink:href="#stroked-empty-message"></use></svg>
+                        </div>
+                        <div class="col-sm-9 col-lg-7 widget-right">
+                            <div class="large">52</div>
+                            <div class="text-muted">Comments</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="panel panel-teal panel-widget">
+                    <div class="row no-padding">
+                        <div class="col-sm-3 col-lg-5 widget-left">
+                            <svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg>
+                        </div>
+                        <div class="col-sm-9 col-lg-7 widget-right">
+                            <div class="large">24</div>
+                            <div class="text-muted">New Users</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="panel panel-red panel-widget">
+                    <div class="row no-padding">
+                        <div class="col-sm-3 col-lg-5 widget-left">
+                            <svg class="glyph stroked app-window-with-content"><use xlink:href="#stroked-app-window-with-content"></use></svg>
+                        </div>
+                        <div class="col-sm-9 col-lg-7 widget-right">
+                            <div class="large">25.2k</div>
+                            <div class="text-muted">Page Views</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.row-->
+        <div class="row" style="margin-bottom:20px">
+                <div class="col-xs-12 col-md-6 col-lg-3" style="">
+                    <select id="select1">
+                        <option value="111">111</option>
+                        <option value="222">222</option>
+                        <option value="333">333</option>
+                        <option value="444">444</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3" style="">
+                    <select id="select2">
+                        <option value="111">111</option>
+                        <option value="222">222</option>
+                        <option value="333">333</option>
+                        <option value="444">444</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3" style="">
+                    <select id="select3">
+                        <option value="111">111</option>
+                        <option value="222">222</option>
+                        <option value="333">333</option>
+                        <option value="444">444</option>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3" style="">
+                    <button name="submit" type="submit"  id="changeChart" class="btn-group-xs">Submit</button>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8" style="width:100%;height:110%;">
+                <!--earning graph start-->
+                <section class="panel">
+                    <header class="panel-heading">
+                        Earning Graph 2
+                    </header>
+                    <div class="panel-body">
+                        <canvas id="linechart" width="600" height="330"></canvas>
+                    </div>
+                </section>
+                <!--earning graph end-->
+
+            </div>
+
+        </div>
+        <div><input type="button" value="Category">
+        <input type="button" id="Quintile" value="Quintile"></div>
+        @*<div class="row" id="charts">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Site Traffic Overview</div>
+                    <div class="panel-body">
+                        <div class="canvas-wrapper" >
+                            <canvas class="main-chart" id="line-chart" height="300" width="800"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+        <div class="row" id="charts2" style="display:none">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Site Traffic Overview</div>
+                    <div class="panel-body">
+                        <div class="canvas-wrapper">
+                            <canvas class="main-chart" id="line-chart" height="300" width="800"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.row-->
+
+
+    </div>	<!--/.main-->
+    
+    
+    <script src="~/Scripts/myJs.js"></script>
+    <script src="~/Scripts/jquery-1.11.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    @*<script src="~/Scripts/chart.min.js"></script>
+    <script src="~/Scripts/chart-data.js"></script>
+    <script src="~/Scripts/easypiechart.js"></script>
+    <script src="~/Scripts/easypiechart-data.js"></script>*@
+    <script src="~/Scripts/bootstrap-datepicker.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script>
+        $("#changeChart").click(function () {
+            
+            var select1 = document.getElementById('select1').value;
+            var select2 = document.getElementById('select2').value;
+            var select3 = document.getElementById('select3').value;
+            var margin = { top: 20, right: 170, bottom: 30, left: 40 },
+                width = 1000 - margin.left - margin.right,
+                height = 500 - margin.top - margin.bottom;
+
+            var x = d3.scale.ordinal()
+                .rangeRoundBands([0, width], 1)
+
+            var y = d3.scale.linear()
+                .range([height, 0]);
+
+            var color = d3.scale.category10();
+
+            var xAxis = d3.svg.axis()
+                .scale(x)
+                .orient("bottom");
+            var yAxis = d3.svg.axis()
+                .scale(y)
+                .orient("left");
+            var xCat = "quintile";
+            var colorCat = "category";
+
+            var svg = d3.select("#scatter").append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+              .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            var line1 = svg.append("line")
+                    .attr("x1", 0)
+                    .attr("x2", width)
+                    .attr("y1", height - 100)
+                    .attr("y2", height - 100)
+                    .attr("stroke-width", 1)
+                    .attr("stroke", "black")
+            var line1 = svg.append("line")
+                    .attr("x1", 0)
+                    .attr("x2", width)
+                    .attr("y1", height - 300)
+                    .attr("y2", height - 300)
+                    .attr("stroke-width", 1)
+                    .attr("stroke", "black")
+            var text1 = svg.append("text")
+                  .attr("class", "label")
+                  .attr("x", width)
+                  .attr("y", height - 120)
+                  .style("text-anchor", "end")
+                  .style("font-size", "20px")
+                  .text("Inelastic");
+            var text1 = svg.append("text")
+                  .attr("class", "label")
+                  .attr("x", width)
+                  .attr("y", height - 320)
+                  .style("text-anchor", "end")
+                  .style("font-size", "20px")
+                  .text("Elastic");
+            data = JSON.stringify({ t1: select1, t2: select2, t3: select3 });
+
+            $.ajax({
+                type: "post",
+                dataType: "json",
+                url: "/Home/charts",
+                data: data,
+                conteneType:"application/json",
+                success: function (d) {
+                    alert(Object.keys(d).length)
+                    d3.json(d, function (error, data) {
+                        if (error) throw error;
+
+                        data.forEach(function (d) {
+                            d.category = +d.category;
+                            d.elasticity = +d.elasticity;
+                            d.quintile = +d.quintile;
+                            d.number = +d.number
+                        });
+
+                        x.domain(data.map(function (d) { return d[xCat]; }));
+                        y.domain(d3.extent(data, function (d) { return d.elasticity; })).nice();
+
+                        var fade = function (opacity) {
+                            return function (g, i) {
+                                svg.selectAll(".dot")
+                                    .filter(function (d) {
+                                        return d.number % 10 != (i + 1) % 10;
+
+                                    })
+                                  .transition()
+                                  .style("opacity", opacity)
+                                ;
+                            };
+                        };
+
+                        svg.append("g")
+                            .attr("class", "x axis")
+                            .attr("transform", "translate(0," + height + ")")
+                            .call(xAxis)
+                          .append("text")
+                            .attr("class", "label")
+                            .attr("x", width)
+                            .attr("y", -6)
+                            .style("text-anchor", "end")
+                            .style("font-size", "12px")
+                            .text("Income Quintile");
+
+                        svg.append("g")
+                            .attr("class", "y axis")
+                            .call(yAxis)
+                          .append("text")
+                            .attr("class", "label")
+                            .attr("transform", "rotate(-90)")
+                            .attr("y", 6)
+                            .attr("dy", ".71em")
+                            .style("text-anchor", "end")
+                            .style("font-size", "12px")
+                            .text("Price Elasticity")
+                        var tip = d3.tip()
+                                    .attr("class", "d3-tip")
+                                    .offset([-10, 0])
+                                    .html(function (d) {
+                                        return "Elasticity" + ": " + d.elasticity;
+                                    });
+                        svg.call(tip);
+
+                        var objects = svg.append("svg")
+                                    .classed("objects", true)
+                                    .attr("width", width)
+                                    .attr("height", height);
+
+                        objects.selectAll(".dot")
+                            .data(data)
+                          .enter().append("circle")
+                            .attr("class", "dot")
+                            .attr("r", 8)
+                            .attr("transform", function (d) { return "translate(" + x(d[xCat]) + "," + y(d.elasticity) + ")"; })
+                            .style("fill", function (d) { return color(d[colorCat]); })
+                              .on("mousedown", tip.show)
+                              .on("mouseup", tip.hide)
+                              .on("mouseover", fade(0.1))
+                              .on("mouseout", fade(1))
+                        ;
+
+                        var legend = svg.selectAll(".legend")
+                            .data(color.domain())
+                          .enter().append("g")
+                            .attr("class", "leg")
+                            .attr("transform", function (d, i) { return "translate(0," + i * 20 + ")"; });
+
+                        legend.append("rect")
+                            .attr("class", "rect")
+                            .attr("x", width + margin.right - 40)
+                            .attr("width", 18)
+                            .attr("height", 18)
+                            .style("fill", color);
+
+                        legend.append("text")
+                            .attr("class", "text")
+                            .attr("x", width + margin.right - 50)
+                            .attr("y", 9)
+                            .attr("dy", ".35em")
+                            .style("text-anchor", "end")
+                            .text(function (d) { return "Category " + d; });
+
+                        d3.select("input").on("click", change);
+                        d3.select("#Quintile").on("click", change2);
+
+                        function change() {
+
+                            x.domain(data.map(function (d) { return d.category; }));
+
+                            var svg = d3.select("#scatter").transition();
+
+                            svg.select(".x.axis").duration(750).call(xAxis).select(".label").text("Category");
+
+                            objects.selectAll(".dot").transition()
+                                .duration(1000)
+                                .attr("transform", function (d) { return "translate(" + x(d.category) + "," + y(d.elasticity) + ")"; })
+                                .style("fill", function (d) { return color(d.quintile); });
+
+                            var legend = svg.selectAll(".leg").transition();
+                            var rect = svg.selectAll(".rect").transition().style("fill", color);
+                            var text = svg.selectAll(".text").transition().attr("dy", ".35em").text(function (d) { return "Quintile " + d; });;
+
+                        }
+                        function change2() {
+
+                            x.domain(data.map(function (d) { return d.quintile; }));
+
+                            var svg = d3.select("#scatter").transition();
+
+                            svg.select(".x.axis").duration(750).call(xAxis).select(".label").text("Quintile");
+
+                            objects.selectAll(".dot").transition()
+                                .duration(1000)
+                                .attr("transform", function (d) { return "translate(" + x(d.quintile) + "," + y(d.elasticity) + ")"; })
+                                .style("fill", function (d) { return color(d.category); });
+
+                            var legend = svg.selectAll(".leg").transition();
+                            var rect = svg.selectAll(".rect").transition().style("fill", color);
+                            var text = svg.selectAll(".text").transition().attr("dy", ".35em").text(function (d) { return "Category " + d; });;
+
+                        }
+                    });
+                },
+                error: function(){
+                    alert("error")
+                }
+            })
+        });
+        
+
+        
+    </script>
+</body>
+</html>
+
+
