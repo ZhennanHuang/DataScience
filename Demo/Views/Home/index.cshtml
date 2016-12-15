@@ -134,10 +134,7 @@
 
             <!-- Main content -->
             <section class="content">
-
                 <div class="row" style="margin-bottom:5px;">
-
-
                     <div class="col-md-3">
                         <div class="sm-st clearfix">
                             <span class="sm-st-icon st-red"><i class="fa fa-check-square-o"></i></span>
@@ -169,7 +166,7 @@
                         <div class="sm-st clearfix">
                             <span class="sm-st-icon st-green"><i class="fa fa-paperclip"></i></span>
                             <div class="sm-st-info">
-                                <span>3</span>
+                                <span>2</span>
                                 Total Datasets
                             </div>
                         </div>
@@ -177,7 +174,7 @@
                 </div>
                 <div class="row" style="margin-bottom:20px">
                     <div>
-                        <select id="select1" style="width:255px;height:30px;margin-left:14px;margin-top:12px;font-family: 'Lato', sans-serif;font-size:18px" onChange="changeSelect()">
+                        <select id="select1" style="border-radius:5px;padding-left:5px;width:255px;height:30px;margin-left:14px;margin-top:12px;font-family: 'Lato', sans-serif;font-size:18px" onChange="changeSelect()">
                             <option value="0">All categories</option>
                             <option value="1">Alcoholic drinks</option>
                             <option value="2">Beverages</option>
@@ -191,12 +188,13 @@
                             <option value="10">Fats</option>
                             <option value="11">Fish</option>
                             <option value="12">Flour</option>
-                            <option value="13">Fresh and processed fruit</option>
+                            <option value="13">Fresh and processed vegetables</option>
+                            @*<option value="13">Fresh and processed fruit</option>
                             <option value="14">Fresh and processed fruit and vegetables, excluding potatoes</option>
                             <option value="15">Fresh and processed fruit and vegetables, including potatoes</option>
                             <option value="16">Fresh and processed potatoes</option>
                             <option value="17">Fresh and processed vegetables, excluding potatoes</option>
-                            <option value="18">Fresh and processed vegetables, including potatoes</option>
+                            <option value="18">Fresh and processed vegetables, including potatoes</option>*@
                             <option value="19">Milk and milk products excluding cheese</option>
                             <option value="20">Non-carcase meat and meat products</option>
                             <option value="21">Other cereals and cereal products</option>
@@ -204,11 +202,11 @@
                             <option value="23">Soft drinks</option>
                             <option value="24">Sugar and preserves</option>
                         </select>
-                        <select id="select2" style="width:255px;height:30px;margin-left:30px;margin-top:12px;font-family: 'Lato', sans-serif;font-size:18px"></select>
-                        <select id="select3" style="width:255px;height:30px;margin-left:28px;margin-top:12px;font-family: 'Lato', sans-serif;font-size:18px"></select>
-                        <button name="submit" type="submit" id="changeChart" class="btn-group-xs" style="width:150px;height:30px;margin-left:26px;margin-bottom:17px;padding-top:2px">Submit</button>
+                        <select id="select2" style="border-radius:5px;padding-left:5px;width:255px;height:30px;margin-left:30px;margin-top:12px;font-family: 'Lato', sans-serif;font-size:18px"></select>
+                        <select id="select3" style="border-radius:5px;padding-left:5px;width:255px;height:30px;margin-left:28px;margin-top:12px;font-family: 'Lato', sans-serif;font-size:18px"></select>
+                        <button name="submit" type="submit" id="changeChart" class="btn btn-primary btn-lg" style="font-size: 1.25rem;padding:.75rem 1.5rem;margin-left:28px">Submit</button>
                     </div>
-                </div>
+                </div>@*padding-top:3px;border-radius:5px;width:150px;height:30px;margin-left:26px;margin-bottom:17px;padding-top:2px*@
                 <!-- Main row -->
                 <div class="row">
                     <div class="col-md-8" style="width:100%;height:100%;">
@@ -227,171 +225,7 @@
 
                 </div>
 
-                @*<div class="row">
-                    <div class="col-md-8">
-                        <section class="panel">
-                            <header class="panel-heading">
-                                Work Progress
-                            </header>
-                            <div class="panel-body table-responsive">
-                                <table class="table table-hover">
-                                    <thead>
-                                        <tr>
-                                            <th>#</th>
-                                            <th>Project</th>
-                                            <th>Manager</th>
-                                            <!-- <th>Client</th> -->
-                                            <th>Deadline</th>
-                                            <!-- <th>Price</th> -->
-                                            <th>Status</th>
-                                            <th>Progress</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Facebook</td>
-                                            <td>Mark</td>
-                                            <!-- <td>Steve</td> -->
-                                            <td>10/10/2014</td>
-                                            <!-- <td>$1500</td> -->
-                                            <td><span class="label label-danger">in progress</span></td>
-                                            <td><span class="badge badge-info">50%</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Twitter</td>
-                                            <td>Evan</td>
-                                            <!-- <td>Darren</td> -->
-                                            <td>10/8/2014</td>
-                                            <!-- <td>$1500</td> -->
-                                            <td><span class="label label-success">completed</span></td>
-                                            <td><span class="badge badge-success">100%</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Google</td>
-                                            <td>Larry</td>
-                                            <!-- <td>Nick</td> -->
-                                            <td>10/12/2014</td>
-                                            <!-- <td>$2000</td> -->
-                                            <td><span class="label label-warning">in progress</span></td>
-                                            <td><span class="badge badge-warning">75%</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td>LinkedIn</td>
-                                            <td>Allen</td>
-                                            <!-- <td>Rock</td> -->
-                                            <td>10/01/2015</td>
-                                            <!-- <td>$2000</td> -->
-                                            <td><span class="label label-info">in progress</span></td>
-                                            <td><span class="badge badge-info">65%</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td>5</td>
-                                            <td>Tumblr</td>
-                                            <td>David</td>
-                                            <!-- <td>HHH</td> -->
-                                            <td>01/11/2014</td>
-                                            <!-- <td>$2000</td> -->
-                                            <td><span class="label label-warning">in progress</span></td>
-                                            <td><span class="badge badge-danger">95%</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td>6</td>
-                                            <td>Tesla</td>
-                                            <td>Musk</td>
-                                            <!-- <td>HHH</td> -->
-                                            <td>01/11/2014</td>
-                                            <!-- <td>$2000</td> -->
-                                            <td><span class="label label-info">in progress</span></td>
-                                            <td><span class="badge badge-success">95%</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td>7</td>
-                                            <td>Ghost</td>
-                                            <td>XXX</td>
-                                            <!-- <td>HHH</td> -->
-                                            <td>01/11/2014</td>
-                                            <!-- <td>$2000</td> -->
-                                            <td><span class="label label-info">in progress</span></td>
-                                            <td><span class="badge badge-success">95%</span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </section>
-
-
-                    </div><!--end col-6 -->
-                    <div class="col-md-4">
-                        <section class="panel">
-                            <header class="panel-heading">
-                                Twitter Feed
-                            </header>
-                            <div class="panel-body">
-                                <div class="twt-area">
-                                    <form action="#" method="post">
-                                        <textarea class="form-control" name="profile-tweet" placeholder="Share something on Twitter.." rows="3"></textarea>
-
-                                        <div class="clearfix">
-                                            <button class="btn btn-sm btn-primary pull-right" type="submit">
-                                                <i class="fa fa-twitter"></i>
-                                                Tweet
-                                            </button>
-                                            <a class="btn btn-link btn-icon fa fa-location-arrow" data-original-title="Add Location" data-placement="bottom" data-toggle="tooltip" href="#" style="text-decoration:none;" title=""></a>
-                                            <a class="btn btn-link btn-icon fa fa-camera" data-original-title="Add Photo" data-placement="bottom" data-toggle="tooltip" href="#"
-                                               style="text-decoration:none;" title=""></a>
-                                        </div>
-                                    </form>
-                                </div>
-                                <ul class="media-list">
-                                    <li class="media">
-                                        <a href="#" class="pull-left">
-                                            <img src="img/26115.jpg" alt="Avatar" class="img-circle" width="64" height="64">
-                                        </a>
-                                        <div class="media-body">
-                                            <span class="text-muted pull-right">
-                                                <small><em>30 min ago</em></small>
-                                            </span>
-                                            <a href="page_ready_user_profile.php">
-                                                <strong>John Doe</strong>
-                                            </a>
-                                            <p>
-                                                In hac <a href="#">habitasse</a> platea dictumst. Proin ac nibh rutrum lectus rhoncus eleifend.
-                                                <a href="#" class="text-danger">
-                                                    <strong>#dev</strong>
-                                                </a>
-                                            </p>
-                                        </div>
-                                    </li>
-                                    <li class="media">
-                                        <a href="#" class="pull-left">
-                                            <img src="img/26115.jpg" alt="Avatar" class="img-circle" width="64" height="64">
-                                        </a>
-                                        <div class="media-body">
-                                            <span class="text-muted pull-right">
-                                                <small><em>30 min ago</em></small>
-                                            </span>
-                                            <a href="page_ready_user_profile.php">
-                                                <strong>John Doe</strong>
-                                            </a>
-                                            <p>
-                                                In hac <a href="#">habitasse</a> platea dictumst. Proin ac nibh rutrum lectus rhoncus eleifend.
-                                                <a href="#" class="text-danger">
-                                                    <strong>#design</strong>
-                                                </a>
-                                            </p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </section>
-                    </div>
-
-                </div>*@
-                <!-- row end -->
+               
             </section><!-- /.content -->
             <div class="footer-main">
                 Copyright &copy Director, 2014
@@ -457,42 +291,223 @@
                 radioClass: 'iradio_flat-grey'
             });
     </script>
-    <script type="text/javascript">
-    $(function() {
-                "use strict";
-                //BAR CHART
-                var data = {
-                    labels: ["January", "February", "March", "April", "May", "June", "July"],
-                    datasets: [
-                        {
-                            label: "My First dataset",
-                            fillColor: "rgba(220,220,220,0.2)",
-                            strokeColor: "rgba(220,220,220,1)",
-                            pointColor: "rgba(220,220,220,1)",
-                            pointStrokeColor: "#fff",
-                            pointHighlightFill: "#fff",
-                            pointHighlightStroke: "rgba(220,220,220,1)",
-                            data: [65, 59, 80, 81, 56, 55, 40]
-                        },
-                        {
-                            label: "My Second dataset",
-                            fillColor: "rgba(151,187,205,0.2)",
-                            strokeColor: "rgba(151,187,205,1)",
-                            pointColor: "rgba(151,187,205,1)",
-                            pointStrokeColor: "#fff",
-                            pointHighlightFill: "#fff",
-                            pointHighlightStroke: "rgba(151,187,205,1)",
-                            data: [28, 48, 40, 19, 86, 27, 90]
-                        }
-                    ]
-                };
-            new Chart(document.getElementById("linechart").getContext("2d")).Line(data,{
-                responsive : true,
-                maintainAspectRatio: false,
-            });
+    <script>
+        $("#changeChart").click(function () {
 
-            });
-            // Chart.defaults.global.responsive = true;
+            var select1 = document.getElementById('select1').value;
+            var select2 = document.getElementById('select2').value;
+            var select3 = document.getElementById('select3').value;
+            alert(select1);
+            var margin = { top: 20, right: 170, bottom: 30, left: 40 },
+                width = 1000 - margin.left - margin.right,
+                height = 500 - margin.top - margin.bottom;
+
+            var x = d3.scale.ordinal()
+                .rangeRoundBands([0, width], 1)
+
+            var y = d3.scale.linear()
+                .range([height, 0]);
+
+            var color = d3.scale.category10();
+
+            var xAxis = d3.svg.axis()
+                .scale(x)
+                .orient("bottom");
+            var yAxis = d3.svg.axis()
+                .scale(y)
+                .orient("left");
+            var xCat = "quintile";
+            var colorCat = "category";
+
+            var svg = d3.select("#scatter").append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+              .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            var line1 = svg.append("line")
+                    .attr("x1", 0)
+                    .attr("x2", width)
+                    .attr("y1", height - 100)
+                    .attr("y2", height - 100)
+                    .attr("stroke-width", 1)
+                    .attr("stroke", "black")
+            var line1 = svg.append("line")
+                    .attr("x1", 0)
+                    .attr("x2", width)
+                    .attr("y1", height - 300)
+                    .attr("y2", height - 300)
+                    .attr("stroke-width", 1)
+                    .attr("stroke", "black")
+            var text1 = svg.append("text")
+                  .attr("class", "label")
+                  .attr("x", width)
+                  .attr("y", height - 120)
+                  .style("text-anchor", "end")
+                  .style("font-size", "20px")
+                  .text("Inelastic");
+            var text1 = svg.append("text")
+                  .attr("class", "label")
+                  .attr("x", width)
+                  .attr("y", height - 320)
+                  .style("text-anchor", "end")
+                  .style("font-size", "20px")
+                  .text("Elastic");
+            data = JSON.stringify({ t1: select1, t2: select2, t3: select3 });
+
+            $.ajax({
+                type: "post",
+                dataType: "json",
+                url: "/Home/charts",
+                data: data,
+                conteneType:"application/json",
+                success: function (d) {
+                    alert(Object.keys(d).length)
+                    d3.json(d, function (error, data) {
+                        if (error) throw error;
+
+                        data.forEach(function (d) {
+                            d.category = +d.category;
+                            d.elasticity = +d.elasticity;
+                            d.quintile = +d.quintile;
+                            d.number = +d.number
+                        });
+
+                        x.domain(data.map(function (d) { return d[xCat]; }));
+                        y.domain(d3.extent(data, function (d) { return d.elasticity; })).nice();
+
+                        var fade = function (opacity) {
+                            return function (g, i) {
+                                svg.selectAll(".dot")
+                                    .filter(function (d) {
+                                        return d.number % 10 != (i + 1) % 10;
+
+                                    })
+                                  .transition()
+                                  .style("opacity", opacity)
+                                ;
+                            };
+                        };
+
+                        svg.append("g")
+                            .attr("class", "x axis")
+                            .attr("transform", "translate(0," + height + ")")
+                            .call(xAxis)
+                          .append("text")
+                            .attr("class", "label")
+                            .attr("x", width)
+                            .attr("y", -6)
+                            .style("text-anchor", "end")
+                            .style("font-size", "12px")
+                            .text("Income Quintile");
+
+                        svg.append("g")
+                            .attr("class", "y axis")
+                            .call(yAxis)
+                          .append("text")
+                            .attr("class", "label")
+                            .attr("transform", "rotate(-90)")
+                            .attr("y", 6)
+                            .attr("dy", ".71em")
+                            .style("text-anchor", "end")
+                            .style("font-size", "12px")
+                            .text("Price Elasticity")
+                        var tip = d3.tip()
+                                    .attr("class", "d3-tip")
+                                    .offset([-10, 0])
+                                    .html(function (d) {
+                                        return "Elasticity" + ": " + d.elasticity;
+                                    });
+                        svg.call(tip);
+
+                        var objects = svg.append("svg")
+                                    .classed("objects", true)
+                                    .attr("width", width)
+                                    .attr("height", height);
+
+                        objects.selectAll(".dot")
+                            .data(data)
+                          .enter().append("circle")
+                            .attr("class", "dot")
+                            .attr("r", 8)
+                            .attr("transform", function (d) { return "translate(" + x(d[xCat]) + "," + y(d.elasticity) + ")"; })
+                            .style("fill", function (d) { return color(d[colorCat]); })
+                              .on("mousedown", tip.show)
+                              .on("mouseup", tip.hide)
+                              .on("mouseover", fade(0.1))
+                              .on("mouseout", fade(1))
+                        ;
+
+                        var legend = svg.selectAll(".legend")
+                            .data(color.domain())
+                          .enter().append("g")
+                            .attr("class", "leg")
+                            .attr("transform", function (d, i) { return "translate(0," + i * 20 + ")"; });
+
+                        legend.append("rect")
+                            .attr("class", "rect")
+                            .attr("x", width + margin.right - 40)
+                            .attr("width", 18)
+                            .attr("height", 18)
+                            .style("fill", color);
+
+                        legend.append("text")
+                            .attr("class", "text")
+                            .attr("x", width + margin.right - 50)
+                            .attr("y", 9)
+                            .attr("dy", ".35em")
+                            .style("text-anchor", "end")
+                            .text(function (d) { return "Category " + d; });
+
+                        d3.select("input").on("click", change);
+                        d3.select("#Quintile").on("click", change2);
+
+                        function change() {
+
+                            x.domain(data.map(function (d) { return d.category; }));
+
+                            var svg = d3.select("#scatter").transition();
+
+                            svg.select(".x.axis").duration(750).call(xAxis).select(".label").text("Category");
+
+                            objects.selectAll(".dot").transition()
+                                .duration(1000)
+                                .attr("transform", function (d) { return "translate(" + x(d.category) + "," + y(d.elasticity) + ")"; })
+                                .style("fill", function (d) { return color(d.quintile); });
+
+                            var legend = svg.selectAll(".leg").transition();
+                            var rect = svg.selectAll(".rect").transition().style("fill", color);
+                            var text = svg.selectAll(".text").transition().attr("dy", ".35em").text(function (d) { return "Quintile " + d; });;
+
+                        }
+                        function change2() {
+
+                            x.domain(data.map(function (d) { return d.quintile; }));
+
+                            var svg = d3.select("#scatter").transition();
+
+                            svg.select(".x.axis").duration(750).call(xAxis).select(".label").text("Quintile");
+
+                            objects.selectAll(".dot").transition()
+                                .duration(1000)
+                                .attr("transform", function (d) { return "translate(" + x(d.quintile) + "," + y(d.elasticity) + ")"; })
+                                .style("fill", function (d) { return color(d.category); });
+
+                            var legend = svg.selectAll(".leg").transition();
+                            var rect = svg.selectAll(".rect").transition().style("fill", color);
+                            var text = svg.selectAll(".text").transition().attr("dy", ".35em").text(function (d) { return "Category " + d; });;
+
+                        }
+                    });
+                },
+                error: function(){
+                    alert("error")
+                }
+            })
+        });
+
+
+
     </script>
 </body>
 </html>
