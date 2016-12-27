@@ -196,6 +196,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DropDownList.cs" />
+    <Compile Include="Models\elasticity.cs" />
     <Compile Include="Models\food.cs" />
     <Compile Include="Models\person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

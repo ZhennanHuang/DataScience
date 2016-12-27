@@ -25,6 +25,8 @@ namespace Demo.Models
         public double? ppu_percentage_change { get; set; }
         public double? ppu { get; set; }
         public Boolean ignored { get; set; }
+        public double? elasticity { get; set; }
+        
     }
    
 }

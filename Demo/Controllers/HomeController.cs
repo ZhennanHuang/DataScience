@@ -64,9 +64,23 @@ namespace Demo.Controllers
         [HttpPost]
         public ActionResult charts(DropDownList ddl) {
             //var json = Collections.FindAllAs<food>().ToList();
-            if (ddl != null)
-                return Json(foodList.ToJson());
-                //return Json(json.ToJson());
+            List<elasticity> el = new List<elasticity>();
+            elasticity e1 = new elasticity();
+            e1.category = "c1";
+            e1.ela = 1.2345;
+            e1.quintile = 1;
+            e1.number = 3;
+            elasticity e2 = new elasticity();
+            e2.category = "c1";
+            e2.ela = 1.2345;
+            e2.quintile = 1;
+            e2.number = 3;
+            el.Add(e2);
+            if (ddl != null) {
+
+                return Json(el.ToJson());
+            }
+            //return Json(json.ToJson());
             else
                 return Json("Error");
         }
