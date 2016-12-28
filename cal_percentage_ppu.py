@@ -11,15 +11,14 @@ def cal_update(listByQ):
             ppu = 0.0
             percPurCha = 0.0
             percExpCha = 0.0
-            
             if qData[i]['purchase'] and qData[i]['expense']:
-                currPurchase = float(qData[i]['purchase'].replace(',', ''))
+                currPurchase = float(qData[i]['purchase'])
                 currExprense = float(qData[i]['expense'])
                 if currPurchase != 0:
                     ppu = currExprense/currPurchase
                 if i>=1:
                     if qData[i-1]['purchase'] and qData[i-1]['expense']:
-                        lastPurchase = float(qData[i-1]['purchase'].replace(',', ''))
+                        lastPurchase = float(qData[i-1]['purchase'])
                         lastExpense = float(qData[i-1]['expense'])
                         if lastPurchase != 0:
                             percPurCha = (currPurchase - lastPurchase)/lastPurchase*100
@@ -48,9 +47,10 @@ def cal_update(listByQ):
                 )
 #  ----------------
 
-client = MongoClient("mongodb://team:goteamgo@svm-ah3n16-COMP6235-temp.ecs.soton.ac.uk/expenditure")
-db = client.expenditure
-coll = db.expenditure
+client = MongoClient("mongodb://localhost")
+coll = client.expenditure.expenditure_v3
+
+# NOTE: quintiles in DB must be set to be integers rather than strings.
 
 cursor = coll.find({}).sort([['category',1],['quintile',1],['year',1]])
 cursorCount = cursor.count()

@@ -1,4 +1,6 @@
 import csv
+import sys
+
 import pymongo
 
 
@@ -55,31 +57,41 @@ def row_to_dicts(row):
         # build individual copies in order to add in the now-diverging data
         annual_data = common_data.copy()
         annual_data['year'] = actual_year
-        annual_data['expense'] = row[year+6]
-        annual_data['purchase'] = row[year+6+15]
+        try:
+            annual_data['expense'] = float(row[year+6])
+        except:
+            annual_data['expense'] = 0.0
+        try:
+            annual_data['purchase'] = float(row[year+6+15])
+        except:
+            annual_data['purchase'] = 0.0
         category_data.append(annual_data)
 
     return category_data
 
 
-def record_to_mongo(db, record_to_insert):
-    return db.expenditure.insert(record_to_insert)
-
-if __name__ == '__main__':
+def record_to_mongo(collection, record_to_insert):
+    return collection.insert(record_to_insert)
 
 
-    rows = readfile('expenditure_purchase_q5.tsv')
+def main(collection, filename, quintile):
+    rows = readfile(filename)
     
     all_data_now = []
     for row in rows:
         all_data_now.append(row_to_dicts(row))
 
     # we now have all our datas in the pythons, time to mongo.
-
-    conn = pymongo.MongoClient(host='localhost')
-    expenditure = conn.expenditure
-
     for row in all_data_now:
         for entry in row:
-            entry.update({'quintile': 5})
-        record_to_mongo(expenditure, row)
+            entry.update({'quintile': quintile})
+        record_to_mongo(collection, row)
+
+if __name__ == '__main__':
+    filename = sys.argv[1]
+    quintile = sys.argv[2]
+    connstring = sys.argv[3]
+
+    conn = pymongo.MongoClient(host=connstring)
+    collection = conn.expenditure.expenditure_v3
+    main(collection, filename, quintile)

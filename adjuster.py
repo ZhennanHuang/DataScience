@@ -1,13 +1,20 @@
 #!/bin/python
 
 import csv
+import sys
 
 import pymongo
 
 
 def adjust(db, adjustment_table):
     for year in xrange(2000,2016):
-        db.expenditure.update_many({'year': year, 'expense': {'$ne': None}}, {'$mul': {'expense': adjustment_table[year]}})
+        print("adjusting: %s by %s" % (year, adjustment_table[year]))
+        db.expenditure_v3.update_many(
+            {'year': year,
+             'expense': {'$ne': None}},
+              {'$mul': {'expense': adjustment_table[year]}
+            }
+        )
             
 
 
@@ -26,6 +33,6 @@ if __name__ == '__main__':
     # connect to the mongos
     conn = pymongo.MongoClient(host='localhost')
     db = conn.expenditure
-    adjustment_table = _read_adjustment_table('2016_gbp_inflation_rates.csv')
+    adjustment_table = _read_adjustment_table(sys.argv[1])
 
     adjust(db, adjustment_table)

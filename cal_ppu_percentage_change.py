@@ -3,7 +3,7 @@ from pymongo import MongoClient
 from decimal import Decimal
 import json
 
-def cal_update(listByQ):	
+def cal_update(listByQ):
 
 	for qIndex in listByQ:
 		qData = listByQ[qIndex]
@@ -16,7 +16,7 @@ def cal_update(listByQ):
 						if qData[i-1]['purchase'] and qData[i-1]['expense']:
 							lastPpu = float(qData[i-1]['ppu'])
 							if lastPpu != 0:
-								percPpuCha = (currPpu - lastPpu)/lastPpu*100		
+								percPpuCha = (currPpu - lastPpu)/lastPpu*100
 					res = coll.update_one({"category":qData[i]['category'],"year":qData[i]['year']
 					,"quintile":qData[i]['quintile']},{
 						"$set":{
@@ -34,10 +34,10 @@ def cal_update(listByQ):
 				)
 #  ----------------
 
-client = MongoClient("mongodb://team:goteamgo@svm-ah3n16-COMP6235-temp.ecs.soton.ac.uk/expenditure")
+client = MongoClient("mongodb://localhost")
 	# 'mongodb://localhost:27017')
 db = client.expenditure
-coll = db.expenditure
+coll = db.expenditure_v3
 
 cursor = coll.find({}).sort([['category',1],['quintile',1],['year',1]])
 cursorCount = cursor.count()
@@ -72,6 +72,6 @@ for index,doc in enumerate(item_list):
 			quintile = 1
 
 listByQ[quintile] = data
-cat = doc['category']            
+cat = doc['category']
 cal_update(listByQ)	
 	
