@@ -5,9 +5,9 @@ using System.Web;
 
 namespace Demo.Models
 {
-    public class elasticity
+    public class Elasticity
     {
-        public double? ela { get; set; }
+        public double? elasticity { get; set; }
         public string category { get; set; }
         public int quintile { get; set; }
         public int number { get; set; }

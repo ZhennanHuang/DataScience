@@ -64,20 +64,20 @@ namespace Demo.Controllers
         [HttpPost]
         public ActionResult charts(DropDownList ddl) {
             //var json = Collections.FindAllAs<food>().ToList();
-            List<elasticity> el = new List<elasticity>();
-            elasticity e1 = new elasticity();
+            List<Elasticity> el = new List<Elasticity>();
+            Elasticity e1 = new Elasticity();
             e1.category = "c1";
-            e1.ela = 1.2345;
+            e1.elasticity = 0.2345;
             e1.quintile = 1;
-            e1.number = 3;
-            elasticity e2 = new elasticity();
-            e2.category = "c1";
-            e2.ela = 1.2345;
-            e2.quintile = 1;
-            e2.number = 3;
+            e1.number = 1;
+            Elasticity e2 = new Elasticity();
+            e2.category = "c2";
+            e2.elasticity = -0.2345;
+            e2.quintile = 2;
+            e2.number = 2;
+            el.Add(e1);
             el.Add(e2);
             if (ddl != null) {
-
                 return Json(el.ToJson());
             }
             //return Json(json.ToJson());

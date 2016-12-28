@@ -215,7 +215,7 @@
                             <header class="panel-heading">
                                 Elasticity
                             </header>
-                            <div id="scatter" class="panel-body" style="width:1050px; height:500px">
+                            <div id="scatter" class="panel-body" style="width:1050px; height:550px">
                                 @*<canvas id="linechart" width="1050" height="500" style="background-image:url(/Content/cap.jpg);background-size:1050px 500px"></canvas>*@
                             </div>
                         </section>
@@ -224,7 +224,7 @@
                 </div>        
             </section><!-- /.content -->
             <div class="footer-main">
-                Copyright &copy Director, 2014
+                @*Copyright &copy Director, 2014*@
             </div>
         </aside><!-- /.right-side -->
    </div>
@@ -291,6 +291,7 @@
             var select1 = document.getElementById('select1').value;
             var select2 = document.getElementById('select2').value;
             var select3 = document.getElementById('select3').value;
+            document.getElementById('scatter').innerHTML = '';
             data = JSON.stringify({ t1: select1, t2: select2, t3: select3 });
 
             $.ajax({
@@ -300,9 +301,9 @@
                 data: data,
                 conteneType:"application/json",
                 success: function (da) {
-                    var margin = { top: 20, right: 170, bottom: 30, left: 40 },
-                width = 1000 - margin.left - margin.right,
-                height = 500 - margin.top - margin.bottom;
+                    var margin = { top: 20, right: 170, bottom: 30, left: 100 },
+                    width = 1000 - margin.left - margin.right,
+                    height = 500 - margin.top - margin.bottom;
 
                     var x = d3.scale.ordinal()
                         .rangeRoundBands([0, width], 1)
@@ -355,23 +356,22 @@
                           .style("text-anchor", "end")
                           .style("font-size", "20px")
                           .text("Elastic");
-                    alert(da);
                     var data = JSON.parse(da);
                     data.forEach(function (d) {
-                        d.category = +d.category;
+                        d.category = d.category;
                         d.elasticity = +d.elasticity;
                         d.quintile = +d.quintile;
                         d.number = +d.number
                     });
                     x.domain(data.map(function (d) { return d[xCat]; }));
-                    y.domain(d3.extent(data, function (d) { return d.elasticity; })).nice();
+                    //y.domain(d3.extent(data, function (d) { return d.elasticity; })).nice();
+                    y.domain([-3, 3]);
 
                     var fade = function (opacity) {
                         return function (g, i) {
                             svg.selectAll(".dot")
                                 .filter(function (d) {
                                     return d.number % 10 != (i + 1) % 10;
-
                                 })
                                 .transition()
                                 .style("opacity", opacity)
