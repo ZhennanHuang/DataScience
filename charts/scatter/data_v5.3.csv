@@ -1,0 +1,1466 @@
+id,Category,Subcategory,Subsubcategory,Subsubsubcategory,Quintile,Elasticity
+1,Alcoholic drinks,,,,1,0.629516988
+2,Alcoholic drinks,Alcopops,,,1,-0.58435992
+3,Alcoholic drinks,Beers,,,1,1.421300035
+4,Alcoholic drinks,Ciders and perry,,,1,0.475048149
+5,Alcoholic drinks,Fortified wines,,,1,1.605702421
+6,Alcoholic drinks,Lagers and continental beers,,,1,0.961011591
+7,Alcoholic drinks,Liqueurs and cocktails,,,1,0.138863149
+8,Alcoholic drinks,Spirits,,,1,0.015206417
+9,Alcoholic drinks,Spirits with mixer,,,1,-0.35137084
+10,Alcoholic drinks,Wine and champagne,,,1,0.527655833
+11,Alcoholic drinks,Wine and champagne,"Champagne, sparkling wines and wine with mixer",,1,0.986048309
+12,Alcoholic drinks,Wine and champagne,Table wine,,1,0.620778012
+13,Beverages,,,,1,0.249177298
+14,Beverages,Cocoa and chocolate drinks,,,1,0.067618761
+15,Beverages,Coffee beans and ground coffee,,,1,-0.843015849
+16,Beverages,Instant coffee,,,1,0.599909659
+17,Beverages,Malt drinks and chocolate versions of malted drinks,,,1,1.331857156
+18,Beverages,Tea,,,1,0.274539114
+19,Biscuits and crispbreads,,,,1,0.296405621
+20,Biscuits and crispbreads,Biscuits other than chocolate,,,1,0.29834164
+21,Biscuits and crispbreads,Biscuits other than chocolate,Cream crackers and other unsweetened biscuits,,1,0.023522478
+22,Biscuits and crispbreads,Biscuits other than chocolate,Sweet biscuits (not chocolate) and cereal bars,,1,0.203069243
+23,Biscuits and crispbreads,Chocolate biscuits,,,1,0.532519302
+24,Biscuits and crispbreads,Crispbread,,,1,-0.40456897
+25,Bread,,,,1,0.716290755
+26,Bread,Brown and wholemeal bread,,,1,0.064692755
+27,Bread,Brown and wholemeal bread,"Brown bread, sliced and unsliced",,1,1.236059868
+28,Bread,Brown and wholemeal bread,"Wholemeal and granary bread, sliced and unsliced",,1,-0.529069694
+29,Bread,Total other bread,,,1,-0.623719267
+30,Bread,Total other bread,Malt bread and fruit loaves,,1,1.569053871
+31,Bread,Total other bread,Other breads,,1,1.678073355
+32,Bread,Total other bread,"Rolls - white, brown or wholemeal",,1,0.09435228
+33,Bread,Total other bread,Sandwiches,,1,1.73639911
+34,Bread,Total other bread,Sandwiches from takeaway,,1,0.399393771
+35,Bread,Total other bread,Starch reduced bread and rolls,,1,1.026378062
+36,Bread,Total other bread,Takeaway breads,,1,0.594971169
+37,Bread,Total other bread,Vienna and french bread,,1,0.520083787
+38,Bread,White bread,,,1,1.156622025
+39,Bread,White bread,"White bread, premium, sliced and unsliced",,1,0.835882148
+40,Bread,White bread,"White bread, soft grain, sliced and unsliced",,1,0.631254067
+41,Bread,White bread,"White bread, standard, sliced",,1,0.746900852
+42,Bread,White bread,"White bread, standard, unsliced",,1,4.346246253
+43,"Cakes, buns and pastries",,,,1,-0.17880043
+44,"Cakes, buns and pastries","Buns, scones and teacakes",,,1,0.831493473
+45,"Cakes, buns and pastries",Cakes and pastries,,,1,-0.505909122
+46,"Cakes, buns and pastries",Cakes and pastries,"Cakes and pastries, not frozen",,1,-0.508077506
+47,"Cakes, buns and pastries",Cakes and pastries,Takeaway pastries,,1,0.676744149
+48,Carcase meat,,,,1,1.124242385
+49,Carcase meat,Beef and veal,,,1,0.895811299
+50,Carcase meat,Beef and veal,All other beef and veal,,1,1.605561947
+51,Carcase meat,Beef and veal,Beef joints - boned,,1,1.756715805
+52,Carcase meat,Beef and veal,Beef joints - on the bone,,1,-0.711310485
+53,Carcase meat,Beef and veal,Beef steak - less expensive,,1,1.017239838
+54,Carcase meat,Beef and veal,Beef steak - more expensive,,1,1.192953376
+55,Carcase meat,Beef and veal,Minced beef,,1,0.041335709
+56,Carcase meat,Mutton and lamb,,,1,1.146490109
+57,Carcase meat,Mutton and lamb,All other lamb,,1,0.679623599
+58,Carcase meat,Mutton and lamb,Lamb chops,,1,2.909293073
+59,Carcase meat,Mutton and lamb,Lamb joints,,1,1.139251869
+60,Carcase meat,Mutton and lamb,Mutton,,1,1.335812863
+61,Carcase meat,Pork,,,1,0.871010149
+62,Carcase meat,Pork,All other pork,,1,-1.069943483
+63,Carcase meat,Pork,Pork chops,,1,0.514630467
+64,Carcase meat,Pork,Pork fillets and steaks,,1,1.799590582
+65,Carcase meat,Pork,Pork joints,,1,1.227712642
+66,Cheese,,,,1,0.455710405
+67,Cheese,Natural cheese,,,1,0.17249436
+68,Cheese,Natural cheese,Cottage cheese,,1,0.107573563
+69,Cheese,Natural cheese,Hard cheese - cheddar type,,1,0.272669852
+70,Cheese,Natural cheese,Hard cheese - edam or other foreign,,1,-0.057243155
+71,Cheese,Natural cheese,Hard cheese - other uk or foreign equivalent,,1,-0.085074522
+72,Cheese,Natural cheese,Soft natural cheese,,1,2.755256804
+73,Cheese,Processed cheese,,,1,-1.118704096
+74,Confectionery,,,,1,0.742194432
+75,Confectionery,Chewing gum,,,1,0.234222491
+76,Confectionery,Chocolate bars - filled,,,1,0.855074583
+77,Confectionery,Chocolate bars - solid,,,1,0.57881715
+78,Confectionery,"Fudges, toffees, caramels",,,1,-0.009792786
+79,Confectionery,Mints and boiled sweets,,,1,0.138920935
+80,Confectionery,Mints and boiled sweets,Boiled sweets,,1,0.391439623
+81,Confectionery,Mints and boiled sweets,Mints,,1,3.031441658
+82,Eggs,,,,1,0.30485263
+83,Fats,,,,1,0.517355407
+84,Fats,All other fats,,,1,1.78873587
+85,Fats,All other fats,Imitatation cream,,1,0.412037819
+86,Fats,All other fats,Low fat spreads,,1,0.830422882
+87,Fats,All other fats,Reduced fat spreads,,1,1.573451431
+88,Fats,All other fats,Suet and dripping,,1,0.100010698
+89,Fats,Butter,,,1,0.112336718
+90,Fats,Margarine,,,1,-0.928280033
+91,Fats,Margarine,Other margarine,,1,-0.638785574
+92,Fats,Margarine,Soft margarine,,1,-1.023169289
+93,Fats,Vegetable and salad oils,,,1,0.292765125
+94,Fats,Vegetable and salad oils,Olive oil,,1,1.736699361
+95,Fats,Vegetable and salad oils,Other vegetable and salad oils,,1,0.300247744
+96,Fish,,,,1,0.788029724
+97,Fish,"Blue fish, dried or salted or smoked",,,1,0.011888723
+98,Fish,"Herrings and other blue fish, fresh, chilled or frozen",,,1,0.91305466
+99,Fish,"Herrings and other blue fish, fresh, chilled or frozen","Herrings and other blue fish, fresh or chilled",,1,0.946931503
+100,Fish,"Herrings and other blue fish, fresh, chilled or frozen","Herrings and other blue fish, frozen",,1,0.12342692
+101,Fish,Other tinned or bottled fish,,,1,1.269138357
+102,Fish,Ready meals and other fish products - frozen or not frozen,,,1,-1.957794506
+103,Fish,"Salmon, fresh, chilled or frozen",,,1,-0.322926179
+104,Fish,"Salmon, fresh, chilled or frozen","Salmon, fresh or chilled",,1,0.061078185
+105,Fish,"Salmon, fresh, chilled or frozen","Salmon, frozen",,1,0.163326403
+106,Fish,"Salmon, tinned",,,1,2.176346047
+107,Fish,Shellfish,,,1,0.767854665
+108,Fish,Shellfish,"Shellfish, fresh or chilled",,1,2.027740854
+109,Fish,Shellfish,"Shellfish, frozen",,1,0.480100677
+110,Fish,Takeaway fish,,,1,1.846831529
+111,Fish,Takeaway fish meals and fish products,,,1,-0.467480139
+112,Fish,Takeaway fish meals and fish products,Takeaway fish based meals,,1,-0.165964902
+113,Fish,Takeaway fish meals and fish products,Takeaway fish products,,1,0.31405606
+114,Fish,"White fish, dried, salted or smoked",,,1,0.865976145
+115,Fish,"White fish, fresh, chilled or frozen",,,1,0.629608121
+116,Fish,"White fish, fresh, chilled or frozen","White fish, fresh or chilled",,1,1.52938085
+117,Fish,"White fish, fresh, chilled or frozen","White fish, frozen",,1,-2.510309935
+118,Flour,,,,1,0.070335945
+119,Fresh and processed vegetables,Fresh fruit,,,1,1.747978931
+120,Fresh and processed vegetables,Fresh fruit,Fresh apples,,1,1.673722503
+121,Fresh and processed vegetables,Fresh fruit,Fresh bananas,,1,0.059181843
+122,Fresh and processed vegetables,Fresh fruit,Fresh grapes,,1,1.382783018
+123,Fresh and processed vegetables,Fresh fruit,Fresh melons,,1,1.275232384
+124,Fresh and processed vegetables,Fresh fruit,Fresh oranges,,1,1.448908515
+125,Fresh and processed vegetables,Fresh fruit,Fresh pears,,1,0.621715011
+126,Fresh and processed vegetables,Fresh fruit,Fresh stone fruit,,1,0.819601186
+127,Fresh and processed vegetables,Fresh fruit,Other fresh citrus fruits,,1,1.442147655
+128,Fresh and processed vegetables,Fresh fruit,Other fresh fruit,,1,0.604238878
+129,Fresh and processed vegetables,Fresh fruit,Other fresh soft fruit,,1,-0.787729914
+130,Fresh and processed vegetables,Processed fruit and fruit products,,,1,0.863326647
+131,Fresh and processed vegetables,Processed fruit and fruit products,All other tinned or bottled fruit,,1,0.096677305
+132,Fresh and processed vegetables,Processed fruit and fruit products,Dried fruit,,1,0.554819129
+133,Fresh and processed vegetables,Processed fruit and fruit products,"Frozen strawberries, apple slices, peach halves, oranges and other frozen fruits",,1,1.736698612
+134,Fresh and processed vegetables,Processed fruit and fruit products,"Nuts, edible seeds and peanut butter",,1,-0.258752526
+135,Fresh and processed vegetables,Processed fruit and fruit products,Pure fruit juices,,1,0.753715646
+136,Fresh and processed vegetables,Processed fruit and fruit products,"Tinned peaches, pears and pineapples",,1,0.148485279
+137,Fresh and processed vegetables,Fresh potatoes,,,1,1.113617706
+138,Fresh and processed vegetables,Fresh potatoes,Fresh baking potatoes (e),,1,0.634263029
+139,Fresh and processed vegetables,Fresh potatoes,Fresh new potatoes (e),,1,1.043527539
+140,Fresh and processed vegetables,Fresh potatoes,Other fresh potatoes (e),,1,1.004468078
+141,Fresh and processed vegetables,Processed potatoes,,,1,0.586078016
+142,Fresh and processed vegetables,Processed potatoes,Chips and takeaway chips,,1,0.405541485
+143,Fresh and processed vegetables,Processed potatoes,Crisps and potato snacks,,1,0.378764789
+144,Fresh and processed vegetables,Processed potatoes,Instant potato,,1,0.266479227
+145,Fresh and processed vegetables,Processed potatoes,"Other potato products, frozen or not frozen",,1,1.273251551
+146,Fresh and processed vegetables,Fresh and processed fruit,,,1,1.291731872
+147,Fresh and processed vegetables,"Fresh and processed fruit and vegetables, excluding potatoes",,,1,1.080095068
+148,Fresh and processed vegetables,"Fresh and processed fruit and vegetables, including potatoes",,,1,1.184436925
+149,Fresh and processed vegetables,Fresh and processed potatoes,,,1,1.252163895
+150,Fresh and processed vegetables,"Fresh and processed vegetables, excluding potatoes",,,1,0.590059549
+151,Fresh and processed vegetables,"Fresh and processed vegetables, including potatoes",,,1,0.955087268
+152,Fresh and processed vegetables,Fresh green vegetables,,,1,1.390007686
+153,Fresh and processed vegetables,Fresh green vegetables,Fresh beans,,1,0.761119111
+154,Fresh and processed vegetables,Fresh green vegetables,Fresh brussels sprouts,,1,1.314080458
+155,Fresh and processed vegetables,Fresh green vegetables,Fresh cabbages,,1,0.68531339
+156,Fresh and processed vegetables,Fresh green vegetables,Fresh cauliflower,,1,1.670614155
+157,Fresh and processed vegetables,Fresh green vegetables,Fresh peas,,1,1.140994918
+158,Fresh and processed vegetables,Fresh green vegetables,Leafy salads fresh,,1,0.78581088
+159,Fresh and processed vegetables,Fresh green vegetables,Other fresh green vegetables,,1,-0.127735297
+160,Fresh and processed vegetables,Other fresh vegetables,,,1,0.772726705
+161,Fresh and processed vegetables,Other fresh vegetables,Fresh carrots,,1,0.495086545
+162,Fresh and processed vegetables,Other fresh vegetables,Fresh cucumbers,,1,1.029084471
+163,Fresh and processed vegetables,Other fresh vegetables,Fresh mushrooms,,1,0.364871573
+164,Fresh and processed vegetables,Other fresh vegetables,"Fresh onions, leeks and shallots",,1,0.757809851
+165,Fresh and processed vegetables,Other fresh vegetables,Fresh tomatoes,,1,1.000709287
+166,Fresh and processed vegetables,Other fresh vegetables,Fresh turnips and swede,,1,0.810203439
+167,Fresh and processed vegetables,Other fresh vegetables,Miscellaneous fresh vegtables,,1,2.869444039
+168,Fresh and processed vegetables,Other fresh vegetables,Other fresh root vegetables,,1,1.17474104
+169,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,,,1,0.183865012
+170,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Beans canned,,1,0.065785967
+171,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Beans, frozen",,1,-0.529283648
+172,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Dried pulses other than air-dried,,1,0.844897417
+173,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Other canned vegetables,,1,0.791391022
+174,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Other frozen vegetables,,1,0.615933134
+175,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Peas, canned",,1,0.898373024
+176,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Peas, frozen",,1,0.728506942
+177,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Ready meals and other vegetable products (inc takeaways),,1,0.392602223
+178,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Tomatoes, canned or bottled",,1,0.304772318
+179,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Vegetable juices and purees,,1,1.246850379
+180,Milk and milk products excluding cheese,,,,1,-0.165111624
+181,Milk and milk products excluding cheese,"Liquid wholemilk, including school and welfare",,,1,-1.158001352
+182,Milk and milk products excluding cheese,"Liquid wholemilk, including school and welfare","Liquid wholemilk, full price",,1,-1.386853328
+183,Milk and milk products excluding cheese,Other milk and cream,,,1,0.312264232
+184,Milk and milk products excluding cheese,Other milk and cream,Condensed or evaporated milk,,1,1.055292723
+185,Milk and milk products excluding cheese,Other milk and cream,Cream,,1,1.10933769
+186,Milk and milk products excluding cheese,Other milk and cream,Infant milks,,1,0.560392603
+187,Milk and milk products excluding cheese,Other milk and cream,Other milks and dairy desserts,,1,1.133709789
+188,Milk and milk products excluding cheese,Other milk and cream,Skimmed milks,,1,0.135540189
+189,Milk and milk products excluding cheese,Other milk and cream,Yoghurt and fromage frais,,1,1.980819039
+190,Non-carcase meat and meat products,,,,1,0.524216475
+191,Non-carcase meat and meat products,All offal other than liver,,,1,1.287829489
+192,Non-carcase meat and meat products,"Bacon and ham, cooked",,,1,0.624172961
+193,Non-carcase meat and meat products,"Bacon and ham, uncooked",,,1,-0.326589282
+194,Non-carcase meat and meat products,"Bacon and ham, uncooked","Bacon and ham joints, uncooked",,1,0.865850949
+195,Non-carcase meat and meat products,"Bacon and ham, uncooked","Bacon and ham rashers, uncooked",,1,-0.546018659
+196,Non-carcase meat and meat products,"Burgers, frozen or not frozen",,,1,0.570949205
+197,Non-carcase meat and meat products,"Chicken, uncooked - whole chicken or chicken pieces",,,1,0.49431087
+198,Non-carcase meat and meat products,Cooked poultry not purchased in cans,,,1,0.975256157
+199,Non-carcase meat and meat products,Cooked poultry not purchased in cans,"Chicken and turkey, cooked",,1,1.193843814
+200,Non-carcase meat and meat products,Cooked poultry not purchased in cans,Takeaway chicken,,1,0.4856663
+201,Non-carcase meat and meat products,"Corned beef, canned or sliced",,,1,0.641689049
+202,Non-carcase meat and meat products,Liver,,,1,0.197063134
+203,Non-carcase meat and meat products,Liver,Lambs liver,,1,-0.435324559
+204,Non-carcase meat and meat products,Meat pastes and spreads,,,1,-0.144421756
+205,Non-carcase meat and meat products,"Meat pies and sausage rolls, ready to eat",,,1,-4.427954624
+206,Non-carcase meat and meat products,"Meat pies and sausage rolls, ready to eat","Meat pies, ready to eat",,1,-0.58800342
+207,Non-carcase meat and meat products,"Meat pies and sausage rolls, ready to eat","Sausage rolls, ready to eat",,1,0.802868008
+208,Non-carcase meat and meat products,"Meat pies, pasties and puddings, frozen or not frozen",,,1,0.654842669
+209,Non-carcase meat and meat products,Other canned meat and canned meat products,,,1,1.359865084
+210,Non-carcase meat and meat products,Other cooked meat,,,1,1.063155725
+211,Non-carcase meat and meat products,"Other fresh, chilled and frozen meat",,,1,0.744105825
+212,Non-carcase meat and meat products,"Other poultry, uncooked (including frozen)",,,1,1.732078949
+213,Non-carcase meat and meat products,"Other poultry, uncooked (including frozen)","Poultry other than chicken or turkey, uncooked",,1,0.853432292
+214,Non-carcase meat and meat products,"Other poultry, uncooked (including frozen)","Turkey, uncooked - whole turkey or turkey pieces",,1,1.734432177
+215,Non-carcase meat and meat products,Pate and delicatessen type sausage,,,1,0.513852376
+216,Non-carcase meat and meat products,Pate and delicatessen type sausage,Delicatessen type sausages,,1,0.630155833
+217,Non-carcase meat and meat products,Pate and delicatessen type sausage,Pate,,1,0.31310827
+218,Non-carcase meat and meat products,Ready meals and convenience meat products,,,1,1.907895588
+219,Non-carcase meat and meat products,Ready meals and convenience meat products,"Complete meat-based ready meals, frozen or not frozen",,1,1.226871743
+220,Non-carcase meat and meat products,Ready meals and convenience meat products,"Other convenience meat products, frozen or not frozen",,1,2.504892606
+221,Non-carcase meat and meat products,"Sausages, uncooked - beef and other sausages",,,1,1.717983808
+222,Non-carcase meat and meat products,"Sausages, uncooked - pork",,,1,0.573984365
+223,Non-carcase meat and meat products,Takeaway meats,,,1,1.352729821
+224,Non-carcase meat and meat products,Takeaway meats,Takeaway burger and bun,,1,0.977117986
+225,Non-carcase meat and meat products,Takeaway meats,Takeaway kebabs,,1,4.145688717
+226,Non-carcase meat and meat products,Takeaway meats,Takeaway meat based meals,,1,1.559193771
+227,Non-carcase meat and meat products,Takeaway meats,Takeaway meat pies and pasties,,1,0.394694236
+228,Non-carcase meat and meat products,Takeaway meats,Takeaway sausages and saveloys,,1,0.303760809
+229,Other cereals and cereal products,,,,1,0.711503929
+230,Other cereals and cereal products,Breakfast cereals,,,1,0.201495937
+231,Other cereals and cereal products,Breakfast cereals,High fibre breakfast cereals,,1,0.693842583
+232,Other cereals and cereal products,Breakfast cereals,Muesli,,1,0.432024608
+233,Other cereals and cereal products,Breakfast cereals,Other breakfast cereals,,1,0.509198881
+234,Other cereals and cereal products,Breakfast cereals,Sweetened breakfast cereals,,1,0.92451247
+235,Other cereals and cereal products,Cakes and pastries - frozen,,,1,-0.007619488
+236,Other cereals and cereal products,Canned milk puddings,,,1,0.106575125
+237,Other cereals and cereal products,Canned milk puddings,All canned milk puddings,,1,0.274892372
+238,Other cereals and cereal products,Canned milk puddings,Canned or fresh carton custard,,1,0.382921722
+239,Other cereals and cereal products,Infant cereal foods,,,1,1.453647291
+240,Other cereals and cereal products,"Invalid foods, slimming foods and sports foods",,,1,0.177153019
+241,Other cereals and cereal products,Oatmeal and oat products,,,1,-0.241907944
+242,Other cereals and cereal products,Other cereal convenience foods,,,1,1.275122979
+243,Other cereals and cereal products,Other cereal convenience foods,"Cake, pudding and dessert mixes",,1,0.588341277
+244,Other cereals and cereal products,Other cereal convenience foods,Cereal snacks,,1,-0.790596805
+245,Other cereals and cereal products,Other cereal convenience foods,"Other cereal foods, frozen and not frozen",,1,1.663613086
+246,Other cereals and cereal products,Other cereal convenience foods,"Quiches and flans, frozen and not frozen",,1,-0.056054504
+247,Other cereals and cereal products,Other cereal convenience foods,"Takeaway crisps, savoury snacks, popcorn, popadums, prawn crackers",,1,0.250616446
+248,Other cereals and cereal products,Other cereals,,,1,1.204867486
+249,Other cereals and cereal products,Pasta,,,1,-0.053503923
+250,Other cereals and cereal products,Pasta,Canned pasta,,1,0.469080004
+251,Other cereals and cereal products,Pasta,Dried and fresh pasta,,1,0.21398913
+252,Other cereals and cereal products,Pasta,Takeaway pasta and noodles,,1,0.359940182
+253,Other cereals and cereal products,Pizza,,,1,1.075060603
+254,Other cereals and cereal products,Pizza,"Pizzas, frozen and not frozen",,1,1.525525388
+255,Other cereals and cereal products,Pizza,Takeaway pizza,,1,1.119718541
+256,Other cereals and cereal products,Puddings,,,1,0.831537068
+257,Other cereals and cereal products,Rice,,,1,0.867734212
+258,Other cereals and cereal products,Rice,Cooked rice,,1,0.05928597
+259,Other cereals and cereal products,Rice,Dried rice,,1,0.177132269
+260,Other cereals and cereal products,Rice,Takeaway rice,,1,-0.02213713
+261,Other food and drink,,,,1,1.116756434
+262,Other food and drink,Baby foods,,,1,1.758120119
+263,Other food and drink,Ice cream products including takeaways,,,1,0.522258203
+264,Other food and drink,Ice cream products including takeaways,"Ice cream cornets, choc-ices, lollies with ice cream",,1,0.715695072
+265,Other food and drink,Ice cream products including takeaways,"Ice lollies, sorbet, frozen mousse, frozen yoghurt",,1,0.710725992
+266,Other food and drink,Ice cream products including takeaways,"Takeaway ice cream, ice cream products, milkshakes",,1,1.255099512
+267,Other food and drink,Ice cream tub or block,,,1,0.168229064
+268,Other food and drink,Jelly squares or crystals,,,1,0.702964477
+269,Other food and drink,Mineral or spring waters,,,1,1.770973497
+270,Other food and drink,Pickles and sauces,,,1,1.124729996
+271,Other food and drink,Pickles and sauces,Pickles,,1,-0.732534946
+272,Other food and drink,Pickles and sauces,Sauces,,1,1.468272928
+273,Other food and drink,Pickles and sauces,Takeaway sauces and mayonnnaise,,1,1.98947572
+274,Other food and drink,Salt,,,1,0.311357388
+275,Other food and drink,Soups - canned or cartons,,,1,-0.17850711
+276,Other food and drink,Soups - dehydrated or powdered,,,1,0.479222128
+277,Other food and drink,Soups - from takeaway,,,1,-0.075318989
+278,Other food and drink,Soya and novel protein foods,,,1,0.705650901
+279,Other food and drink,Spreads and dressings,,,1,1.49189401
+280,Other food and drink,Spreads and dressings,Other spreads and dresssings,,1,0.91882601
+281,Other food and drink,Spreads and dressings,Salad dressings,,1,1.737490642
+282,Other food and drink,Stock cubes and meat and yeast extracts,,,1,1.108916133
+283,Soft drinks,,,,1,0.278829293
+284,Soft drinks,"Soft drinks, concentrated, low calorie",,,1,-0.768361938
+285,Soft drinks,"Soft drinks, concentrated, not low calorie",,,1,1.206092075
+286,Soft drinks,"Soft drinks, not concentrated,  not low calorie",,,1,0.973835913
+287,Soft drinks,"Soft drinks, not concentrated, low calorie",,,1,1.184212203
+288,Sugar and preserves,,,,1,0.931987378
+289,Sugar and preserves,Honey,,,1,-0.220946823
+290,Sugar and preserves,Jams and fruit curds,,,1,-0.165344513
+291,Sugar and preserves,Marmalade,,,1,-1.373644908
+292,Sugar and preserves,Sugar,,,1,1.237967339
+293,Sugar and preserves,"Syrup, treacle",,,1,-0.038914613
+294,Alcoholic drinks,,,,2,0.802223961
+295,Alcoholic drinks,Alcopops,,,2,-0.469758378
+296,Alcoholic drinks,Beers,,,2,0.452398317
+297,Alcoholic drinks,Ciders and perry,,,2,1.460429211
+298,Alcoholic drinks,Fortified wines,,,2,2.11554824
+299,Alcoholic drinks,Lagers and continental beers,,,2,0.639106784
+300,Alcoholic drinks,Liqueurs and cocktails,,,2,1.312693256
+301,Alcoholic drinks,Spirits,,,2,1.244367394
+302,Alcoholic drinks,Spirits with mixer,,,2,-1.040392091
+303,Alcoholic drinks,Wine and champagne,,,2,1.184361861
+304,Alcoholic drinks,Wine and champagne,"Champagne, sparkling wines and wine with mixer",,2,0.73967053
+305,Alcoholic drinks,Wine and champagne,Table wine,,2,1.170682056
+306,Beverages,,,,2,0.878253531
+307,Beverages,Cocoa and chocolate drinks,,,2,0.22364513
+308,Beverages,Coffee beans and ground coffee,,,2,-1.759468373
+309,Beverages,Instant coffee,,,2,0.577325274
+310,Beverages,Malt drinks and chocolate versions of malted drinks,,,2,-0.104649353
+311,Beverages,Tea,,,2,-0.089132105
+312,Biscuits and crispbreads,,,,2,0.340541122
+313,Biscuits and crispbreads,Biscuits other than chocolate,,,2,-0.169591949
+314,Biscuits and crispbreads,Biscuits other than chocolate,Cream crackers and other unsweetened biscuits,,2,0.489429841
+315,Biscuits and crispbreads,Biscuits other than chocolate,Sweet biscuits (not chocolate) and cereal bars,,2,-0.494180858
+316,Biscuits and crispbreads,Chocolate biscuits,,,2,0.76473256
+317,Biscuits and crispbreads,Crispbread,,,2,-0.459349157
+318,Bread,,,,2,0.90576092
+319,Bread,Brown and wholemeal bread,,,2,-0.297674973
+320,Bread,Brown and wholemeal bread,"Brown bread, sliced and unsliced",,2,0.57805003
+321,Bread,Brown and wholemeal bread,"Wholemeal and granary bread, sliced and unsliced",,2,-0.727508765
+322,Bread,Total other bread,,,2,0.390387228
+323,Bread,Total other bread,Malt bread and fruit loaves,,2,0.975247484
+324,Bread,Total other bread,Other breads,,2,2.264498501
+325,Bread,Total other bread,"Rolls - white, brown or wholemeal",,2,2.1302819
+326,Bread,Total other bread,Sandwiches,,2,1.258947144
+327,Bread,Total other bread,Sandwiches from takeaway,,2,0.609008197
+328,Bread,Total other bread,Starch reduced bread and rolls,,2,2.019788195
+329,Bread,Total other bread,Takeaway breads,,2,1.157166423
+330,Bread,Total other bread,Vienna and french bread,,2,0.582415717
+331,Bread,White bread,,,2,1.287270494
+332,Bread,White bread,"White bread, premium, sliced and unsliced",,2,3.141285164
+333,Bread,White bread,"White bread, soft grain, sliced and unsliced",,2,0.97785043
+334,Bread,White bread,"White bread, standard, sliced",,2,0.809313194
+335,Bread,White bread,"White bread, standard, unsliced",,2,3.275848765
+336,"Cakes, buns and pastries",,,,2,-1.10265435
+337,"Cakes, buns and pastries","Buns, scones and teacakes",,,2,-0.098942887
+338,"Cakes, buns and pastries",Cakes and pastries,,,2,-2.284759108
+339,"Cakes, buns and pastries",Cakes and pastries,"Cakes and pastries, not frozen",,2,-2.239257898
+340,"Cakes, buns and pastries",Cakes and pastries,Takeaway pastries,,2,0.832241325
+341,Carcase meat,,,,2,1.428214156
+342,Carcase meat,Beef and veal,,,2,1.803690578
+343,Carcase meat,Beef and veal,All other beef and veal,,2,0.029801207
+344,Carcase meat,Beef and veal,Beef joints - boned,,2,2.217353217
+345,Carcase meat,Beef and veal,Beef joints - on the bone,,2,1.681506353
+346,Carcase meat,Beef and veal,Beef steak - less expensive,,2,1.114552112
+347,Carcase meat,Beef and veal,Beef steak - more expensive,,2,1.568375722
+348,Carcase meat,Beef and veal,Minced beef,,2,0.273012146
+349,Carcase meat,Mutton and lamb,,,2,1.210576186
+350,Carcase meat,Mutton and lamb,All other lamb,,2,1.238062548
+351,Carcase meat,Mutton and lamb,Lamb chops,,2,1.628768055
+352,Carcase meat,Mutton and lamb,Lamb joints,,2,1.17790904
+353,Carcase meat,Mutton and lamb,Mutton,,2,1.685715999
+354,Carcase meat,Pork,,,2,0.424354916
+355,Carcase meat,Pork,All other pork,,2,-1.324423443
+356,Carcase meat,Pork,Pork chops,,2,1.252097195
+357,Carcase meat,Pork,Pork fillets and steaks,,2,1.55248202
+358,Carcase meat,Pork,Pork joints,,2,1.356813374
+359,Cheese,,,,2,-0.291749387
+360,Cheese,Natural cheese,,,2,-0.275588138
+361,Cheese,Natural cheese,Cottage cheese,,2,0.675807838
+362,Cheese,Natural cheese,Hard cheese - cheddar type,,2,-0.267748978
+363,Cheese,Natural cheese,Hard cheese - edam or other foreign,,2,0.780611783
+364,Cheese,Natural cheese,Hard cheese - other uk or foreign equivalent,,2,1.308086403
+365,Cheese,Natural cheese,Soft natural cheese,,2,2.502651671
+366,Cheese,Processed cheese,,,2,-0.291114908
+367,Confectionery,,,,2,0.212087304
+368,Confectionery,Chewing gum,,,2,0.985962733
+369,Confectionery,Chocolate bars - filled,,,2,-0.016512243
+370,Confectionery,Chocolate bars - solid,,,2,0.454622284
+371,Confectionery,"Fudges, toffees, caramels",,,2,0.029861473
+372,Confectionery,Mints and boiled sweets,,,2,0.291828041
+373,Confectionery,Mints and boiled sweets,Boiled sweets,,2,0.525466733
+374,Confectionery,Mints and boiled sweets,Mints,,2,1.95567437
+375,Eggs,,,,2,0.192399135
+376,Fats,,,,2,0.72117122
+377,Fats,All other fats,,,2,1.700032189
+378,Fats,All other fats,Imitatation cream,,2,0.897712101
+379,Fats,All other fats,Low fat spreads,,2,0.902274215
+380,Fats,All other fats,Reduced fat spreads,,2,1.175439358
+381,Fats,All other fats,Suet and dripping,,2,0.462772937
+382,Fats,Butter,,,2,0.212103583
+383,Fats,Margarine,,,2,-0.829345025
+384,Fats,Margarine,Other margarine,,2,-0.094180474
+385,Fats,Margarine,Soft margarine,,2,-0.866895256
+386,Fats,Vegetable and salad oils,,,2,0.298815708
+387,Fats,Vegetable and salad oils,Olive oil,,2,1.086176467
+388,Fats,Vegetable and salad oils,Other vegetable and salad oils,,2,0.379523714
+389,Fish,,,,2,2.312833401
+390,Fish,"Blue fish, dried or salted or smoked",,,2,-0.247879289
+391,Fish,"Herrings and other blue fish, fresh, chilled or frozen",,,2,1.083602916
+392,Fish,"Herrings and other blue fish, fresh, chilled or frozen","Herrings and other blue fish, fresh or chilled",,2,0.926790178
+393,Fish,"Herrings and other blue fish, fresh, chilled or frozen","Herrings and other blue fish, frozen",,2,0.717080026
+394,Fish,Other tinned or bottled fish,,,2,0.663544038
+395,Fish,Ready meals and other fish products - frozen or not frozen,,,2,-1.689303703
+396,Fish,"Salmon, fresh, chilled or frozen",,,2,-0.572356435
+397,Fish,"Salmon, fresh, chilled or frozen","Salmon, fresh or chilled",,2,-0.399705179
+398,Fish,"Salmon, fresh, chilled or frozen","Salmon, frozen",,2,0.097025249
+399,Fish,"Salmon, tinned",,,2,2.009653698
+400,Fish,Shellfish,,,2,1.69239345
+401,Fish,Shellfish,"Shellfish, fresh or chilled",,2,2.017916824
+402,Fish,Shellfish,"Shellfish, frozen",,2,-0.54928915
+403,Fish,Takeaway fish,,,2,2.162101473
+404,Fish,Takeaway fish meals and fish products,,,2,0.68383639
+405,Fish,Takeaway fish meals and fish products,Takeaway fish based meals,,2,1.259481248
+406,Fish,Takeaway fish meals and fish products,Takeaway fish products,,2,1.044445197
+407,Fish,"White fish, dried, salted or smoked",,,2,-0.286298594
+408,Fish,"White fish, fresh, chilled or frozen",,,2,0.800994286
+409,Fish,"White fish, fresh, chilled or frozen","White fish, fresh or chilled",,2,1.804096024
+410,Fish,"White fish, fresh, chilled or frozen","White fish, frozen",,2,-0.472059721
+411,Flour,,,,2,0.23719622
+412,Fresh and processed vegetables,Fresh fruit,,,2,0.596081544
+413,Fresh and processed vegetables,Fresh fruit,Fresh apples,,2,1.115955311
+414,Fresh and processed vegetables,Fresh fruit,Fresh bananas,,2,0.054089687
+415,Fresh and processed vegetables,Fresh fruit,Fresh grapes,,2,1.620375798
+416,Fresh and processed vegetables,Fresh fruit,Fresh melons,,2,0.714123178
+417,Fresh and processed vegetables,Fresh fruit,Fresh oranges,,2,-0.23665061
+418,Fresh and processed vegetables,Fresh fruit,Fresh pears,,2,0.275506578
+419,Fresh and processed vegetables,Fresh fruit,Fresh stone fruit,,2,1.228029408
+420,Fresh and processed vegetables,Fresh fruit,Other fresh citrus fruits,,2,1.035003079
+421,Fresh and processed vegetables,Fresh fruit,Other fresh fruit,,2,-0.065389712
+422,Fresh and processed vegetables,Fresh fruit,Other fresh soft fruit,,2,-0.749863346
+423,Fresh and processed vegetables,Processed fruit and fruit products,,,2,0.886969203
+424,Fresh and processed vegetables,Processed fruit and fruit products,All other tinned or bottled fruit,,2,0.518032287
+425,Fresh and processed vegetables,Processed fruit and fruit products,Dried fruit,,2,0.389806836
+426,Fresh and processed vegetables,Processed fruit and fruit products,"Frozen strawberries, apple slices, peach halves, oranges and other frozen fruits",,2,2.243233938
+427,Fresh and processed vegetables,Processed fruit and fruit products,"Nuts, edible seeds and peanut butter",,2,-1.068750316
+428,Fresh and processed vegetables,Processed fruit and fruit products,Pure fruit juices,,2,0.12607959
+429,Fresh and processed vegetables,Processed fruit and fruit products,"Tinned peaches, pears and pineapples",,2,-0.020816817
+430,Fresh and processed vegetables,Fresh potatoes,,,2,1.104015129
+431,Fresh and processed vegetables,Fresh potatoes,Fresh baking potatoes (e),,2,0.253745319
+432,Fresh and processed vegetables,Fresh potatoes,Fresh new potatoes (e),,2,1.635305066
+433,Fresh and processed vegetables,Fresh potatoes,Other fresh potatoes (e),,2,0.902889859
+434,Fresh and processed vegetables,Processed potatoes,,,2,-0.005459142
+435,Fresh and processed vegetables,Processed potatoes,Chips and takeaway chips,,2,-0.017086162
+436,Fresh and processed vegetables,Processed potatoes,Crisps and potato snacks,,2,0.078914139
+437,Fresh and processed vegetables,Processed potatoes,Instant potato,,2,0.164275146
+438,Fresh and processed vegetables,Processed potatoes,"Other potato products, frozen or not frozen",,2,1.402319724
+439,Fresh and processed vegetables,Fresh and processed fruit,,,2,0.966504778
+440,Fresh and processed vegetables,"Fresh and processed fruit and vegetables, excluding potatoes",,,2,0.722441493
+441,Fresh and processed vegetables,"Fresh and processed fruit and vegetables, including potatoes",,,2,1.2605278
+442,Fresh and processed vegetables,Fresh and processed potatoes,,,2,1.544834873
+443,Fresh and processed vegetables,"Fresh and processed vegetables, excluding potatoes",,,2,0.490807826
+444,Fresh and processed vegetables,"Fresh and processed vegetables, including potatoes",,,2,1.341288826
+445,Fresh and processed vegetables,Fresh green vegetables,,,2,1.385499072
+446,Fresh and processed vegetables,Fresh green vegetables,Fresh beans,,2,0.639923333
+447,Fresh and processed vegetables,Fresh green vegetables,Fresh brussels sprouts,,2,1.529413014
+448,Fresh and processed vegetables,Fresh green vegetables,Fresh cabbages,,2,1.012547988
+449,Fresh and processed vegetables,Fresh green vegetables,Fresh cauliflower,,2,1.216846359
+450,Fresh and processed vegetables,Fresh green vegetables,Fresh peas,,2,1.059599118
+451,Fresh and processed vegetables,Fresh green vegetables,Leafy salads fresh,,2,0.567806234
+452,Fresh and processed vegetables,Fresh green vegetables,Other fresh green vegetables,,2,-0.035445848
+453,Fresh and processed vegetables,Other fresh vegetables,,,2,-0.107526347
+454,Fresh and processed vegetables,Other fresh vegetables,Fresh carrots,,2,0.016703872
+455,Fresh and processed vegetables,Other fresh vegetables,Fresh cucumbers,,2,0.751918381
+456,Fresh and processed vegetables,Other fresh vegetables,Fresh mushrooms,,2,0.299139461
+457,Fresh and processed vegetables,Other fresh vegetables,"Fresh onions, leeks and shallots",,2,0.738214844
+458,Fresh and processed vegetables,Other fresh vegetables,Fresh tomatoes,,2,0.790131216
+459,Fresh and processed vegetables,Other fresh vegetables,Fresh turnips and swede,,2,1.514854224
+460,Fresh and processed vegetables,Other fresh vegetables,Miscellaneous fresh vegtables,,2,1.837538558
+461,Fresh and processed vegetables,Other fresh vegetables,Other fresh root vegetables,,2,0.652227609
+462,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,,,2,0.638412335
+463,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Beans canned,,2,0.10396988
+464,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Beans, frozen",,2,-0.381817137
+465,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Dried pulses other than air-dried,,2,0.552443004
+466,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Other canned vegetables,,2,2.404127633
+467,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Other frozen vegetables,,2,0.289777091
+468,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Peas, canned",,2,1.764775053
+469,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Peas, frozen",,2,0.407577316
+470,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Ready meals and other vegetable products (inc takeaways),,2,0.533564772
+471,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Tomatoes, canned or bottled",,2,-0.045877092
+472,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Vegetable juices and purees,,2,1.224159393
+473,Milk and milk products excluding cheese,,,,2,-0.029459427
+474,Milk and milk products excluding cheese,"Liquid wholemilk, including school and welfare",,,2,-1.872775033
+475,Milk and milk products excluding cheese,"Liquid wholemilk, including school and welfare","Liquid wholemilk, full price",,2,-1.755639966
+476,Milk and milk products excluding cheese,Other milk and cream,,,2,0.179769469
+477,Milk and milk products excluding cheese,Other milk and cream,Condensed or evaporated milk,,2,1.451841791
+478,Milk and milk products excluding cheese,Other milk and cream,Cream,,2,1.044582651
+479,Milk and milk products excluding cheese,Other milk and cream,Infant milks,,2,-0.540073653
+480,Milk and milk products excluding cheese,Other milk and cream,Other milks and dairy desserts,,2,0.993592987
+481,Milk and milk products excluding cheese,Other milk and cream,Skimmed milks,,2,0.250085852
+482,Milk and milk products excluding cheese,Other milk and cream,Yoghurt and fromage frais,,2,1.697074415
+483,Non-carcase meat and meat products,,,,2,-0.424906419
+484,Non-carcase meat and meat products,All offal other than liver,,,2,-0.336305301
+485,Non-carcase meat and meat products,"Bacon and ham, cooked",,,2,0.160200881
+486,Non-carcase meat and meat products,"Bacon and ham, uncooked",,,2,-0.652910951
+487,Non-carcase meat and meat products,"Bacon and ham, uncooked","Bacon and ham joints, uncooked",,2,0.17934022
+488,Non-carcase meat and meat products,"Bacon and ham, uncooked","Bacon and ham rashers, uncooked",,2,-1.048190473
+489,Non-carcase meat and meat products,"Burgers, frozen or not frozen",,,2,0.094768611
+490,Non-carcase meat and meat products,"Chicken, uncooked - whole chicken or chicken pieces",,,2,0.016154057
+491,Non-carcase meat and meat products,Cooked poultry not purchased in cans,,,2,1.648405256
+492,Non-carcase meat and meat products,Cooked poultry not purchased in cans,"Chicken and turkey, cooked",,2,1.634086757
+493,Non-carcase meat and meat products,Cooked poultry not purchased in cans,Takeaway chicken,,2,0.903654386
+494,Non-carcase meat and meat products,"Corned beef, canned or sliced",,,2,0.813990828
+495,Non-carcase meat and meat products,Liver,,,2,-0.045998634
+496,Non-carcase meat and meat products,Liver,Lambs liver,,2,-0.880501944
+497,Non-carcase meat and meat products,Meat pastes and spreads,,,2,0.099815272
+498,Non-carcase meat and meat products,"Meat pies and sausage rolls, ready to eat",,,2,-3.351029388
+499,Non-carcase meat and meat products,"Meat pies and sausage rolls, ready to eat","Meat pies, ready to eat",,2,-1.527348109
+500,Non-carcase meat and meat products,"Meat pies and sausage rolls, ready to eat","Sausage rolls, ready to eat",,2,0.628600038
+501,Non-carcase meat and meat products,"Meat pies, pasties and puddings, frozen or not frozen",,,2,-1.140958505
+502,Non-carcase meat and meat products,Other canned meat and canned meat products,,,2,1.336578246
+503,Non-carcase meat and meat products,Other cooked meat,,,2,1.31152414
+504,Non-carcase meat and meat products,"Other fresh, chilled and frozen meat",,,2,0.430258216
+505,Non-carcase meat and meat products,"Other poultry, uncooked (including frozen)",,,2,1.683035868
+506,Non-carcase meat and meat products,"Other poultry, uncooked (including frozen)","Poultry other than chicken or turkey, uncooked",,2,-0.021873426
+507,Non-carcase meat and meat products,"Other poultry, uncooked (including frozen)","Turkey, uncooked - whole turkey or turkey pieces",,2,1.827449896
+508,Non-carcase meat and meat products,Pate and delicatessen type sausage,,,2,1.369229967
+509,Non-carcase meat and meat products,Pate and delicatessen type sausage,Delicatessen type sausages,,2,1.097876816
+510,Non-carcase meat and meat products,Pate and delicatessen type sausage,Pate,,2,0.36510662
+511,Non-carcase meat and meat products,Ready meals and convenience meat products,,,2,0.903291051
+512,Non-carcase meat and meat products,Ready meals and convenience meat products,"Complete meat-based ready meals, frozen or not frozen",,2,0.091434111
+513,Non-carcase meat and meat products,Ready meals and convenience meat products,"Other convenience meat products, frozen or not frozen",,2,1.063370332
+514,Non-carcase meat and meat products,"Sausages, uncooked - beef and other sausages",,,2,0.876252965
+515,Non-carcase meat and meat products,"Sausages, uncooked - pork",,,2,0.868649905
+516,Non-carcase meat and meat products,Takeaway meats,,,2,-0.094271503
+517,Non-carcase meat and meat products,Takeaway meats,Takeaway burger and bun,,2,1.535476088
+518,Non-carcase meat and meat products,Takeaway meats,Takeaway kebabs,,2,-0.020915808
+519,Non-carcase meat and meat products,Takeaway meats,Takeaway meat based meals,,2,-0.42261676
+520,Non-carcase meat and meat products,Takeaway meats,Takeaway meat pies and pasties,,2,2.444397382
+521,Non-carcase meat and meat products,Takeaway meats,Takeaway sausages and saveloys,,2,0.554170908
+522,Other cereals and cereal products,,,,2,0.790189132
+523,Other cereals and cereal products,Breakfast cereals,,,2,-0.29104105
+524,Other cereals and cereal products,Breakfast cereals,High fibre breakfast cereals,,2,-0.476045509
+525,Other cereals and cereal products,Breakfast cereals,Muesli,,2,0.266735469
+526,Other cereals and cereal products,Breakfast cereals,Other breakfast cereals,,2,0.425315349
+527,Other cereals and cereal products,Breakfast cereals,Sweetened breakfast cereals,,2,0.39706941
+528,Other cereals and cereal products,Cakes and pastries - frozen,,,2,-0.038378527
+529,Other cereals and cereal products,Canned milk puddings,,,2,0.430540415
+530,Other cereals and cereal products,Canned milk puddings,All canned milk puddings,,2,0.533329897
+531,Other cereals and cereal products,Canned milk puddings,Canned or fresh carton custard,,2,0.804600514
+532,Other cereals and cereal products,Infant cereal foods,,,2,0.067001221
+533,Other cereals and cereal products,"Invalid foods, slimming foods and sports foods",,,2,0.192843784
+534,Other cereals and cereal products,Oatmeal and oat products,,,2,-0.112781033
+535,Other cereals and cereal products,Other cereal convenience foods,,,2,1.106798745
+536,Other cereals and cereal products,Other cereal convenience foods,"Cake, pudding and dessert mixes",,2,0.976579701
+537,Other cereals and cereal products,Other cereal convenience foods,Cereal snacks,,2,1.068566734
+538,Other cereals and cereal products,Other cereal convenience foods,"Other cereal foods, frozen and not frozen",,2,1.52267556
+539,Other cereals and cereal products,Other cereal convenience foods,"Quiches and flans, frozen and not frozen",,2,-0.458535212
+540,Other cereals and cereal products,Other cereal convenience foods,"Takeaway crisps, savoury snacks, popcorn, popadums, prawn crackers",,2,1.320274592
+541,Other cereals and cereal products,Other cereals,,,2,0.364070822
+542,Other cereals and cereal products,Pasta,,,2,0.365630474
+543,Other cereals and cereal products,Pasta,Canned pasta,,2,-0.284043487
+544,Other cereals and cereal products,Pasta,Dried and fresh pasta,,2,0.327745634
+545,Other cereals and cereal products,Pasta,Takeaway pasta and noodles,,2,1.572948257
+546,Other cereals and cereal products,Pizza,,,2,0.640464375
+547,Other cereals and cereal products,Pizza,"Pizzas, frozen and not frozen",,2,1.00292141
+548,Other cereals and cereal products,Pizza,Takeaway pizza,,2,0.646291232
+549,Other cereals and cereal products,Puddings,,,2,1.399710346
+550,Other cereals and cereal products,Rice,,,2,1.135132708
+551,Other cereals and cereal products,Rice,Cooked rice,,2,0.789844086
+552,Other cereals and cereal products,Rice,Dried rice,,2,1.239761388
+553,Other cereals and cereal products,Rice,Takeaway rice,,2,0.698136662
+554,Other food and drink,,,,2,1.016524242
+555,Other food and drink,Baby foods,,,2,1.666070282
+556,Other food and drink,Ice cream products including takeaways,,,2,0.614216714
+557,Other food and drink,Ice cream products including takeaways,"Ice cream cornets, choc-ices, lollies with ice cream",,2,0.252610255
+558,Other food and drink,Ice cream products including takeaways,"Ice lollies, sorbet, frozen mousse, frozen yoghurt",,2,1.138455794
+559,Other food and drink,Ice cream products including takeaways,"Takeaway ice cream, ice cream products, milkshakes",,2,2.024131777
+560,Other food and drink,Ice cream tub or block,,,2,1.097263131
+561,Other food and drink,Jelly squares or crystals,,,2,0.44635694
+562,Other food and drink,Mineral or spring waters,,,2,1.514880712
+563,Other food and drink,Pickles and sauces,,,2,0.699396681
+564,Other food and drink,Pickles and sauces,Pickles,,2,-1.066438038
+565,Other food and drink,Pickles and sauces,Sauces,,2,1.172478816
+566,Other food and drink,Pickles and sauces,Takeaway sauces and mayonnnaise,,2,0.308427744
+567,Other food and drink,Salt,,,2,0.945794041
+568,Other food and drink,Soups - canned or cartons,,,2,0.578602898
+569,Other food and drink,Soups - dehydrated or powdered,,,2,0.947480391
+570,Other food and drink,Soups - from takeaway,,,2,1.316656328
+571,Other food and drink,Soya and novel protein foods,,,2,2.128559204
+572,Other food and drink,Spreads and dressings,,,2,1.687366565
+573,Other food and drink,Spreads and dressings,Other spreads and dresssings,,2,-0.06886916
+574,Other food and drink,Spreads and dressings,Salad dressings,,2,1.602321386
+575,Other food and drink,Stock cubes and meat and yeast extracts,,,2,0.325239413
+576,Soft drinks,,,,2,1.043367033
+577,Soft drinks,"Soft drinks, concentrated, low calorie",,,2,0.390698113
+578,Soft drinks,"Soft drinks, concentrated, not low calorie",,,2,1.359724417
+579,Soft drinks,"Soft drinks, not concentrated,  not low calorie",,,2,1.770534051
+580,Soft drinks,"Soft drinks, not concentrated, low calorie",,,2,-0.33596669
+581,Sugar and preserves,,,,2,0.834739689
+582,Sugar and preserves,Honey,,,2,-0.245016071
+583,Sugar and preserves,Jams and fruit curds,,,2,-1.247723469
+584,Sugar and preserves,Marmalade,,,2,-0.627877653
+585,Sugar and preserves,Sugar,,,2,1.270423987
+586,Sugar and preserves,"Syrup, treacle",,,2,-0.511275063
+587,Alcoholic drinks,,,,3,0.402584275
+588,Alcoholic drinks,Alcopops,,,3,-1.707527617
+589,Alcoholic drinks,Beers,,,3,-0.947915672
+590,Alcoholic drinks,Ciders and perry,,,3,-1.023731795
+591,Alcoholic drinks,Fortified wines,,,3,2.214205018
+592,Alcoholic drinks,Lagers and continental beers,,,3,-0.186363649
+593,Alcoholic drinks,Liqueurs and cocktails,,,3,1.717117909
+594,Alcoholic drinks,Spirits,,,3,0.664986615
+595,Alcoholic drinks,Spirits with mixer,,,3,0.949321786
+596,Alcoholic drinks,Wine and champagne,,,3,-0.602794184
+597,Alcoholic drinks,Wine and champagne,"Champagne, sparkling wines and wine with mixer",,3,-0.134821624
+598,Alcoholic drinks,Wine and champagne,Table wine,,3,-0.614346111
+599,Beverages,,,,3,0.006123956
+600,Beverages,Cocoa and chocolate drinks,,,3,0.970329419
+601,Beverages,Coffee beans and ground coffee,,,3,0.654320349
+602,Beverages,Instant coffee,,,3,0.67677859
+603,Beverages,Malt drinks and chocolate versions of malted drinks,,,3,2.302243805
+604,Beverages,Tea,,,3,-0.523381951
+605,Biscuits and crispbreads,,,,3,0.262847918
+606,Biscuits and crispbreads,Biscuits other than chocolate,,,3,-0.1001856
+607,Biscuits and crispbreads,Biscuits other than chocolate,Cream crackers and other unsweetened biscuits,,3,0.18742427
+608,Biscuits and crispbreads,Biscuits other than chocolate,Sweet biscuits (not chocolate) and cereal bars,,3,-0.313412093
+609,Biscuits and crispbreads,Chocolate biscuits,,,3,0.729976843
+610,Biscuits and crispbreads,Crispbread,,,3,-0.288901334
+611,Bread,,,,3,0.689886888
+612,Bread,Brown and wholemeal bread,,,3,-0.631651453
+613,Bread,Brown and wholemeal bread,"Brown bread, sliced and unsliced",,3,0.307621214
+614,Bread,Brown and wholemeal bread,"Wholemeal and granary bread, sliced and unsliced",,3,-0.954803772
+615,Bread,Total other bread,,,3,0.608743842
+616,Bread,Total other bread,Malt bread and fruit loaves,,3,1.066333621
+617,Bread,Total other bread,Other breads,,3,2.925533864
+618,Bread,Total other bread,"Rolls - white, brown or wholemeal",,3,1.279538505
+619,Bread,Total other bread,Sandwiches,,3,2.126773411
+620,Bread,Total other bread,Sandwiches from takeaway,,3,0.954025924
+621,Bread,Total other bread,Starch reduced bread and rolls,,3,1.831499885
+622,Bread,Total other bread,Takeaway breads,,3,1.123598483
+623,Bread,Total other bread,Vienna and french bread,,3,0.27642207
+624,Bread,White bread,,,3,1.251107239
+625,Bread,White bread,"White bread, premium, sliced and unsliced",,3,7.291153657
+626,Bread,White bread,"White bread, soft grain, sliced and unsliced",,3,1.860940496
+627,Bread,White bread,"White bread, standard, sliced",,3,0.945801901
+628,Bread,White bread,"White bread, standard, unsliced",,3,2.215088955
+629,"Cakes, buns and pastries",,,,3,0.014307347
+630,"Cakes, buns and pastries","Buns, scones and teacakes",,,3,-0.536282939
+631,"Cakes, buns and pastries",Cakes and pastries,,,3,-0.107720695
+632,"Cakes, buns and pastries",Cakes and pastries,"Cakes and pastries, not frozen",,3,-0.132607539
+633,"Cakes, buns and pastries",Cakes and pastries,Takeaway pastries,,3,0.391436456
+634,Carcase meat,,,,3,1.446985748
+635,Carcase meat,Beef and veal,,,3,1.112795356
+636,Carcase meat,Beef and veal,All other beef and veal,,3,0.84400577
+637,Carcase meat,Beef and veal,Beef joints - boned,,3,2.820346797
+638,Carcase meat,Beef and veal,Beef joints - on the bone,,3,1.213721107
+639,Carcase meat,Beef and veal,Beef steak - less expensive,,3,0.232936343
+640,Carcase meat,Beef and veal,Beef steak - more expensive,,3,1.0599655
+641,Carcase meat,Beef and veal,Minced beef,,3,0.127200253
+642,Carcase meat,Mutton and lamb,,,3,1.029803249
+643,Carcase meat,Mutton and lamb,All other lamb,,3,0.473586289
+644,Carcase meat,Mutton and lamb,Lamb chops,,3,1.241062608
+645,Carcase meat,Mutton and lamb,Lamb joints,,3,0.839071885
+646,Carcase meat,Mutton and lamb,Mutton,,3,1.293360559
+647,Carcase meat,Pork,,,3,0.197338383
+648,Carcase meat,Pork,All other pork,,3,-0.984689557
+649,Carcase meat,Pork,Pork chops,,3,-0.956650871
+650,Carcase meat,Pork,Pork fillets and steaks,,3,1.013583647
+651,Carcase meat,Pork,Pork joints,,3,1.692790278
+652,Cheese,,,,3,-0.191050084
+653,Cheese,Natural cheese,,,3,-0.371763959
+654,Cheese,Natural cheese,Cottage cheese,,3,0.544894503
+655,Cheese,Natural cheese,Hard cheese - cheddar type,,3,-0.462636911
+656,Cheese,Natural cheese,Hard cheese - edam or other foreign,,3,0.440717449
+657,Cheese,Natural cheese,Hard cheese - other uk or foreign equivalent,,3,1.344841496
+658,Cheese,Natural cheese,Soft natural cheese,,3,2.223588909
+659,Cheese,Processed cheese,,,3,-0.765835267
+660,Confectionery,,,,3,0.415107033
+661,Confectionery,Chewing gum,,,3,1.968331352
+662,Confectionery,Chocolate bars - filled,,,3,0.322460526
+663,Confectionery,Chocolate bars - solid,,,3,0.482405824
+664,Confectionery,"Fudges, toffees, caramels",,,3,-0.189312308
+665,Confectionery,Mints and boiled sweets,,,3,0.027162559
+666,Confectionery,Mints and boiled sweets,Boiled sweets,,3,0.073626221
+667,Confectionery,Mints and boiled sweets,Mints,,3,2.159456522
+668,Eggs,,,,3,-0.25928017
+669,Fats,,,,3,0.256841545
+670,Fats,All other fats,,,3,2.426279089
+671,Fats,All other fats,Imitatation cream,,3,0.196371964
+672,Fats,All other fats,Low fat spreads,,3,0.650805541
+673,Fats,All other fats,Reduced fat spreads,,3,2.212313465
+674,Fats,All other fats,Suet and dripping,,3,0.286090909
+675,Fats,Butter,,,3,-0.63117176
+676,Fats,Margarine,,,3,-1.241998215
+677,Fats,Margarine,Other margarine,,3,-1.12881865
+678,Fats,Margarine,Soft margarine,,3,-1.380862152
+679,Fats,Vegetable and salad oils,,,3,-0.227101038
+680,Fats,Vegetable and salad oils,Olive oil,,3,1.126528425
+681,Fats,Vegetable and salad oils,Other vegetable and salad oils,,3,-0.075839989
+682,Fish,,,,3,1.056875605
+683,Fish,"Blue fish, dried or salted or smoked",,,3,-0.332212365
+684,Fish,"Herrings and other blue fish, fresh, chilled or frozen",,,3,0.949735207
+685,Fish,"Herrings and other blue fish, fresh, chilled or frozen","Herrings and other blue fish, fresh or chilled",,3,0.978276073
+686,Fish,"Herrings and other blue fish, fresh, chilled or frozen","Herrings and other blue fish, frozen",,3,0.223533135
+687,Fish,Other tinned or bottled fish,,,3,0.666588077
+688,Fish,Ready meals and other fish products - frozen or not frozen,,,3,-1.276361849
+689,Fish,"Salmon, fresh, chilled or frozen",,,3,-0.559239551
+690,Fish,"Salmon, fresh, chilled or frozen","Salmon, fresh or chilled",,3,-0.450740516
+691,Fish,"Salmon, fresh, chilled or frozen","Salmon, frozen",,3,-1.037080378
+692,Fish,"Salmon, tinned",,,3,1.759648921
+693,Fish,Shellfish,,,3,0.269952013
+694,Fish,Shellfish,"Shellfish, fresh or chilled",,3,1.341955295
+695,Fish,Shellfish,"Shellfish, frozen",,3,1.494339161
+696,Fish,Takeaway fish,,,3,2.213009346
+697,Fish,Takeaway fish meals and fish products,,,3,0.287047167
+698,Fish,Takeaway fish meals and fish products,Takeaway fish based meals,,3,0.429114308
+699,Fish,Takeaway fish meals and fish products,Takeaway fish products,,3,1.659946131
+700,Fish,"White fish, dried, salted or smoked",,,3,1.089121945
+701,Fish,"White fish, fresh, chilled or frozen",,,3,0.720019791
+702,Fish,"White fish, fresh, chilled or frozen","White fish, fresh or chilled",,3,0.529642531
+703,Fish,"White fish, fresh, chilled or frozen","White fish, frozen",,3,-0.332287065
+704,Flour,,,,3,-0.119653737
+705,Fresh and processed vegetables,Fresh fruit,,,3,0.325460855
+706,Fresh and processed vegetables,Fresh fruit,Fresh apples,,3,1.114609451
+707,Fresh and processed vegetables,Fresh fruit,Fresh bananas,,3,0.328926074
+708,Fresh and processed vegetables,Fresh fruit,Fresh grapes,,3,0.952337856
+709,Fresh and processed vegetables,Fresh fruit,Fresh melons,,3,1.545589628
+710,Fresh and processed vegetables,Fresh fruit,Fresh oranges,,3,0.738955526
+711,Fresh and processed vegetables,Fresh fruit,Fresh pears,,3,1.615008644
+712,Fresh and processed vegetables,Fresh fruit,Fresh stone fruit,,3,1.236817572
+713,Fresh and processed vegetables,Fresh fruit,Other fresh citrus fruits,,3,0.517375666
+714,Fresh and processed vegetables,Fresh fruit,Other fresh fruit,,3,1.611753587
+715,Fresh and processed vegetables,Fresh fruit,Other fresh soft fruit,,3,-1.323925512
+716,Fresh and processed vegetables,Processed fruit and fruit products,,,3,0.716949106
+717,Fresh and processed vegetables,Processed fruit and fruit products,All other tinned or bottled fruit,,3,0.881020267
+718,Fresh and processed vegetables,Processed fruit and fruit products,Dried fruit,,3,0.090969189
+719,Fresh and processed vegetables,Processed fruit and fruit products,"Frozen strawberries, apple slices, peach halves, oranges and other frozen fruits",,3,1.777661395
+720,Fresh and processed vegetables,Processed fruit and fruit products,"Nuts, edible seeds and peanut butter",,3,0.058530164
+721,Fresh and processed vegetables,Processed fruit and fruit products,Pure fruit juices,,3,0.61601883
+722,Fresh and processed vegetables,Processed fruit and fruit products,"Tinned peaches, pears and pineapples",,3,1.287049283
+723,Fresh and processed vegetables,Fresh potatoes,,,3,1.105050703
+724,Fresh and processed vegetables,Fresh potatoes,Fresh baking potatoes (e),,3,-0.023555269
+725,Fresh and processed vegetables,Fresh potatoes,Fresh new potatoes (e),,3,1.792883248
+726,Fresh and processed vegetables,Fresh potatoes,Other fresh potatoes (e),,3,0.888252169
+727,Fresh and processed vegetables,Processed potatoes,,,3,0.489230284
+728,Fresh and processed vegetables,Processed potatoes,Chips and takeaway chips,,3,0.120210966
+729,Fresh and processed vegetables,Processed potatoes,Crisps and potato snacks,,3,0.738244651
+730,Fresh and processed vegetables,Processed potatoes,Instant potato,,3,-0.409827346
+731,Fresh and processed vegetables,Processed potatoes,"Other potato products, frozen or not frozen",,3,0.326427964
+732,Fresh and processed vegetables,Fresh and processed fruit,,,3,0.495117313
+733,Fresh and processed vegetables,"Fresh and processed fruit and vegetables, excluding potatoes",,,3,0.250978993
+734,Fresh and processed vegetables,"Fresh and processed fruit and vegetables, including potatoes",,,3,0.683263676
+735,Fresh and processed vegetables,Fresh and processed potatoes,,,3,1.557567105
+736,Fresh and processed vegetables,"Fresh and processed vegetables, excluding potatoes",,,3,-0.038945969
+737,Fresh and processed vegetables,"Fresh and processed vegetables, including potatoes",,,3,0.80271563
+738,Fresh and processed vegetables,Fresh green vegetables,,,3,1.034281383
+739,Fresh and processed vegetables,Fresh green vegetables,Fresh beans,,3,0.41301047
+740,Fresh and processed vegetables,Fresh green vegetables,Fresh brussels sprouts,,3,0.620165659
+741,Fresh and processed vegetables,Fresh green vegetables,Fresh cabbages,,3,1.755746967
+742,Fresh and processed vegetables,Fresh green vegetables,Fresh cauliflower,,3,0.794308879
+743,Fresh and processed vegetables,Fresh green vegetables,Fresh peas,,3,0.351726023
+744,Fresh and processed vegetables,Fresh green vegetables,Leafy salads fresh,,3,1.082798736
+745,Fresh and processed vegetables,Fresh green vegetables,Other fresh green vegetables,,3,-0.545137281
+746,Fresh and processed vegetables,Other fresh vegetables,,,3,-0.151706904
+747,Fresh and processed vegetables,Other fresh vegetables,Fresh carrots,,3,-0.004597845
+748,Fresh and processed vegetables,Other fresh vegetables,Fresh cucumbers,,3,0.492116402
+749,Fresh and processed vegetables,Other fresh vegetables,Fresh mushrooms,,3,0.470771229
+750,Fresh and processed vegetables,Other fresh vegetables,"Fresh onions, leeks and shallots",,3,0.45803731
+751,Fresh and processed vegetables,Other fresh vegetables,Fresh tomatoes,,3,0.501804851
+752,Fresh and processed vegetables,Other fresh vegetables,Fresh turnips and swede,,3,2.26920191
+753,Fresh and processed vegetables,Other fresh vegetables,Miscellaneous fresh vegtables,,3,2.515881958
+754,Fresh and processed vegetables,Other fresh vegetables,Other fresh root vegetables,,3,1.773198195
+755,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,,,3,0.732715722
+756,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Beans canned,,3,0.193736412
+757,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Beans, frozen",,3,-0.727229273
+758,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Dried pulses other than air-dried,,3,1.124098494
+759,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Other canned vegetables,,3,1.193065622
+760,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Other frozen vegetables,,3,0.174032593
+761,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Peas, canned",,3,1.690936736
+762,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Peas, frozen",,3,0.087388791
+763,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Ready meals and other vegetable products (inc takeaways),,3,0.536089001
+764,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Tomatoes, canned or bottled",,3,-0.2711872
+765,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Vegetable juices and purees,,3,0.64355592
+766,Milk and milk products excluding cheese,,,,3,-0.061077268
+767,Milk and milk products excluding cheese,"Liquid wholemilk, including school and welfare",,,3,-1.951253812
+768,Milk and milk products excluding cheese,"Liquid wholemilk, including school and welfare","Liquid wholemilk, full price",,3,-1.918790779
+769,Milk and milk products excluding cheese,Other milk and cream,,,3,0.129293675
+770,Milk and milk products excluding cheese,Other milk and cream,Condensed or evaporated milk,,3,1.052431272
+771,Milk and milk products excluding cheese,Other milk and cream,Cream,,3,1.35917871
+772,Milk and milk products excluding cheese,Other milk and cream,Infant milks,,3,-0.828248468
+773,Milk and milk products excluding cheese,Other milk and cream,Other milks and dairy desserts,,3,1.14887003
+774,Milk and milk products excluding cheese,Other milk and cream,Skimmed milks,,3,0.049384926
+775,Milk and milk products excluding cheese,Other milk and cream,Yoghurt and fromage frais,,3,1.320953137
+776,Non-carcase meat and meat products,,,,3,0.8520422
+777,Non-carcase meat and meat products,All offal other than liver,,,3,-0.043087652
+778,Non-carcase meat and meat products,"Bacon and ham, cooked",,,3,0.88622523
+779,Non-carcase meat and meat products,"Bacon and ham, uncooked",,,3,-0.079046007
+780,Non-carcase meat and meat products,"Bacon and ham, uncooked","Bacon and ham joints, uncooked",,3,0.744093407
+781,Non-carcase meat and meat products,"Bacon and ham, uncooked","Bacon and ham rashers, uncooked",,3,-0.618962525
+782,Non-carcase meat and meat products,"Burgers, frozen or not frozen",,,3,1.64787702
+783,Non-carcase meat and meat products,"Chicken, uncooked - whole chicken or chicken pieces",,,3,-0.528480526
+784,Non-carcase meat and meat products,Cooked poultry not purchased in cans,,,3,1.193485361
+785,Non-carcase meat and meat products,Cooked poultry not purchased in cans,"Chicken and turkey, cooked",,3,1.549219216
+786,Non-carcase meat and meat products,Cooked poultry not purchased in cans,Takeaway chicken,,3,0.622059159
+787,Non-carcase meat and meat products,"Corned beef, canned or sliced",,,3,0.891309128
+788,Non-carcase meat and meat products,Liver,,,3,-0.355288368
+789,Non-carcase meat and meat products,Liver,Lambs liver,,3,-0.242218851
+790,Non-carcase meat and meat products,Meat pastes and spreads,,,3,-3.732390296
+791,Non-carcase meat and meat products,"Meat pies and sausage rolls, ready to eat",,,3,-4.486450689
+792,Non-carcase meat and meat products,"Meat pies and sausage rolls, ready to eat","Meat pies, ready to eat",,3,-2.505313807
+793,Non-carcase meat and meat products,"Meat pies and sausage rolls, ready to eat","Sausage rolls, ready to eat",,3,1.15645109
+794,Non-carcase meat and meat products,"Meat pies, pasties and puddings, frozen or not frozen",,,3,-0.690816712
+795,Non-carcase meat and meat products,Other canned meat and canned meat products,,,3,1.525208141
+796,Non-carcase meat and meat products,Other cooked meat,,,3,-0.861749861
+797,Non-carcase meat and meat products,"Other fresh, chilled and frozen meat",,,3,0.356161155
+798,Non-carcase meat and meat products,"Other poultry, uncooked (including frozen)",,,3,1.161982381
+799,Non-carcase meat and meat products,"Other poultry, uncooked (including frozen)","Poultry other than chicken or turkey, uncooked",,3,0.436307317
+800,Non-carcase meat and meat products,"Other poultry, uncooked (including frozen)","Turkey, uncooked - whole turkey or turkey pieces",,3,1.557704529
+801,Non-carcase meat and meat products,Pate and delicatessen type sausage,,,3,-0.009366877
+802,Non-carcase meat and meat products,Pate and delicatessen type sausage,Delicatessen type sausages,,3,-0.648191113
+803,Non-carcase meat and meat products,Pate and delicatessen type sausage,Pate,,3,0.420052183
+804,Non-carcase meat and meat products,Ready meals and convenience meat products,,,3,0.696182891
+805,Non-carcase meat and meat products,Ready meals and convenience meat products,"Complete meat-based ready meals, frozen or not frozen",,3,0.209737045
+806,Non-carcase meat and meat products,Ready meals and convenience meat products,"Other convenience meat products, frozen or not frozen",,3,1.871385269
+807,Non-carcase meat and meat products,"Sausages, uncooked - beef and other sausages",,,3,1.217517777
+808,Non-carcase meat and meat products,"Sausages, uncooked - pork",,,3,0.339795327
+809,Non-carcase meat and meat products,Takeaway meats,,,3,-0.188328275
+810,Non-carcase meat and meat products,Takeaway meats,Takeaway burger and bun,,3,0.89453792
+811,Non-carcase meat and meat products,Takeaway meats,Takeaway kebabs,,3,0.911744808
+812,Non-carcase meat and meat products,Takeaway meats,Takeaway meat based meals,,3,-2.172406202
+813,Non-carcase meat and meat products,Takeaway meats,Takeaway meat pies and pasties,,3,1.621128849
+814,Non-carcase meat and meat products,Takeaway meats,Takeaway sausages and saveloys,,3,1.249755335
+815,Other cereals and cereal products,,,,3,0.838682446
+816,Other cereals and cereal products,Breakfast cereals,,,3,-0.318367883
+817,Other cereals and cereal products,Breakfast cereals,High fibre breakfast cereals,,3,0.088443328
+818,Other cereals and cereal products,Breakfast cereals,Muesli,,3,-0.400988795
+819,Other cereals and cereal products,Breakfast cereals,Other breakfast cereals,,3,0.612265842
+820,Other cereals and cereal products,Breakfast cereals,Sweetened breakfast cereals,,3,-0.361560533
+821,Other cereals and cereal products,Cakes and pastries - frozen,,,3,-0.127294525
+822,Other cereals and cereal products,Canned milk puddings,,,3,-0.14809505
+823,Other cereals and cereal products,Canned milk puddings,All canned milk puddings,,3,0.477080526
+824,Other cereals and cereal products,Canned milk puddings,Canned or fresh carton custard,,3,1.140451583
+825,Other cereals and cereal products,Infant cereal foods,,,3,0.46228784
+826,Other cereals and cereal products,"Invalid foods, slimming foods and sports foods",,,3,0.258848624
+827,Other cereals and cereal products,Oatmeal and oat products,,,3,-0.935264
+828,Other cereals and cereal products,Other cereal convenience foods,,,3,0.583356411
+829,Other cereals and cereal products,Other cereal convenience foods,"Cake, pudding and dessert mixes",,3,0.697639722
+830,Other cereals and cereal products,Other cereal convenience foods,Cereal snacks,,3,-1.174935162
+831,Other cereals and cereal products,Other cereal convenience foods,"Other cereal foods, frozen and not frozen",,3,1.361071849
+832,Other cereals and cereal products,Other cereal convenience foods,"Quiches and flans, frozen and not frozen",,3,0.960855386
+833,Other cereals and cereal products,Other cereal convenience foods,"Takeaway crisps, savoury snacks, popcorn, popadums, prawn crackers",,3,0.725828074
+834,Other cereals and cereal products,Other cereals,,,3,1.389648322
+835,Other cereals and cereal products,Pasta,,,3,-0.088522357
+836,Other cereals and cereal products,Pasta,Canned pasta,,3,1.458480519
+837,Other cereals and cereal products,Pasta,Dried and fresh pasta,,3,0.40152505
+838,Other cereals and cereal products,Pasta,Takeaway pasta and noodles,,3,0.023818054
+839,Other cereals and cereal products,Pizza,,,3,0.466121845
+840,Other cereals and cereal products,Pizza,"Pizzas, frozen and not frozen",,3,0.378894729
+841,Other cereals and cereal products,Pizza,Takeaway pizza,,3,1.201786549
+842,Other cereals and cereal products,Puddings,,,3,0.172664052
+843,Other cereals and cereal products,Rice,,,3,1.311029571
+844,Other cereals and cereal products,Rice,Cooked rice,,3,-0.61626465
+845,Other cereals and cereal products,Rice,Dried rice,,3,0.98514315
+846,Other cereals and cereal products,Rice,Takeaway rice,,3,-1.286155248
+847,Other food and drink,,,,3,0.892952179
+848,Other food and drink,Baby foods,,,3,1.112568564
+849,Other food and drink,Ice cream products including takeaways,,,3,0.210761515
+850,Other food and drink,Ice cream products including takeaways,"Ice cream cornets, choc-ices, lollies with ice cream",,3,0.316705407
+851,Other food and drink,Ice cream products including takeaways,"Ice lollies, sorbet, frozen mousse, frozen yoghurt",,3,0.582511423
+852,Other food and drink,Ice cream products including takeaways,"Takeaway ice cream, ice cream products, milkshakes",,3,1.059034767
+853,Other food and drink,Ice cream tub or block,,,3,0.706840768
+854,Other food and drink,Jelly squares or crystals,,,3,0.820459459
+855,Other food and drink,Mineral or spring waters,,,3,0.924893579
+856,Other food and drink,Pickles and sauces,,,3,1.033243807
+857,Other food and drink,Pickles and sauces,Pickles,,3,-0.59415898
+858,Other food and drink,Pickles and sauces,Sauces,,3,1.31337937
+859,Other food and drink,Pickles and sauces,Takeaway sauces and mayonnnaise,,3,0.169159913
+860,Other food and drink,Salt,,,3,0.041028353
+861,Other food and drink,Soups - canned or cartons,,,3,0.582681791
+862,Other food and drink,Soups - dehydrated or powdered,,,3,0.537190826
+863,Other food and drink,Soups - from takeaway,,,3,2.053971064
+864,Other food and drink,Soya and novel protein foods,,,3,0.946849884
+865,Other food and drink,Spreads and dressings,,,3,1.566377086
+866,Other food and drink,Spreads and dressings,Other spreads and dresssings,,3,-0.020809521
+867,Other food and drink,Spreads and dressings,Salad dressings,,3,1.293701558
+868,Other food and drink,Stock cubes and meat and yeast extracts,,,3,0.32953182
+869,Soft drinks,,,,3,1.185383721
+870,Soft drinks,"Soft drinks, concentrated, low calorie",,,3,-1.303265634
+871,Soft drinks,"Soft drinks, concentrated, not low calorie",,,3,3.243613894
+872,Soft drinks,"Soft drinks, not concentrated,  not low calorie",,,3,1.798451448
+873,Soft drinks,"Soft drinks, not concentrated, low calorie",,,3,0.076640063
+874,Sugar and preserves,,,,3,0.603795548
+875,Sugar and preserves,Honey,,,3,-0.407852681
+876,Sugar and preserves,Jams and fruit curds,,,3,0.101829229
+877,Sugar and preserves,Marmalade,,,3,-0.797517812
+878,Sugar and preserves,Sugar,,,3,0.716192257
+879,Sugar and preserves,"Syrup, treacle",,,3,-0.18573969
+880,Alcoholic drinks,,,,4,0.417295459
+881,Alcoholic drinks,Alcopops,,,4,-3.767247744
+882,Alcoholic drinks,Beers,,,4,1.084695684
+883,Alcoholic drinks,Ciders and perry,,,4,-0.864201255
+884,Alcoholic drinks,Fortified wines,,,4,0.509929946
+885,Alcoholic drinks,Lagers and continental beers,,,4,-0.988973148
+886,Alcoholic drinks,Liqueurs and cocktails,,,4,0.858702735
+887,Alcoholic drinks,Spirits,,,4,-0.455223971
+888,Alcoholic drinks,Spirits with mixer,,,4,2.304293707
+889,Alcoholic drinks,Wine and champagne,,,4,0.409490211
+890,Alcoholic drinks,Wine and champagne,"Champagne, sparkling wines and wine with mixer",,4,-0.135041194
+891,Alcoholic drinks,Wine and champagne,Table wine,,4,0.833059708
+892,Beverages,,,,4,0.231020807
+893,Beverages,Cocoa and chocolate drinks,,,4,0.975529925
+894,Beverages,Coffee beans and ground coffee,,,4,-1.402873699
+895,Beverages,Instant coffee,,,4,0.387023197
+896,Beverages,Malt drinks and chocolate versions of malted drinks,,,4,0.959323882
+897,Beverages,Tea,,,4,0.309920004
+898,Biscuits and crispbreads,,,,4,0.594175809
+899,Biscuits and crispbreads,Biscuits other than chocolate,,,4,-0.547920836
+900,Biscuits and crispbreads,Biscuits other than chocolate,Cream crackers and other unsweetened biscuits,,4,-0.015920272
+901,Biscuits and crispbreads,Biscuits other than chocolate,Sweet biscuits (not chocolate) and cereal bars,,4,-0.820262694
+902,Biscuits and crispbreads,Chocolate biscuits,,,4,2.457241774
+903,Biscuits and crispbreads,Crispbread,,,4,-0.231046538
+904,Bread,,,,4,0.783327625
+905,Bread,Brown and wholemeal bread,,,4,-0.798002425
+906,Bread,Brown and wholemeal bread,"Brown bread, sliced and unsliced",,4,0.093454378
+907,Bread,Brown and wholemeal bread,"Wholemeal and granary bread, sliced and unsliced",,4,-1.049923785
+908,Bread,Total other bread,,,4,-0.107162777
+909,Bread,Total other bread,Malt bread and fruit loaves,,4,0.927326932
+910,Bread,Total other bread,Other breads,,4,2.204110837
+911,Bread,Total other bread,"Rolls - white, brown or wholemeal",,4,1.854345138
+912,Bread,Total other bread,Sandwiches,,4,1.419791923
+913,Bread,Total other bread,Sandwiches from takeaway,,4,0.23642993
+914,Bread,Total other bread,Starch reduced bread and rolls,,4,0.757441429
+915,Bread,Total other bread,Takeaway breads,,4,1.304697301
+916,Bread,Total other bread,Vienna and french bread,,4,0.105692745
+917,Bread,White bread,,,4,1.501586591
+918,Bread,White bread,"White bread, premium, sliced and unsliced",,4,2.398382505
+919,Bread,White bread,"White bread, soft grain, sliced and unsliced",,4,2.094603236
+920,Bread,White bread,"White bread, standard, sliced",,4,1.116740422
+921,Bread,White bread,"White bread, standard, unsliced",,4,2.692346664
+922,"Cakes, buns and pastries",,,,4,-0.549709995
+923,"Cakes, buns and pastries","Buns, scones and teacakes",,,4,-1.028294696
+924,"Cakes, buns and pastries",Cakes and pastries,,,4,0.340333252
+925,"Cakes, buns and pastries",Cakes and pastries,"Cakes and pastries, not frozen",,4,-0.016505
+926,"Cakes, buns and pastries",Cakes and pastries,Takeaway pastries,,4,0.255114784
+927,Carcase meat,,,,4,1.411274225
+928,Carcase meat,Beef and veal,,,4,0.98943687
+929,Carcase meat,Beef and veal,All other beef and veal,,4,0.697438427
+930,Carcase meat,Beef and veal,Beef joints - boned,,4,2.080150171
+931,Carcase meat,Beef and veal,Beef joints - on the bone,,4,-1.742634351
+932,Carcase meat,Beef and veal,Beef steak - less expensive,,4,0.478303015
+933,Carcase meat,Beef and veal,Beef steak - more expensive,,4,1.388616021
+934,Carcase meat,Beef and veal,Minced beef,,4,-0.116012397
+935,Carcase meat,Mutton and lamb,,,4,1.659072178
+936,Carcase meat,Mutton and lamb,All other lamb,,4,1.304829689
+937,Carcase meat,Mutton and lamb,Lamb chops,,4,1.171351397
+938,Carcase meat,Mutton and lamb,Lamb joints,,4,1.400999874
+939,Carcase meat,Mutton and lamb,Mutton,,4,-0.162717403
+940,Carcase meat,Pork,,,4,0.557764941
+941,Carcase meat,Pork,All other pork,,4,-1.299948612
+942,Carcase meat,Pork,Pork chops,,4,-0.753851168
+943,Carcase meat,Pork,Pork fillets and steaks,,4,0.668193591
+944,Carcase meat,Pork,Pork joints,,4,0.65333729
+945,Cheese,,,,4,0.213254104
+946,Cheese,Natural cheese,,,4,-0.429929019
+947,Cheese,Natural cheese,Cottage cheese,,4,-1.066372753
+948,Cheese,Natural cheese,Hard cheese - cheddar type,,4,-0.028224789
+949,Cheese,Natural cheese,Hard cheese - edam or other foreign,,4,-0.691102218
+950,Cheese,Natural cheese,Hard cheese - other uk or foreign equivalent,,4,3.619920134
+951,Cheese,Natural cheese,Soft natural cheese,,4,2.292295587
+952,Cheese,Processed cheese,,,4,-1.518366094
+953,Confectionery,,,,4,0.142240972
+954,Confectionery,Chewing gum,,,4,1.204441019
+955,Confectionery,Chocolate bars - filled,,,4,0.180139364
+956,Confectionery,Chocolate bars - solid,,,4,0.346450303
+957,Confectionery,"Fudges, toffees, caramels",,,4,-0.250272373
+958,Confectionery,Mints and boiled sweets,,,4,0.369940612
+959,Confectionery,Mints and boiled sweets,Boiled sweets,,4,0.609073434
+960,Confectionery,Mints and boiled sweets,Mints,,4,2.444355099
+961,Eggs,,,,4,-0.128351668
+962,Fats,,,,4,0.259156956
+963,Fats,All other fats,,,4,2.865098332
+964,Fats,All other fats,Imitatation cream,,4,0.901459956
+965,Fats,All other fats,Low fat spreads,,4,0.57321231
+966,Fats,All other fats,Reduced fat spreads,,4,2.463963087
+967,Fats,All other fats,Suet and dripping,,4,0.249338115
+968,Fats,Butter,,,4,-0.577836389
+969,Fats,Margarine,,,4,-1.486259893
+970,Fats,Margarine,Other margarine,,4,-0.732162078
+971,Fats,Margarine,Soft margarine,,4,-1.756097762
+972,Fats,Vegetable and salad oils,,,4,-0.132288217
+973,Fats,Vegetable and salad oils,Olive oil,,4,0.992761487
+974,Fats,Vegetable and salad oils,Other vegetable and salad oils,,4,-0.117617412
+975,Fish,,,,4,0.773646252
+976,Fish,"Blue fish, dried or salted or smoked",,,4,-0.530430964
+977,Fish,"Herrings and other blue fish, fresh, chilled or frozen",,,4,0.234548294
+978,Fish,"Herrings and other blue fish, fresh, chilled or frozen","Herrings and other blue fish, fresh or chilled",,4,0.252749503
+979,Fish,"Herrings and other blue fish, fresh, chilled or frozen","Herrings and other blue fish, frozen",,4,0.211419131
+980,Fish,Other tinned or bottled fish,,,4,0.742193972
+981,Fish,Ready meals and other fish products - frozen or not frozen,,,4,-1.196758747
+982,Fish,"Salmon, fresh, chilled or frozen",,,4,-0.229799984
+983,Fish,"Salmon, fresh, chilled or frozen","Salmon, fresh or chilled",,4,-0.152696447
+984,Fish,"Salmon, fresh, chilled or frozen","Salmon, frozen",,4,1.184543978
+985,Fish,"Salmon, tinned",,,4,1.74972254
+986,Fish,Shellfish,,,4,1.792675613
+987,Fish,Shellfish,"Shellfish, fresh or chilled",,4,2.611118216
+988,Fish,Shellfish,"Shellfish, frozen",,4,1.232610939
+989,Fish,Takeaway fish,,,4,1.175560745
+990,Fish,Takeaway fish meals and fish products,,,4,0.151147197
+991,Fish,Takeaway fish meals and fish products,Takeaway fish based meals,,4,0.274024154
+992,Fish,Takeaway fish meals and fish products,Takeaway fish products,,4,1.208051151
+993,Fish,"White fish, dried, salted or smoked",,,4,0.372554975
+994,Fish,"White fish, fresh, chilled or frozen",,,4,1.952921061
+995,Fish,"White fish, fresh, chilled or frozen","White fish, fresh or chilled",,4,1.904114744
+996,Fish,"White fish, fresh, chilled or frozen","White fish, frozen",,4,-0.686886937
+997,Flour,,,,4,-0.70854951
+998,Fresh and processed vegetables,Fresh fruit,,,4,0.136458164
+999,Fresh and processed vegetables,Fresh fruit,Fresh apples,,4,1.117923054
+1000,Fresh and processed vegetables,Fresh fruit,Fresh bananas,,4,0.114581721
+1001,Fresh and processed vegetables,Fresh fruit,Fresh grapes,,4,0.938964895
+1002,Fresh and processed vegetables,Fresh fruit,Fresh melons,,4,0.53928001
+1003,Fresh and processed vegetables,Fresh fruit,Fresh oranges,,4,-0.284514893
+1004,Fresh and processed vegetables,Fresh fruit,Fresh pears,,4,0.633153091
+1005,Fresh and processed vegetables,Fresh fruit,Fresh stone fruit,,4,0.665178859
+1006,Fresh and processed vegetables,Fresh fruit,Other fresh citrus fruits,,4,0.898744334
+1007,Fresh and processed vegetables,Fresh fruit,Other fresh fruit,,4,2.43139024
+1008,Fresh and processed vegetables,Fresh fruit,Other fresh soft fruit,,4,-2.277470999
+1009,Fresh and processed vegetables,Processed fruit and fruit products,,,4,0.368479582
+1010,Fresh and processed vegetables,Processed fruit and fruit products,All other tinned or bottled fruit,,4,1.027202861
+1011,Fresh and processed vegetables,Processed fruit and fruit products,Dried fruit,,4,0.276153807
+1012,Fresh and processed vegetables,Processed fruit and fruit products,"Frozen strawberries, apple slices, peach halves, oranges and other frozen fruits",,4,1.833204389
+1013,Fresh and processed vegetables,Processed fruit and fruit products,"Nuts, edible seeds and peanut butter",,4,-0.274167305
+1014,Fresh and processed vegetables,Processed fruit and fruit products,Pure fruit juices,,4,-0.123334259
+1015,Fresh and processed vegetables,Processed fruit and fruit products,"Tinned peaches, pears and pineapples",,4,0.900279047
+1016,Fresh and processed vegetables,Fresh potatoes,,,4,0.932773181
+1017,Fresh and processed vegetables,Fresh potatoes,Fresh baking potatoes (e),,4,-0.057912378
+1018,Fresh and processed vegetables,Fresh potatoes,Fresh new potatoes (e),,4,1.024531919
+1019,Fresh and processed vegetables,Fresh potatoes,Other fresh potatoes (e),,4,0.739601371
+1020,Fresh and processed vegetables,Processed potatoes,,,4,-0.4267046
+1021,Fresh and processed vegetables,Processed potatoes,Chips and takeaway chips,,4,-0.403424291
+1022,Fresh and processed vegetables,Processed potatoes,Crisps and potato snacks,,4,-0.64473677
+1023,Fresh and processed vegetables,Processed potatoes,Instant potato,,4,0.644159903
+1024,Fresh and processed vegetables,Processed potatoes,"Other potato products, frozen or not frozen",,4,-0.097995334
+1025,Fresh and processed vegetables,Fresh and processed fruit,,,4,0.275659248
+1026,Fresh and processed vegetables,"Fresh and processed fruit and vegetables, excluding potatoes",,,4,0.028928372
+1027,Fresh and processed vegetables,"Fresh and processed fruit and vegetables, including potatoes",,,4,0.669939947
+1028,Fresh and processed vegetables,Fresh and processed potatoes,,,4,1.082889991
+1029,Fresh and processed vegetables,"Fresh and processed vegetables, excluding potatoes",,,4,-0.103599556
+1030,Fresh and processed vegetables,"Fresh and processed vegetables, including potatoes",,,4,0.674941699
+1031,Fresh and processed vegetables,Fresh green vegetables,,,4,0.922313296
+1032,Fresh and processed vegetables,Fresh green vegetables,Fresh beans,,4,0.875445686
+1033,Fresh and processed vegetables,Fresh green vegetables,Fresh brussels sprouts,,4,1.093044205
+1034,Fresh and processed vegetables,Fresh green vegetables,Fresh cabbages,,4,1.387297622
+1035,Fresh and processed vegetables,Fresh green vegetables,Fresh cauliflower,,4,1.107789716
+1036,Fresh and processed vegetables,Fresh green vegetables,Fresh peas,,4,0.945079855
+1037,Fresh and processed vegetables,Fresh green vegetables,Leafy salads fresh,,4,0.492206121
+1038,Fresh and processed vegetables,Fresh green vegetables,Other fresh green vegetables,,4,-0.099374169
+1039,Fresh and processed vegetables,Other fresh vegetables,,,4,0.351326287
+1040,Fresh and processed vegetables,Other fresh vegetables,Fresh carrots,,4,-0.214756677
+1041,Fresh and processed vegetables,Other fresh vegetables,Fresh cucumbers,,4,0.178299885
+1042,Fresh and processed vegetables,Other fresh vegetables,Fresh mushrooms,,4,-0.281778033
+1043,Fresh and processed vegetables,Other fresh vegetables,"Fresh onions, leeks and shallots",,4,0.80616936
+1044,Fresh and processed vegetables,Other fresh vegetables,Fresh tomatoes,,4,0.485820801
+1045,Fresh and processed vegetables,Other fresh vegetables,Fresh turnips and swede,,4,1.52462768
+1046,Fresh and processed vegetables,Other fresh vegetables,Miscellaneous fresh vegtables,,4,1.897394847
+1047,Fresh and processed vegetables,Other fresh vegetables,Other fresh root vegetables,,4,1.310608393
+1048,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,,,4,0.338781195
+1049,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Beans canned,,4,0.249156677
+1050,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Beans, frozen",,4,-1.207716128
+1051,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Dried pulses other than air-dried,,4,0.884956786
+1052,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Other canned vegetables,,4,1.124081416
+1053,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Other frozen vegetables,,4,-0.254736781
+1054,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Peas, canned",,4,1.943362599
+1055,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Peas, frozen",,4,0.047938214
+1056,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Ready meals and other vegetable products (inc takeaways),,4,0.361826031
+1057,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Tomatoes, canned or bottled",,4,-0.287085576
+1058,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Vegetable juices and purees,,4,0.825643264
+1059,Milk and milk products excluding cheese,,,,4,-0.21335591
+1060,Milk and milk products excluding cheese,"Liquid wholemilk, including school and welfare",,,4,-2.006285667
+1061,Milk and milk products excluding cheese,"Liquid wholemilk, including school and welfare","Liquid wholemilk, full price",,4,-2.048955632
+1062,Milk and milk products excluding cheese,Other milk and cream,,,4,0.203135657
+1063,Milk and milk products excluding cheese,Other milk and cream,Condensed or evaporated milk,,4,0.957166913
+1064,Milk and milk products excluding cheese,Other milk and cream,Cream,,4,1.160631164
+1065,Milk and milk products excluding cheese,Other milk and cream,Infant milks,,4,-0.128666213
+1066,Milk and milk products excluding cheese,Other milk and cream,Other milks and dairy desserts,,4,0.6329843
+1067,Milk and milk products excluding cheese,Other milk and cream,Skimmed milks,,4,0.137764286
+1068,Milk and milk products excluding cheese,Other milk and cream,Yoghurt and fromage frais,,4,1.932963883
+1069,Non-carcase meat and meat products,,,,4,-0.054783752
+1070,Non-carcase meat and meat products,All offal other than liver,,,4,1.014309348
+1071,Non-carcase meat and meat products,"Bacon and ham, cooked",,,4,1.064150807
+1072,Non-carcase meat and meat products,"Bacon and ham, uncooked",,,4,0.308601513
+1073,Non-carcase meat and meat products,"Bacon and ham, uncooked","Bacon and ham joints, uncooked",,4,1.090550599
+1074,Non-carcase meat and meat products,"Bacon and ham, uncooked","Bacon and ham rashers, uncooked",,4,-0.097582307
+1075,Non-carcase meat and meat products,"Burgers, frozen or not frozen",,,4,0.971205739
+1076,Non-carcase meat and meat products,"Chicken, uncooked - whole chicken or chicken pieces",,,4,-0.072010067
+1077,Non-carcase meat and meat products,Cooked poultry not purchased in cans,,,4,1.437463047
+1078,Non-carcase meat and meat products,Cooked poultry not purchased in cans,"Chicken and turkey, cooked",,4,1.576502854
+1079,Non-carcase meat and meat products,Cooked poultry not purchased in cans,Takeaway chicken,,4,1.155956446
+1080,Non-carcase meat and meat products,"Corned beef, canned or sliced",,,4,0.822801777
+1081,Non-carcase meat and meat products,Liver,,,4,0.948428346
+1082,Non-carcase meat and meat products,Liver,Lambs liver,,4,0.152229082
+1083,Non-carcase meat and meat products,Meat pastes and spreads,,,4,-1.663427901
+1084,Non-carcase meat and meat products,"Meat pies and sausage rolls, ready to eat",,,4,-2.904627414
+1085,Non-carcase meat and meat products,"Meat pies and sausage rolls, ready to eat","Meat pies, ready to eat",,4,-0.493411271
+1086,Non-carcase meat and meat products,"Meat pies and sausage rolls, ready to eat","Sausage rolls, ready to eat",,4,1.047123107
+1087,Non-carcase meat and meat products,"Meat pies, pasties and puddings, frozen or not frozen",,,4,-1.190559146
+1088,Non-carcase meat and meat products,Other canned meat and canned meat products,,,4,0.811349589
+1089,Non-carcase meat and meat products,Other cooked meat,,,4,0.518696641
+1090,Non-carcase meat and meat products,"Other fresh, chilled and frozen meat",,,4,-0.204872732
+1091,Non-carcase meat and meat products,"Other poultry, uncooked (including frozen)",,,4,2.151192554
+1092,Non-carcase meat and meat products,"Other poultry, uncooked (including frozen)","Poultry other than chicken or turkey, uncooked",,4,0.770244649
+1093,Non-carcase meat and meat products,"Other poultry, uncooked (including frozen)","Turkey, uncooked - whole turkey or turkey pieces",,4,2.661749248
+1094,Non-carcase meat and meat products,Pate and delicatessen type sausage,,,4,1.330998388
+1095,Non-carcase meat and meat products,Pate and delicatessen type sausage,Delicatessen type sausages,,4,0.618016518
+1096,Non-carcase meat and meat products,Pate and delicatessen type sausage,Pate,,4,1.148423976
+1097,Non-carcase meat and meat products,Ready meals and convenience meat products,,,4,-0.220642922
+1098,Non-carcase meat and meat products,Ready meals and convenience meat products,"Complete meat-based ready meals, frozen or not frozen",,4,-0.900214865
+1099,Non-carcase meat and meat products,Ready meals and convenience meat products,"Other convenience meat products, frozen or not frozen",,4,0.845142008
+1100,Non-carcase meat and meat products,"Sausages, uncooked - beef and other sausages",,,4,2.367472857
+1101,Non-carcase meat and meat products,"Sausages, uncooked - pork",,,4,-0.35273668
+1102,Non-carcase meat and meat products,Takeaway meats,,,4,-2.135786554
+1103,Non-carcase meat and meat products,Takeaway meats,Takeaway burger and bun,,4,2.097690328
+1104,Non-carcase meat and meat products,Takeaway meats,Takeaway kebabs,,4,-0.591756395
+1105,Non-carcase meat and meat products,Takeaway meats,Takeaway meat based meals,,4,-2.02925191
+1106,Non-carcase meat and meat products,Takeaway meats,Takeaway meat pies and pasties,,4,1.037786889
+1107,Non-carcase meat and meat products,Takeaway meats,Takeaway sausages and saveloys,,4,1.407741278
+1108,Other cereals and cereal products,,,,4,0.713356607
+1109,Other cereals and cereal products,Breakfast cereals,,,4,-0.366002188
+1110,Other cereals and cereal products,Breakfast cereals,High fibre breakfast cereals,,4,-0.301268427
+1111,Other cereals and cereal products,Breakfast cereals,Muesli,,4,1.047109613
+1112,Other cereals and cereal products,Breakfast cereals,Other breakfast cereals,,4,0.880462355
+1113,Other cereals and cereal products,Breakfast cereals,Sweetened breakfast cereals,,4,-0.509910196
+1114,Other cereals and cereal products,Cakes and pastries - frozen,,,4,-1.057670257
+1115,Other cereals and cereal products,Canned milk puddings,,,4,-0.048337546
+1116,Other cereals and cereal products,Canned milk puddings,All canned milk puddings,,4,1.106216277
+1117,Other cereals and cereal products,Canned milk puddings,Canned or fresh carton custard,,4,0.494582898
+1118,Other cereals and cereal products,Infant cereal foods,,,4,0.600764519
+1119,Other cereals and cereal products,"Invalid foods, slimming foods and sports foods",,,4,0.154543841
+1120,Other cereals and cereal products,Oatmeal and oat products,,,4,-0.164729518
+1121,Other cereals and cereal products,Other cereal convenience foods,,,4,0.796214922
+1122,Other cereals and cereal products,Other cereal convenience foods,"Cake, pudding and dessert mixes",,4,0.051024881
+1123,Other cereals and cereal products,Other cereal convenience foods,Cereal snacks,,4,-0.640717565
+1124,Other cereals and cereal products,Other cereal convenience foods,"Other cereal foods, frozen and not frozen",,4,1.511285958
+1125,Other cereals and cereal products,Other cereal convenience foods,"Quiches and flans, frozen and not frozen",,4,-0.615665164
+1126,Other cereals and cereal products,Other cereal convenience foods,"Takeaway crisps, savoury snacks, popcorn, popadums, prawn crackers",,4,0.088451056
+1127,Other cereals and cereal products,Other cereals,,,4,0.606298723
+1128,Other cereals and cereal products,Pasta,,,4,0.222460966
+1129,Other cereals and cereal products,Pasta,Canned pasta,,4,1.348745993
+1130,Other cereals and cereal products,Pasta,Dried and fresh pasta,,4,0.497118294
+1131,Other cereals and cereal products,Pasta,Takeaway pasta and noodles,,4,1.21524492
+1132,Other cereals and cereal products,Pizza,,,4,0.354907264
+1133,Other cereals and cereal products,Pizza,"Pizzas, frozen and not frozen",,4,0.788798802
+1134,Other cereals and cereal products,Pizza,Takeaway pizza,,4,-0.330454289
+1135,Other cereals and cereal products,Puddings,,,4,0.827114272
+1136,Other cereals and cereal products,Rice,,,4,0.830504399
+1137,Other cereals and cereal products,Rice,Cooked rice,,4,3.335020048
+1138,Other cereals and cereal products,Rice,Dried rice,,4,0.926732239
+1139,Other cereals and cereal products,Rice,Takeaway rice,,4,-1.906037496
+1140,Other food and drink,,,,4,0.851649745
+1141,Other food and drink,Baby foods,,,4,0.702610987
+1142,Other food and drink,Ice cream products including takeaways,,,4,0.382170605
+1143,Other food and drink,Ice cream products including takeaways,"Ice cream cornets, choc-ices, lollies with ice cream",,4,0.235751475
+1144,Other food and drink,Ice cream products including takeaways,"Ice lollies, sorbet, frozen mousse, frozen yoghurt",,4,0.571454209
+1145,Other food and drink,Ice cream products including takeaways,"Takeaway ice cream, ice cream products, milkshakes",,4,2.219862733
+1146,Other food and drink,Ice cream tub or block,,,4,0.933400725
+1147,Other food and drink,Jelly squares or crystals,,,4,1.305693921
+1148,Other food and drink,Mineral or spring waters,,,4,0.762581153
+1149,Other food and drink,Pickles and sauces,,,4,0.371099929
+1150,Other food and drink,Pickles and sauces,Pickles,,4,-0.868987429
+1151,Other food and drink,Pickles and sauces,Sauces,,4,0.735450696
+1152,Other food and drink,Pickles and sauces,Takeaway sauces and mayonnnaise,,4,0.642715667
+1153,Other food and drink,Salt,,,4,1.001142281
+1154,Other food and drink,Soups - canned or cartons,,,4,0.939395573
+1155,Other food and drink,Soups - dehydrated or powdered,,,4,0.348094363
+1156,Other food and drink,Soups - from takeaway,,,4,0.209566995
+1157,Other food and drink,Soya and novel protein foods,,,4,0.560442139
+1158,Other food and drink,Spreads and dressings,,,4,1.531895444
+1159,Other food and drink,Spreads and dressings,Other spreads and dresssings,,4,0.348924526
+1160,Other food and drink,Spreads and dressings,Salad dressings,,4,0.707309633
+1161,Other food and drink,Stock cubes and meat and yeast extracts,,,4,1.106917516
+1162,Soft drinks,,,,4,0.239555592
+1163,Soft drinks,"Soft drinks, concentrated, low calorie",,,4,-0.004477801
+1164,Soft drinks,"Soft drinks, concentrated, not low calorie",,,4,3.118096416
+1165,Soft drinks,"Soft drinks, not concentrated,  not low calorie",,,4,2.917683064
+1166,Soft drinks,"Soft drinks, not concentrated, low calorie",,,4,-0.816642755
+1167,Sugar and preserves,,,,4,0.733113655
+1168,Sugar and preserves,Honey,,,4,0.802952488
+1169,Sugar and preserves,Jams and fruit curds,,,4,0.294074253
+1170,Sugar and preserves,Marmalade,,,4,-1.182172034
+1171,Sugar and preserves,Sugar,,,4,0.531045129
+1172,Sugar and preserves,"Syrup, treacle",,,4,-0.580043014
+1173,Alcoholic drinks,,,,5,-0.231265642
+1174,Alcoholic drinks,Alcopops,,,5,-2.225326729
+1175,Alcoholic drinks,Beers,,,5,1.325508051
+1176,Alcoholic drinks,Ciders and perry,,,5,-2.171749804
+1177,Alcoholic drinks,Fortified wines,,,5,0.234584922
+1178,Alcoholic drinks,Lagers and continental beers,,,5,-0.421389032
+1179,Alcoholic drinks,Liqueurs and cocktails,,,5,0.975638071
+1180,Alcoholic drinks,Spirits,,,5,-1.404924664
+1181,Alcoholic drinks,Spirits with mixer,,,5,0.779644145
+1182,Alcoholic drinks,Wine and champagne,,,5,-0.31701816
+1183,Alcoholic drinks,Wine and champagne,"Champagne, sparkling wines and wine with mixer",,5,0.275009393
+1184,Alcoholic drinks,Wine and champagne,Table wine,,5,-0.054440784
+1185,Beverages,,,,5,-0.135567228
+1186,Beverages,Cocoa and chocolate drinks,,,5,-0.675781679
+1187,Beverages,Coffee beans and ground coffee,,,5,-0.688406474
+1188,Beverages,Instant coffee,,,5,1.067915281
+1189,Beverages,Malt drinks and chocolate versions of malted drinks,,,5,0.842880846
+1190,Beverages,Tea,,,5,0.190493585
+1191,Biscuits and crispbreads,,,,5,-0.205849185
+1192,Biscuits and crispbreads,Biscuits other than chocolate,,,5,-0.744731023
+1193,Biscuits and crispbreads,Biscuits other than chocolate,Cream crackers and other unsweetened biscuits,,5,0.331360288
+1194,Biscuits and crispbreads,Biscuits other than chocolate,Sweet biscuits (not chocolate) and cereal bars,,5,-0.975063823
+1195,Biscuits and crispbreads,Chocolate biscuits,,,5,0.603565654
+1196,Biscuits and crispbreads,Crispbread,,,5,-0.058986814
+1197,Bread,,,,5,0.939659565
+1198,Bread,Brown and wholemeal bread,,,5,-0.672995622
+1199,Bread,Brown and wholemeal bread,"Brown bread, sliced and unsliced",,5,0.006298504
+1200,Bread,Brown and wholemeal bread,"Wholemeal and granary bread, sliced and unsliced",,5,-0.952607238
+1201,Bread,Total other bread,,,5,0.385118609
+1202,Bread,Total other bread,Malt bread and fruit loaves,,5,0.146865963
+1203,Bread,Total other bread,Other breads,,5,2.459623144
+1204,Bread,Total other bread,"Rolls - white, brown or wholemeal",,5,0.560318632
+1205,Bread,Total other bread,Sandwiches,,5,0.77778463
+1206,Bread,Total other bread,Sandwiches from takeaway,,5,-0.102677033
+1207,Bread,Total other bread,Starch reduced bread and rolls,,5,3.006164441
+1208,Bread,Total other bread,Takeaway breads,,5,0.860658214
+1209,Bread,Total other bread,Vienna and french bread,,5,1.215948667
+1210,Bread,White bread,,,5,1.646038602
+1211,Bread,White bread,"White bread, premium, sliced and unsliced",,5,6.273923056
+1212,Bread,White bread,"White bread, soft grain, sliced and unsliced",,5,1.17308678
+1213,Bread,White bread,"White bread, standard, sliced",,5,1.203111266
+1214,Bread,White bread,"White bread, standard, unsliced",,5,3.038957831
+1215,"Cakes, buns and pastries",,,,5,-0.348058691
+1216,"Cakes, buns and pastries","Buns, scones and teacakes",,,5,1.158514129
+1217,"Cakes, buns and pastries",Cakes and pastries,,,5,0.506481359
+1218,"Cakes, buns and pastries",Cakes and pastries,"Cakes and pastries, not frozen",,5,0.292959089
+1219,"Cakes, buns and pastries",Cakes and pastries,Takeaway pastries,,5,0.279366013
+1220,Carcase meat,,,,5,0.893768886
+1221,Carcase meat,Beef and veal,,,5,0.533731216
+1222,Carcase meat,Beef and veal,All other beef and veal,,5,1.24526987
+1223,Carcase meat,Beef and veal,Beef joints - boned,,5,0.917748244
+1224,Carcase meat,Beef and veal,Beef joints - on the bone,,5,-1.46373083
+1225,Carcase meat,Beef and veal,Beef steak - less expensive,,5,1.303679351
+1226,Carcase meat,Beef and veal,Beef steak - more expensive,,5,0.716155854
+1227,Carcase meat,Beef and veal,Minced beef,,5,-0.576895491
+1228,Carcase meat,Mutton and lamb,,,5,1.116513868
+1229,Carcase meat,Mutton and lamb,All other lamb,,5,0.658771416
+1230,Carcase meat,Mutton and lamb,Lamb chops,,5,1.580812416
+1231,Carcase meat,Mutton and lamb,Lamb joints,,5,0.87110765
+1232,Carcase meat,Mutton and lamb,Mutton,,5,5.938150538
+1233,Carcase meat,Pork,,,5,0.720459752
+1234,Carcase meat,Pork,All other pork,,5,1.373729625
+1235,Carcase meat,Pork,Pork chops,,5,0.297096841
+1236,Carcase meat,Pork,Pork fillets and steaks,,5,0.495052687
+1237,Carcase meat,Pork,Pork joints,,5,1.117281254
+1238,Cheese,,,,5,-0.227193325
+1239,Cheese,Natural cheese,,,5,-0.195051489
+1240,Cheese,Natural cheese,Cottage cheese,,5,0.105969083
+1241,Cheese,Natural cheese,Hard cheese - cheddar type,,5,0.052207498
+1242,Cheese,Natural cheese,Hard cheese - edam or other foreign,,5,0.060898046
+1243,Cheese,Natural cheese,Hard cheese - other uk or foreign equivalent,,5,-0.063060698
+1244,Cheese,Natural cheese,Soft natural cheese,,5,2.021199514
+1245,Cheese,Processed cheese,,,5,-1.357729275
+1246,Confectionery,,,,5,-0.206921816
+1247,Confectionery,Chewing gum,,,5,1.854811563
+1248,Confectionery,Chocolate bars - filled,,,5,-0.446239468
+1249,Confectionery,Chocolate bars - solid,,,5,0.132599923
+1250,Confectionery,"Fudges, toffees, caramels",,,5,-0.038826867
+1251,Confectionery,Mints and boiled sweets,,,5,0.169001315
+1252,Confectionery,Mints and boiled sweets,Boiled sweets,,5,0.382664829
+1253,Confectionery,Mints and boiled sweets,Mints,,5,2.17347409
+1254,Eggs,,,,5,0.107086967
+1255,Fats,,,,5,0.558079565
+1256,Fats,All other fats,,,5,2.72766953
+1257,Fats,All other fats,Imitatation cream,,5,-0.651710125
+1258,Fats,All other fats,Low fat spreads,,5,1.016828068
+1259,Fats,All other fats,Reduced fat spreads,,5,2.888815088
+1260,Fats,All other fats,Suet and dripping,,5,-0.256884357
+1261,Fats,Butter,,,5,-0.449271982
+1262,Fats,Margarine,,,5,-1.458767683
+1263,Fats,Margarine,Other margarine,,5,-1.027951213
+1264,Fats,Margarine,Soft margarine,,5,-1.650367858
+1265,Fats,Vegetable and salad oils,,,5,0.406184493
+1266,Fats,Vegetable and salad oils,Olive oil,,5,0.58519195
+1267,Fats,Vegetable and salad oils,Other vegetable and salad oils,,5,0.461250988
+1268,Fish,,,,5,0.842536245
+1269,Fish,"Blue fish, dried or salted or smoked",,,5,-0.170830204
+1270,Fish,"Herrings and other blue fish, fresh, chilled or frozen",,,5,1.109207064
+1271,Fish,"Herrings and other blue fish, fresh, chilled or frozen","Herrings and other blue fish, fresh or chilled",,5,1.218264292
+1272,Fish,"Herrings and other blue fish, fresh, chilled or frozen","Herrings and other blue fish, frozen",,5,0.362363455
+1273,Fish,Other tinned or bottled fish,,,5,0.484937351
+1274,Fish,Ready meals and other fish products - frozen or not frozen,,,5,0.172684736
+1275,Fish,"Salmon, fresh, chilled or frozen",,,5,-0.593892809
+1276,Fish,"Salmon, fresh, chilled or frozen","Salmon, fresh or chilled",,5,-0.742941183
+1277,Fish,"Salmon, fresh, chilled or frozen","Salmon, frozen",,5,-1.559871595
+1278,Fish,"Salmon, tinned",,,5,1.8930693
+1279,Fish,Shellfish,,,5,1.642746853
+1280,Fish,Shellfish,"Shellfish, fresh or chilled",,5,2.083489722
+1281,Fish,Shellfish,"Shellfish, frozen",,5,1.854899569
+1282,Fish,Takeaway fish,,,5,1.64390534
+1283,Fish,Takeaway fish meals and fish products,,,5,0.44013761
+1284,Fish,Takeaway fish meals and fish products,Takeaway fish based meals,,5,0.619227303
+1285,Fish,Takeaway fish meals and fish products,Takeaway fish products,,5,0.344300786
+1286,Fish,"White fish, dried, salted or smoked",,,5,0.9667412
+1287,Fish,"White fish, fresh, chilled or frozen",,,5,1.649632803
+1288,Fish,"White fish, fresh, chilled or frozen","White fish, fresh or chilled",,5,1.331756291
+1289,Fish,"White fish, fresh, chilled or frozen","White fish, frozen",,5,-0.183474568
+1290,Flour,,,,5,-0.285838745
+1291,Fresh and processed vegetables,Fresh fruit,,,5,0.771735663
+1292,Fresh and processed vegetables,Fresh fruit,Fresh apples,,5,1.397550064
+1293,Fresh and processed vegetables,Fresh fruit,Fresh bananas,,5,0.032946863
+1294,Fresh and processed vegetables,Fresh fruit,Fresh grapes,,5,1.040640963
+1295,Fresh and processed vegetables,Fresh fruit,Fresh melons,,5,0.321973147
+1296,Fresh and processed vegetables,Fresh fruit,Fresh oranges,,5,0.904887812
+1297,Fresh and processed vegetables,Fresh fruit,Fresh pears,,5,0.882414207
+1298,Fresh and processed vegetables,Fresh fruit,Fresh stone fruit,,5,0.979904307
+1299,Fresh and processed vegetables,Fresh fruit,Other fresh citrus fruits,,5,1.040923839
+1300,Fresh and processed vegetables,Fresh fruit,Other fresh fruit,,5,1.873680412
+1301,Fresh and processed vegetables,Fresh fruit,Other fresh soft fruit,,5,-1.351969542
+1302,Fresh and processed vegetables,Processed fruit and fruit products,,,5,0.685037707
+1303,Fresh and processed vegetables,Processed fruit and fruit products,All other tinned or bottled fruit,,5,0.456684058
+1304,Fresh and processed vegetables,Processed fruit and fruit products,Dried fruit,,5,0.04948672
+1305,Fresh and processed vegetables,Processed fruit and fruit products,"Frozen strawberries, apple slices, peach halves, oranges and other frozen fruits",,5,2.272156251
+1306,Fresh and processed vegetables,Processed fruit and fruit products,"Nuts, edible seeds and peanut butter",,5,1.996708217
+1307,Fresh and processed vegetables,Processed fruit and fruit products,Pure fruit juices,,5,0.24440091
+1308,Fresh and processed vegetables,Processed fruit and fruit products,"Tinned peaches, pears and pineapples",,5,-0.138579419
+1309,Fresh and processed vegetables,Fresh potatoes,,,5,0.982809131
+1310,Fresh and processed vegetables,Fresh potatoes,Fresh baking potatoes (e),,5,0.38740879
+1311,Fresh and processed vegetables,Fresh potatoes,Fresh new potatoes (e),,5,1.103386866
+1312,Fresh and processed vegetables,Fresh potatoes,Other fresh potatoes (e),,5,1.040208817
+1313,Fresh and processed vegetables,Processed potatoes,,,5,-0.201105555
+1314,Fresh and processed vegetables,Processed potatoes,Chips and takeaway chips,,5,-0.01870422
+1315,Fresh and processed vegetables,Processed potatoes,Crisps and potato snacks,,5,-0.350211127
+1316,Fresh and processed vegetables,Processed potatoes,Instant potato,,5,-0.828066751
+1317,Fresh and processed vegetables,Processed potatoes,"Other potato products, frozen or not frozen",,5,0.251030691
+1318,Fresh and processed vegetables,Fresh and processed fruit,,,5,0.732897744
+1319,Fresh and processed vegetables,"Fresh and processed fruit and vegetables, excluding potatoes",,,5,0.67719589
+1320,Fresh and processed vegetables,"Fresh and processed fruit and vegetables, including potatoes",,,5,1.107197465
+1321,Fresh and processed vegetables,Fresh and processed potatoes,,,5,1.158589418
+1322,Fresh and processed vegetables,"Fresh and processed vegetables, excluding potatoes",,,5,0.170352461
+1323,Fresh and processed vegetables,"Fresh and processed vegetables, including potatoes",,,5,1.095239522
+1324,Fresh and processed vegetables,Fresh green vegetables,,,5,1.590534848
+1325,Fresh and processed vegetables,Fresh green vegetables,Fresh beans,,5,-0.949288045
+1326,Fresh and processed vegetables,Fresh green vegetables,Fresh brussels sprouts,,5,1.315303902
+1327,Fresh and processed vegetables,Fresh green vegetables,Fresh cabbages,,5,1.25623372
+1328,Fresh and processed vegetables,Fresh green vegetables,Fresh cauliflower,,5,0.72266882
+1329,Fresh and processed vegetables,Fresh green vegetables,Fresh peas,,5,0.572986985
+1330,Fresh and processed vegetables,Fresh green vegetables,Leafy salads fresh,,5,0.442369691
+1331,Fresh and processed vegetables,Fresh green vegetables,Other fresh green vegetables,,5,0.465394389
+1332,Fresh and processed vegetables,Other fresh vegetables,,,5,0.628238319
+1333,Fresh and processed vegetables,Other fresh vegetables,Fresh carrots,,5,-0.252836384
+1334,Fresh and processed vegetables,Other fresh vegetables,Fresh cucumbers,,5,0.217979395
+1335,Fresh and processed vegetables,Other fresh vegetables,Fresh mushrooms,,5,0.023979428
+1336,Fresh and processed vegetables,Other fresh vegetables,"Fresh onions, leeks and shallots",,5,0.320895904
+1337,Fresh and processed vegetables,Other fresh vegetables,Fresh tomatoes,,5,0.674053783
+1338,Fresh and processed vegetables,Other fresh vegetables,Fresh turnips and swede,,5,0.516565959
+1339,Fresh and processed vegetables,Other fresh vegetables,Miscellaneous fresh vegtables,,5,1.561873566
+1340,Fresh and processed vegetables,Other fresh vegetables,Other fresh root vegetables,,5,1.550544173
+1341,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,,,5,0.567222277
+1342,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Beans canned,,5,-0.132034249
+1343,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Beans, frozen",,5,-1.040711307
+1344,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Dried pulses other than air-dried,,5,0.359926673
+1345,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Other canned vegetables,,5,0.670496691
+1346,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Other frozen vegetables,,5,0.294507272
+1347,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Peas, canned",,5,1.748085806
+1348,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Peas, frozen",,5,-0.297732414
+1349,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Ready meals and other vegetable products (inc takeaways),,5,1.097050128
+1350,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,"Tomatoes, canned or bottled",,5,-0.411168683
+1351,Fresh and processed vegetables,Processed vegetables excluding processed potatoes,Vegetable juices and purees,,5,0.841756235
+1352,Milk and milk products excluding cheese,,,,5,-0.211929466
+1353,Milk and milk products excluding cheese,"Liquid wholemilk, including school and welfare",,,5,-2.914740348
+1354,Milk and milk products excluding cheese,"Liquid wholemilk, including school and welfare","Liquid wholemilk, full price",,5,-2.909982665
+1355,Milk and milk products excluding cheese,Other milk and cream,,,5,0.264976675
+1356,Milk and milk products excluding cheese,Other milk and cream,Condensed or evaporated milk,,5,0.644958824
+1357,Milk and milk products excluding cheese,Other milk and cream,Cream,,5,0.614125105
+1358,Milk and milk products excluding cheese,Other milk and cream,Infant milks,,5,0.917452961
+1359,Milk and milk products excluding cheese,Other milk and cream,Other milks and dairy desserts,,5,0.486961443
+1360,Milk and milk products excluding cheese,Other milk and cream,Skimmed milks,,5,0.165468013
+1361,Milk and milk products excluding cheese,Other milk and cream,Yoghurt and fromage frais,,5,1.63248188
+1362,Non-carcase meat and meat products,,,,5,-0.708691244
+1363,Non-carcase meat and meat products,All offal other than liver,,,5,0.632667077
+1364,Non-carcase meat and meat products,"Bacon and ham, cooked",,,5,0.369635069
+1365,Non-carcase meat and meat products,"Bacon and ham, uncooked",,,5,0.279907145
+1366,Non-carcase meat and meat products,"Bacon and ham, uncooked","Bacon and ham joints, uncooked",,5,1.552964924
+1367,Non-carcase meat and meat products,"Bacon and ham, uncooked","Bacon and ham rashers, uncooked",,5,-0.294019477
+1368,Non-carcase meat and meat products,"Burgers, frozen or not frozen",,,5,0.772250824
+1369,Non-carcase meat and meat products,"Chicken, uncooked - whole chicken or chicken pieces",,,5,0.848554651
+1370,Non-carcase meat and meat products,Cooked poultry not purchased in cans,,,5,1.077265304
+1371,Non-carcase meat and meat products,Cooked poultry not purchased in cans,"Chicken and turkey, cooked",,5,1.462919659
+1372,Non-carcase meat and meat products,Cooked poultry not purchased in cans,Takeaway chicken,,5,-0.561621793
+1373,Non-carcase meat and meat products,"Corned beef, canned or sliced",,,5,1.13812466
+1374,Non-carcase meat and meat products,Liver,,,5,0.349256021
+1375,Non-carcase meat and meat products,Liver,Lambs liver,,5,-0.003609353
+1376,Non-carcase meat and meat products,Meat pastes and spreads,,,5,-0.967514018
+1377,Non-carcase meat and meat products,"Meat pies and sausage rolls, ready to eat",,,5,-5.233934885
+1378,Non-carcase meat and meat products,"Meat pies and sausage rolls, ready to eat","Meat pies, ready to eat",,5,-0.171359782
+1379,Non-carcase meat and meat products,"Meat pies and sausage rolls, ready to eat","Sausage rolls, ready to eat",,5,1.085004137
+1380,Non-carcase meat and meat products,"Meat pies, pasties and puddings, frozen or not frozen",,,5,1.732272007
+1381,Non-carcase meat and meat products,Other canned meat and canned meat products,,,5,0.379107647
+1382,Non-carcase meat and meat products,Other cooked meat,,,5,1.759769357
+1383,Non-carcase meat and meat products,"Other fresh, chilled and frozen meat",,,5,0.084568905
+1384,Non-carcase meat and meat products,"Other poultry, uncooked (including frozen)",,,5,1.04968031
+1385,Non-carcase meat and meat products,"Other poultry, uncooked (including frozen)","Poultry other than chicken or turkey, uncooked",,5,0.239573102
+1386,Non-carcase meat and meat products,"Other poultry, uncooked (including frozen)","Turkey, uncooked - whole turkey or turkey pieces",,5,1.134443293
+1387,Non-carcase meat and meat products,Pate and delicatessen type sausage,,,5,0.846594137
+1388,Non-carcase meat and meat products,Pate and delicatessen type sausage,Delicatessen type sausages,,5,0.87672157
+1389,Non-carcase meat and meat products,Pate and delicatessen type sausage,Pate,,5,-0.414923397
+1390,Non-carcase meat and meat products,Ready meals and convenience meat products,,,5,-0.827808369
+1391,Non-carcase meat and meat products,Ready meals and convenience meat products,"Complete meat-based ready meals, frozen or not frozen",,5,-1.52121732
+1392,Non-carcase meat and meat products,Ready meals and convenience meat products,"Other convenience meat products, frozen or not frozen",,5,0.553476171
+1393,Non-carcase meat and meat products,"Sausages, uncooked - beef and other sausages",,,5,2.519595903
+1394,Non-carcase meat and meat products,"Sausages, uncooked - pork",,,5,0.411517617
+1395,Non-carcase meat and meat products,Takeaway meats,,,5,0.853617594
+1396,Non-carcase meat and meat products,Takeaway meats,Takeaway burger and bun,,5,1.251604932
+1397,Non-carcase meat and meat products,Takeaway meats,Takeaway kebabs,,5,0.97203212
+1398,Non-carcase meat and meat products,Takeaway meats,Takeaway meat based meals,,5,0.065760535
+1399,Non-carcase meat and meat products,Takeaway meats,Takeaway meat pies and pasties,,5,1.554827454
+1400,Non-carcase meat and meat products,Takeaway meats,Takeaway sausages and saveloys,,5,0.370936673
+1401,Other cereals and cereal products,,,,5,0.464306836
+1402,Other cereals and cereal products,Breakfast cereals,,,5,0.373512535
+1403,Other cereals and cereal products,Breakfast cereals,High fibre breakfast cereals,,5,0.91724109
+1404,Other cereals and cereal products,Breakfast cereals,Muesli,,5,-0.244657661
+1405,Other cereals and cereal products,Breakfast cereals,Other breakfast cereals,,5,0.046311575
+1406,Other cereals and cereal products,Breakfast cereals,Sweetened breakfast cereals,,5,-0.636898516
+1407,Other cereals and cereal products,Cakes and pastries - frozen,,,5,-0.028720035
+1408,Other cereals and cereal products,Canned milk puddings,,,5,0.024652454
+1409,Other cereals and cereal products,Canned milk puddings,All canned milk puddings,,5,0.889515619
+1410,Other cereals and cereal products,Canned milk puddings,Canned or fresh carton custard,,5,0.490918163
+1411,Other cereals and cereal products,Infant cereal foods,,,5,0.540985966
+1412,Other cereals and cereal products,"Invalid foods, slimming foods and sports foods",,,5,-0.278739865
+1413,Other cereals and cereal products,Oatmeal and oat products,,,5,0.284666302
+1414,Other cereals and cereal products,Other cereal convenience foods,,,5,0.366480298
+1415,Other cereals and cereal products,Other cereal convenience foods,"Cake, pudding and dessert mixes",,5,0.156467541
+1416,Other cereals and cereal products,Other cereal convenience foods,Cereal snacks,,5,-1.673898191
+1417,Other cereals and cereal products,Other cereal convenience foods,"Other cereal foods, frozen and not frozen",,5,1.357052297
+1418,Other cereals and cereal products,Other cereal convenience foods,"Quiches and flans, frozen and not frozen",,5,0.196890996
+1419,Other cereals and cereal products,Other cereal convenience foods,"Takeaway crisps, savoury snacks, popcorn, popadums, prawn crackers",,5,1.268628619
+1420,Other cereals and cereal products,Other cereals,,,5,1.436146399
+1421,Other cereals and cereal products,Pasta,,,5,-0.155028381
+1422,Other cereals and cereal products,Pasta,Canned pasta,,5,-0.126651003
+1423,Other cereals and cereal products,Pasta,Dried and fresh pasta,,5,0.207814608
+1424,Other cereals and cereal products,Pasta,Takeaway pasta and noodles,,5,0.293735423
+1425,Other cereals and cereal products,Pizza,,,5,0.091585794
+1426,Other cereals and cereal products,Pizza,"Pizzas, frozen and not frozen",,5,0.081921931
+1427,Other cereals and cereal products,Pizza,Takeaway pizza,,5,0.547368797
+1428,Other cereals and cereal products,Puddings,,,5,-0.498756497
+1429,Other cereals and cereal products,Rice,,,5,0.960484234
+1430,Other cereals and cereal products,Rice,Cooked rice,,5,2.738746451
+1431,Other cereals and cereal products,Rice,Dried rice,,5,1.025078073
+1432,Other cereals and cereal products,Rice,Takeaway rice,,5,0.058892163
+1433,Other food and drink,,,,5,0.624117607
+1434,Other food and drink,Baby foods,,,5,-0.000744509
+1435,Other food and drink,Ice cream products including takeaways,,,5,0.202872791
+1436,Other food and drink,Ice cream products including takeaways,"Ice cream cornets, choc-ices, lollies with ice cream",,5,-0.315954591
+1437,Other food and drink,Ice cream products including takeaways,"Ice lollies, sorbet, frozen mousse, frozen yoghurt",,5,0.623790425
+1438,Other food and drink,Ice cream products including takeaways,"Takeaway ice cream, ice cream products, milkshakes",,5,0.497532866
+1439,Other food and drink,Ice cream tub or block,,,5,0.67509345
+1440,Other food and drink,Jelly squares or crystals,,,5,1.176364898
+1441,Other food and drink,Mineral or spring waters,,,5,0.449223863
+1442,Other food and drink,Pickles and sauces,,,5,0.010410459
+1443,Other food and drink,Pickles and sauces,Pickles,,5,-0.290008096
+1444,Other food and drink,Pickles and sauces,Sauces,,5,0.217958038
+1445,Other food and drink,Pickles and sauces,Takeaway sauces and mayonnnaise,,5,1.028871855
+1446,Other food and drink,Salt,,,5,0.508919208
+1447,Other food and drink,Soups - canned or cartons,,,5,-0.071519964
+1448,Other food and drink,Soups - dehydrated or powdered,,,5,0.159404263
+1449,Other food and drink,Soups - from takeaway,,,5,0.429946685
+1450,Other food and drink,Soya and novel protein foods,,,5,0.670592895
+1451,Other food and drink,Spreads and dressings,,,5,1.015577423
+1452,Other food and drink,Spreads and dressings,Other spreads and dresssings,,5,-0.539433189
+1453,Other food and drink,Spreads and dressings,Salad dressings,,5,0.457613548
+1454,Other food and drink,Stock cubes and meat and yeast extracts,,,5,1.565998522
+1455,Soft drinks,,,,5,-0.162050509
+1456,Soft drinks,"Soft drinks, concentrated, low calorie",,,5,1.540217931
+1457,Soft drinks,"Soft drinks, concentrated, not low calorie",,,5,1.461164563
+1458,Soft drinks,"Soft drinks, not concentrated,  not low calorie",,,5,1.912812915
+1459,Soft drinks,"Soft drinks, not concentrated, low calorie",,,5,-0.519075481
+1460,Sugar and preserves,,,,5,0.215634172
+1461,Sugar and preserves,Honey,,,5,-1.047451554
+1462,Sugar and preserves,Jams and fruit curds,,,5,-0.083718853
+1463,Sugar and preserves,Marmalade,,,5,-1.18722019
+1464,Sugar and preserves,Sugar,,,5,0.11623961
+1465,Sugar and preserves,"Syrup, treacle",,,5,-0.00649189

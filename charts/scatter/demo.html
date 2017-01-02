@@ -63,9 +63,9 @@ body {
 <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 <script>
 
-var margin = {top: 20, right: 170, bottom: 30, left: 40},
+var margin = {top: 20, right: 280, bottom: 200, left: 40},
     width = 1000 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    height = 700 - margin.top - margin.bottom;
 
 var x = d3.scale.ordinal()
 	.rangeRoundBands([0, width], 1)
@@ -73,7 +73,11 @@ var x = d3.scale.ordinal()
 var y = d3.scale.linear()
     .range([height, 0]);
 
-var color = d3.scale.category10();
+var color = d3.scale.category20();
+//var color = d3.scale.ordinal().range(["#48A36D",  "#56AE7C",  "#64B98C", "#72C39B", "#80CEAA", "#80CCB3", "#7FC9BD", "#7FC7C6", "#7EC4CF", "#7FBBCF", "#7FB1CF", "#80A8CE", "#809ECE", "#8897CE", "#8F90CD", "#9788CD", "#9E81CC", "#AA81C5", "#B681BE", "#C280B7", "#CE80B0", "#D3779F", "#D76D8F", "#DC647E", "#E05A6D", "#E16167", "#E26962", "#E2705C", "#E37756", "#E38457", "#E39158", "#E29D58", "#E2AA59", "#E0B15B", "#DFB95C", "#DDC05E", "#DBC75F", "#E3CF6D", "#EAD67C", "#F2DE8A"]);
+var color2 = d3.scale.category10();
+
+
 
 var xAxis = d3.svg.axis()
     .scale(x)
@@ -90,58 +94,62 @@ var svg = d3.select("#scatter").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 	
-var line1 = svg.append("line")
-		.attr("x1",0)
-		.attr("x2",width)
-		.attr("y1",height-100)
-		.attr("y2",height-100)
-		.attr("stroke-width", 1)
-		.attr("stroke", "black")
-var line1 = svg.append("line")
-		.attr("x1",0)
-		.attr("x2",width)
-		.attr("y1",height-300)
-		.attr("y2",height-300)
-		.attr("stroke-width", 1)
-		.attr("stroke", "black")
-var text1 = svg.append("text")
-      .attr("class", "label")
-      .attr("x", width)
-      .attr("y", height-120)
-      .style("text-anchor", "end")
-	  .style("font-size", "20px")
-      .text("Inelastic");
-var text1 = svg.append("text")
-      .attr("class", "label")
-      .attr("x", width)
-      .attr("y", height-320)
-      .style("text-anchor", "end")
-	  .style("font-size", "20px")
-      .text("Elastic");
 
-d3.csv("loglog.csv", function(error, data) {
+
+d3.csv("data_v5.3.csv", function(error, data) {
   if (error) throw error;
 
   data.forEach(function(d) {
-    d.category = +d.Category;
-	d.elasticity = +d.Elasticity;
-	d.quintile = +d.Quintile;
-	d.id = +d.id
+    d.Category = d.Category;
+	d.Elasticity = +d.Elasticity;
+	d.Quintile = +d.Quintile;
+	d.id = +d.id;
   });
+  var yMax=d3.max(data,function(d) { return d.Elasticity; });
+  var yMin=d3.min(data,function(d) { return d.Elasticity; });
   
   var xCat="Quintile";
   var yCat="Elasticity";
   var colorCat="Category";
 
   x.domain(data.map(function(d) { return d[xCat]; }));
-  y.domain([-4,4]);
-  var no_category=322;
+  y.domain([yMin,yMax]).nice();
+  var no_category= d3.max(data,function(d) { return d.id/5; })
   
-var fade = function(opacity) {
+  
+  var line = svg.append("line")
+		.attr("x1",0)
+		.attr("x2",width)
+		.attr("y1",y(+1))
+		.attr("y2",y(+1))
+		.attr("stroke-width", 1)
+		.attr("stroke", "black")
+  var line1 = svg.append("line")
+		.attr("x1",0)
+		.attr("x2",width)
+		.attr("y1",y(+-1))
+		.attr("y2",y(+-1))
+		.attr("stroke-width", 1)
+		.attr("stroke", "black")
+  var text = svg.append("text")
+      .attr("class", "label")
+      .attr("x", width)
+      .attr("y", y(+1)-10)
+      .style("text-anchor", "end")
+	  .style("font-size", "20px")
+      .text("Elastic");
+ var text1 = svg.append("text")
+      .attr("class", "label")
+      .attr("x", width)
+      .attr("y", y(+-1)-10)
+      .style("text-anchor", "end")
+	  .style("font-size", "20px")
+      .text("Inelastic");
+  
+  var fade = function(opacity) {
         return function(g, i) {
           svg.selectAll(".dot")
               .filter(function(d) {
-			  console.log(i);
                 return d.id%no_category != (i+1)%no_category ;
 				
               })
@@ -155,7 +163,7 @@ var fade = function(opacity) {
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis)
-    .append("text")
+	.append("text")
       .attr("class", "label")
       .attr("x", width)
       .attr("y", -6)
@@ -178,7 +186,7 @@ var fade = function(opacity) {
 			  .attr("class", "d3-tip")
 			  .offset([-10, 0])
 			  .html(function(d) {
-				return "Elasticity" + ": " + d[yCat];
+				return "Elasticity" + ": " + d.Elasticity+"<br>"+"Category: "+d.Category+"<br>"+"Quintile: "+d.Quintile;
 			  });
   svg.call(tip);
   
@@ -203,9 +211,9 @@ var fade = function(opacity) {
   var legend = svg.selectAll(".legend")
       .data(color.domain())
     .enter().append("g")
-      .attr("class", "leg")
+      .attr("class", "legend")
       .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
-
+	  
   legend.append("rect")
       .attr("class", "rect")
       .attr("x", width+margin.right-40)
@@ -219,7 +227,8 @@ var fade = function(opacity) {
       .attr("y", 9)
       .attr("dy", ".35em")
       .style("text-anchor", "end")
-      .text(function(d) { return "Category "; });
+      .text(function(d) { return d; });
+	  
 	  
  d3.select("input").on("click", change);
  d3.select("#Quintile").on("click", change2);
@@ -229,19 +238,44 @@ var fade = function(opacity) {
 	colorCat='Quintile';
 	x.domain(data.map(function(d) { return d[xCat]; }));
 
-	var svg = d3.select("#scatter").transition();
+	scatter = d3.select("#scatter").transition();
 	
-	svg.select(".x.axis").duration(750).call(xAxis).select(".label").text(xCat);
+	scatter.select(".x.axis").duration(750).call(xAxis).selectAll('text')
+	.attr("y", 50)
+      .attr("x", 9)
+      .attr("dy", ".50em")
+	  .style("text-align", "center")
+      .attr("transform", "rotate(90)")
+	  ;
+	
+	scatter.select(".x.axis").duration(750).call(xAxis).select(".label").text(xCat)
+	.attr("y", -6)
+      .attr("x", width)
+	  .style("text-anchor", "end")
+      .attr("transform", "rotate(0)");
+	
+	
+	  
+	//scatter.select(".x.axis").duration(750).call(xAxis).tick  
+	
+	objects.data(data).enter();
 
 	objects.selectAll(".dot").transition()
 		.duration(1000)
 		.attr("transform", function(d){return "translate(" + x(d[xCat]) + "," + y(d[yCat]) + ")";})
-		.style("fill", function(d) { return color(d[colorCat]); });
+		.style("fill", function(d) { return color2(d[colorCat]); });
 		
-	var legend = svg.selectAll(".leg").transition();
-	var rect = svg.selectAll(".rect").transition().style("fill", color);
-	var text = svg.selectAll(".text").transition().attr("dy", ".35em").text(function(d) { return colorCat+" "+d; });
-      
+	//scatter.selectAll(".legend2").transition().style("opacity",1);
+	//scatter.selectAll(".legend").transition().style("opacity",1e-6);
+	//scatter.selectAll(".rect").transition().style("fill", color2);
+	//scatter.selectAll(".text").transition().attr("dy", ".35em").text(function(d) { return colorCat+" "+d; });
+	
+     
+	legend.data(color2.domain()).enter();
+	scatter.selectAll('.legend').transition();
+	scatter.selectAll('.rect').transition().style("fill", color2);
+	scatter.selectAll('.text').transition().text(function(d) { return colorCat+" "+d; });
+	
 	}
  function change2() {
 	xCat='Quintile';
@@ -250,16 +284,16 @@ var fade = function(opacity) {
 
 	var svg = d3.select("#scatter").transition();
 	
-	svg.select(".x.axis").duration(750).call(xAxis).select(".label").text(xCat);
+	svg.select(".x.axis").duration(750).call(xAxis).select(".label").text("Income "+xCat);
 
 	objects.selectAll(".dot").transition()
 		.duration(1000)
 		.attr("transform", function(d){return "translate(" + x(d[xCat]) + "," + y(d[yCat]) + ")";})
 		.style("fill", function(d) { return color(d[colorCat]); });
 		
-	var legend = svg.selectAll(".leg").transition();
-	var rect = svg.selectAll(".rect").transition().style("fill", color);
-	var text = svg.selectAll(".text").transition().attr("dy", ".35em").text(function(d) { return colorCat+" "+d; });
+	svg.selectAll(".legend").transition();
+	svg.selectAll(".rect").transition().style("fill", color);
+	svg.selectAll(".text").transition().attr("dy", ".35em").text(function(d) { return d; });
       
 	}
 

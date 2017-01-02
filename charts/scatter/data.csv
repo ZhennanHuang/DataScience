@@ -1,0 +1,1611 @@
+id,Category,Elasticity,Quintile
+1,Milk and milk products excluding cheese,0.07444657,1
+2,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"")",-0.456520248,1
+3,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""UHT milk"")",0.373839791,1
+4,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"")",0.378031272,1
+5,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"")",0.230551758,1
+6,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"", ""Fully skimmed milk"")",0.354903274,1
+7,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"", ""Semi-skimmed milk"")",0.257597061,1
+8,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Condensed or evaporated milk"")",0.421681036,1
+9,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"")",0.378365783,1
+10,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"")",0.685392127,1
+11,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"", ""Yoghurt"")",0.758239662,1
+12,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Dairy desserts - not frozen"")",0.563455282,1
+13,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Dried milk products"")",-0.280348801,1
+14,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Milk drinks and other milks (d)"")",0.915763518,1
+15,Cheese,0.323805541,1
+16,"c(""Cheese"", ""Natural cheese"")",0.308707097,1
+17,"c(""Cheese"", ""Natural cheese"", ""Hard cheese - cheddar type"")",0.483900342,1
+18,"c(""Cheese"", ""Natural cheese"", ""Hard cheese - other uk or foreign equivalent"")",0.233831542,1
+19,"c(""Cheese"", ""Natural cheese"", ""Cottage cheese"")",0.522932112,1
+20,"c(""Cheese"", ""Natural cheese"", ""Soft natural cheese"")",0.806544687,1
+21,"c(""Cheese"", ""Processed cheese"")",0.325302504,1
+22,"c(""Carcase meat"", ""Beef and veal"", ""Beef joints - boned"")",0.300102616,1
+23,"c(""Carcase meat"", ""Beef and veal"", ""Beef steak - less expensive"")",0.726295543,1
+24,"c(""Carcase meat"", ""Beef and veal"", ""All other beef and veal"")",0.600846391,1
+25,"c(""Carcase meat"", ""Mutton and lamb"")",0.315932725,1
+26,"c(""Carcase meat"", ""Mutton and lamb"", ""Mutton"")",0.74490492,1
+27,"c(""Carcase meat"", ""Mutton and lamb"", ""Lamb joints"")",0.449111659,1
+28,"c(""Carcase meat"", ""Mutton and lamb"", ""Lamb chops"")",0.262591307,1
+29,"c(""Carcase meat"", ""Mutton and lamb"", ""All other lamb"")",0.338405187,1
+30,"c(""Non-carcase meat and meat products"", ""Liver"")",0.842381441,1
+31,"c(""Non-carcase meat and meat products"", ""Liver"", ""Lambs liver"")",0.506848067,1
+32,"c(""Non-carcase meat and meat products"", ""All offal other than liver"")",0.477094892,1
+33,"c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"")",0.572193337,1
+34,"c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"", ""Bacon and ham joints, uncooked"")",0.623681854,1
+35,"c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"", ""Bacon and ham rashers, uncooked"")",0.52643729,1
+36,"c(""Non-carcase meat and meat products"", ""Bacon and ham, cooked"")",0.203159581,1
+37,"c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"", ""Chicken and turkey, cooked"")",0.611462356,1
+38,"c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"", ""Takeaway chicken"")",0.280937745,1
+39,"c(""Non-carcase meat and meat products"", ""Corned beef, canned or sliced"")",0.841706937,1
+40,"c(""Non-carcase meat and meat products"", ""Other cooked meat"")",0.474735803,1
+41,"c(""Non-carcase meat and meat products"", ""Other canned meat and canned meat products"")",0.52885369,1
+42,"c(""Non-carcase meat and meat products"", ""Chicken, uncooked - whole chicken or chicken pieces"")",0.91291782,1
+43,"c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"")",0.50056851,1
+44,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"")",-0.453752651,1
+45,"c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"", ""Turkey, uncooked - whole turkey or turkey pieces"")",0.484667543,1
+46,"c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"", ""Poultry other than chicken or turkey, uncooked"")",0.424078671,1
+47,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""Sterilised"")",0.707803756,1
+48,"c(""Non-carcase meat and meat products"", ""Other fresh, chilled and frozen meat"")",0.556582226,1
+49,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""Pasteurised/ homogenised"")",-0.411285221,1
+50,"c(""Non-carcase meat and meat products"", ""Sausages, uncooked - pork"")",0.593239352,1
+51,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"", ""Infant or baby milks - ready to drink"")",0.781710324,1
+52,"c(""Non-carcase meat and meat products"", ""Sausages, uncooked - beef and other sausages"")",0.712956496,1
+53,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"", ""Infant or baby milks - dried"")",0.277051862,1
+54,"c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"")",1.068142985,1
+55,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"", ""Fromage frais"")",0.217228091,1
+56,"c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"", ""Meat pies, ready to eat"")",1.08127763,1
+57,"c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"", ""Sausage rolls, ready to eat"")",0.619239399,1
+58,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"")",0.625068422,1
+59,"c(""Non-carcase meat and meat products"", ""Meat pies, pasties and puddings, frozen or not frozen"")",0.808487265,1
+60,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Non-dairy milk substitutes (d)"")",0.214254682,1
+61,"c(""Non-carcase meat and meat products"", ""Burgers, frozen or not frozen"")",0.556552559,1
+62,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Cream"")",0.428128437,1
+63,"c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"")",0.603283497,1
+64,"c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"", ""Complete meat-based ready meals, frozen or not frozen"")",0.792944775,1
+65,"c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"", ""Other convenience meat products, frozen or not frozen"")",0.165286017,1
+66,"c(""Cheese"", ""Natural cheese"", ""Hard cheese - edam or other foreign"")",0.502950426,1
+67,"c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"")",0.666409963,1
+68,"c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"", ""Pate"")",0.518069801,1
+69,"c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"", ""Delicatessen type sausages"")",0.714514407,1
+70,Carcase meat,0.489857929,1
+71,"c(""Carcase meat"", ""Beef and veal"")",0.455537372,1
+72,"c(""Non-carcase meat and meat products"", ""Meat pastes and spreads"")",0.163487726,1
+73,"c(""Non-carcase meat and meat products"", ""Takeaway meats"")",0.607190417,1
+74,"c(""Carcase meat"", ""Beef and veal"", ""Beef joints - on the bone"")",0.239818321,1
+75,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway meat pies and pasties"")",0.365904337,1
+76,"c(""Carcase meat"", ""Beef and veal"", ""Beef steak - more expensive"")",0.460988298,1
+77,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway burger and bun"")",0.64392012,1
+78,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway kebabs"")",0.407094767,1
+79,"c(""Carcase meat"", ""Beef and veal"", ""Minced beef"")",-0.241323006,1
+80,"c(""Carcase meat"", ""Pork"")",0.497313007,1
+81,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway sausages and saveloys"")",0.462082959,1
+82,"c(""Carcase meat"", ""Pork"", ""Pork joints"")",0.502557964,1
+83,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway meat based meals"")",0.466550164,1
+84,"c(""Carcase meat"", ""Pork"", ""Pork chops"")",0.902790121,1
+85,Fish,0.42683988,1
+86,"c(""Carcase meat"", ""Pork"", ""Pork fillets and steaks"")",0.803342809,1
+87,"c(""Fish"", ""White fish, fresh, chilled or frozen"")",0.921022046,1
+88,"c(""Carcase meat"", ""Pork"", ""All other pork"")",1.183216947,1
+89,"c(""Fish"", ""White fish, fresh, chilled or frozen"", ""White fish, fresh or chilled"")",0.55980263,1
+90,Non-carcase meat and meat products,0.69166176,1
+91,"c(""Fish"", ""White fish, fresh, chilled or frozen"", ""White fish, frozen"")",0.949502075,1
+92,"c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"")",0.19802901,1
+93,"c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"", ""Herrings and other blue fish, fresh or chilled"")",0.247264571,1
+94,"c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"", ""Herrings and other blue fish, frozen"")",0.626386541,1
+95,"c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"")",0.557058262,1
+96,"c(""Fish"", ""Salmon, fresh, chilled or frozen"")",0.551176684,1
+97,"c(""Fish"", ""Salmon, fresh, chilled or frozen"", ""Salmon, fresh or chilled"")",0.422055008,1
+98,"c(""Fish"", ""Salmon, fresh, chilled or frozen"", ""Salmon, frozen"")",0.541924414,1
+99,"c(""Fish"", ""Blue fish, dried or salted or smoked"")",0.436474296,1
+100,"c(""Fish"", ""White fish, dried, salted or smoked"")",0.164223487,1
+101,"c(""Fish"", ""Shellfish"")",0.448155575,1
+102,"c(""Fish"", ""Shellfish"", ""Shellfish, fresh or chilled"")",0.638188586,1
+103,"c(""Fish"", ""Shellfish"", ""Shellfish, frozen"")",0.617974274,1
+104,"c(""Fish"", ""Takeaway fish"")",0.477241192,1
+105,"c(""Fish"", ""Salmon, tinned"")",0.455221673,1
+106,"c(""Fish"", ""Other tinned or bottled fish"")",0.28249198,1
+107,"c(""Fish"", ""Ready meals and other fish products - frozen or not frozen"")",0.839312033,1
+108,"c(""Fish"", ""Takeaway fish meals and fish products"")",0.603112312,1
+109,"c(""Fish"", ""Takeaway fish meals and fish products"", ""Takeaway fish products"")",0.278027467,1
+110,"c(""Fish"", ""Takeaway fish meals and fish products"", ""Takeaway fish based meals"")",0.643955413,1
+111,Eggs,0.13504998,1
+112,Fats,0.477789498,1
+113,"c(""Fats"", ""Butter"")",-0.033471322,1
+114,"c(""Fats"", ""Margarine"")",0.769209724,1
+115,"c(""Fats"", ""Margarine"", ""Soft margarine"")",0.860604359,1
+116,"c(""Fats"", ""Margarine"", ""Other margarine"")",0.76168784,1
+117,"c(""Fats"", ""Vegetable and salad oils"")",0.287582691,1
+118,"c(""Fats"", ""Vegetable and salad oils"", ""Olive oil"")",0.502392276,1
+119,"c(""Fats"", ""Vegetable and salad oils"", ""Other vegetable and salad oils"")",0.373992646,1
+120,"c(""Fats"", ""All other fats"")",0.796923899,1
+121,"c(""Fats"", ""All other fats"", ""Reduced fat spreads"")",0.624549751,1
+122,"c(""Fats"", ""All other fats"", ""Low fat spreads"")",0.747709635,1
+123,"c(""Fats"", ""All other fats"", ""Suet and dripping"")",0.382208304,1
+124,"c(""Fats"", ""All other fats"", ""Imitatation cream"")",0.405539028,1
+125,Sugar and preserves,0.257891478,1
+126,"c(""Sugar and preserves"", ""Sugar"")",0.268077127,1
+127,"c(""Sugar and preserves"", ""Jams and fruit curds"")",0.346958292,1
+128,"c(""Sugar and preserves"", ""Marmalade"")",0.275397382,1
+129,"c(""Sugar and preserves"", ""Syrup, treacle"")",0.088451135,1
+130,"c(""Sugar and preserves"", ""Honey"")",0.668632231,1
+131,"Fresh and processed fruit and vegetables, including potatoes",0.406009548,1
+132,"Fresh and processed vegetables, including potatoes",0.243935549,1
+133,Fresh and processed potatoes,0.875629936,1
+134,"c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Fresh baking potatoes (e)"")",0.690546256,1
+135,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"", ""Nuts and edible seeds"")",0.720422574,1
+136,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"", ""Peanut butter"")",0.129226615,1
+137,"c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Other fresh potatoes (e)"")",0.452216596,1
+138,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Pure fruit juices"")",0.044820446,1
+139,"c(""Fresh and processed potatoes"", ""Processed potatoes"")",0.633345473,1
+140,Bread,0.587265932,1
+141,"c(""Bread"", ""White bread"")",0.986879836,1
+142,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"")",0.710913099,1
+143,"c(""Fresh and processed potatoes"", ""Fresh potatoes"")",-0.039637631,1
+144,"c(""Bread"", ""White bread"", ""White bread, standard, unsliced"")",0.698261428,1
+145,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"", ""Chips - frozen or not frozen"")",0.47569997,1
+146,"c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Fresh new potatoes (e)"")",0.077718549,1
+147,"c(""Bread"", ""White bread"", ""White bread, standard, sliced"")",0.83271514,1
+148,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"", ""Takeaway chips"")",0.992608028,1
+149,"c(""Bread"", ""White bread"", ""White bread, premium, sliced and unsliced"")",1.441976207,1
+150,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Instant potato"")",0.22115482,1
+151,"c(""Bread"", ""White bread"", ""White bread, soft grain, sliced and unsliced"")",0.300471132,1
+152,"c(""Bread"", ""Brown and wholemeal bread"")",0.57346398,1
+153,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Crisps and potato snacks"")",0.412822636,1
+154,"c(""Bread"", ""Brown and wholemeal bread"", ""Brown bread, sliced and unsliced"")",0.310497971,1
+155,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Other potato products, frozen or not frozen"")",0.724193939,1
+156,"c(""Bread"", ""Brown and wholemeal bread"", ""Wholemeal and granary bread, sliced and unsliced"")",0.64086654,1
+157,"Fresh and processed fruit and vegetables, excluding potatoes",0.497218088,1
+158,"c(""Bread"", ""Total other bread"")",0.508108397,1
+159,"c(""Bread"", ""Total other bread"", ""Rolls - white, brown or wholemeal"")",0.370192106,1
+160,"Fresh and processed vegetables, excluding potatoes",0.404922852,1
+161,"c(""Bread"", ""Total other bread"", ""Malt bread and fruit loaves"")",0.384441363,1
+162,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"")",0.259208997,1
+163,"c(""Bread"", ""Total other bread"", ""Starch reduced bread and rolls"")",0.394750852,1
+164,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh cabbages"")",0.331408833,1
+165,"c(""Bread"", ""Total other bread"", ""Other breads"")",1.443486726,1
+166,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh brussels sprouts"")",0.337122612,1
+167,"c(""Bread"", ""Total other bread"", ""Sandwiches"")",-0.039259527,1
+168,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh cauliflower"")",-0.030863144,1
+169,"c(""Bread"", ""Total other bread"", ""Takeaway breads"")",-0.112987157,1
+170,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"")",0.263152741,1
+171,Flour,0.568107048,1
+172,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"", ""Lettuce and leafy salads"")",0.979982766,1
+173,"Cakes, buns and pastries",0.413812021,1
+174,"c(""Cakes, buns and pastries"", ""Cakes and pastries"")",0.134587803,1
+175,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"", ""Prepared lettuce salads"")",0.543001808,1
+176,"c(""Cakes, buns and pastries"", ""Cakes and pastries"", ""Takeaway pastries"")",0.439615586,1
+177,"c(""Cakes, buns and pastries"", ""Buns, scones and teacakes"")",0.741985984,1
+178,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh peas"")",0.25599421,1
+179,Biscuits and crispbreads,0.311536935,1
+180,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh beans"")",0.105410134,1
+181,"c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"")",0.308107284,1
+182,"c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"", ""Sweet biscuits (not chocolate) and cereal bars"")",0.387501996,1
+183,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Other fresh green vegetables"")",0.532332176,1
+184,"c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"", ""Cream crackers and other unsweetened biscuits"")",0.549101499,1
+185,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"")",0.57847034,1
+186,"c(""Biscuits and crispbreads"", ""Crispbread"")",0.309028035,1
+187,Other cereals and cereal products,0.213079174,1
+188,"c(""Other cereals and cereal products"", ""Oatmeal and oat products"")",1.43588144,1
+189,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh carrots"")",0.530903141,1
+190,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Muesli"")",0.362713542,1
+191,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""High fibre breakfast cereals"")",0.347442274,1
+192,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh turnips and swede"")",0.322678626,1
+193,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Sweetened breakfast cereals"")",0.539570941,1
+194,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Other fresh root vegetables"")",0.712375678,1
+195,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Other breakfast cereals"")",0.477274497,1
+196,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh onions, leeks and shallots"")",0.394369054,1
+197,"c(""Other cereals and cereal products"", ""Canned milk puddings"")",0.341073269,1
+198,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh cucumbers"")",0.379964464,1
+199,"c(""Other cereals and cereal products"", ""Canned milk puddings"", ""Canned or fresh carton custard"")",0.586030265,1
+200,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh mushrooms"")",0.282403731,1
+201,"c(""Other cereals and cereal products"", ""Canned milk puddings"", ""All canned milk puddings"")",-0.2867601,1
+202,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh tomatoes"")",0.346822386,1
+203,"c(""Other cereals and cereal products"", ""Puddings"")",0.267743657,1
+204,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"")",0.850756972,1
+205,"c(""Other cereals and cereal products"", ""Rice"")",0.641825794,1
+206,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh vegetable stewpack, stirfry pack etc."")",0.86184445,1
+207,"c(""Other cereals and cereal products"", ""Rice"", ""Dried rice"")",0.507629728,1
+208,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh stem vegetables"")",0.456899605,1
+209,"c(""Other cereals and cereal products"", ""Rice"", ""Cooked rice"")",0.457492733,1
+210,"c(""Other cereals and cereal products"", ""Rice"", ""Takeaway rice"")",0.446802911,1
+211,"c(""Other cereals and cereal products"", ""Invalid foods, slimming foods and sports foods"")",0.643247813,1
+212,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh marrow, courgettes, aubergine, pumpkin and other vegetables"")",0.746012973,1
+213,"c(""Other cereals and cereal products"", ""Infant cereal foods"")",0.330718894,1
+214,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh herbs"")",1.052861798,1
+215,"c(""Other cereals and cereal products"", ""Cakes and pastries - frozen"")",0.77694476,1
+216,"c(""Other cereals and cereal products"", ""Pasta"")",0.202999553,1
+217,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"")",0.566398625,1
+218,"c(""Other cereals and cereal products"", ""Pasta"", ""Canned pasta"")",-0.004569237,1
+219,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Tomatoes, canned or bottled"")",0.139317319,1
+220,"c(""Other cereals and cereal products"", ""Pasta"", ""Dried and fresh pasta"")",0.171536692,1
+221,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Peas, canned"")",0.30440568,1
+222,"c(""Other cereals and cereal products"", ""Pasta"", ""Takeaway pasta and noodles"")",0.456586385,1
+223,"c(""Other cereals and cereal products"", ""Pizza"")",0.129493791,1
+224,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"")",0.376638161,1
+225,"c(""Other cereals and cereal products"", ""Pizza"", ""Pizzas, frozen and not frozen"")",0.31279647,1
+226,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"", ""Baked beans in sauce"")",0.358452185,1
+227,"c(""Other cereals and cereal products"", ""Pizza"", ""Takeaway pizza"")",0.28067586,1
+228,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"", ""Other canned beans and pulses"")",0.565667601,1
+229,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"")",0.328470431,1
+230,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Other canned vegetables"")",0.477803216,1
+231,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Cake, pudding and dessert mixes"")",0.898366272,1
+232,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Dried pulses other than air-dried"")",0.904722502,1
+233,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Cereal snacks"")",0.552302232,1
+234,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"")",0.718407289,1
+235,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Quiches and flans, frozen and not frozen"")",0.887448315,1
+236,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"", ""Tomato puree and vegetable purees"")",0.622763424,1
+237,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Takeaway crisps, savoury snacks, popcorn, popadums, prawn crackers"")",0.56477934,1
+238,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"", ""Vegetable juices eg tomato juice, carrot juice"")",0.036035792,1
+239,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Other cereal foods, frozen and not frozen"")",0.988745348,1
+240,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Peas, frozen"")",0.286036656,1
+241,"c(""Other cereals and cereal products"", ""Other cereals"")",0.638363416,1
+242,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans, frozen"")",0.109633843,1
+243,Beverages,0.29057684,1
+244,"c(""Beverages"", ""Tea"")",0.362746593,1
+245,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"")",0.653364726,1
+246,"c(""Beverages"", ""Coffee beans and ground coffee"")",0.178346335,1
+247,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"", ""Ready meals and other vegetable products, frozen or not frozen"")",0.686289281,1
+248,"c(""Beverages"", ""Instant coffee"")",0.465448316,1
+249,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"", ""All vegetable takeaway products"")",0.542990684,1
+250,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Other frozen vegetables"")",0.40735962,1
+251,"c(""Beverages"", ""Cocoa and chocolate drinks"")",-0.058675812,1
+252,Fresh and processed fruit,0.526255761,1
+253,"c(""Beverages"", ""Malt drinks and chocolate versions of malted drinks"")",0.657001181,1
+254,"c(""Fresh and processed fruit"", ""Fresh fruit"")",0.573552183,1
+255,Other food and drink,0.550000653,1
+256,"c(""Other food and drink"", ""Mineral or spring waters"")",0.469463358,1
+257,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh oranges"")",0.467170501,1
+258,"c(""Other food and drink"", ""Baby foods"")",0.502239439,1
+259,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh citrus fruits"")",0.510135636,1
+260,"c(""Other food and drink"", ""Soups - canned or cartons"")",0.337372393,1
+261,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh apples"")",0.456561197,1
+262,"c(""Other food and drink"", ""Soups - dehydrated or powdered"")",0.183128547,1
+263,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh pears"")",0.476263401,1
+264,"c(""Other food and drink"", ""Soups - from takeaway"")",0.572000674,1
+265,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh stone fruit"")",0.455222366,1
+266,"c(""Other food and drink"", ""Spreads and dressings"")",0.495821471,1
+267,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh grapes"")",0.80754447,1
+268,"c(""Other food and drink"", ""Spreads and dressings"", ""Salad dressings"")",0.454729986,1
+269,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh soft fruit"")",1.222254882,1
+270,"c(""Other food and drink"", ""Spreads and dressings"", ""Other spreads and dresssings"")",0.143025159,1
+271,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh bananas"")",0.178720442,1
+272,"c(""Other food and drink"", ""Pickles and sauces"")",0.295686051,1
+273,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh melons"")",0.390565082,1
+274,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh fruit"")",0.846196077,1
+275,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"")",0.421492655,1
+276,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Tinned peaches, pears and pineapples"")",0.784457877,1
+277,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""All other tinned or bottled fruit"")",0.295914658,1
+278,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Dried fruit"")",0.57163636,1
+279,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Frozen strawberries, apple slices, peach halves, oranges and other frozen fruits"")",0.62230212,1
+280,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"")",0.62649528,1
+281,"c(""Bread"", ""Total other bread"", ""Vienna and french bread"")",0.832426816,1
+282,"c(""Bread"", ""Total other bread"", ""Sandwiches from takeaway"")",0.35807051,1
+283,"c(""Cakes, buns and pastries"", ""Cakes and pastries"", ""Cakes and pastries, not frozen"")",-0.058405708,1
+284,"c(""Biscuits and crispbreads"", ""Chocolate biscuits"")",0.6060534,1
+285,"c(""Other cereals and cereal products"", ""Breakfast cereals"")",0.417334946,1
+286,"c(""Other food and drink"", ""Pickles and sauces"", ""Pickles"")",0.910321718,1
+287,"c(""Other food and drink"", ""Pickles and sauces"", ""Sauces"")",0.360083501,1
+288,"c(""Other food and drink"", ""Pickles and sauces"", ""Takeaway sauces and mayonnnaise"")",0.573062652,1
+289,"c(""Other food and drink"", ""Stock cubes and meat and yeast extracts"")",0.792026199,1
+290,"c(""Other food and drink"", ""Jelly squares or crystals"")",0.577644594,1
+291,"c(""Other food and drink"", ""Ice cream tub or block"")",0.675101417,1
+292,"c(""Other food and drink"", ""Ice cream products including takeaways"")",0.535884841,1
+293,"c(""Other food and drink"", ""Ice cream products including takeaways"", ""Ice cream cornets, choc-ices, lollies with ice cream"")",0.538701249,1
+294,"c(""Other food and drink"", ""Ice cream products including takeaways"", ""Ice lollies, sorbet, frozen mousse, frozen yoghurt"")",0.481227101,1
+295,"c(""Other food and drink"", ""Ice cream products including takeaways"", ""Takeaway ice cream, ice cream products, milkshakes"")",0.547159444,1
+296,"c(""Other food and drink"", ""Soya and novel protein foods"")",0.549155391,1
+297,"c(""Other food and drink"", ""Salt"")",0.423612567,1
+298,Soft drinks,0.666690902,1
+299,"c(""Soft drinks"", ""Soft drinks, concentrated, not low calorie"")",0.093685589,1
+300,"c(""Soft drinks"", ""Soft drinks, not concentrated,  not low calorie"")",0.820345429,1
+301,"c(""Soft drinks"", ""Soft drinks, concentrated, low calorie"")",-0.271760016,1
+302,"c(""Soft drinks"", ""Soft drinks, not concentrated, low calorie"")",0.258033572,1
+303,Confectionery,0.353403621,1
+304,"c(""Confectionery"", ""Chocolate bars - solid"")",0.288173231,1
+305,"c(""Confectionery"", ""Chocolate bars - filled"")",0.31114377,1
+306,"c(""Confectionery"", ""Chewing gum"")",0.560195151,1
+307,"c(""Confectionery"", ""Mints and boiled sweets"")",0.29602463,1
+308,"c(""Confectionery"", ""Mints and boiled sweets"", ""Mints"")",0.079312206,1
+309,"c(""Confectionery"", ""Mints and boiled sweets"", ""Boiled sweets"")",0.250212759,1
+310,"c(""Confectionery"", ""Fudges, toffees, caramels"")",0.669869411,1
+311,Alcoholic drinks,0.247376494,1
+312,"c(""Alcoholic drinks"", ""Beers"")",0.389436497,1
+313,"c(""Alcoholic drinks"", ""Lagers and continental beers"")",0.309505989,1
+314,"c(""Alcoholic drinks"", ""Ciders and perry"")",0.231671944,1
+315,"c(""Alcoholic drinks"", ""Wine and champagne"")",0.273772217,1
+316,"c(""Alcoholic drinks"", ""Wine and champagne"", ""Champagne, sparkling wines and wine with mixer"")",0.433919851,1
+317,"c(""Alcoholic drinks"", ""Wine and champagne"", ""Table wine"")",0.2169013,1
+318,"c(""Alcoholic drinks"", ""Spirits with mixer"")",0.385986443,1
+319,"c(""Alcoholic drinks"", ""Fortified wines"")",0.534684819,1
+320,"c(""Alcoholic drinks"", ""Spirits"")",0.442428386,1
+321,"c(""Alcoholic drinks"", ""Liqueurs and cocktails"")",0.642219222,1
+322,"c(""Alcoholic drinks"", ""Alcopops"")",1.00107668,1
+323,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"")",1.135989125,2
+324,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Dairy desserts - not frozen"")",0.487777774,2
+325,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Dried milk products"")",0.484165537,2
+326,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Milk drinks and other milks (d)"")",0.798820045,2
+327,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Non-dairy milk substitutes (d)"")",0.54898761,2
+328,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Cream"")",0.647687269,2
+329,Cheese,0.427963275,2
+330,"c(""Cheese"", ""Natural cheese"")",0.365069969,2
+331,"c(""Cheese"", ""Natural cheese"", ""Hard cheese - cheddar type"")",0.390005868,2
+332,"c(""Cheese"", ""Natural cheese"", ""Hard cheese - other uk or foreign equivalent"")",0.590450766,2
+333,"c(""Cheese"", ""Natural cheese"", ""Hard cheese - edam or other foreign"")",0.508061767,2
+334,"c(""Cheese"", ""Natural cheese"", ""Cottage cheese"")",0.618550043,2
+335,"c(""Cheese"", ""Natural cheese"", ""Soft natural cheese"")",1.452787755,2
+336,"c(""Cheese"", ""Processed cheese"")",0.389607304,2
+337,Carcase meat,1.015900821,2
+338,"c(""Carcase meat"", ""Beef and veal"")",1.07153092,2
+339,"c(""Carcase meat"", ""Beef and veal"", ""Beef joints - on the bone"")",0.808446907,2
+340,"c(""Carcase meat"", ""Beef and veal"", ""Beef joints - boned"")",0.868703313,2
+341,"c(""Carcase meat"", ""Beef and veal"", ""Beef steak - less expensive"")",0.703762481,2
+342,"c(""Carcase meat"", ""Beef and veal"", ""Beef steak - more expensive"")",0.784229967,2
+343,"c(""Carcase meat"", ""Beef and veal"", ""Minced beef"")",0.169969647,2
+344,"c(""Carcase meat"", ""Beef and veal"", ""All other beef and veal"")",0.458250836,2
+345,"c(""Carcase meat"", ""Mutton and lamb"")",0.94809124,2
+346,"c(""Carcase meat"", ""Mutton and lamb"", ""Mutton"")",0.540402489,2
+347,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway kebabs"")",0.382277265,2
+348,"c(""Carcase meat"", ""Mutton and lamb"", ""Lamb joints"")",0.998974592,2
+349,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway sausages and saveloys"")",0.48193492,2
+350,"c(""Carcase meat"", ""Mutton and lamb"", ""Lamb chops"")",0.62530327,2
+351,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway meat based meals"")",0.301662305,2
+352,"c(""Carcase meat"", ""Mutton and lamb"", ""All other lamb"")",0.624386642,2
+353,"c(""Carcase meat"", ""Pork"")",0.446848333,2
+354,Fish,0.625767769,2
+355,"c(""Fish"", ""White fish, fresh, chilled or frozen"")",0.673282464,2
+356,"c(""Carcase meat"", ""Pork"", ""Pork joints"")",0.614510007,2
+357,"c(""Carcase meat"", ""Pork"", ""Pork chops"")",0.547673893,2
+358,"c(""Fish"", ""White fish, fresh, chilled or frozen"", ""White fish, fresh or chilled"")",0.791972512,2
+359,"c(""Carcase meat"", ""Pork"", ""Pork fillets and steaks"")",0.705212271,2
+360,"c(""Fish"", ""White fish, fresh, chilled or frozen"", ""White fish, frozen"")",0.482820002,2
+361,"c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"")",0.592752182,2
+362,"c(""Carcase meat"", ""Pork"", ""All other pork"")",0.555691388,2
+363,"c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"", ""Herrings and other blue fish, fresh or chilled"")",0.564012428,2
+364,Non-carcase meat and meat products,0.346573182,2
+365,"c(""Non-carcase meat and meat products"", ""Liver"")",0.248208292,2
+366,"c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"", ""Herrings and other blue fish, frozen"")",0.481696309,2
+367,"c(""Fish"", ""Salmon, fresh, chilled or frozen"")",-0.15191008,2
+368,"c(""Non-carcase meat and meat products"", ""Liver"", ""Lambs liver"")",0.327217401,2
+369,"c(""Fish"", ""Salmon, fresh, chilled or frozen"", ""Salmon, fresh or chilled"")",0.233362903,2
+370,"c(""Fish"", ""Salmon, fresh, chilled or frozen"", ""Salmon, frozen"")",0.464927309,2
+371,"c(""Non-carcase meat and meat products"", ""All offal other than liver"")",0.378939211,2
+372,"c(""Fish"", ""Blue fish, dried or salted or smoked"")",0.389342219,2
+373,"c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"")",0.154459667,2
+374,"c(""Fish"", ""White fish, dried, salted or smoked"")",0.436114777,2
+375,"c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"", ""Bacon and ham joints, uncooked"")",0.397423398,2
+376,"c(""Fish"", ""Shellfish"")",0.617672355,2
+377,"c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"", ""Bacon and ham rashers, uncooked"")",0.114320655,2
+378,"c(""Fish"", ""Shellfish"", ""Shellfish, fresh or chilled"")",0.625936725,2
+379,"c(""Non-carcase meat and meat products"", ""Bacon and ham, cooked"")",0.381571075,2
+380,"c(""Fish"", ""Shellfish"", ""Shellfish, frozen"")",0.301308469,2
+381,"c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"")",0.682757363,2
+382,"c(""Fish"", ""Takeaway fish"")",1.311197947,2
+383,"c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"", ""Chicken and turkey, cooked"")",0.648367686,2
+384,"c(""Fish"", ""Salmon, tinned"")",1.236583873,2
+385,"c(""Fish"", ""Other tinned or bottled fish"")",0.590906113,2
+386,"c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"", ""Takeaway chicken"")",0.642157284,2
+387,"c(""Fish"", ""Ready meals and other fish products - frozen or not frozen"")",0.764278587,2
+388,"c(""Fish"", ""Takeaway fish meals and fish products"")",0.54800484,2
+389,"c(""Non-carcase meat and meat products"", ""Corned beef, canned or sliced"")",0.770482933,2
+390,"c(""Fish"", ""Takeaway fish meals and fish products"", ""Takeaway fish products"")",0.592031933,2
+391,"c(""Non-carcase meat and meat products"", ""Other cooked meat"")",0.636239709,2
+392,"c(""Fish"", ""Takeaway fish meals and fish products"", ""Takeaway fish based meals"")",0.671442255,2
+393,"c(""Non-carcase meat and meat products"", ""Other canned meat and canned meat products"")",0.485687134,2
+394,Eggs,0.271534471,2
+395,"c(""Non-carcase meat and meat products"", ""Chicken, uncooked - whole chicken or chicken pieces"")",0.34913569,2
+396,Fats,0.689683282,2
+397,"c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"")",0.804834762,2
+398,"c(""Fats"", ""Butter"")",0.330014496,2
+399,"c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"", ""Turkey, uncooked - whole turkey or turkey pieces"")",0.847604148,2
+400,"c(""Fats"", ""Margarine"")",0.043939374,2
+401,"c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"", ""Poultry other than chicken or turkey, uncooked"")",0.45588299,2
+402,"c(""Fats"", ""Margarine"", ""Soft margarine"")",0.162298833,2
+403,"c(""Non-carcase meat and meat products"", ""Other fresh, chilled and frozen meat"")",0.459528178,2
+404,"c(""Fats"", ""Margarine"", ""Other margarine"")",0.509618168,2
+405,"c(""Non-carcase meat and meat products"", ""Sausages, uncooked - pork"")",0.493341008,2
+406,"c(""Non-carcase meat and meat products"", ""Sausages, uncooked - beef and other sausages"")",0.673313502,2
+407,"c(""Fats"", ""Vegetable and salad oils"", ""Other vegetable and salad oils"")",0.419572698,2
+408,"c(""Fats"", ""All other fats"")",0.87949053,2
+409,"c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"")",0.408113219,2
+410,"c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"", ""Meat pies, ready to eat"")",0.842774187,2
+411,"c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"", ""Sausage rolls, ready to eat"")",0.487495722,2
+412,"c(""Fats"", ""All other fats"", ""Reduced fat spreads"")",0.549703097,2
+413,"c(""Non-carcase meat and meat products"", ""Meat pies, pasties and puddings, frozen or not frozen"")",0.586007338,2
+414,Sugar and preserves,0.450543152,2
+415,"c(""Sugar and preserves"", ""Sugar"")",0.486770271,2
+416,"c(""Non-carcase meat and meat products"", ""Burgers, frozen or not frozen"")",0.438385326,2
+417,"c(""Sugar and preserves"", ""Honey"")",0.320283023,2
+418,"Fresh and processed fruit and vegetables, including potatoes",0.823423507,2
+419,"c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"")",0.579477516,2
+420,"Fresh and processed vegetables, including potatoes",0.929239273,2
+421,"c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"", ""Complete meat-based ready meals, frozen or not frozen"")",0.444838125,2
+422,Fresh and processed potatoes,1.145056541,2
+423,"c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"", ""Other convenience meat products, frozen or not frozen"")",0.498259905,2
+424,"c(""Fats"", ""Vegetable and salad oils"")",0.38083885,2
+425,"c(""Fresh and processed potatoes"", ""Fresh potatoes"")",0.783793344,2
+426,"c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"")",0.585845018,2
+427,"c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Other fresh potatoes (e)"")",0.594683957,2
+428,"c(""Fats"", ""Vegetable and salad oils"", ""Olive oil"")",0.765620835,2
+429,"c(""Fresh and processed potatoes"", ""Processed potatoes"")",0.344837834,2
+430,"c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"", ""Pate"")",0.455734434,2
+431,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"")",0.166333334,2
+432,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"", ""Chips - frozen or not frozen"")",0.460683818,2
+433,"c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"", ""Delicatessen type sausages"")",0.598742148,2
+434,"c(""Fats"", ""All other fats"", ""Low fat spreads"")",0.572919047,2
+435,"c(""Non-carcase meat and meat products"", ""Meat pastes and spreads"")",0.321835442,2
+436,"c(""Fats"", ""All other fats"", ""Suet and dripping"")",0.463724825,2
+437,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"", ""Takeaway chips"")",0.610110275,2
+438,"c(""Non-carcase meat and meat products"", ""Takeaway meats"")",0.343946293,2
+439,"c(""Fats"", ""All other fats"", ""Imitatation cream"")",0.554957157,2
+440,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Instant potato"")",0.340472961,2
+441,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway meat pies and pasties"")",0.693785065,2
+442,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Crisps and potato snacks"")",0.232053532,2
+443,"c(""Sugar and preserves"", ""Jams and fruit curds"")",0.315016429,2
+444,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Other potato products, frozen or not frozen"")",0.681797911,2
+445,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway burger and bun"")",0.578454909,2
+446,"c(""Sugar and preserves"", ""Marmalade"")",-0.279651308,2
+447,"Fresh and processed fruit and vegetables, excluding potatoes",0.562180652,2
+448,"c(""Sugar and preserves"", ""Syrup, treacle"")",0.189307577,2
+449,"Fresh and processed vegetables, excluding potatoes",0.436717655,2
+450,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"")",1.041478841,2
+451,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh brussels sprouts"")",0.750989453,2
+452,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh cauliflower"")",0.710254341,2
+453,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"")",0.53223504,2
+454,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"", ""Lettuce and leafy salads"")",0.690460463,2
+455,"c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Fresh new potatoes (e)"")",0.8275724,2
+456,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"", ""Prepared lettuce salads"")",0.532688786,2
+457,"c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Fresh baking potatoes (e)"")",0.437689096,2
+458,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh peas"")",0.663208548,2
+459,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh beans"")",0.604548689,2
+460,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Other fresh green vegetables"")",0.495686386,2
+461,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh cabbages"")",0.805601095,2
+462,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"")",0.353502291,2
+463,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh carrots"")",0.262998549,2
+464,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"")",0.241497134,2
+465,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"", ""Baked beans in sauce"")",0.311782808,2
+466,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh turnips and swede"")",0.313009649,2
+467,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"", ""Other canned beans and pulses"")",0.476546835,2
+468,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Other fresh root vegetables"")",0.591446598,2
+469,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Other canned vegetables"")",0.636406469,2
+470,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Dried pulses other than air-dried"")",0.544895261,2
+471,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh onions, leeks and shallots"")",0.694866105,2
+472,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"")",0.66545473,2
+473,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh cucumbers"")",0.475166082,2
+474,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"", ""Tomato puree and vegetable purees"")",0.640888684,2
+475,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh mushrooms"")",0.396403389,2
+476,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"", ""Vegetable juices eg tomato juice, carrot juice"")",0.453804497,2
+477,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh tomatoes"")",0.596447221,2
+478,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Peas, frozen"")",0.500287184,2
+479,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"")",0.705646525,2
+480,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans, frozen"")",0.106646685,2
+481,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh vegetable stewpack, stirfry pack etc."")",0.892413528,2
+482,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"")",0.404769392,2
+483,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"", ""Ready meals and other vegetable products, frozen or not frozen"")",0.334866848,2
+484,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh stem vegetables"")",0.466754159,2
+485,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"", ""All vegetable takeaway products"")",0.6742602,2
+486,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh marrow, courgettes, aubergine, pumpkin and other vegetables"")",0.837965894,2
+487,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh herbs"")",0.609708728,2
+488,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"")",0.518363068,2
+489,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Other frozen vegetables"")",0.392541014,2
+490,Fresh and processed fruit,0.682394756,2
+491,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Tomatoes, canned or bottled"")",0.105052003,2
+492,"c(""Fresh and processed fruit"", ""Fresh fruit"")",0.572570853,2
+493,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh oranges"")",0.353362725,2
+494,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Peas, canned"")",0.922999879,2
+495,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh citrus fruits"")",0.908239257,2
+496,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh apples"")",0.594008292,2
+497,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh pears"")",0.373073495,2
+498,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh stone fruit"")",1.057920068,2
+499,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh grapes"")",0.726950215,2
+500,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh soft fruit"")",0.041334536,2
+501,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh bananas"")",0.099955175,2
+502,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh melons"")",0.5717871,2
+503,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh fruit"")",0.650950647,2
+504,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"")",0.61224624,2
+505,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Tinned peaches, pears and pineapples"")",0.476197499,2
+506,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""All other tinned or bottled fruit"")",0.461827293,2
+507,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Dried fruit"")",0.498720334,2
+508,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Frozen strawberries, apple slices, peach halves, oranges and other frozen fruits"")",0.641096944,2
+509,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"")",0.523278727,2
+510,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"", ""Nuts and edible seeds"")",0.585110459,2
+511,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"", ""Peanut butter"")",0.155736582,2
+512,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Pure fruit juices"")",0.17169468,2
+513,Bread,0.768073366,2
+514,"c(""Bread"", ""White bread"")",0.92764561,2
+515,"c(""Bread"", ""White bread"", ""White bread, standard, unsliced"")",1.076306361,2
+516,"c(""Bread"", ""White bread"", ""White bread, standard, sliced"")",0.621048258,2
+517,"c(""Bread"", ""White bread"", ""White bread, premium, sliced and unsliced"")",0.37254781,2
+518,"c(""Bread"", ""White bread"", ""White bread, soft grain, sliced and unsliced"")",0.541245837,2
+519,"c(""Bread"", ""Brown and wholemeal bread"")",0.181804698,2
+520,"c(""Bread"", ""Brown and wholemeal bread"", ""Brown bread, sliced and unsliced"")",0.244798888,2
+521,"c(""Bread"", ""Brown and wholemeal bread"", ""Wholemeal and granary bread, sliced and unsliced"")",0.199291746,2
+522,"c(""Bread"", ""Total other bread"")",0.509953795,2
+523,"c(""Bread"", ""Total other bread"", ""Rolls - white, brown or wholemeal"")",0.921103095,2
+524,"c(""Bread"", ""Total other bread"", ""Malt bread and fruit loaves"")",0.440165062,2
+525,"c(""Bread"", ""Total other bread"", ""Vienna and french bread"")",0.500366665,2
+526,"c(""Bread"", ""Total other bread"", ""Starch reduced bread and rolls"")",0.370626936,2
+527,"c(""Bread"", ""Total other bread"", ""Other breads"")",1.046106243,2
+528,"c(""Bread"", ""Total other bread"", ""Sandwiches"")",0.595797109,2
+529,"c(""Bread"", ""Total other bread"", ""Sandwiches from takeaway"")",0.511781871,2
+530,"c(""Bread"", ""Total other bread"", ""Takeaway breads"")",0.617107663,2
+531,Flour,0.349354576,2
+532,"Cakes, buns and pastries",-0.055380912,2
+533,"c(""Cakes, buns and pastries"", ""Cakes and pastries"")",0.162889654,2
+534,"c(""Cakes, buns and pastries"", ""Cakes and pastries"", ""Cakes and pastries, not frozen"")",0.040438558,2
+535,"c(""Cakes, buns and pastries"", ""Cakes and pastries"", ""Takeaway pastries"")",0.558855483,2
+536,"c(""Cakes, buns and pastries"", ""Buns, scones and teacakes"")",0.517568352,2
+537,Biscuits and crispbreads,0.417269587,2
+538,"c(""Biscuits and crispbreads"", ""Chocolate biscuits"")",0.588349375,2
+539,"c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"")",0.422651655,2
+540,"c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"", ""Sweet biscuits (not chocolate) and cereal bars"")",0.323839894,2
+541,"c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"", ""Cream crackers and other unsweetened biscuits"")",0.416265692,2
+542,"c(""Biscuits and crispbreads"", ""Crispbread"")",0.314398832,2
+543,Other cereals and cereal products,0.664128026,2
+544,"c(""Other cereals and cereal products"", ""Oatmeal and oat products"")",0.53569496,2
+545,"c(""Other cereals and cereal products"", ""Breakfast cereals"")",-0.239465438,2
+546,"c(""Other food and drink"", ""Pickles and sauces"", ""Sauces"")",0.663076841,2
+547,"c(""Other food and drink"", ""Pickles and sauces"", ""Takeaway sauces and mayonnnaise"")",0.467521075,2
+548,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Muesli"")",0.442774091,2
+549,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""High fibre breakfast cereals"")",-0.432725793,2
+550,"c(""Other food and drink"", ""Stock cubes and meat and yeast extracts"")",0.486429197,2
+551,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Sweetened breakfast cereals"")",0.47901707,2
+552,"c(""Other food and drink"", ""Jelly squares or crystals"")",0.508857234,2
+553,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Other breakfast cereals"")",0.472108464,2
+554,"c(""Other food and drink"", ""Ice cream tub or block"")",0.507234718,2
+555,"c(""Other food and drink"", ""Ice cream products including takeaways"")",0.472571185,2
+556,"c(""Other cereals and cereal products"", ""Canned milk puddings"")",0.49771878,2
+557,"c(""Other food and drink"", ""Ice cream products including takeaways"", ""Ice cream cornets, choc-ices, lollies with ice cream"")",0.367842168,2
+558,"c(""Other cereals and cereal products"", ""Canned milk puddings"", ""Canned or fresh carton custard"")",0.62090017,2
+559,"c(""Other food and drink"", ""Ice cream products including takeaways"", ""Ice lollies, sorbet, frozen mousse, frozen yoghurt"")",0.707168996,2
+560,"c(""Other cereals and cereal products"", ""Canned milk puddings"", ""All canned milk puddings"")",0.411565068,2
+561,"c(""Other food and drink"", ""Ice cream products including takeaways"", ""Takeaway ice cream, ice cream products, milkshakes"")",0.68416802,2
+562,"c(""Other cereals and cereal products"", ""Puddings"")",0.682954322,2
+563,"c(""Other food and drink"", ""Soya and novel protein foods"")",0.48998762,2
+564,"c(""Other cereals and cereal products"", ""Rice"")",0.838590709,2
+565,"c(""Other food and drink"", ""Salt"")",0.704039703,2
+566,"c(""Other cereals and cereal products"", ""Rice"", ""Dried rice"")",0.706035541,2
+567,"c(""Other cereals and cereal products"", ""Rice"", ""Cooked rice"")",0.275079253,2
+568,"c(""Other cereals and cereal products"", ""Rice"", ""Takeaway rice"")",0.569093904,2
+569,Soft drinks,0.576475195,2
+570,"c(""Soft drinks"", ""Soft drinks, concentrated, not low calorie"")",-0.000339639,2
+571,"c(""Other cereals and cereal products"", ""Invalid foods, slimming foods and sports foods"")",0.477289702,2
+572,"c(""Soft drinks"", ""Soft drinks, not concentrated,  not low calorie"")",0.908781175,2
+573,"c(""Other cereals and cereal products"", ""Infant cereal foods"")",0.470274863,2
+574,"c(""Soft drinks"", ""Soft drinks, concentrated, low calorie"")",0.164929263,2
+575,"c(""Other cereals and cereal products"", ""Cakes and pastries - frozen"")",0.475468314,2
+576,"c(""Soft drinks"", ""Soft drinks, not concentrated, low calorie"")",0.19272129,2
+577,"c(""Other cereals and cereal products"", ""Pasta"")",0.466042291,2
+578,Confectionery,0.393831275,2
+579,"c(""Other cereals and cereal products"", ""Pasta"", ""Canned pasta"")",0.373726021,2
+580,"c(""Confectionery"", ""Chocolate bars - solid"")",0.395097432,2
+581,"c(""Confectionery"", ""Chocolate bars - filled"")",0.396461115,2
+582,"c(""Other cereals and cereal products"", ""Pasta"", ""Dried and fresh pasta"")",0.415960451,2
+583,"c(""Confectionery"", ""Chewing gum"")",0.519994055,2
+584,"c(""Other cereals and cereal products"", ""Pasta"", ""Takeaway pasta and noodles"")",0.615906587,2
+585,"c(""Confectionery"", ""Mints and boiled sweets"")",0.402509031,2
+586,"c(""Other cereals and cereal products"", ""Pizza"")",0.55053556,2
+587,"c(""Confectionery"", ""Mints and boiled sweets"", ""Mints"")",0.892878599,2
+588,"c(""Other cereals and cereal products"", ""Pizza"", ""Pizzas, frozen and not frozen"")",0.774629542,2
+589,"c(""Confectionery"", ""Mints and boiled sweets"", ""Boiled sweets"")",0.402639676,2
+590,"c(""Other cereals and cereal products"", ""Pizza"", ""Takeaway pizza"")",0.520316628,2
+591,"c(""Confectionery"", ""Fudges, toffees, caramels"")",0.24896627,2
+592,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"")",0.543708335,2
+593,Alcoholic drinks,0.529000139,2
+594,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Cake, pudding and dessert mixes"")",0.69890568,2
+595,"c(""Alcoholic drinks"", ""Beers"")",0.579108731,2
+596,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Cereal snacks"")",0.521842343,2
+597,"c(""Alcoholic drinks"", ""Lagers and continental beers"")",0.542886159,2
+598,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Quiches and flans, frozen and not frozen"")",0.296301174,2
+599,"c(""Alcoholic drinks"", ""Ciders and perry"")",0.656843229,2
+600,"c(""Alcoholic drinks"", ""Wine and champagne"")",0.550567658,2
+601,"c(""Alcoholic drinks"", ""Wine and champagne"", ""Champagne, sparkling wines and wine with mixer"")",0.707655152,2
+602,"c(""Alcoholic drinks"", ""Wine and champagne"", ""Table wine"")",0.50994276,2
+603,"c(""Alcoholic drinks"", ""Spirits with mixer"")",0.413537922,2
+604,"c(""Alcoholic drinks"", ""Fortified wines"")",0.607214568,2
+605,"c(""Alcoholic drinks"", ""Spirits"")",0.671839759,2
+606,"c(""Alcoholic drinks"", ""Liqueurs and cocktails"")",0.640039731,2
+607,Milk and milk products excluding cheese,0.010753183,2
+608,"c(""Alcoholic drinks"", ""Alcopops"")",0.407208518,2
+609,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"")",-0.203516925,2
+610,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"")",-0.203883069,2
+611,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""UHT milk"")",0.372640638,2
+612,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""Sterilised"")",0.787757411,2
+613,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""Pasteurised/ homogenised"")",-0.171560163,2
+614,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"")",0.323218958,2
+615,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"")",0.287257334,2
+616,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"", ""Fully skimmed milk"")",0.349232885,2
+617,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"", ""Semi-skimmed milk"")",0.283338407,2
+618,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Condensed or evaporated milk"")",0.638759043,2
+619,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"")",0.689879238,2
+620,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"", ""Infant or baby milks - ready to drink"")",0.479320716,2
+621,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"", ""Infant or baby milks - dried"")",0.709121009,2
+622,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"")",1.039915435,2
+623,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"", ""Yoghurt"")",0.94383092,2
+624,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Takeaway crisps, savoury snacks, popcorn, popadums, prawn crackers"")",0.53731316,2
+625,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"", ""Fromage frais"")",0.832036533,2
+626,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Other cereal foods, frozen and not frozen"")",0.794830176,2
+627,"c(""Other cereals and cereal products"", ""Other cereals"")",0.492472549,2
+628,Beverages,0.741157768,2
+629,"c(""Beverages"", ""Tea"")",0.229699354,2
+630,"c(""Beverages"", ""Coffee beans and ground coffee"")",0.260242527,2
+631,"c(""Beverages"", ""Instant coffee"")",0.47707178,2
+632,"c(""Beverages"", ""Cocoa and chocolate drinks"")",0.448671385,2
+633,"c(""Beverages"", ""Malt drinks and chocolate versions of malted drinks"")",0.234290646,2
+634,Other food and drink,0.815245226,2
+635,"c(""Other food and drink"", ""Mineral or spring waters"")",0.826873353,2
+636,"c(""Other food and drink"", ""Baby foods"")",0.530965053,2
+637,"c(""Other food and drink"", ""Soups - canned or cartons"")",0.520861824,2
+638,"c(""Other food and drink"", ""Soups - dehydrated or powdered"")",0.807058413,2
+639,"c(""Other food and drink"", ""Soups - from takeaway"")",0.573498795,2
+640,"c(""Other food and drink"", ""Spreads and dressings"")",0.751076256,2
+641,"c(""Other food and drink"", ""Spreads and dressings"", ""Salad dressings"")",0.666928268,2
+642,"c(""Other food and drink"", ""Spreads and dressings"", ""Other spreads and dresssings"")",0.483530297,2
+643,"c(""Other food and drink"", ""Pickles and sauces"")",0.546019979,2
+644,"c(""Other food and drink"", ""Pickles and sauces"", ""Pickles"")",0.41864777,2
+645,"c(""Carcase meat"", ""Beef and veal"", ""Minced beef"")",0.205870989,3
+646,"c(""Carcase meat"", ""Beef and veal"", ""All other beef and veal"")",0.434976639,3
+647,"c(""Carcase meat"", ""Mutton and lamb"")",0.600736515,3
+648,"c(""Carcase meat"", ""Mutton and lamb"", ""Mutton"")",0.725158288,3
+649,"c(""Carcase meat"", ""Mutton and lamb"", ""Lamb joints"")",0.596944791,3
+650,"c(""Carcase meat"", ""Mutton and lamb"", ""Lamb chops"")",0.68283629,3
+651,"c(""Carcase meat"", ""Mutton and lamb"", ""All other lamb"")",0.483865256,3
+652,"c(""Carcase meat"", ""Pork"")",0.36041817,3
+653,"c(""Carcase meat"", ""Pork"", ""Pork joints"")",0.646509681,3
+654,"c(""Carcase meat"", ""Pork"", ""Pork chops"")",0.222625528,3
+655,"c(""Carcase meat"", ""Pork"", ""Pork fillets and steaks"")",0.587230014,3
+656,"c(""Carcase meat"", ""Pork"", ""All other pork"")",0.500459176,3
+657,Non-carcase meat and meat products,0.546065725,3
+658,"c(""Non-carcase meat and meat products"", ""Liver"")",0.187307438,3
+659,"c(""Non-carcase meat and meat products"", ""Liver"", ""Lambs liver"")",0.294995174,3
+660,"c(""Non-carcase meat and meat products"", ""All offal other than liver"")",0.424891886,3
+661,"c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"")",0.270789775,3
+662,Milk and milk products excluding cheese,-0.050594114,3
+663,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"")",-0.327826535,3
+664,"c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"", ""Bacon and ham joints, uncooked"")",0.550351902,3
+665,"c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"", ""Bacon and ham rashers, uncooked"")",-0.102146403,3
+666,"c(""Non-carcase meat and meat products"", ""Bacon and ham, cooked"")",0.662555599,3
+667,"c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"")",0.837930165,3
+668,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"")",-0.34008087,3
+669,"c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"", ""Chicken and turkey, cooked"")",0.76816974,3
+670,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""UHT milk"")",0.365264386,3
+671,"c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"", ""Takeaway chicken"")",0.337773961,3
+672,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""Sterilised"")",0.49012575,3
+673,"c(""Non-carcase meat and meat products"", ""Corned beef, canned or sliced"")",0.787237251,3
+674,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""Pasteurised/ homogenised"")",-0.319332741,3
+675,"c(""Non-carcase meat and meat products"", ""Other cooked meat"")",0.352022424,3
+676,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"")",0.337990978,3
+677,"c(""Non-carcase meat and meat products"", ""Other canned meat and canned meat products"")",0.445215449,3
+678,"c(""Non-carcase meat and meat products"", ""Chicken, uncooked - whole chicken or chicken pieces"")",0.199646396,3
+679,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"")",0.132889291,3
+680,"c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"")",0.775905736,3
+681,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"", ""Fully skimmed milk"")",0.299518864,3
+682,"c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"", ""Turkey, uncooked - whole turkey or turkey pieces"")",0.982346683,3
+683,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"", ""Semi-skimmed milk"")",0.231017896,3
+684,"c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"", ""Poultry other than chicken or turkey, uncooked"")",0.498667514,3
+685,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Condensed or evaporated milk"")",0.570229824,3
+686,"c(""Non-carcase meat and meat products"", ""Other fresh, chilled and frozen meat"")",0.336179361,3
+687,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"")",0.438240086,3
+688,"c(""Non-carcase meat and meat products"", ""Sausages, uncooked - pork"")",0.635591775,3
+689,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"", ""Infant or baby milks - ready to drink"")",0.950647731,3
+690,"c(""Non-carcase meat and meat products"", ""Sausages, uncooked - beef and other sausages"")",0.810949841,3
+691,"c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"")",0.640665394,3
+692,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"", ""Infant or baby milks - dried"")",0.445106119,3
+693,"c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"", ""Meat pies, ready to eat"")",0.903588235,3
+694,"c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"", ""Sausage rolls, ready to eat"")",0.599471246,3
+695,"c(""Non-carcase meat and meat products"", ""Meat pies, pasties and puddings, frozen or not frozen"")",0.583952598,3
+696,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"")",0.681512139,3
+697,"c(""Non-carcase meat and meat products"", ""Burgers, frozen or not frozen"")",0.562272459,3
+698,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"", ""Yoghurt"")",0.714155078,3
+699,"c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"")",0.561095075,3
+700,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"", ""Fromage frais"")",0.210678325,3
+701,"c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"", ""Complete meat-based ready meals, frozen or not frozen"")",0.377899176,3
+702,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"")",0.790648459,3
+703,"c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"", ""Other convenience meat products, frozen or not frozen"")",0.894784553,3
+704,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Dairy desserts - not frozen"")",0.501516628,3
+705,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Dried milk products"")",0.346557033,3
+706,"c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"")",0.561676772,3
+707,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Milk drinks and other milks (d)"")",0.634815367,3
+708,"c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"", ""Pate"")",0.494473518,3
+709,"c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"", ""Delicatessen type sausages"")",0.454774377,3
+710,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Non-dairy milk substitutes (d)"")",0.163909444,3
+711,"c(""Non-carcase meat and meat products"", ""Meat pastes and spreads"")",0.101214496,3
+712,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Cream"")",0.579160873,3
+713,"c(""Non-carcase meat and meat products"", ""Takeaway meats"")",0.377629772,3
+714,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway meat pies and pasties"")",0.624518803,3
+715,Cheese,0.324135536,3
+716,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway burger and bun"")",0.622860702,3
+717,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway kebabs"")",0.541031078,3
+718,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway sausages and saveloys"")",0.503146263,3
+719,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway meat based meals"")",0.190487973,3
+720,Fish,0.717656453,3
+721,"c(""Fish"", ""White fish, fresh, chilled or frozen"")",1.153015396,3
+722,"c(""Cheese"", ""Natural cheese"")",0.262854455,3
+723,"c(""Fish"", ""White fish, fresh, chilled or frozen"", ""White fish, fresh or chilled"")",0.560424984,3
+724,"c(""Cheese"", ""Natural cheese"", ""Hard cheese - cheddar type"")",0.025357448,3
+725,"c(""Fish"", ""White fish, fresh, chilled or frozen"", ""White fish, frozen"")",0.44908136,3
+726,"c(""Cheese"", ""Natural cheese"", ""Hard cheese - other uk or foreign equivalent"")",0.838594732,3
+727,"c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"")",0.570689678,3
+728,"c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"", ""Herrings and other blue fish, fresh or chilled"")",0.498358256,3
+729,"c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"", ""Herrings and other blue fish, frozen"")",0.503957705,3
+730,"c(""Cheese"", ""Natural cheese"", ""Hard cheese - edam or other foreign"")",0.600423572,3
+731,"c(""Fish"", ""Salmon, fresh, chilled or frozen"")",0.256837249,3
+732,"c(""Cheese"", ""Natural cheese"", ""Cottage cheese"")",0.516480075,3
+733,"c(""Cheese"", ""Natural cheese"", ""Soft natural cheese"")",1.123174202,3
+734,"c(""Fish"", ""Salmon, fresh, chilled or frozen"", ""Salmon, fresh or chilled"")",0.292299627,3
+735,"c(""Cheese"", ""Processed cheese"")",0.170193261,3
+736,"c(""Fish"", ""Salmon, fresh, chilled or frozen"", ""Salmon, frozen"")",0.443779342,3
+737,"c(""Fish"", ""Blue fish, dried or salted or smoked"")",0.181250704,3
+738,"c(""Fish"", ""White fish, dried, salted or smoked"")",0.659845801,3
+739,"c(""Fish"", ""Shellfish"")",0.536493185,3
+740,"c(""Fish"", ""Shellfish"", ""Shellfish, fresh or chilled"")",0.792851336,3
+741,"c(""Fish"", ""Shellfish"", ""Shellfish, frozen"")",0.607775529,3
+742,"c(""Fish"", ""Takeaway fish"")",0.88988543,3
+743,"c(""Fish"", ""Salmon, tinned"")",1.030049761,3
+744,Carcase meat,0.870987853,3
+745,"c(""Carcase meat"", ""Beef and veal"")",0.931388107,3
+746,"c(""Carcase meat"", ""Beef and veal"", ""Beef joints - on the bone"")",0.52994013,3
+747,"c(""Carcase meat"", ""Beef and veal"", ""Beef joints - boned"")",0.996277446,3
+748,"c(""Carcase meat"", ""Beef and veal"", ""Beef steak - less expensive"")",0.462590674,3
+749,"c(""Carcase meat"", ""Beef and veal"", ""Beef steak - more expensive"")",0.568846776,3
+750,"c(""Fish"", ""Other tinned or bottled fish"")",0.597126957,3
+751,"c(""Fish"", ""Ready meals and other fish products - frozen or not frozen"")",0.56855119,3
+752,"c(""Fish"", ""Takeaway fish meals and fish products"")",0.391234129,3
+753,"c(""Fish"", ""Takeaway fish meals and fish products"", ""Takeaway fish products"")",0.552586946,3
+754,"c(""Fish"", ""Takeaway fish meals and fish products"", ""Takeaway fish based meals"")",0.445397851,3
+755,Eggs,0.098842514,3
+756,Fats,0.276838149,3
+757,"c(""Fats"", ""Butter"")",-0.085901351,3
+758,"c(""Fats"", ""Margarine"")",-0.005665547,3
+759,"c(""Fats"", ""Margarine"", ""Soft margarine"")",0.19098846,3
+760,"c(""Fats"", ""Margarine"", ""Other margarine"")",0.489188299,3
+761,"c(""Fats"", ""Vegetable and salad oils"")",0.202579485,3
+762,"c(""Fats"", ""Vegetable and salad oils"", ""Olive oil"")",0.731401664,3
+763,"c(""Fats"", ""Vegetable and salad oils"", ""Other vegetable and salad oils"")",0.142087008,3
+764,"c(""Fats"", ""All other fats"")",1.28208591,3
+765,"c(""Fats"", ""All other fats"", ""Reduced fat spreads"")",0.933462688,3
+766,"c(""Fats"", ""All other fats"", ""Low fat spreads"")",0.551705678,3
+767,"c(""Fats"", ""All other fats"", ""Suet and dripping"")",0.493218756,3
+768,"c(""Fats"", ""All other fats"", ""Imitatation cream"")",0.395525495,3
+769,Sugar and preserves,0.579894962,3
+770,"c(""Sugar and preserves"", ""Sugar"")",0.61330838,3
+771,"c(""Sugar and preserves"", ""Jams and fruit curds"")",0.440165283,3
+772,"c(""Sugar and preserves"", ""Marmalade"")",0.243301371,3
+773,"c(""Sugar and preserves"", ""Syrup, treacle"")",0.688501188,3
+774,"c(""Sugar and preserves"", ""Honey"")",0.016769077,3
+775,"Fresh and processed fruit and vegetables, including potatoes",0.657055839,3
+776,"Fresh and processed vegetables, including potatoes",0.630105269,3
+777,Fresh and processed potatoes,1.354039977,3
+778,"c(""Fresh and processed potatoes"", ""Fresh potatoes"")",0.917531514,3
+779,"c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Fresh new potatoes (e)"")",0.75071379,3
+780,"c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Fresh baking potatoes (e)"")",0.210795706,3
+781,"c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Other fresh potatoes (e)"")",0.782329774,3
+782,"c(""Fresh and processed potatoes"", ""Processed potatoes"")",0.540910177,3
+783,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"", ""Other canned beans and pulses"")",0.447451681,3
+784,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"")",0.400086195,3
+785,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Other canned vegetables"")",0.723031524,3
+786,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"", ""Chips - frozen or not frozen"")",0.619726983,3
+787,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Dried pulses other than air-dried"")",0.533627038,3
+788,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"", ""Takeaway chips"")",0.895776325,3
+789,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"")",0.606807189,3
+790,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"", ""Tomato puree and vegetable purees"")",0.440189197,3
+791,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Instant potato"")",0.230549338,3
+792,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"", ""Vegetable juices eg tomato juice, carrot juice"")",0.520962879,3
+793,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Peas, frozen"")",0.281883686,3
+794,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Crisps and potato snacks"")",0.567029559,3
+795,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans, frozen"")",0.369993596,3
+796,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Other potato products, frozen or not frozen"")",0.462501847,3
+797,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"")",0.520192651,3
+798,"Fresh and processed fruit and vegetables, excluding potatoes",0.5046813,3
+799,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"", ""Ready meals and other vegetable products, frozen or not frozen"")",0.561879772,3
+800,"Fresh and processed vegetables, excluding potatoes",0.316437216,3
+801,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"", ""All vegetable takeaway products"")",-0.057180309,3
+802,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"")",0.802877529,3
+803,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Other frozen vegetables"")",0.381576945,3
+804,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh cabbages"")",0.891613326,3
+805,Fresh and processed fruit,0.704112135,3
+806,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh brussels sprouts"")",0.274267241,3
+807,"c(""Fresh and processed fruit"", ""Fresh fruit"")",0.770150191,3
+808,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh cauliflower"")",0.589228146,3
+809,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh oranges"")",0.519261871,3
+810,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"")",0.786999508,3
+811,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh citrus fruits"")",0.666591259,3
+812,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"", ""Lettuce and leafy salads"")",0.792659823,3
+813,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh apples"")",0.507942084,3
+814,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"", ""Prepared lettuce salads"")",0.487070207,3
+815,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh pears"")",0.663355974,3
+816,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh peas"")",0.49098132,3
+817,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh stone fruit"")",0.676350724,3
+818,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh beans"")",0.480127642,3
+819,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh grapes"")",0.922265553,3
+820,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Other fresh green vegetables"")",0.197311747,3
+821,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh soft fruit"")",0.693393063,3
+822,"c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"", ""Sweet biscuits (not chocolate) and cereal bars"")",-0.039464733,3
+823,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"")",0.461415841,3
+824,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh fruit"")",1.00458623,3
+825,"c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"", ""Cream crackers and other unsweetened biscuits"")",0.179383449,3
+826,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"")",0.691922828,3
+827,"c(""Biscuits and crispbreads"", ""Crispbread"")",0.171891702,3
+828,Other cereals and cereal products,0.649819953,3
+829,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh carrots"")",-0.0174307,3
+830,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Tinned peaches, pears and pineapples"")",0.625377854,3
+831,"c(""Other cereals and cereal products"", ""Oatmeal and oat products"")",0.394739194,3
+832,"c(""Other cereals and cereal products"", ""Breakfast cereals"")",0.310712846,3
+833,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Muesli"")",0.40003726,3
+834,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh turnips and swede"")",0.656633606,3
+835,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""High fibre breakfast cereals"")",0.451080231,3
+836,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""All other tinned or bottled fruit"")",0.585506204,3
+837,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Other breakfast cereals"")",0.538369692,3
+838,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Dried fruit"")",0.507120069,3
+839,"c(""Other cereals and cereal products"", ""Canned milk puddings"")",0.158084487,3
+840,"c(""Other cereals and cereal products"", ""Canned milk puddings"", ""Canned or fresh carton custard"")",0.649467248,3
+841,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Other fresh root vegetables"")",1.038459859,3
+842,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Frozen strawberries, apple slices, peach halves, oranges and other frozen fruits"")",0.703944376,3
+843,"c(""Other cereals and cereal products"", ""Canned milk puddings"", ""All canned milk puddings"")",0.212855264,3
+844,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Pure fruit juices"")",0.427201755,3
+845,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh onions, leeks and shallots"")",0.53640576,3
+846,"c(""Other cereals and cereal products"", ""Puddings"")",0.403220399,3
+847,"c(""Bread"", ""White bread"")",1.00048621,3
+848,"c(""Other cereals and cereal products"", ""Rice"")",0.887479807,3
+849,"c(""Other cereals and cereal products"", ""Rice"", ""Cooked rice"")",-0.08849461,3
+850,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh cucumbers"")",0.462743949,3
+851,"c(""Bread"", ""White bread"", ""White bread, standard, unsliced"")",0.856528351,3
+852,"c(""Bread"", ""White bread"", ""White bread, standard, sliced"")",0.747874051,3
+853,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh bananas"")",0.357347988,3
+854,"c(""Bread"", ""White bread"", ""White bread, premium, sliced and unsliced"")",0.923869636,3
+855,"c(""Other cereals and cereal products"", ""Rice"", ""Takeaway rice"")",0.318656336,3
+856,"c(""Other cereals and cereal products"", ""Invalid foods, slimming foods and sports foods"")",0.259786397,3
+857,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh melons"")",0.689025427,3
+858,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh mushrooms"")",0.487863633,3
+859,"c(""Other cereals and cereal products"", ""Infant cereal foods"")",0.495232789,3
+860,"c(""Bread"", ""White bread"", ""White bread, soft grain, sliced and unsliced"")",0.583506592,3
+861,"c(""Other cereals and cereal products"", ""Cakes and pastries - frozen"")",0.35770629,3
+862,"c(""Bread"", ""Brown and wholemeal bread"")",-0.320764797,3
+863,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh tomatoes"")",0.407844236,3
+864,"c(""Other cereals and cereal products"", ""Pasta"")",0.279763349,3
+865,"c(""Bread"", ""Brown and wholemeal bread"", ""Brown bread, sliced and unsliced"")",0.062875921,3
+866,"c(""Other cereals and cereal products"", ""Pizza"")",0.495192019,3
+867,"c(""Other cereals and cereal products"", ""Pizza"", ""Pizzas, frozen and not frozen"")",0.457927352,3
+868,"c(""Bread"", ""Total other bread"", ""Rolls - white, brown or wholemeal"")",0.67529,3
+869,"c(""Other cereals and cereal products"", ""Pizza"", ""Takeaway pizza"")",0.596855823,3
+870,"c(""Bread"", ""Total other bread"", ""Vienna and french bread"")",0.607987173,3
+871,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Cereal snacks"")",0.240289031,3
+872,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Quiches and flans, frozen and not frozen"")",0.540324325,3
+873,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"")",1.250780003,3
+874,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Takeaway crisps, savoury snacks, popcorn, popadums, prawn crackers"")",0.571072938,3
+875,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"")",0.338160896,3
+876,"c(""Bread"", ""Total other bread"", ""Starch reduced bread and rolls"")",0.420038086,3
+877,"c(""Bread"", ""Total other bread"", ""Sandwiches"")",0.915265411,3
+878,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Other cereal foods, frozen and not frozen"")",0.989808855,3
+879,"c(""Bread"", ""Total other bread"", ""Sandwiches from takeaway"")",0.567172564,3
+880,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"", ""Nuts and edible seeds"")",0.40935751,3
+881,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh vegetable stewpack, stirfry pack etc."")",1.438953793,3
+882,"c(""Other cereals and cereal products"", ""Other cereals"")",0.595731177,3
+883,"Cakes, buns and pastries",0.261988324,3
+884,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"", ""Peanut butter"")",0.292843241,3
+885,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh stem vegetables"")",0.524151109,3
+886,Beverages,0.513794394,3
+887,"c(""Cakes, buns and pastries"", ""Cakes and pastries"")",0.217168431,3
+888,"c(""Beverages"", ""Tea"")",0.026045268,3
+889,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh marrow, courgettes, aubergine, pumpkin and other vegetables"")",1.118889673,3
+890,"c(""Beverages"", ""Coffee beans and ground coffee"")",0.224378619,3
+891,"c(""Cakes, buns and pastries"", ""Cakes and pastries"", ""Cakes and pastries, not frozen"")",0.228338916,3
+892,Bread,0.66551487,3
+893,"c(""Beverages"", ""Instant coffee"")",0.672287461,3
+894,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh herbs"")",0.72366445,3
+895,"c(""Cakes, buns and pastries"", ""Cakes and pastries"", ""Takeaway pastries"")",0.436947451,3
+896,"c(""Cakes, buns and pastries"", ""Buns, scones and teacakes"")",0.683824207,3
+897,Biscuits and crispbreads,0.301361657,3
+898,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"")",0.666490741,3
+899,"c(""Biscuits and crispbreads"", ""Chocolate biscuits"")",0.541518609,3
+900,"c(""Beverages"", ""Cocoa and chocolate drinks"")",0.715571928,3
+901,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Tomatoes, canned or bottled"")",0.146094544,3
+902,"c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"")",0.106342672,3
+903,Other food and drink,0.788591933,3
+904,"c(""Other food and drink"", ""Baby foods"")",0.54290652,3
+905,"c(""Other food and drink"", ""Soups - dehydrated or powdered"")",0.470079846,3
+906,"c(""Bread"", ""Brown and wholemeal bread"", ""Wholemeal and granary bread, sliced and unsliced"")",-0.055370965,3
+907,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Sweetened breakfast cereals"")",0.067666852,3
+908,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Peas, canned"")",1.283536657,3
+909,"c(""Other food and drink"", ""Soups - from takeaway"")",0.743552364,3
+910,"c(""Bread"", ""Total other bread"")",0.832056265,3
+911,"c(""Other food and drink"", ""Spreads and dressings"")",0.922368342,3
+912,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"")",0.300662466,3
+913,"c(""Other food and drink"", ""Spreads and dressings"", ""Salad dressings"")",0.812240249,3
+914,"c(""Bread"", ""Total other bread"", ""Malt bread and fruit loaves"")",0.542255961,3
+915,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"", ""Baked beans in sauce"")",0.360211969,3
+916,"c(""Other food and drink"", ""Spreads and dressings"", ""Other spreads and dresssings"")",0.348544802,3
+917,"c(""Other food and drink"", ""Pickles and sauces"", ""Sauces"")",0.839603375,3
+918,"c(""Other food and drink"", ""Pickles and sauces"", ""Takeaway sauces and mayonnnaise"")",0.441469246,3
+919,"c(""Other cereals and cereal products"", ""Pasta"", ""Canned pasta"")",0.495940395,3
+920,"c(""Other food and drink"", ""Stock cubes and meat and yeast extracts"")",0.43172136,3
+921,"c(""Confectionery"", ""Chocolate bars - filled"")",0.463082176,3
+922,"c(""Confectionery"", ""Chewing gum"")",0.664068623,3
+923,"c(""Other cereals and cereal products"", ""Pasta"", ""Dried and fresh pasta"")",0.431895739,3
+924,"c(""Bread"", ""Total other bread"", ""Other breads"")",1.558626902,3
+925,"c(""Confectionery"", ""Mints and boiled sweets"", ""Mints"")",0.975380474,3
+926,"c(""Confectionery"", ""Mints and boiled sweets"", ""Boiled sweets"")",0.357098959,3
+927,"c(""Other cereals and cereal products"", ""Pasta"", ""Takeaway pasta and noodles"")",0.358098568,3
+928,"c(""Confectionery"", ""Fudges, toffees, caramels"")",0.402089332,3
+929,"c(""Alcoholic drinks"", ""Wine and champagne"")",0.404741478,3
+930,"c(""Alcoholic drinks"", ""Wine and champagne"", ""Champagne, sparkling wines and wine with mixer"")",0.386493053,3
+931,"c(""Alcoholic drinks"", ""Wine and champagne"", ""Table wine"")",0.409086887,3
+932,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"")",0.417736733,3
+933,"c(""Alcoholic drinks"", ""Spirits with mixer"")",0.506617329,3
+934,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Cake, pudding and dessert mixes"")",0.70031807,3
+935,"c(""Bread"", ""Total other bread"", ""Takeaway breads"")",0.573941695,3
+936,Flour,0.387295582,3
+937,"c(""Alcoholic drinks"", ""Fortified wines"")",0.609394777,3
+938,"c(""Beverages"", ""Malt drinks and chocolate versions of malted drinks"")",0.511172434,3
+939,"c(""Alcoholic drinks"", ""Spirits"")",0.53716266,3
+940,"c(""Alcoholic drinks"", ""Liqueurs and cocktails"")",0.683017935,3
+941,"c(""Other food and drink"", ""Jelly squares or crystals"")",0.537389906,3
+942,"c(""Other food and drink"", ""Ice cream tub or block"")",0.475196571,3
+943,"c(""Other food and drink"", ""Ice cream products including takeaways"")",0.445453828,3
+944,"c(""Other food and drink"", ""Ice cream products including takeaways"", ""Ice cream cornets, choc-ices, lollies with ice cream"")",0.414704722,3
+945,"c(""Other food and drink"", ""Ice cream products including takeaways"", ""Ice lollies, sorbet, frozen mousse, frozen yoghurt"")",0.659978866,3
+946,"c(""Other food and drink"", ""Ice cream products including takeaways"", ""Takeaway ice cream, ice cream products, milkshakes"")",0.608926783,3
+947,"c(""Other food and drink"", ""Soya and novel protein foods"")",0.548097398,3
+948,"c(""Other food and drink"", ""Salt"")",0.240256925,3
+949,"c(""Other cereals and cereal products"", ""Rice"", ""Dried rice"")",0.68941515,3
+950,Soft drinks,0.534755814,3
+951,"c(""Soft drinks"", ""Soft drinks, concentrated, not low calorie"")",-0.05157448,3
+952,"c(""Soft drinks"", ""Soft drinks, not concentrated,  not low calorie"")",0.424299153,3
+953,"c(""Other food and drink"", ""Mineral or spring waters"")",0.521450701,3
+954,"c(""Soft drinks"", ""Soft drinks, concentrated, low calorie"")",0.172239824,3
+955,"c(""Other food and drink"", ""Soups - canned or cartons"")",0.394002763,3
+956,"c(""Soft drinks"", ""Soft drinks, not concentrated, low calorie"")",0.314398584,3
+957,Confectionery,0.465737956,3
+958,"c(""Other food and drink"", ""Pickles and sauces"")",0.780580589,3
+959,"c(""Confectionery"", ""Chocolate bars - solid"")",0.345497705,3
+960,"c(""Other food and drink"", ""Pickles and sauces"", ""Pickles"")",0.493317988,3
+961,"c(""Confectionery"", ""Mints and boiled sweets"")",0.328760896,3
+962,Alcoholic drinks,0.445602477,3
+963,"c(""Alcoholic drinks"", ""Beers"")",0.388714469,3
+964,"c(""Alcoholic drinks"", ""Lagers and continental beers"")",0.373503783,3
+965,"c(""Alcoholic drinks"", ""Ciders and perry"")",0.204341767,3
+966,"c(""Alcoholic drinks"", ""Alcopops"")",0.285411153,3
+967,Milk and milk products excluding cheese,-0.21335591,4
+968,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"")",-2.006285667,4
+969,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"")",-2.048955632,4
+970,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""UHT milk"")",3.612005474,4
+971,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""Sterilised"")",-0.212568771,4
+972,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"", ""Fully skimmed milk"")",-0.240772834,4
+973,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"", ""Semi-skimmed milk"")",0.197612806,4
+974,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Condensed or evaporated milk"")",0.957166913,4
+975,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"")",-0.128666213,4
+976,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"", ""Infant or baby milks - ready to drink"")",3.720016813,4
+977,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"", ""Infant or baby milks - dried"")",0.225517537,4
+978,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"")",1.932963883,4
+979,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"", ""Yoghurt"")",2.492714922,4
+980,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"", ""Fromage frais"")",-0.399223049,4
+981,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"")",0.6329843,4
+982,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Dairy desserts - not frozen"")",-0.278311748,4
+983,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Dried milk products"")",1.608166712,4
+984,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Milk drinks and other milks (d)"")",0.684853645,4
+985,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Cream"")",1.160631164,4
+986,Cheese,0.213254104,4
+987,"c(""Cheese"", ""Natural cheese"")",-0.429929019,4
+988,"c(""Cheese"", ""Natural cheese"", ""Hard cheese - cheddar type"")",-0.028224789,4
+989,"c(""Cheese"", ""Natural cheese"", ""Hard cheese - other uk or foreign equivalent"")",3.619920134,4
+990,"c(""Cheese"", ""Natural cheese"", ""Hard cheese - edam or other foreign"")",-0.691102218,4
+991,"c(""Cheese"", ""Natural cheese"", ""Cottage cheese"")",-1.066372753,4
+992,"c(""Cheese"", ""Natural cheese"", ""Soft natural cheese"")",2.292295587,4
+993,Carcase meat,1.411274225,4
+994,"c(""Carcase meat"", ""Beef and veal"", ""Beef joints - on the bone"")",-1.742634351,4
+995,"c(""Carcase meat"", ""Beef and veal"", ""Beef joints - boned"")",2.080150171,4
+996,"c(""Carcase meat"", ""Beef and veal"", ""Beef steak - less expensive"")",0.478303015,4
+997,"c(""Carcase meat"", ""Beef and veal"", ""Beef steak - more expensive"")",1.388616021,4
+998,"c(""Carcase meat"", ""Beef and veal"", ""Minced beef"")",-0.116012397,4
+999,"c(""Carcase meat"", ""Beef and veal"", ""All other beef and veal"")",0.697438427,4
+1000,"c(""Carcase meat"", ""Mutton and lamb"")",1.659072178,4
+1001,"c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"", ""Bacon and ham joints, uncooked"")",1.090550599,4
+1002,"c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"", ""Bacon and ham rashers, uncooked"")",-0.097582307,4
+1003,"c(""Carcase meat"", ""Mutton and lamb"", ""Mutton"")",-0.162717403,4
+1004,"c(""Non-carcase meat and meat products"", ""Bacon and ham, cooked"")",1.064150807,4
+1005,"c(""Carcase meat"", ""Mutton and lamb"", ""Lamb joints"")",1.400999874,4
+1006,"c(""Carcase meat"", ""Mutton and lamb"", ""Lamb chops"")",1.171351397,4
+1007,"c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"")",1.437463047,4
+1008,"c(""Carcase meat"", ""Mutton and lamb"", ""All other lamb"")",1.304829689,4
+1009,"c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"", ""Chicken and turkey, cooked"")",1.576502854,4
+1010,"c(""Carcase meat"", ""Pork"")",0.557764941,4
+1011,"c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"", ""Takeaway chicken"")",1.155956446,4
+1012,"c(""Carcase meat"", ""Pork"", ""Pork joints"")",0.65333729,4
+1013,"c(""Carcase meat"", ""Pork"", ""Pork chops"")",-0.753851168,4
+1014,"c(""Non-carcase meat and meat products"", ""Corned beef, canned or sliced"")",0.822801777,4
+1015,"c(""Non-carcase meat and meat products"", ""Other cooked meat"")",0.518696641,4
+1016,"c(""Carcase meat"", ""Pork"", ""Pork fillets and steaks"")",0.668193591,4
+1017,"c(""Non-carcase meat and meat products"", ""Other canned meat and canned meat products"")",0.811349589,4
+1018,"c(""Carcase meat"", ""Pork"", ""All other pork"")",-1.299948612,4
+1019,"c(""Non-carcase meat and meat products"", ""Chicken, uncooked - whole chicken or chicken pieces"")",-0.072010067,4
+1020,Non-carcase meat and meat products,-0.054783752,4
+1021,"c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"")",2.151192554,4
+1022,"c(""Non-carcase meat and meat products"", ""Liver"")",0.948428346,4
+1023,"c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"", ""Turkey, uncooked - whole turkey or turkey pieces"")",2.661749248,4
+1024,"c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"", ""Poultry other than chicken or turkey, uncooked"")",0.770244649,4
+1025,"c(""Non-carcase meat and meat products"", ""Liver"", ""Lambs liver"")",0.152229082,4
+1026,"c(""Non-carcase meat and meat products"", ""Other fresh, chilled and frozen meat"")",-0.204872732,4
+1027,"c(""Non-carcase meat and meat products"", ""Sausages, uncooked - pork"")",-0.35273668,4
+1028,"c(""Non-carcase meat and meat products"", ""All offal other than liver"")",1.014309348,4
+1029,"c(""Non-carcase meat and meat products"", ""Sausages, uncooked - beef and other sausages"")",2.367472857,4
+1030,"c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"")",0.308601513,4
+1031,"c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"")",-2.904627414,4
+1032,"c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"", ""Meat pies, ready to eat"")",-0.493411271,4
+1033,"c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"", ""Sausage rolls, ready to eat"")",1.047123107,4
+1034,"c(""Non-carcase meat and meat products"", ""Meat pies, pasties and puddings, frozen or not frozen"")",-1.190559146,4
+1035,"c(""Non-carcase meat and meat products"", ""Burgers, frozen or not frozen"")",0.971205739,4
+1036,"c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"")",-0.220642922,4
+1037,"c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"", ""Complete meat-based ready meals, frozen or not frozen"")",-0.900214865,4
+1038,"c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"", ""Other convenience meat products, frozen or not frozen"")",0.845142008,4
+1039,"c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"")",1.330998388,4
+1040,"c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"", ""Pate"")",1.148423976,4
+1041,"c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"", ""Delicatessen type sausages"")",0.618016518,4
+1042,"c(""Non-carcase meat and meat products"", ""Meat pastes and spreads"")",-1.663427901,4
+1043,"c(""Non-carcase meat and meat products"", ""Takeaway meats"")",-2.135786554,4
+1044,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway meat pies and pasties"")",1.037786889,4
+1045,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway burger and bun"")",2.097690328,4
+1046,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway kebabs"")",-0.591756395,4
+1047,Sugar and preserves,0.733113655,4
+1048,"c(""Sugar and preserves"", ""Sugar"")",0.531045129,4
+1049,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway sausages and saveloys"")",1.407741278,4
+1050,"c(""Sugar and preserves"", ""Jams and fruit curds"")",0.294074253,4
+1051,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway meat based meals"")",-2.02925191,4
+1052,"c(""Sugar and preserves"", ""Marmalade"")",-1.182172034,4
+1053,"c(""Sugar and preserves"", ""Syrup, treacle"")",-0.580043014,4
+1054,Fish,0.773646252,4
+1055,"c(""Sugar and preserves"", ""Honey"")",0.802952488,4
+1056,"c(""Fish"", ""White fish, fresh, chilled or frozen"")",1.952921061,4
+1057,"Fresh and processed fruit and vegetables, including potatoes",0.669939947,4
+1058,"Fresh and processed vegetables, including potatoes",0.674941699,4
+1059,"c(""Fish"", ""White fish, fresh, chilled or frozen"", ""White fish, fresh or chilled"")",1.904114744,4
+1060,"c(""Fish"", ""White fish, fresh, chilled or frozen"", ""White fish, frozen"")",-0.686886937,4
+1061,Fresh and processed potatoes,1.082889991,4
+1062,"c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"")",0.234548294,4
+1063,"c(""Fresh and processed potatoes"", ""Fresh potatoes"")",0.932773181,4
+1064,"c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"", ""Herrings and other blue fish, fresh or chilled"")",0.252749503,4
+1065,"c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Fresh new potatoes (e)"")",1.024531919,4
+1066,"c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Fresh baking potatoes (e)"")",-0.057912378,4
+1067,"c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"", ""Herrings and other blue fish, frozen"")",0.211419131,4
+1068,"c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Other fresh potatoes (e)"")",0.739601371,4
+1069,"c(""Fresh and processed potatoes"", ""Processed potatoes"")",-0.4267046,4
+1070,"c(""Fish"", ""Salmon, fresh, chilled or frozen"")",-0.229799984,4
+1071,"c(""Fish"", ""Salmon, fresh, chilled or frozen"", ""Salmon, fresh or chilled"")",-0.152696447,4
+1072,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"")",-0.403424291,4
+1073,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"", ""Chips - frozen or not frozen"")",0.203025044,4
+1074,"c(""Fish"", ""Salmon, fresh, chilled or frozen"", ""Salmon, frozen"")",1.184543978,4
+1075,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"", ""Takeaway chips"")",0.808748019,4
+1076,"c(""Fish"", ""Blue fish, dried or salted or smoked"")",-0.530430964,4
+1077,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Instant potato"")",0.644159903,4
+1078,"c(""Fish"", ""White fish, dried, salted or smoked"")",0.372554975,4
+1079,"c(""Fish"", ""Shellfish"")",1.792675613,4
+1080,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Crisps and potato snacks"")",-0.64473677,4
+1081,"c(""Fish"", ""Shellfish"", ""Shellfish, fresh or chilled"")",2.611118216,4
+1082,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Other potato products, frozen or not frozen"")",-0.097995334,4
+1083,"c(""Fish"", ""Shellfish"", ""Shellfish, frozen"")",1.232610939,4
+1084,"Fresh and processed fruit and vegetables, excluding potatoes",0.028928372,4
+1085,"c(""Fish"", ""Takeaway fish"")",1.175560745,4
+1086,"Fresh and processed vegetables, excluding potatoes",-0.103599556,4
+1087,"c(""Fish"", ""Salmon, tinned"")",1.74972254,4
+1088,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh grapes"")",0.938964895,4
+1089,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"")",0.922313296,4
+1090,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""Pasteurised/ homogenised"")",-2.10183622,4
+1091,"c(""Fish"", ""Other tinned or bottled fish"")",0.742193972,4
+1092,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh soft fruit"")",-2.277470999,4
+1093,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh cabbages"")",1.387297622,4
+1094,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"")",0.203135657,4
+1095,"c(""Fish"", ""Ready meals and other fish products - frozen or not frozen"")",-1.196758747,4
+1096,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh bananas"")",0.114581721,4
+1097,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh brussels sprouts"")",1.093044205,4
+1098,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"")",0.137764286,4
+1099,"c(""Fish"", ""Takeaway fish meals and fish products"")",0.151147197,4
+1100,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh melons"")",0.53928001,4
+1101,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh cauliflower"")",1.107789716,4
+1102,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh fruit"")",2.43139024,4
+1103,"c(""Fish"", ""Takeaway fish meals and fish products"", ""Takeaway fish products"")",1.208051151,4
+1104,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"")",0.368479582,4
+1105,"c(""Fish"", ""Takeaway fish meals and fish products"", ""Takeaway fish based meals"")",0.274024154,4
+1106,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"")",0.492206121,4
+1107,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Tinned peaches, pears and pineapples"")",0.900279047,4
+1108,Eggs,-0.128351668,4
+1109,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"", ""Lettuce and leafy salads"")",-0.767842182,4
+1110,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""All other tinned or bottled fruit"")",1.027202861,4
+1111,Fats,0.259156956,4
+1112,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Dried fruit"")",0.276153807,4
+1113,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"", ""Prepared lettuce salads"")",0.330876659,4
+1114,"c(""Fats"", ""Butter"")",-0.577836389,4
+1115,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Frozen strawberries, apple slices, peach halves, oranges and other frozen fruits"")",1.833204389,4
+1116,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Non-dairy milk substitutes (d)"")",0.479746837,4
+1117,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh peas"")",0.945079855,4
+1118,"c(""Fats"", ""Margarine"")",-1.486259893,4
+1119,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"")",-0.274167305,4
+1120,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh beans"")",0.875445686,4
+1121,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Other fresh green vegetables"")",-0.099374169,4
+1122,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"", ""Nuts and edible seeds"")",0.037077303,4
+1123,"c(""Fats"", ""Margarine"", ""Soft margarine"")",-1.756097762,4
+1124,"c(""Cheese"", ""Processed cheese"")",-1.518366094,4
+1125,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"", ""Peanut butter"")",-0.413612987,4
+1126,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"")",0.351326287,4
+1127,"c(""Fats"", ""Margarine"", ""Other margarine"")",-0.732162078,4
+1128,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Pure fruit juices"")",-0.123334259,4
+1129,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh carrots"")",-0.214756677,4
+1130,"c(""Carcase meat"", ""Beef and veal"")",0.98943687,4
+1131,Bread,0.783327625,4
+1132,"c(""Fats"", ""Vegetable and salad oils"")",-0.132288217,4
+1133,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh turnips and swede"")",1.52462768,4
+1134,"c(""Bread"", ""White bread"")",1.501586591,4
+1135,"c(""Fats"", ""Vegetable and salad oils"", ""Olive oil"")",0.992761487,4
+1136,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Other fresh root vegetables"")",1.310608393,4
+1137,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh onions, leeks and shallots"")",0.80616936,4
+1138,"c(""Fats"", ""Vegetable and salad oils"", ""Other vegetable and salad oils"")",-0.117617412,4
+1139,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh cucumbers"")",0.178299885,4
+1140,"c(""Fats"", ""All other fats"")",2.865098332,4
+1141,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh mushrooms"")",-0.281778033,4
+1142,"c(""Fats"", ""All other fats"", ""Reduced fat spreads"")",2.463963087,4
+1143,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh tomatoes"")",0.485820801,4
+1144,"c(""Fats"", ""All other fats"", ""Low fat spreads"")",0.57321231,4
+1145,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"")",1.897394847,4
+1146,"c(""Fats"", ""All other fats"", ""Suet and dripping"")",0.249338115,4
+1147,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh vegetable stewpack, stirfry pack etc."")",1.946396755,4
+1148,"c(""Fats"", ""All other fats"", ""Imitatation cream"")",0.901459956,4
+1149,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh stem vegetables"")",-0.397717458,4
+1150,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh marrow, courgettes, aubergine, pumpkin and other vegetables"")",1.563476827,4
+1151,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh herbs"")",1.396968064,4
+1152,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"")",0.338781195,4
+1153,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Tomatoes, canned or bottled"")",-0.287085576,4
+1154,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Peas, canned"")",1.943362599,4
+1155,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"")",0.249156677,4
+1156,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"", ""Baked beans in sauce"")",0.488525501,4
+1157,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"", ""Other canned beans and pulses"")",0.48732745,4
+1158,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Other canned vegetables"")",1.124081416,4
+1159,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Dried pulses other than air-dried"")",0.884956786,4
+1160,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"")",0.825643264,4
+1161,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"", ""Tomato puree and vegetable purees"")",0.525901825,4
+1162,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"", ""Vegetable juices eg tomato juice, carrot juice"")",0.01262278,4
+1163,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Peas, frozen"")",0.047938214,4
+1164,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans, frozen"")",-1.207716128,4
+1165,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"")",0.361826031,4
+1166,"c(""Bread"", ""White bread"", ""White bread, standard, unsliced"")",2.692346664,4
+1167,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"", ""Ready meals and other vegetable products, frozen or not frozen"")",0.832501369,4
+1168,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"", ""All vegetable takeaway products"")",-0.258690037,4
+1169,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Other frozen vegetables"")",-0.254736781,4
+1170,Fresh and processed fruit,0.275659248,4
+1171,"c(""Fresh and processed fruit"", ""Fresh fruit"")",0.136458164,4
+1172,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh oranges"")",-0.284514893,4
+1173,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh citrus fruits"")",0.898744334,4
+1174,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh apples"")",1.117923054,4
+1175,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh pears"")",0.633153091,4
+1176,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh stone fruit"")",0.665178859,4
+1177,"c(""Bread"", ""White bread"", ""White bread, standard, sliced"")",1.116740422,4
+1178,"c(""Bread"", ""White bread"", ""White bread, premium, sliced and unsliced"")",2.398382505,4
+1179,"c(""Bread"", ""White bread"", ""White bread, soft grain, sliced and unsliced"")",2.094603236,4
+1180,"c(""Bread"", ""Brown and wholemeal bread"")",-0.798002425,4
+1181,"c(""Bread"", ""Brown and wholemeal bread"", ""Brown bread, sliced and unsliced"")",0.093454378,4
+1182,"c(""Bread"", ""Brown and wholemeal bread"", ""Wholemeal and granary bread, sliced and unsliced"")",-1.049923785,4
+1183,"c(""Bread"", ""Total other bread"")",-0.107162777,4
+1184,"c(""Bread"", ""Total other bread"", ""Rolls - white, brown or wholemeal"")",1.854345138,4
+1185,"c(""Bread"", ""Total other bread"", ""Malt bread and fruit loaves"")",0.927326932,4
+1186,"c(""Bread"", ""Total other bread"", ""Vienna and french bread"")",0.105692745,4
+1187,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Quiches and flans, frozen and not frozen"")",-0.615665164,4
+1188,"c(""Bread"", ""Total other bread"", ""Starch reduced bread and rolls"")",0.757441429,4
+1189,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Takeaway crisps, savoury snacks, popcorn, popadums, prawn crackers"")",0.088451056,4
+1190,"c(""Bread"", ""Total other bread"", ""Other breads"")",2.204110837,4
+1191,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Other cereal foods, frozen and not frozen"")",1.511285958,4
+1192,"c(""Bread"", ""Total other bread"", ""Sandwiches"")",1.419791923,4
+1193,"c(""Other cereals and cereal products"", ""Other cereals"")",0.606298723,4
+1194,"c(""Bread"", ""Total other bread"", ""Sandwiches from takeaway"")",0.23642993,4
+1195,Beverages,0.231020807,4
+1196,"c(""Bread"", ""Total other bread"", ""Takeaway breads"")",1.304697301,4
+1197,"c(""Beverages"", ""Tea"")",0.309920004,4
+1198,"c(""Beverages"", ""Coffee beans and ground coffee"")",-1.402873699,4
+1199,Flour,-0.70854951,4
+1200,"Cakes, buns and pastries",-0.549709995,4
+1201,"c(""Beverages"", ""Instant coffee"")",0.387023197,4
+1202,"c(""Cakes, buns and pastries"", ""Cakes and pastries"")",0.340333252,4
+1203,"c(""Cakes, buns and pastries"", ""Cakes and pastries"", ""Cakes and pastries, not frozen"")",-0.016505,4
+1204,"c(""Other food and drink"", ""Ice cream products including takeaways"")",0.382170605,4
+1205,"c(""Other food and drink"", ""Ice cream products including takeaways"", ""Ice cream cornets, choc-ices, lollies with ice cream"")",0.235751475,4
+1206,"c(""Cakes, buns and pastries"", ""Cakes and pastries"", ""Takeaway pastries"")",0.255114784,4
+1207,"c(""Beverages"", ""Cocoa and chocolate drinks"")",0.975529925,4
+1208,"c(""Other food and drink"", ""Ice cream products including takeaways"", ""Ice lollies, sorbet, frozen mousse, frozen yoghurt"")",0.571454209,4
+1209,"c(""Cakes, buns and pastries"", ""Buns, scones and teacakes"")",-1.028294696,4
+1210,"c(""Beverages"", ""Malt drinks and chocolate versions of malted drinks"")",0.959323882,4
+1211,"c(""Other food and drink"", ""Ice cream products including takeaways"", ""Takeaway ice cream, ice cream products, milkshakes"")",2.219862733,4
+1212,Biscuits and crispbreads,0.594175809,4
+1213,"c(""Other food and drink"", ""Soya and novel protein foods"")",0.560442139,4
+1214,Other food and drink,0.851649745,4
+1215,"c(""Biscuits and crispbreads"", ""Chocolate biscuits"")",2.457241774,4
+1216,"c(""Other food and drink"", ""Mineral or spring waters"")",0.762581153,4
+1217,"c(""Other food and drink"", ""Salt"")",1.001142281,4
+1218,"c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"")",-0.547920836,4
+1219,"c(""Other food and drink"", ""Baby foods"")",0.702610987,4
+1220,Soft drinks,0.239555592,4
+1221,"c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"", ""Sweet biscuits (not chocolate) and cereal bars"")",-0.820262694,4
+1222,"c(""Soft drinks"", ""Soft drinks, concentrated, not low calorie"")",3.118096416,4
+1223,"c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"", ""Cream crackers and other unsweetened biscuits"")",-0.015920272,4
+1224,"c(""Soft drinks"", ""Soft drinks, not concentrated,  not low calorie"")",2.917683064,4
+1225,"c(""Soft drinks"", ""Soft drinks, concentrated, low calorie"")",-0.004477801,4
+1226,Confectionery,0.142240972,4
+1227,"c(""Biscuits and crispbreads"", ""Crispbread"")",-0.231046538,4
+1228,"c(""Other food and drink"", ""Soups - canned or cartons"")",0.939395573,4
+1229,"c(""Confectionery"", ""Chocolate bars - solid"")",0.346450303,4
+1230,"c(""Other food and drink"", ""Soups - dehydrated or powdered"")",0.348094363,4
+1231,Other cereals and cereal products,0.713356607,4
+1232,"c(""Confectionery"", ""Chocolate bars - filled"")",0.180139364,4
+1233,"c(""Other cereals and cereal products"", ""Oatmeal and oat products"")",-0.164729518,4
+1234,"c(""Other food and drink"", ""Soups - from takeaway"")",0.209566995,4
+1235,"c(""Confectionery"", ""Chewing gum"")",1.204441019,4
+1236,"c(""Other cereals and cereal products"", ""Breakfast cereals"")",-0.366002188,4
+1237,"c(""Other food and drink"", ""Spreads and dressings"")",1.531895444,4
+1238,"c(""Confectionery"", ""Mints and boiled sweets"")",0.369940612,4
+1239,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Muesli"")",1.047109613,4
+1240,"c(""Confectionery"", ""Mints and boiled sweets"", ""Mints"")",2.444355099,4
+1241,"c(""Other food and drink"", ""Spreads and dressings"", ""Salad dressings"")",0.707309633,4
+1242,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""High fibre breakfast cereals"")",-0.301268427,4
+1243,"c(""Confectionery"", ""Mints and boiled sweets"", ""Boiled sweets"")",0.609073434,4
+1244,"c(""Other food and drink"", ""Spreads and dressings"", ""Other spreads and dresssings"")",0.348924526,4
+1245,Alcoholic drinks,0.417295459,4
+1246,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Sweetened breakfast cereals"")",-0.509910196,4
+1247,"c(""Other food and drink"", ""Pickles and sauces"")",0.371099929,4
+1248,"c(""Other food and drink"", ""Pickles and sauces"", ""Pickles"")",-0.868987429,4
+1249,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Other breakfast cereals"")",0.880462355,4
+1250,"c(""Other food and drink"", ""Pickles and sauces"", ""Sauces"")",0.735450696,4
+1251,"c(""Other cereals and cereal products"", ""Canned milk puddings"")",-0.048337546,4
+1252,"c(""Other food and drink"", ""Pickles and sauces"", ""Takeaway sauces and mayonnnaise"")",0.642715667,4
+1253,"c(""Other cereals and cereal products"", ""Canned milk puddings"", ""Canned or fresh carton custard"")",0.494582898,4
+1254,"c(""Other food and drink"", ""Stock cubes and meat and yeast extracts"")",1.106917516,4
+1255,"c(""Other cereals and cereal products"", ""Canned milk puddings"", ""All canned milk puddings"")",1.106216277,4
+1256,"c(""Other food and drink"", ""Jelly squares or crystals"")",1.305693921,4
+1257,"c(""Other cereals and cereal products"", ""Puddings"")",0.827114272,4
+1258,"c(""Other food and drink"", ""Ice cream tub or block"")",0.933400725,4
+1259,"c(""Other cereals and cereal products"", ""Rice"")",0.830504399,4
+1260,"c(""Other cereals and cereal products"", ""Rice"", ""Dried rice"")",0.926732239,4
+1261,"c(""Other cereals and cereal products"", ""Rice"", ""Cooked rice"")",3.335020048,4
+1262,"c(""Soft drinks"", ""Soft drinks, not concentrated, low calorie"")",-0.816642755,4
+1263,"c(""Other cereals and cereal products"", ""Rice"", ""Takeaway rice"")",-1.906037496,4
+1264,"c(""Confectionery"", ""Fudges, toffees, caramels"")",-0.250272373,4
+1265,"c(""Other cereals and cereal products"", ""Invalid foods, slimming foods and sports foods"")",0.154543841,4
+1266,"c(""Other cereals and cereal products"", ""Infant cereal foods"")",0.600764519,4
+1267,"c(""Other cereals and cereal products"", ""Cakes and pastries - frozen"")",-1.057670257,4
+1268,"c(""Alcoholic drinks"", ""Beers"")",1.084695684,4
+1269,"c(""Other cereals and cereal products"", ""Pasta"")",0.222460966,4
+1270,"c(""Alcoholic drinks"", ""Lagers and continental beers"")",-0.988973148,4
+1271,"c(""Other cereals and cereal products"", ""Pasta"", ""Canned pasta"")",1.348745993,4
+1272,"c(""Alcoholic drinks"", ""Ciders and perry"")",-0.864201255,4
+1273,"c(""Other cereals and cereal products"", ""Pasta"", ""Dried and fresh pasta"")",0.497118294,4
+1274,"c(""Alcoholic drinks"", ""Wine and champagne"")",0.409490211,4
+1275,"c(""Other cereals and cereal products"", ""Pasta"", ""Takeaway pasta and noodles"")",1.21524492,4
+1276,"c(""Alcoholic drinks"", ""Wine and champagne"", ""Champagne, sparkling wines and wine with mixer"")",-0.135041194,4
+1277,"c(""Other cereals and cereal products"", ""Pizza"")",0.354907264,4
+1278,"c(""Alcoholic drinks"", ""Wine and champagne"", ""Table wine"")",0.833059708,4
+1279,"c(""Other cereals and cereal products"", ""Pizza"", ""Pizzas, frozen and not frozen"")",0.788798802,4
+1280,"c(""Alcoholic drinks"", ""Spirits with mixer"")",2.304293707,4
+1281,"c(""Other cereals and cereal products"", ""Pizza"", ""Takeaway pizza"")",-0.330454289,4
+1282,"c(""Alcoholic drinks"", ""Fortified wines"")",0.509929946,4
+1283,"c(""Alcoholic drinks"", ""Spirits"")",-0.455223971,4
+1284,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"")",0.796214922,4
+1285,"c(""Alcoholic drinks"", ""Liqueurs and cocktails"")",0.858702735,4
+1286,"c(""Alcoholic drinks"", ""Alcopops"")",-3.767247744,4
+1287,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Cake, pudding and dessert mixes"")",0.051024881,4
+1288,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Cereal snacks"")",-0.640717565,4
+1289,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"")",-0.453752651,5
+1290,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"")",-0.456520248,5
+1291,"c(""Carcase meat"", ""Pork"", ""Pork fillets and steaks"")",0.803342809,5
+1292,"c(""Non-carcase meat and meat products"", ""Corned beef, canned or sliced"")",0.841706937,5
+1293,"c(""Non-carcase meat and meat products"", ""Other canned meat and canned meat products"")",0.52885369,5
+1294,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""UHT milk"")",0.373839791,5
+1295,"c(""Non-carcase meat and meat products"", ""Chicken, uncooked - whole chicken or chicken pieces"")",0.91291782,5
+1296,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""Pasteurised/ homogenised"")",-0.411285221,5
+1297,"c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"")",0.50056851,5
+1298,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"")",0.378031272,5
+1299,"c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"", ""Turkey, uncooked - whole turkey or turkey pieces"")",0.484667543,5
+1300,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"")",0.230551758,5
+1301,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"", ""Fully skimmed milk"")",0.354903274,5
+1302,"c(""Non-carcase meat and meat products"", ""Sausages, uncooked - pork"")",0.593239352,5
+1303,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"", ""Semi-skimmed milk"")",0.257597061,5
+1304,"c(""Non-carcase meat and meat products"", ""Sausages, uncooked - beef and other sausages"")",0.712956496,5
+1305,"c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"", ""Sausage rolls, ready to eat"")",0.619239399,5
+1306,"c(""Non-carcase meat and meat products"", ""Meat pies, pasties and puddings, frozen or not frozen"")",0.808487265,5
+1307,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Condensed or evaporated milk"")",0.421681036,5
+1308,"c(""Non-carcase meat and meat products"", ""Burgers, frozen or not frozen"")",0.556552559,5
+1309,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"")",0.378365783,5
+1310,"c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"")",0.603283497,5
+1311,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"", ""Infant or baby milks - ready to drink"")",0.781710324,5
+1312,"c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"", ""Other convenience meat products, frozen or not frozen"")",0.165286017,5
+1313,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"", ""Infant or baby milks - dried"")",0.277051862,5
+1314,"c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"")",0.666409963,5
+1315,"c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"", ""Pate"")",0.518069801,5
+1316,"c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"", ""Delicatessen type sausages"")",0.714514407,5
+1317,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"")",0.685392127,5
+1318,"c(""Non-carcase meat and meat products"", ""Meat pastes and spreads"")",0.163487726,5
+1319,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"", ""Yoghurt"")",0.758239662,5
+1320,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway burger and bun"")",0.64392012,5
+1321,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"", ""Fromage frais"")",0.217228091,5
+1322,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway kebabs"")",0.407094767,5
+1323,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Dried milk products"")",-0.280348801,5
+1324,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway sausages and saveloys"")",0.462082959,5
+1325,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Milk drinks and other milks (d)"")",0.915763518,5
+1326,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Non-dairy milk substitutes (d)"")",0.214254682,5
+1327,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Cream"")",0.428128437,5
+1328,Cheese,0.323805541,5
+1329,"c(""Cheese"", ""Natural cheese"")",0.308707097,5
+1330,"c(""Cheese"", ""Natural cheese"", ""Hard cheese - cheddar type"")",0.483900342,5
+1331,"c(""Cheese"", ""Natural cheese"", ""Hard cheese - other uk or foreign equivalent"")",0.233831542,5
+1332,"c(""Cheese"", ""Natural cheese"", ""Hard cheese - edam or other foreign"")",0.502950426,5
+1333,"c(""Cheese"", ""Natural cheese"", ""Cottage cheese"")",0.522932112,5
+1334,"c(""Cheese"", ""Natural cheese"", ""Soft natural cheese"")",0.806544687,5
+1335,"c(""Cheese"", ""Processed cheese"")",0.325302504,5
+1336,Carcase meat,0.489857929,5
+1337,"c(""Carcase meat"", ""Beef and veal"")",0.455537372,5
+1338,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway meat based meals"")",0.466550164,5
+1339,"c(""Carcase meat"", ""Beef and veal"", ""Beef joints - on the bone"")",0.239818321,5
+1340,"c(""Carcase meat"", ""Beef and veal"", ""Beef joints - boned"")",0.300102616,5
+1341,Fish,0.42683988,5
+1342,"c(""Carcase meat"", ""Pork"", ""All other pork"")",1.183216947,5
+1343,"c(""Fish"", ""White fish, fresh, chilled or frozen"")",0.921022046,5
+1344,Non-carcase meat and meat products,0.69166176,5
+1345,"c(""Fish"", ""White fish, fresh, chilled or frozen"", ""White fish, fresh or chilled"")",0.55980263,5
+1346,"c(""Non-carcase meat and meat products"", ""Liver"")",0.842381441,5
+1347,"c(""Fish"", ""White fish, fresh, chilled or frozen"", ""White fish, frozen"")",0.949502075,5
+1348,"c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"")",0.19802901,5
+1349,"c(""Non-carcase meat and meat products"", ""Liver"", ""Lambs liver"")",0.506848067,5
+1350,"c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"", ""Herrings and other blue fish, fresh or chilled"")",0.247264571,5
+1351,"c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"", ""Herrings and other blue fish, frozen"")",0.626386541,5
+1352,"c(""Non-carcase meat and meat products"", ""All offal other than liver"")",0.477094892,5
+1353,"c(""Fish"", ""Salmon, fresh, chilled or frozen"")",0.551176684,5
+1354,"c(""Fish"", ""Salmon, fresh, chilled or frozen"", ""Salmon, fresh or chilled"")",0.422055008,5
+1355,"c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"")",0.572193337,5
+1356,Milk and milk products excluding cheese,0.07444657,5
+1357,"c(""Fish"", ""Salmon, fresh, chilled or frozen"", ""Salmon, frozen"")",0.541924414,5
+1358,"c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"", ""Bacon and ham joints, uncooked"")",0.623681854,5
+1359,"c(""Fish"", ""Blue fish, dried or salted or smoked"")",0.436474296,5
+1360,"c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"", ""Bacon and ham rashers, uncooked"")",0.52643729,5
+1361,"c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""Sterilised"")",0.707803756,5
+1362,"c(""Non-carcase meat and meat products"", ""Bacon and ham, cooked"")",0.203159581,5
+1363,"c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"")",0.557058262,5
+1364,"c(""Fish"", ""White fish, dried, salted or smoked"")",0.164223487,5
+1365,"c(""Fish"", ""Shellfish"")",0.448155575,5
+1366,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"")",0.625068422,5
+1367,"c(""Fish"", ""Shellfish"", ""Shellfish, fresh or chilled"")",0.638188586,5
+1368,"c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Dairy desserts - not frozen"")",0.563455282,5
+1369,"c(""Fish"", ""Shellfish"", ""Shellfish, frozen"")",0.617974274,5
+1370,"c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"", ""Chicken and turkey, cooked"")",0.611462356,5
+1371,"c(""Fish"", ""Takeaway fish"")",0.477241192,5
+1372,"c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"", ""Takeaway chicken"")",0.280937745,5
+1373,"c(""Fish"", ""Salmon, tinned"")",0.455221673,5
+1374,"c(""Carcase meat"", ""Beef and veal"", ""Beef steak - less expensive"")",0.726295543,5
+1375,"c(""Fish"", ""Other tinned or bottled fish"")",0.28249198,5
+1376,"c(""Carcase meat"", ""Beef and veal"", ""Beef steak - more expensive"")",0.460988298,5
+1377,"c(""Fish"", ""Ready meals and other fish products - frozen or not frozen"")",0.839312033,5
+1378,"c(""Carcase meat"", ""Beef and veal"", ""Minced beef"")",-0.241323006,5
+1379,"c(""Fish"", ""Takeaway fish meals and fish products"")",0.603112312,5
+1380,"c(""Carcase meat"", ""Beef and veal"", ""All other beef and veal"")",0.600846391,5
+1381,"c(""Carcase meat"", ""Mutton and lamb"")",0.315932725,5
+1382,"c(""Carcase meat"", ""Mutton and lamb"", ""Mutton"")",0.74490492,5
+1383,"c(""Fish"", ""Takeaway fish meals and fish products"", ""Takeaway fish products"")",0.278027467,5
+1384,"c(""Non-carcase meat and meat products"", ""Other cooked meat"")",0.474735803,5
+1385,"c(""Carcase meat"", ""Mutton and lamb"", ""Lamb joints"")",0.449111659,5
+1386,"c(""Fish"", ""Takeaway fish meals and fish products"", ""Takeaway fish based meals"")",0.643955413,5
+1387,Eggs,0.13504998,5
+1388,"c(""Carcase meat"", ""Mutton and lamb"", ""Lamb chops"")",0.262591307,5
+1389,Fats,0.477789498,5
+1390,"c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"", ""Poultry other than chicken or turkey, uncooked"")",0.424078671,5
+1391,"c(""Carcase meat"", ""Mutton and lamb"", ""All other lamb"")",0.338405187,5
+1392,"c(""Fats"", ""Butter"")",-0.033471322,5
+1393,"c(""Fats"", ""Margarine"")",0.769209724,5
+1394,"c(""Non-carcase meat and meat products"", ""Other fresh, chilled and frozen meat"")",0.556582226,5
+1395,"c(""Carcase meat"", ""Pork"")",0.497313007,5
+1396,"c(""Fats"", ""Margarine"", ""Soft margarine"")",0.860604359,5
+1397,"c(""Carcase meat"", ""Pork"", ""Pork joints"")",0.502557964,5
+1398,"c(""Fats"", ""Margarine"", ""Other margarine"")",0.76168784,5
+1399,"c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"")",1.068142985,5
+1400,"c(""Carcase meat"", ""Pork"", ""Pork chops"")",0.902790121,5
+1401,"c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"", ""Meat pies, ready to eat"")",1.08127763,5
+1402,"c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"", ""Complete meat-based ready meals, frozen or not frozen"")",0.792944775,5
+1403,"c(""Fats"", ""Vegetable and salad oils"")",0.287582691,5
+1404,"c(""Non-carcase meat and meat products"", ""Takeaway meats"")",0.607190417,5
+1405,"c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway meat pies and pasties"")",0.365904337,5
+1406,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Other potato products, frozen or not frozen"")",0.724193939,5
+1407,"Fresh and processed fruit and vegetables, excluding potatoes",0.497218088,5
+1408,"Fresh and processed vegetables, excluding potatoes",0.404922852,5
+1409,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"")",0.259208997,5
+1410,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh cabbages"")",0.331408833,5
+1411,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh brussels sprouts"")",0.337122612,5
+1412,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh cauliflower"")",-0.030863144,5
+1413,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"")",0.263152741,5
+1414,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"", ""Lettuce and leafy salads"")",0.979982766,5
+1415,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"", ""Prepared lettuce salads"")",0.543001808,5
+1416,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh peas"")",0.25599421,5
+1417,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh beans"")",0.105410134,5
+1418,"c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Other fresh green vegetables"")",0.532332176,5
+1419,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"")",0.57847034,5
+1420,"c(""Fats"", ""Vegetable and salad oils"", ""Olive oil"")",0.502392276,5
+1421,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh carrots"")",0.530903141,5
+1422,"c(""Fats"", ""Vegetable and salad oils"", ""Other vegetable and salad oils"")",0.373992646,5
+1423,"c(""Fats"", ""All other fats"")",0.796923899,5
+1424,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh turnips and swede"")",0.322678626,5
+1425,"c(""Fats"", ""All other fats"", ""Reduced fat spreads"")",0.624549751,5
+1426,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Other fresh root vegetables"")",0.712375678,5
+1427,"c(""Fats"", ""All other fats"", ""Low fat spreads"")",0.747709635,5
+1428,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh onions, leeks and shallots"")",0.394369054,5
+1429,"c(""Fats"", ""All other fats"", ""Suet and dripping"")",0.382208304,5
+1430,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh cucumbers"")",0.379964464,5
+1431,"c(""Fats"", ""All other fats"", ""Imitatation cream"")",0.405539028,5
+1432,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh mushrooms"")",0.282403731,5
+1433,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh tomatoes"")",0.346822386,5
+1434,Sugar and preserves,0.257891478,5
+1435,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"")",0.850756972,5
+1436,"c(""Sugar and preserves"", ""Sugar"")",0.268077127,5
+1437,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh vegetable stewpack, stirfry pack etc."")",0.86184445,5
+1438,"c(""Sugar and preserves"", ""Jams and fruit curds"")",0.346958292,5
+1439,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh stem vegetables"")",0.456899605,5
+1440,"c(""Sugar and preserves"", ""Marmalade"")",0.275397382,5
+1441,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh marrow, courgettes, aubergine, pumpkin and other vegetables"")",0.746012973,5
+1442,"c(""Sugar and preserves"", ""Syrup, treacle"")",0.088451135,5
+1443,"c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh herbs"")",1.052861798,5
+1444,"c(""Sugar and preserves"", ""Honey"")",0.668632231,5
+1445,"Fresh and processed fruit and vegetables, including potatoes",0.406009548,5
+1446,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"")",0.566398625,5
+1447,"Fresh and processed vegetables, including potatoes",0.243935549,5
+1448,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Tomatoes, canned or bottled"")",0.139317319,5
+1449,Fresh and processed potatoes,0.875629936,5
+1450,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Peas, canned"")",0.30440568,5
+1451,"c(""Fresh and processed potatoes"", ""Fresh potatoes"")",-0.039637631,5
+1452,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"")",0.376638161,5
+1453,"c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Fresh new potatoes (e)"")",0.077718549,5
+1454,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"", ""Baked beans in sauce"")",0.358452185,5
+1455,"c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Fresh baking potatoes (e)"")",0.690546256,5
+1456,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"", ""Other canned beans and pulses"")",0.565667601,5
+1457,"c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Other fresh potatoes (e)"")",0.452216596,5
+1458,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Other canned vegetables"")",0.477803216,5
+1459,"c(""Fresh and processed potatoes"", ""Processed potatoes"")",0.633345473,5
+1460,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Dried pulses other than air-dried"")",0.904722502,5
+1461,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"")",0.710913099,5
+1462,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"", ""Chips - frozen or not frozen"")",0.47569997,5
+1463,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"")",0.718407289,5
+1464,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"", ""Takeaway chips"")",0.992608028,5
+1465,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"", ""Tomato puree and vegetable purees"")",0.622763424,5
+1466,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Instant potato"")",0.22115482,5
+1467,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"", ""Vegetable juices eg tomato juice, carrot juice"")",0.036035792,5
+1468,"c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Crisps and potato snacks"")",0.412822636,5
+1469,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Peas, frozen"")",0.286036656,5
+1470,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans, frozen"")",0.109633843,5
+1471,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"")",0.653364726,5
+1472,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"", ""Ready meals and other vegetable products, frozen or not frozen"")",0.686289281,5
+1473,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"", ""All vegetable takeaway products"")",0.542990684,5
+1474,"c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Other frozen vegetables"")",0.40735962,5
+1475,Fresh and processed fruit,0.526255761,5
+1476,"c(""Fresh and processed fruit"", ""Fresh fruit"")",0.573552183,5
+1477,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh oranges"")",0.467170501,5
+1478,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh citrus fruits"")",0.510135636,5
+1479,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh apples"")",0.456561197,5
+1480,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh pears"")",0.476263401,5
+1481,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh stone fruit"")",0.455222366,5
+1482,"c(""Bread"", ""Brown and wholemeal bread"")",0.57346398,5
+1483,"c(""Bread"", ""Brown and wholemeal bread"", ""Brown bread, sliced and unsliced"")",0.310497971,5
+1484,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh grapes"")",0.80754447,5
+1485,"c(""Bread"", ""Brown and wholemeal bread"", ""Wholemeal and granary bread, sliced and unsliced"")",0.64086654,5
+1486,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh soft fruit"")",1.222254882,5
+1487,"c(""Bread"", ""Total other bread"")",0.508108397,5
+1488,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Muesli"")",0.362713542,5
+1489,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""High fibre breakfast cereals"")",0.347442274,5
+1490,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh bananas"")",0.178720442,5
+1491,"c(""Bread"", ""Total other bread"", ""Rolls - white, brown or wholemeal"")",0.370192106,5
+1492,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Sweetened breakfast cereals"")",0.539570941,5
+1493,"c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Other breakfast cereals"")",0.477274497,5
+1494,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh melons"")",0.390565082,5
+1495,"c(""Other cereals and cereal products"", ""Canned milk puddings"")",0.341073269,5
+1496,"c(""Bread"", ""Total other bread"", ""Malt bread and fruit loaves"")",0.384441363,5
+1497,"c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh fruit"")",0.846196077,5
+1498,"c(""Other cereals and cereal products"", ""Canned milk puddings"", ""Canned or fresh carton custard"")",0.586030265,5
+1499,"c(""Bread"", ""Total other bread"", ""Vienna and french bread"")",0.832426816,5
+1500,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"")",0.421492655,5
+1501,"c(""Bread"", ""Total other bread"", ""Starch reduced bread and rolls"")",0.394750852,5
+1502,"c(""Other cereals and cereal products"", ""Canned milk puddings"", ""All canned milk puddings"")",-0.2867601,5
+1503,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Tinned peaches, pears and pineapples"")",0.784457877,5
+1504,"c(""Bread"", ""Total other bread"", ""Other breads"")",1.443486726,5
+1505,"c(""Other cereals and cereal products"", ""Puddings"")",0.267743657,5
+1506,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""All other tinned or bottled fruit"")",0.295914658,5
+1507,"c(""Bread"", ""Total other bread"", ""Sandwiches"")",-0.039259527,5
+1508,"c(""Other cereals and cereal products"", ""Rice"")",0.641825794,5
+1509,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Dried fruit"")",0.57163636,5
+1510,"c(""Bread"", ""Total other bread"", ""Sandwiches from takeaway"")",0.35807051,5
+1511,"c(""Other cereals and cereal products"", ""Rice"", ""Dried rice"")",0.507629728,5
+1512,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Frozen strawberries, apple slices, peach halves, oranges and other frozen fruits"")",0.62230212,5
+1513,"c(""Other cereals and cereal products"", ""Rice"", ""Cooked rice"")",0.457492733,5
+1514,"c(""Bread"", ""Total other bread"", ""Takeaway breads"")",-0.112987157,5
+1515,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"")",0.62649528,5
+1516,Flour,0.568107048,5
+1517,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"", ""Nuts and edible seeds"")",0.720422574,5
+1518,"c(""Other cereals and cereal products"", ""Rice"", ""Takeaway rice"")",0.446802911,5
+1519,"Cakes, buns and pastries",0.413812021,5
+1520,"c(""Other cereals and cereal products"", ""Invalid foods, slimming foods and sports foods"")",0.643247813,5
+1521,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"", ""Peanut butter"")",0.129226615,5
+1522,"c(""Cakes, buns and pastries"", ""Cakes and pastries"")",0.134587803,5
+1523,"c(""Other cereals and cereal products"", ""Infant cereal foods"")",0.330718894,5
+1524,"c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Pure fruit juices"")",0.044820446,5
+1525,"c(""Cakes, buns and pastries"", ""Cakes and pastries"", ""Cakes and pastries, not frozen"")",-0.058405708,5
+1526,"c(""Other cereals and cereal products"", ""Cakes and pastries - frozen"")",0.77694476,5
+1527,Bread,0.587265932,5
+1528,"c(""Cakes, buns and pastries"", ""Cakes and pastries"", ""Takeaway pastries"")",0.439615586,5
+1529,"c(""Other cereals and cereal products"", ""Pasta"")",0.202999553,5
+1530,"c(""Bread"", ""White bread"")",0.986879836,5
+1531,"c(""Cakes, buns and pastries"", ""Buns, scones and teacakes"")",0.741985984,5
+1532,"c(""Other cereals and cereal products"", ""Pasta"", ""Canned pasta"")",-0.004569237,5
+1533,"c(""Bread"", ""White bread"", ""White bread, standard, unsliced"")",0.698261428,5
+1534,Biscuits and crispbreads,0.311536935,5
+1535,"c(""Bread"", ""White bread"", ""White bread, standard, sliced"")",0.83271514,5
+1536,"c(""Other cereals and cereal products"", ""Pasta"", ""Dried and fresh pasta"")",0.171536692,5
+1537,"c(""Biscuits and crispbreads"", ""Chocolate biscuits"")",0.6060534,5
+1538,"c(""Other cereals and cereal products"", ""Pasta"", ""Takeaway pasta and noodles"")",0.456586385,5
+1539,"c(""Bread"", ""White bread"", ""White bread, premium, sliced and unsliced"")",1.441976207,5
+1540,"c(""Other cereals and cereal products"", ""Pizza"")",0.129493791,5
+1541,"c(""Bread"", ""White bread"", ""White bread, soft grain, sliced and unsliced"")",0.300471132,5
+1542,"c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"")",0.308107284,5
+1543,"c(""Other cereals and cereal products"", ""Pizza"", ""Pizzas, frozen and not frozen"")",0.31279647,5
+1544,"c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"", ""Sweet biscuits (not chocolate) and cereal bars"")",0.387501996,5
+1545,"c(""Other cereals and cereal products"", ""Pizza"", ""Takeaway pizza"")",0.28067586,5
+1546,"c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"", ""Cream crackers and other unsweetened biscuits"")",0.549101499,5
+1547,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"")",0.328470431,5
+1548,"c(""Biscuits and crispbreads"", ""Crispbread"")",0.309028035,5
+1549,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Cake, pudding and dessert mixes"")",0.898366272,5
+1550,Other cereals and cereal products,0.213079174,5
+1551,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Cereal snacks"")",0.552302232,5
+1552,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Quiches and flans, frozen and not frozen"")",0.887448315,5
+1553,"c(""Other cereals and cereal products"", ""Oatmeal and oat products"")",1.43588144,5
+1554,"c(""Other cereals and cereal products"", ""Breakfast cereals"")",0.417334946,5
+1555,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Takeaway crisps, savoury snacks, popcorn, popadums, prawn crackers"")",0.56477934,5
+1556,"c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Other cereal foods, frozen and not frozen"")",0.988745348,5
+1557,"c(""Other cereals and cereal products"", ""Other cereals"")",0.638363416,5
+1558,Beverages,0.29057684,5
+1559,"c(""Other food and drink"", ""Ice cream products including takeaways"")",0.535884841,5
+1560,"c(""Other food and drink"", ""Ice cream products including takeaways"", ""Ice cream cornets, choc-ices, lollies with ice cream"")",0.538701249,5
+1561,"c(""Beverages"", ""Tea"")",0.362746593,5
+1562,Alcoholic drinks,0.247376494,5
+1563,"c(""Beverages"", ""Coffee beans and ground coffee"")",0.178346335,5
+1564,"c(""Alcoholic drinks"", ""Beers"")",0.389436497,5
+1565,"c(""Beverages"", ""Instant coffee"")",0.465448316,5
+1566,"c(""Alcoholic drinks"", ""Lagers and continental beers"")",0.309505989,5
+1567,"c(""Alcoholic drinks"", ""Ciders and perry"")",0.231671944,5
+1568,"c(""Alcoholic drinks"", ""Wine and champagne"")",0.273772217,5
+1569,"c(""Beverages"", ""Cocoa and chocolate drinks"")",-0.058675812,5
+1570,"c(""Alcoholic drinks"", ""Wine and champagne"", ""Champagne, sparkling wines and wine with mixer"")",0.433919851,5
+1571,"c(""Beverages"", ""Malt drinks and chocolate versions of malted drinks"")",0.657001181,5
+1572,"c(""Alcoholic drinks"", ""Wine and champagne"", ""Table wine"")",0.2169013,5
+1573,Other food and drink,0.550000653,5
+1574,"c(""Alcoholic drinks"", ""Spirits with mixer"")",0.385986443,5
+1575,"c(""Other food and drink"", ""Mineral or spring waters"")",0.469463358,5
+1576,"c(""Alcoholic drinks"", ""Fortified wines"")",0.534684819,5
+1577,"c(""Other food and drink"", ""Baby foods"")",0.502239439,5
+1578,"c(""Alcoholic drinks"", ""Spirits"")",0.442428386,5
+1579,"c(""Other food and drink"", ""Soups - canned or cartons"")",0.337372393,5
+1580,"c(""Alcoholic drinks"", ""Liqueurs and cocktails"")",0.642219222,5
+1581,"c(""Other food and drink"", ""Soups - dehydrated or powdered"")",0.183128547,5
+1582,"c(""Other food and drink"", ""Soups - from takeaway"")",0.572000674,5
+1583,"c(""Alcoholic drinks"", ""Alcopops"")",1.00107668,5
+1584,"c(""Other food and drink"", ""Spreads and dressings"")",0.495821471,5
+1585,"c(""Other food and drink"", ""Spreads and dressings"", ""Salad dressings"")",0.454729986,5
+1586,"c(""Other food and drink"", ""Spreads and dressings"", ""Other spreads and dresssings"")",0.143025159,5
+1587,"c(""Other food and drink"", ""Pickles and sauces"")",0.295686051,5
+1588,"c(""Other food and drink"", ""Pickles and sauces"", ""Pickles"")",0.910321718,5
+1589,"c(""Other food and drink"", ""Pickles and sauces"", ""Sauces"")",0.360083501,5
+1590,"c(""Other food and drink"", ""Pickles and sauces"", ""Takeaway sauces and mayonnnaise"")",0.573062652,5
+1591,"c(""Other food and drink"", ""Stock cubes and meat and yeast extracts"")",0.792026199,5
+1592,"c(""Other food and drink"", ""Jelly squares or crystals"")",0.577644594,5
+1593,"c(""Other food and drink"", ""Ice cream tub or block"")",0.675101417,5
+1594,"c(""Other food and drink"", ""Ice cream products including takeaways"", ""Ice lollies, sorbet, frozen mousse, frozen yoghurt"")",0.481227101,5
+1595,"c(""Other food and drink"", ""Ice cream products including takeaways"", ""Takeaway ice cream, ice cream products, milkshakes"")",0.547159444,5
+1596,"c(""Other food and drink"", ""Soya and novel protein foods"")",0.549155391,5
+1597,"c(""Other food and drink"", ""Salt"")",0.423612567,5
+1598,Soft drinks,0.666690902,5
+1599,"c(""Soft drinks"", ""Soft drinks, concentrated, not low calorie"")",0.093685589,5
+1600,"c(""Soft drinks"", ""Soft drinks, not concentrated,  not low calorie"")",0.820345429,5
+1601,"c(""Soft drinks"", ""Soft drinks, concentrated, low calorie"")",-0.271760016,5
+1602,"c(""Soft drinks"", ""Soft drinks, not concentrated, low calorie"")",0.258033572,5
+1603,Confectionery,0.353403621,5
+1604,"c(""Confectionery"", ""Chocolate bars - solid"")",0.288173231,5
+1605,"c(""Confectionery"", ""Chocolate bars - filled"")",0.31114377,5
+1606,"c(""Confectionery"", ""Chewing gum"")",0.560195151,5
+1607,"c(""Confectionery"", ""Mints and boiled sweets"")",0.29602463,5
+1608,"c(""Confectionery"", ""Mints and boiled sweets"", ""Mints"")",0.079312206,5
+1609,"c(""Confectionery"", ""Mints and boiled sweets"", ""Boiled sweets"")",0.250212759,5
+1610,"c(""Confectionery"", ""Fudges, toffees, caramels"")",0.669869411,5
