@@ -1,0 +1,118 @@
+<html>
+<head>
+<!-- Plotly.js -->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+</head>
+<body>
+        <!-- Plotly chart will be drawn inside this DIV -->
+        <div id="myDiv"></div>
+        <script>
+        var colours = ['rgba(93, 164, 214, 0.5)', 'rgba(255, 144, 14, 0.5)', 'rgba(44, 160, 101, 0.5)', 'rgba(255, 65, 54, 0.5)', 'rgba(207, 114, 255, 0.5)']
+        d3.csv("boxdata3.csv", function(error, csv) {
+        	var data = [];
+			data[0] = [];
+			data[1] = [];
+			data[2] = [];
+			data[3] = [];
+			data[4] = [];
+			// add more rows if your csv file has more columns
+
+			// add here the header of the csv file
+			data[0][0] = "Q1";
+			data[1][0] = "Q2";
+			data[2][0] = "Q3";
+			data[3][0] = "Q4";
+			data[4][0] = "Q5";
+			// add more rows if your csv file has more columns
+
+			data[0][1] = [];
+			data[1][1] = [];
+			data[2][1] = [];
+			data[3][1] = [];
+			data[4][1] = [];
+		  
+			csv.forEach(function(x) {
+				
+				data[0][1].push(x.Q1);
+				data[1][1].push(x.Q2);
+				data[2][1].push(x.Q3);
+				data[3][1].push(x.Q4);
+				data[4][1].push(x.Q5);
+			});
+			console.log(data)
+			var trace1 = {
+			  y: data[0][1],
+			  type: 'box',
+			  name: data[0][0],
+			  marker: {
+			    color: colours[0]
+			  },
+			  boxpoints: 'Outliers'
+			};
+			var trace2 = {
+			  y: data[1][1],
+			  type: 'box',
+			  name: data[1][0],
+			  marker: {
+			    color: colours[1]
+			  },
+			  boxpoints: 'Outliers'
+			};
+			var trace3 = {
+			  y: data[2][1],
+			  type: 'box',
+			  name: data[2][0],
+			  marker: {
+			    color: colours[2]
+			  },
+			  boxpoints: 'Outliers'
+			};
+			var trace4 = {
+			  y: data[3][1],
+			  type: 'box',
+			  name: data[3][0],
+			  marker: {
+			    color: colours[3]
+			  },
+			  boxpoints: 'Outliers'
+			};
+			var trace5 = {
+			  y: data[4][1],
+			  type: 'box',
+			  name: data[4][0],
+			  marker: {
+			    color: colours[4]
+			  },
+			  boxpoints: 'Outliers'
+			};
+			var dat = [trace1,trace2,trace3,trace4,trace5];
+
+			var layout = {
+			  title: 'Box Plot Styling Outliers'
+			};
+			var layout = {
+			  yaxis: {
+			    title: 'Price Elasticity',
+			    zeroline: false
+			  },
+			  xaxis:{
+			  	title: 'Quintile',
+			    zeroline: false
+			  }
+			};
+
+			Plotly.newPlot('myDiv', dat, layout);
+        });
+		
+
+
+
+
+
+        </script>
+</body>
+
+</html>

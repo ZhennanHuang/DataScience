@@ -1,0 +1,323 @@
+"","category","q1","q2","q3","q4","q5"
+"1","Alcoholic drinks",-0.656009560144918,-0.548468384201226,-0.513568727289146,-0.430757191997048,0.303749621353839
+"2","Beverages",-0.190100348015675,-0.699597300213061,-0.0576741454890063,-0.269275500983475,0.102922419778366
+"3","Biscuits and crispbreads",-0.303711430768702,-0.397441326820833,-0.268975651208477,-0.634572669659793,0.191445460192246
+"4","Bread",-0.706633579770949,-0.90967605444884,-0.685980646583004,-0.777571403331524,-0.917655188998594
+"5","Cakes, buns and pastries",0.217602595346915,1.15178501465712,-0.00871372939676528,0.506973750535511,0.350616268355683
+"6","Carcase meat",-1.09810539362997,-1.41825477689349,-1.51433988079869,-1.40330898448894,-0.876865516264456
+"7","Cheese",-0.430877595793856,0.58105997454663,0.170602993278593,-0.450530657898598,0.314974951347501
+"8","Confectionery",-0.729343347754012,-0.197667927981108,-0.406096584656241,-0.145173865305648,0.204839974562691
+"9","Eggs",7.21431188931061e-16,9.67827322178771e-16,-0.772185066966155,-1.12742758169976,-1.18810483770809
+"10","Fats",-0.45323477217676,-0.751494304086102,-0.223911468813467,-0.241274424892407,-0.537863637051584
+"11","Fish",-0.777739022386289,-2.14241015749066,-1.12093710117112,-0.761181566473753,-0.651970322143464
+"12","Flour",0.38851903800488,-0.101580101602986,0.117251766128905,0.0680393268825959,0.501874438927359
+"13","Fresh and processed fruit",-1.24126572730533,-0.969071457813891,-0.545677381956795,-0.235653083148646,-0.73545185507688
+"14","Fresh and processed fruit and vegetables, excluding potatoes",-1.10077466225115,-0.728658287853652,-0.259141739892322,0.0124919196547313,-0.583517564751293
+"15","Fresh and processed fruit and vegetables, including potatoes",-1.17923955074378,-1.27951334401134,-0.687336360643735,-0.637521638117865,-1.04687828214322
+"16","Fresh and processed potatoes",-1.24097592579066,-1.5880664684666,-1.53009228089119,-1.07428449519569,-1.17744461806168
+"17","Fresh and processed vegetables, excluding potatoes",-0.595952739568672,-0.469718544828289,0.00336577076588063,0.225332314779429,-0.113988559716573
+"18","Fresh and processed vegetables, including potatoes",-0.935253867694502,-1.3446525661872,-0.772637195630129,-0.656167033926685,-0.907943952744453
+"19","Milk and milk products excluding cheese",0.184164968925454,-0.00661470603461625,0.0123357186170185,0.215584624817204,0.192015541057377
+"20","Non-carcase meat and meat products",-0.460632910605747,0.40075875676763,-0.786695811207871,0.0965845859640174,0.900386668940636
+"21","Other cereals and cereal products",-0.746295951411081,-0.819356901605004,-0.767175070693889,-0.691011386183157,-0.466752024287967
+"22","Other food and drink",-1.14589537274412,-1.01611774510432,-0.909079714483804,-0.785328053575053,-0.617256010563699
+"23","Soft drinks",-0.321362363918794,-1.01458701956045,-1.09984285676301,-0.26549825299234,0.118669161917291
+"24","Sugar and preserves",-0.832012543276855,-0.718581648632385,-0.590630921821151,-0.681851082330258,-0.258493680096728
+"25","c(""Alcoholic drinks"", ""Alcopops"")",-0.330642724803484,0.462258325445508,1.83189902654039,2.23171219585924,0.749169543082588
+"26","c(""Alcoholic drinks"", ""Beers"")",-0.437716396922929,-0.268732612235092,0.51046362258605,-1.0980680331326,-2.31728412459626
+"27","c(""Alcoholic drinks"", ""Ciders and perry"")",-0.849194011535926,-1.12885387821125,0.802538269240679,0.906822095824656,2.18042507381717
+"28","c(""Alcoholic drinks"", ""Fortified wines"")",-1.31750181187896,0.297612153808393,-1.73826130253778,-0.608812801261138,-0.884846020074127
+"29","c(""Alcoholic drinks"", ""Lagers and continental beers"")",-0.610015297856806,-0.75404165883754,0.236577843945301,0.96725348383069,0.429064034004604
+"30","c(""Alcoholic drinks"", ""Liqueurs and cocktails"")",-0.287657211297572,-0.871992719065357,-1.53915280851326,-0.306231607710089,-0.755814572120643
+"31","c(""Alcoholic drinks"", ""Spirits with mixer"")",-2.3879232905571e-15,-0.862073143491473,0,-0.986697542823422,-0.887290076870077
+"32","c(""Alcoholic drinks"", ""Spirits"")",-0.0345868663284826,-1.07088074892916,-0.540292491177898,0.301959034001254,1.34449258867633
+"33","c(""Alcoholic drinks"", ""Wine and champagne"")",-0.563841290915969,-0.944784111403835,0.417539281670469,-0.527381094812304,0.504745015274686
+"34","c(""Alcoholic drinks"", ""Wine and champagne"", ""Champagne, sparkling wines and wine with mixer"")",-0.659994621014571,-0.894838350858127,0.197817850658181,0.112242132980447,-0.176957397677825
+"35","c(""Alcoholic drinks"", ""Wine and champagne"", ""Table wine"")",-0.589685255469268,-0.299017716888774,0.503682265605986,-0.888961448936211,0.605057974176582
+"36","c(""Beverages"", ""Cocoa and chocolate drinks"")",-0.222046039360443,-0.197628255410439,-0.446066316599857,-0.460540178498168,-0.144241877169294
+"37","c(""Beverages"", ""Coffee beans and ground coffee"")",-0.0751645789068702,0.158055204355334,-1.13926509399367,-0.247078627236269,0.28833222681556
+"38","c(""Beverages"", ""Instant coffee"")",-0.596258692208622,-0.5503531890519,-0.675732239257033,-0.26314756042854,-0.812088515147426
+"39","c(""Beverages"", ""Malt drinks and chocolate versions of malted drinks"")",0.855421637198799,-0.331447370954975,-0.425798145989208,-1.13946822035667,-1.34122044117254
+"40","c(""Beverages"", ""Tea"")",-0.169508640174594,0.269953055700073,-0.0898874588842202,-0.337017459805446,0.0700385850276339
+"41","c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"")",-0.295820757723218,0.0639822685142674,0.123652380588554,0.728051918031168,0.671358904887313
+"42","c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"", ""Cream crackers and other unsweetened biscuits"")",-0.219690083361433,-0.509645806088279,-0.0280913515238181,0.0258982644389335,-0.306841560744089
+"43","c(""Biscuits and crispbreads"", ""Biscuits other than chocolate"", ""Sweet biscuits (not chocolate) and cereal bars"")",-0.405245888541875,0.595405713109969,0.289625184025292,0.893550408847783,1.05301575529451
+"44","c(""Biscuits and crispbreads"", ""Chocolate biscuits"")",-0.61883276845135,-0.690619050164402,-0.600015794394124,-2.2243889114517,-0.674724649345582
+"45","c(""Biscuits and crispbreads"", ""Crispbread"")",0.403891065496586,0.436982011244623,-0.207179804302604,-0.0900343526560087,-0.163043351972693
+"46","c(""Bread"", ""Brown and wholemeal bread"")",-0.0404976051381889,0.299614633919931,0.588076615387214,0.740488587873641,0.683720210000725
+"47","c(""Bread"", ""Brown and wholemeal bread"", ""Brown bread, sliced and unsliced"")",-0.913245248869915,-0.470145490651693,-0.270187660872636,0.135016261553686,-0.185566379310861
+"48","c(""Bread"", ""Brown and wholemeal bread"", ""Wholemeal and granary bread, sliced and unsliced"")",0.522271237577012,0.814478667201053,0.94841658492075,0.91157813854534,1.00449008090909
+"49","c(""Bread"", ""Total other bread"")",0.636391266606454,-0.241221558650547,-0.795852450751138,0.353003617613842,-0.654847730628168
+"50","c(""Bread"", ""Total other bread"", ""Malt bread and fruit loaves"")",-1.17162292036237,-0.250984274580413,-0.154251171951687,0.0534034469392011,-0.042036409532912
+"51","c(""Bread"", ""Total other bread"", ""Other breads"")",-1.15250936964707,-1.59813351312257,-2.65241249069598,-2.05023907085825,-2.32894837986154
+"52","c(""Bread"", ""Total other bread"", ""Rolls - white, brown or wholemeal"")",0.045887002288382,-2.23682771354125,-1.28461190414905,-1.39757041796138,-0.747689048358838
+"53","c(""Bread"", ""Total other bread"", ""Sandwiches from takeaway"")",-0.399128952697907,-0.258096955963403,-0.75204885254367,-0.493720235963563,0.0271559104491838
+"54","c(""Bread"", ""Total other bread"", ""Sandwiches"")",-1.50927110290469,-0.764671752898653,-1.70506158623416,-1.18541245815547,-0.63081173721094
+"55","c(""Bread"", ""Total other bread"", ""Starch reduced bread and rolls"")",-1.05276652205426,0.354551849893115,-0.62179350406613,-0.892084527652041,-1.23704789268722
+"56","c(""Bread"", ""Total other bread"", ""Takeaway breads"")",-0.27547141521963,-0.440740576786586,-1.25599488643845,-0.604024783128185,-0.80515846663174
+"57","c(""Bread"", ""Total other bread"", ""Vienna and french bread"")",-0.291680098140083,-0.108616032505425,0.00191721197470422,-0.122601693061813,-1.19908201993112
+"58","c(""Bread"", ""White bread"")",-1.13726024067139,-1.32362037490126,-1.24412153757464,-1.46205853793011,-1.60308147345239
+"59","c(""Bread"", ""White bread"", ""White bread, premium, sliced and unsliced"")",-1.54570285399651,1.11891214343882,-1.3476090359584,-2.00744633283362,-1.52162714007732
+"60","c(""Bread"", ""White bread"", ""White bread, soft grain, sliced and unsliced"")",NA,NA,NA,NA,NA
+"61","c(""Bread"", ""White bread"", ""White bread, standard, sliced"")",-0.758119244148564,-0.824390496354992,-0.924054095671856,-1.11293193204005,-1.16615647022196
+"62","c(""Bread"", ""White bread"", ""White bread, standard, unsliced"")",-2.0572167971735,-2.6326941083081,-1.77970773467786,-2.0765141767191,-2.19864206850225
+"63","c(""Cakes, buns and pastries"", ""Buns, scones and teacakes"")",0.220623983734263,0.256558365857868,0.540225751587726,1.49408413853921,-1.00313871085953
+"64","c(""Cakes, buns and pastries"", ""Cakes and pastries"")",0.505062690829427,2.14687477670429,0.149398671473891,-0.304834790609572,-0.306512192535715
+"65","c(""Cakes, buns and pastries"", ""Cakes and pastries"", ""Cakes and pastries, not frozen"")",0.548185774830636,2.01778844381656,0.160881729229143,-0.349462236202869,-0.174319605726867
+"66","c(""Cakes, buns and pastries"", ""Cakes and pastries"", ""Takeaway pastries"")",-0.46064132434917,-0.729339405580685,-0.474008202415558,0,-0.638228823511162
+"67","c(""Carcase meat"", ""Beef and veal"")",-0.914786890021404,-1.76192700520202,-1.13933599333346,-0.958158565539932,-0.531000945280872
+"68","c(""Carcase meat"", ""Beef and veal"", ""All other beef and veal"")",-1.10732760360777,-1.17533780610951,-1.2731824497602,-0.7071561932789,-0.941848219035783
+"69","c(""Carcase meat"", ""Beef and veal"", ""Beef joints - boned"")",-1.86303126047816,-1.96917379536367,-2.48783012365966,-1.65575349924976,-1.01159225705561
+"70","c(""Carcase meat"", ""Beef and veal"", ""Beef joints - on the bone"")",-0.879658728709227,-1.26059395952574,-0.880673179061139,-1.05034340573963,-1.11427424659468
+"71","c(""Carcase meat"", ""Beef and veal"", ""Beef steak - less expensive"")",-0.904389299203158,-0.978745206354416,-0.158895746182986,-0.505222898888373,-1.58167504854406
+"72","c(""Carcase meat"", ""Beef and veal"", ""Beef steak - more expensive"")",-1.12784103294098,-1.77209278744608,-1.03644147374018,-1.39532554429666,-0.741998042787916
+"73","c(""Carcase meat"", ""Beef and veal"", ""Minced beef"")",-0.0305207432761075,-0.241947063434881,-0.18574187909201,0.129240484003086,0.630151465059781
+"74","c(""Carcase meat"", ""Mutton and lamb"")",-1.14281937798466,-1.17040032764186,-1.0716735808935,-1.68309268083866,-1.02924126201844
+"75","c(""Carcase meat"", ""Mutton and lamb"", ""All other lamb"")",-0.621745572410193,-0.87492428025923,-0.440468409639963,-0.594152166730928,-0.847894287161745
+"76","c(""Carcase meat"", ""Mutton and lamb"", ""Lamb chops"")",-2.48235637835022,-1.48918274770224,-1.20584723861936,-1.27822938749791,-1.10916942779587
+"77","c(""Carcase meat"", ""Mutton and lamb"", ""Lamb joints"")",-1.11908812593474,-1.13119748738786,-0.750874383051323,-1.46175052673832,-0.834315248649531
+"78","c(""Carcase meat"", ""Mutton and lamb"", ""Mutton"")",-0.850553538144608,-1.24813595521103,3.31246105632837,0,-1.02266058181705
+"79","c(""Carcase meat"", ""Pork"")",-0.778277567807422,-0.390376784559304,-0.212350845735825,-0.705850323459645,-0.483272665066103
+"80","c(""Carcase meat"", ""Pork"", ""All other pork"")",-0.540761477097566,1.65870362942351,-1.95913624575024,0.894401915680017,-0.313348774163691
+"81","c(""Carcase meat"", ""Pork"", ""Pork chops"")",-1.0473820128878,-0.0267023824241168,-0.00552101838608344,-0.157417618114738,0.187876901077712
+"82","c(""Carcase meat"", ""Pork"", ""Pork fillets and steaks"")",-0.874354859550607,-1.11954673435018,-0.756384560500557,0.0315885533902392,-0.704611024343843
+"83","c(""Carcase meat"", ""Pork"", ""Pork joints"")",-1.05882877661595,-1.01008363683899,-1.5607176692209,-0.475025208658602,-0.519767389587178
+"84","c(""Cheese"", ""Natural cheese"")",-0.0614442830254785,0.20849486369879,0.321863488388954,0.276317740551836,0.16388495022528
+"85","c(""Cheese"", ""Natural cheese"", ""Cottage cheese"")",-0.845474419965185,-0.522424568889854,0.0314605375091823,0.113749279639355,-0.409033006726823
+"86","c(""Cheese"", ""Natural cheese"", ""Hard cheese - cheddar type"")",-0.220352424531345,0.467170449663423,0.462279957536652,-0.0102066786034645,-0.129228069666815
+"87","c(""Cheese"", ""Natural cheese"", ""Hard cheese - edam or other foreign"")",-0.668586805505035,-0.415297678286591,-0.4955313782789,-0.0820772083418297,-0.612899305923266
+"88","c(""Cheese"", ""Natural cheese"", ""Hard cheese - other uk or foreign equivalent"")",-1.53242372385654,-1.32472952317025,-1.40512582564737,-1.59906908238508,-0.475037070876563
+"89","c(""Cheese"", ""Natural cheese"", ""Soft natural cheese"")",-2.29058467396835,-2.00788810867624,-2.02932432810194,-2.16295643686367,-1.72314430111375
+"90","c(""Cheese"", ""Processed cheese"")",-0.271181950132768,0.0857010113432709,0.184567831136744,0.598872051198775,0.292287485119546
+"91","c(""Confectionery"", ""Chewing gum"")",-0.640313943415862,-0.809228140199584,-1.38237153071813,-1.43253379856122,-0.464121468188738
+"92","c(""Confectionery"", ""Chocolate bars - filled"")",-0.961179829753499,-0.0459942292459247,-0.236954620870216,0.253779961902726,0.327711613359044
+"93","c(""Confectionery"", ""Chocolate bars - solid"")",-0.534919701821947,-0.519206448897979,-0.492031215730729,-1.02120857285126,-0.37982823004556
+"94","c(""Confectionery"", ""Fudges, toffees, caramels"")",0.168350322497336,0.0661268616973853,-0.252951892431344,-0.126171072541064,0.0122797922519867
+"95","c(""Confectionery"", ""Mints and boiled sweets"")",-0.124511486034377,-0.286975661238713,-0.197029313367854,-0.299487444543922,-0.170494930520195
+"96","c(""Confectionery"", ""Mints and boiled sweets"", ""Boiled sweets"")",-0.413400827773208,-0.58360313583997,-0.0507266904185427,-0.454671151649438,-0.25989504061939
+"97","c(""Confectionery"", ""Mints and boiled sweets"", ""Mints"")",-2.53471658270208,-2.05325743284374,-1.18441146174632,-1.69110594486178,-2.01747022698636
+"98","c(""Fats"", ""All other fats"")",-1.74227188645548,-2.01411512851149,-2.24552698238074,-2.69950327001832,-2.38151450172339
+"99","c(""Fats"", ""All other fats"", ""Imitatation cream"")",-0.0584976149524185,-0.404537755406286,-0.202965286488551,-0.072832252821035,0.395561051679852
+"100","c(""Fats"", ""All other fats"", ""Low fat spreads"")",-1.02890196642962,-0.53046754073491,-0.484066212319843,-0.718754333426614,-1.08701029248689
+"101","c(""Fats"", ""All other fats"", ""Reduced fat spreads"")",-0.970034216054776,-0.810867260809455,-1.72210663472377,-2.06547313425037,-2.11698007523107
+"102","c(""Fats"", ""All other fats"", ""Suet and dripping"")",-1.27804239381551,-1.1443129503551,-1.01463701119141,0,-0.838103501411615
+"103","c(""Fats"", ""Butter"")",-0.162381994052347,-0.189810749211696,0.531393915663811,0.436298224060479,0.344749548216057
+"104","c(""Fats"", ""Margarine"")",0.644349539224095,0.617041763449806,0.728561891365401,1.0263299263093,1.32163687119543
+"105","c(""Fats"", ""Margarine"", ""Other margarine"")",-1.19964879143342,-0.566085604816501,-1.17982803142165,-1.35298088747015,-3.51206170045302
+"106","c(""Fats"", ""Margarine"", ""Soft margarine"")",0.862240136894981,0.686175904650855,0.726018781037913,0.955621618804988,0.823339496239996
+"107","c(""Fats"", ""Vegetable and salad oils"")",-0.242324661342795,-0.314886416975243,0.376302308589989,0.127309755642217,-0.404138903196717
+"108","c(""Fats"", ""Vegetable and salad oils"", ""Olive oil"")",-1.5810555446624,-0.268481926145411,-1.00662696145472,-0.708597100499517,-0.51713545092636
+"109","c(""Fats"", ""Vegetable and salad oils"", ""Other vegetable and salad oils"")",-0.233873359308151,-0.380199953282582,0.0905803674618179,0.173498503959064,-0.372045427948417
+"110","c(""Fish"", ""Blue fish, dried or salted or smoked"")",-0.245976315053401,-0.177863068143817,0.405613906707984,-0.565139771485292,-0.0200913709546527
+"111","c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"")",-0.885485367499537,-0.974349351417044,-0.620623368636433,-0.207898174860986,-0.87439877992329
+"112","c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"", ""Herrings and other blue fish, fresh or chilled"")",-0.757621498462393,-1.18131346783701,-1.10664952401888,-0.378268404981569,-1.05978156183505
+"113","c(""Fish"", ""Herrings and other blue fish, fresh, chilled or frozen"", ""Herrings and other blue fish, frozen"")",NA,-1.05573639343027,-1.32623045320895,NA,0
+"114","c(""Fish"", ""Other tinned or bottled fish"")",-1.07850299602186,-0.628179511331562,-0.704369945212528,-0.695603634384236,-0.426755663596949
+"115","c(""Fish"", ""Ready meals and other fish products - frozen or not frozen"")",1.8652984794588,0.225628353181921,1.54104055354707,1.42914661263284,-0.164933794168573
+"116","c(""Fish"", ""Salmon, fresh, chilled or frozen"")",0.123640087636648,0.417531524363542,0.3166499477873,-0.00355930910110917,0.3451026651223
+"117","c(""Fish"", ""Salmon, fresh, chilled or frozen"", ""Salmon, fresh or chilled"")",-0.685374563504868,0.460711295461638,-0.23960951210489,-0.198908906529668,0.392580292069217
+"118","c(""Fish"", ""Salmon, fresh, chilled or frozen"", ""Salmon, frozen"")",-1.01111717463979,-0.891296033759764,1.08528075385048,-0.645001668713442,-0.141623377875568
+"119","c(""Fish"", ""Salmon, tinned"")",-2.04492914055548,-1.631691336972,-1.84653201665719,-0.825161130908823,-1.22305823662312
+"120","c(""Fish"", ""Shellfish"")",-0.395318470781048,-1.80162186976535,-0.830452313867844,-1.17858543079763,-1.59831962444323
+"121","c(""Fish"", ""Shellfish"", ""Shellfish, fresh or chilled"")",-1.83571776298053,-1.34292140324279,-1.52135562161649,-2.05792351381332,-1.5410893317274
+"122","c(""Fish"", ""Shellfish"", ""Shellfish, frozen"")",-0.151658311374064,-1.27990997020138,-0.745016591943193,-0.579196709005839,-1.12778640266776
+"123","c(""Fish"", ""Takeaway fish meals and fish products"")",0.381915084168069,-0.654048161704111,-0.670400891812154,-0.212264744665706,-0.59010597941614
+"124","c(""Fish"", ""Takeaway fish meals and fish products"", ""Takeaway fish based meals"")",0,-0.550373931891748,-0.661703070997041,-0.2464374245488,-0.522799399358391
+"125","c(""Fish"", ""Takeaway fish meals and fish products"", ""Takeaway fish products"")",0,0,0,0,0
+"126","c(""Fish"", ""Takeaway fish"")",-1.40767899245427,-1.84373140623168,-1.75536879396917,-1.17857259266317,-1.28624105564586
+"127","c(""Fish"", ""White fish, dried, salted or smoked"")",-1.11203589182987,-0.219962080234897,-1.03966342419447,-0.253210825578777,-0.0240994345790285
+"128","c(""Fish"", ""White fish, fresh, chilled or frozen"")",-0.867812124043788,-0.332656410737756,-0.722438939052664,-1.88642428904527,-1.84192592457836
+"129","c(""Fish"", ""White fish, fresh, chilled or frozen"", ""White fish, fresh or chilled"")",-1.32603273120509,-1.32194008836428,-0.486731491648363,-2.03401755281829,-1.27834196558388
+"130","c(""Fish"", ""White fish, fresh, chilled or frozen"", ""White fish, frozen"")",1.77066197580284,0.201655852233909,0.186578101150844,0.237407803791666,-0.197080638297891
+"131","c(""Fresh and processed fruit"", ""Fresh fruit"")",-1.71460497267608,-0.614176526713169,-0.27334751561581,-0.123042691058924,-0.72792463851374
+"132","c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh apples"")",-1.29008604502755,-0.835515916582646,-1.05774511016572,-1.00830372153574,-1.34047656720259
+"133","c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh bananas"")",-0.0691798015196917,-0.0566745088082154,-0.282029762609656,-0.151133888839691,-0.02686719931633
+"134","c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh grapes"")",-1.28760446533478,-1.47875953918161,-0.688278089159733,-0.761365125505848,-1.00305521417223
+"135","c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh melons"")",0.232296838946382,-0.171092485615496,-1.13690578907988,-0.328427531673184,-0.319931057112178
+"136","c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh oranges"")",-1.17656259747651,-0.182853849670201,-0.202529829923358,-0.246445900480466,-0.779686535821945
+"137","c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh pears"")",-0.548983825986709,-0.106378070678187,-1.3579567881899,-0.291542810883922,-0.552167638978907
+"138","c(""Fresh and processed fruit"", ""Fresh fruit"", ""Fresh stone fruit"")",-0.926715368042492,-1.09257899078652,-1.12561879649382,-0.759146746021397,-0.862874732420252
+"139","c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh citrus fruits"")",-1.24534998284665,-0.868158166252564,-0.600095810362276,-0.93321748194743,-1.12351161748558
+"140","c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh fruit"")",-0.201496276247868,0.380466026418916,-1.58126349723076,-1.44979176305524,-1.24811347413318
+"141","c(""Fresh and processed fruit"", ""Fresh fruit"", ""Other fresh soft fruit"")",0.768070561145653,0.738295660457806,1.24874375864204,2.4704505418442,1.75835464583349
+"142","c(""Fresh and processed fruit"", ""Processed fruit and fruit products"")",-0.876925748885017,-0.929514998079997,-0.74948010537412,-0.343888033661113,-0.699460791533878
+"143","c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""All other tinned or bottled fruit"")",0.206532029988392,-0.823792324873433,-0.422175239219308,-0.394064534450564,-0.294775070918925
+"144","c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Dried fruit"")",-0.377898543600713,0.0275551230780387,0.414987931649151,-0.208250674384409,0.0442064265047446
+"145","c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Frozen strawberries, apple slices, peach halves, oranges and other frozen fruits"")",-1.16449038717047,-0.912492206862625,-0.881625378555191,-0.829764777916825,-0.91437350088274
+"146","c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"")",-0.354180626621878,0.982965258428537,-0.255374293275024,1.25515933034572,-2.16008952944585
+"147","c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"", ""Nuts and edible seeds"")",-0.256129554603077,1.29652214733342,-0.287690092770868,0.863929857483718,-1.80863490022772
+"148","c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Nuts, edible seeds and peanut butter"", ""Peanut butter"")",-0.845104119622132,-0.560299827258262,-0.757719299612204,-0.527927672468264,-0.0130121701881109
+"149","c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Pure fruit juices"")",-0.61979731645884,0.00518861694607904,-0.578130869552978,0.104612183164696,-0.182269997685125
+"150","c(""Fresh and processed fruit"", ""Processed fruit and fruit products"", ""Tinned peaches, pears and pineapples"")",0.642090335842315,0.671928935836314,-1.44899290675725,0.128153493888559,-0.249950142513479
+"151","c(""Fresh and processed potatoes"", ""Fresh potatoes"")",-1.16413147407238,-1.16791102625435,-1.11599316817627,-0.905095352657158,-0.909672355775173
+"152","c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Fresh baking potatoes (e)"")",-0.491540008693196,0.253052473686659,0.110622938687295,0.23084814590279,-0.044457407416063
+"153","c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Fresh new potatoes (e)"")",-0.62376563629151,-0.697695768989133,-1.57220399820833,-1.7406594709864,-0.802940934884773
+"154","c(""Fresh and processed potatoes"", ""Fresh potatoes"", ""Other fresh potatoes (e)"")",-0.982049388045373,-0.866102463290047,-0.871292108216305,-0.684183253173184,-0.882751480480812
+"155","c(""Fresh and processed potatoes"", ""Processed potatoes"")",-0.613579298636492,-0.0968898882400451,-0.542855430774659,0.576931805585756,0.218418770238655
+"156","c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"")",-0.430191943331317,0.0370440817986686,-0.11809124905391,0.393206847809709,-0.0109648490247405
+"157","c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"", ""Chips - frozen or not frozen"")",-1.20329638796575,-0.397506566118867,-0.429500492619124,-0.0995421390831684,0.0116736829081813
+"158","c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Chips and takeaway chips"", ""Takeaway chips"")",-0.429090598202875,-1.96262066477484,-2.04555280036036,-0.367922171449864,-0.145034941675616
+"159","c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Crisps and potato snacks"")",-0.383685397690978,0.0251378631075568,-0.781525069209035,0.714777698324304,0.296559557085319
+"160","c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Instant potato"")",-1.27159636619194,-0.891483144857494,0,-1.00416860147596,-1.04145079133803
+"161","c(""Fresh and processed potatoes"", ""Processed potatoes"", ""Other potato products, frozen or not frozen"")",-1.52457253446962,-0.920572466135987,-0.325856343300123,0.209271045250216,-0.0888707934448505
+"162","c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"")",-1.36908039006599,-1.43069942969341,-0.979296189479559,-0.821542719982071,-1.32131747683112
+"163","c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh beans"")",-0.694552930869393,-0.6186890902064,-0.214791843710798,-0.741702804066615,1.00995126038961
+"164","c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh brussels sprouts"")",-1.12688058175716,-0.851649715072186,-0.600554116110116,-0.0751169902024614,-0.106310590358723
+"165","c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh cabbages"")",-0.413701364316495,-0.526087837465774,-1.07493222222104,-0.451491027755159,-0.91602384516014
+"166","c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh cauliflower"")",-1.87936833102782,-1.23226617627697,-0.741455553890367,-0.860214637110128,-0.35685024912764
+"167","c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Fresh peas"")",-0.692351730483811,-0.319324324753225,0.117515409610702,-0.266403750764139,-0.459189789649834
+"168","c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"")",-0.695033924860429,-0.605345699595561,-0.900405827218419,-0.457050816748797,-0.33379688658991
+"169","c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"", ""Lettuce and leafy salads"")",0.107788162732249,0.798608462083764,0.399322086914067,0.72159621604021,0.946524012003026
+"170","c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Leafy salads fresh"", ""Prepared lettuce salads"")",-0.273786421901699,-0.885548105633061,-0.512316905451649,-0.215599718184774,0.362327964138401
+"171","c(""Fresh and processed vegetables, excluding potatoes"", ""Fresh green vegetables"", ""Other fresh green vegetables"")",-0.35479295000167,0.225135780543585,-0.351512980801264,0.535941247249485,-0.660478889602739
+"172","c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"")",-0.709036803803972,0.0613399748238162,0.105688978361724,-0.257242598435009,-0.569540362438482
+"173","c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh carrots"")",-0.350012087061245,-0.185209082736624,-0.15990262440681,0.216782579843542,0.173023360212711
+"174","c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh cucumbers"")",-0.985192201155015,-0.485216207271723,-0.325177067812638,-0.117106196043034,-0.099039822361738
+"175","c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh mushrooms"")",0.00988563414695397,-0.162513391140289,-0.529039449620636,0.206036009178861,0.0845305630463768
+"176","c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh onions, leeks and shallots"")",-0.745658643027388,-0.683650865408575,-0.448834517174916,-0.557580799461316,-0.366287847595571
+"177","c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh tomatoes"")",-1.05039088798387,-0.888982446537751,-0.613487504911352,-0.451980806289333,-0.643096132517851
+"178","c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Fresh turnips and swede"")",0.30816989739975,-0.453226312516806,0.640565386308181,0.249996449371532,-0.330247809126674
+"179","c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"")",-3.20049582429509,-1.88095290651808,-2.19525900031292,-1.78457341788799,-1.46332784475786
+"180","c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh herbs"")",-0.169151066656732,-1.03269174263815,-1.09386438889572,-0.51825869087601,-0.921615110945217
+"181","c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh marrow, courgettes, aubergine, pumpkin and other vegetables"")",-1.62526804155845,-1.79766575100225,-1.55664931931528,-1.42679208014787,-1.11513854599905
+"182","c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh stem vegetables"")",-0.498027084596704,-0.229616859545438,0.40340412044925,0.373318300785216,-0.254634510537611
+"183","c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Miscellaneous fresh vegtables"", ""Fresh vegetable stewpack, stirfry pack etc."")",-2.41959457609546,-1.47339815721971,-1.8990893003334,-1.55195808975175,-1.74953153654792
+"184","c(""Fresh and processed vegetables, excluding potatoes"", ""Other fresh vegetables"", ""Other fresh root vegetables"")",-0.607549201325209,-0.664736310103739,-1.26545349012472,-1.08982969042177,-1.23521011000349
+"185","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"")",-0.0920210103035996,-0.586336399209622,-0.708602382576145,-0.26110541338287,-0.50217573275656
+"186","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"")",-0.0476563184298698,-0.0847049147345265,-0.187039209763136,-0.249950043654565,0.0806844961917371
+"187","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"", ""Baked beans in sauce"")",-0.108050794013129,-0.233947330520655,-0.231035904897923,-0.458455595036802,-0.0501091785209961
+"188","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans canned"", ""Other canned beans and pulses"")",-0.395003231882047,-0.334676550353814,-0.194719842312414,0.290967058425749,-0.0891873698730342
+"189","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Beans, frozen"")",-0.692504908312126,-0.918952869625631,-0.930625976002813,-2.30046480788368,-1.24559079681898
+"190","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Dried pulses other than air-dried"")",-0.667980474775968,-0.851789921907766,-0.876517239101965,-1.32454713694683,-0.826996824296753
+"191","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Other canned vegetables"")",-0.574772980740442,-0.18390651049038,-0.863818137363457,-0.68109342377985,-0.00805215756870072
+"192","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Other frozen vegetables"")",-0.294223911599755,-0.451378486260089,-0.268968910026974,0.270782323030566,-0.0809171304233214
+"193","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Peas, canned"")",-1.05372159115449,-0.16040187274708,-1.42028431045582,0.28007082394476,-1.47013908558057
+"194","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Peas, frozen"")",-0.350423457497555,0.275493249874872,0.20861459131826,0.119589161049787,-0.116410698419009
+"195","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"")",-0.301054914519473,-0.510895362704819,-0.517016912069616,-0.353275420919174,-0.868909166250213
+"196","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"", ""All vegetable takeaway products"")",-1.18469464189572,-1.3670413142218,-0.260556857433549,0.32049203283374,-1.19259627533517
+"197","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Ready meals and other vegetable products (inc takeaways)"", ""Ready meals and other vegetable products, frozen or not frozen"")",-0.785013868121111,-0.676873797155356,-0.659676021113886,-0.647139938774823,-0.691355870910699
+"198","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Tomatoes, canned or bottled"")",-0.219719290834973,0.123992861255564,0.411707245504203,0.286462836071864,0.261776395376925
+"199","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"")",-0.534421089486875,-0.325652144215144,-0.421122140866994,-0.180170690549283,-0.00638606344032547
+"200","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"", ""Tomato puree and vegetable purees"")",-1.00586430730575,-0.520042398686783,-0.663718742696963,-0.671132992236435,-0.530780716689977
+"201","c(""Fresh and processed vegetables, excluding potatoes"", ""Processed vegetables excluding processed potatoes"", ""Vegetable juices and purees"", ""Vegetable juices eg tomato juice, carrot juice"")",-1.23290381370194,-1.30071631307746,-1.26783740633918,-1.65235287840117,-0.790359714725598
+"202","c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"")",1.1943917334207,1.70067884444936,2.0552078663885,1.90218692616969,2.81797931796223
+"203","c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"")",1.39122016292159,1.59318799156867,2.02236644498321,1.92568379616045,2.8141763347495
+"204","c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""Pasteurised/ homogenised"")",1.29442286946964,1.41733406804881,1.84880243760118,2.16043365724497,2.59395775074708
+"205","c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""Sterilised"")",-1.59292201227214,-2.11784144611636,-1.06677692351035,-1.57629889478381,NA
+"206","c(""Milk and milk products excluding cheese"", ""Liquid wholemilk, including school and welfare"", ""Liquid wholemilk, full price"", ""UHT milk"")",-1.1841351032433,-1.16179774108298,-1.23440123561208,-1.20685539265211,NA
+"207","c(""Milk and milk products excluding cheese"", ""Other milk and cream"")",-0.267139187065522,-0.185759246864909,-0.210024533125807,-0.175048693147004,-0.251517357551299
+"208","c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Condensed or evaporated milk"")",-0.246838815928216,0.0550539308096062,-0.835303617935886,-0.91896652772315,-0.795346738745536
+"209","c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Cream"")",-0.753844904280583,-0.93042160059747,-0.237861629071589,-0.213657852231488,-0.294846204512134
+"210","c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"")",-0.0875151120655462,-0.911409888177167,0.580580789896547,0.156572858125663,-0.731595887724204
+"211","c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"", ""Infant or baby milks - dried"")",0.331256741479209,-1.42389373160701,0.438281096637837,-1.08604182004581,-0.0399711243961858
+"212","c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Infant milks"", ""Infant or baby milks - ready to drink"")",-1.13839447850018,0.657370167283814,-0.854732736884149,-0.54593619486227,-0.956445638525782
+"213","c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"")",-1.07790650775284,-0.967393527861396,-1.10821949269016,-0.576507871661976,-0.468027268760824
+"214","c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Dairy desserts - not frozen"")",-0.621049595542755,-0.549115579646474,-0.862656645207512,0.478753540427019,-1.14130579311539
+"215","c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Dried milk products"")",-1.6843544747288,-0.865520406664257,-0.349954764814874,-0.130859270202218,NA
+"216","c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Milk drinks and other milks (d)"")",-1.08783761127087,-1.16085773758991,-0.594901197260133,-0.49887762015165,-0.228767506363535
+"217","c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Other milks and dairy desserts"", ""Non-dairy milk substitutes (d)"")",-0.465749329332302,-0.236885339557093,0.598090898270704,-0.457108762273951,0.0440765052854715
+"218","c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"")",-0.0963360331641044,-0.255878397933721,-0.0904403804063357,-0.140997572399102,-0.156325367747979
+"219","c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"", ""Fully skimmed milk"")",0.598560489468903,-0.38346009254559,0.594738422408923,0.189602054194708,-0.0464580859831679
+"220","c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Skimmed milks"", ""Semi-skimmed milk"")",-0.246584396304902,-0.274307982476305,-0.231301094271466,-0.204735258458818,-0.183605347622955
+"221","c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"")",-1.02873876201932,-1.64604274577127,-1.16028887150488,-1.7067694344508,-1.31155540216584
+"222","c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"", ""Fromage frais"")",-0.219260014250632,-0.759722561500233,-0.084757260910456,0.233627604197797,0.263829431272838
+"223","c(""Milk and milk products excluding cheese"", ""Other milk and cream"", ""Yoghurt and fromage frais"", ""Yoghurt"")",-1.20406956291177,-1.36155568909807,-1.52067172818256,-1.84208671988124,-1.342377349085
+"224","c(""Non-carcase meat and meat products"", ""All offal other than liver"")",-1.22213165927653,-0.770166052514327,-0.684146368179541,-0.843055896259036,-0.893065977738473
+"225","c(""Non-carcase meat and meat products"", ""Bacon and ham, cooked"")",-0.66559233882104,0.0597322758961456,-0.950811548568602,-1.05160146895629,-0.0755547842754572
+"226","c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"")",0.362043089209559,0.711688108262689,0.0441058518913005,-0.217769885421195,-0.224936631989926
+"227","c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"", ""Bacon and ham joints, uncooked"")",-0.423413781686317,-0.395553171327117,-0.377249799735852,-0.587481158957622,-1.42210541508018
+"228","c(""Non-carcase meat and meat products"", ""Bacon and ham, uncooked"", ""Bacon and ham rashers, uncooked"")",0.527536782948194,1.03888655461045,0.446061611894552,0.15513432090196,0.394233148509481
+"229","c(""Non-carcase meat and meat products"", ""Burgers, frozen or not frozen"")",-0.510346513164976,0.109494443132609,-1.04693791145155,-0.870826448487579,-0.453637959969715
+"230","c(""Non-carcase meat and meat products"", ""Chicken, uncooked - whole chicken or chicken pieces"")",-0.459547914580561,-0.00518970807958396,0.462628571686837,0.1203675853311,-0.821253120380778
+"231","c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"")",-0.921947569629318,-1.79185694654488,-1.30430754674546,-1.32345046664524,-1.10379295236363
+"232","c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"", ""Chicken and turkey, cooked"")",-1.2239566416672,-1.68455346427327,-1.61057161564277,-1.40541124211717,-1.33594967679863
+"233","c(""Non-carcase meat and meat products"", ""Cooked poultry not purchased in cans"", ""Takeaway chicken"")",-0.208627809004755,-0.990511360672158,-0.100043936696815,-0.955703608148865,-0.164036599473061
+"234","c(""Non-carcase meat and meat products"", ""Corned beef, canned or sliced"")",-0.652548198765628,-0.885957564739116,-0.878401629114199,-0.762173471829607,-0.921583776393757
+"235","c(""Non-carcase meat and meat products"", ""Liver"")",-0.27756199628948,0.282904672084792,-0.670593840051726,-0.884403022375287,-0.917767379091988
+"236","c(""Non-carcase meat and meat products"", ""Liver"", ""Lambs liver"")",-1.17313976475137,-1.17329722016926,-0.689187659207689,-1.42919472731716,NA
+"237","c(""Non-carcase meat and meat products"", ""Meat pastes and spreads"")",-1.04863458192027,-1.33079986554129,-1.12746402948588,-0.839038990576592,0
+"238","c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"")",1.78699264431009,0.934595109655891,3.64011568942599,1.75723257296358,2.1089970804981
+"239","c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"", ""Meat pies, ready to eat"")",1.39933463791527,-3.00522133449313,0.478704920246647,1.92826905979457,0.671078227901678
+"240","c(""Non-carcase meat and meat products"", ""Meat pies and sausage rolls, ready to eat"", ""Sausage rolls, ready to eat"")",0.122322941639313,-0.339431218387381,-0.356416730978469,-0.308698026457727,-0.691926716856109
+"241","c(""Non-carcase meat and meat products"", ""Meat pies, pasties and puddings, frozen or not frozen"")",0.024972266654721,1.1452108780652,1.28478129507861,0.712246465035407,-0.530072538912921
+"242","c(""Non-carcase meat and meat products"", ""Other canned meat and canned meat products"")",-0.946899350388898,-0.913251912529219,-0.966806006379083,-0.792051153595526,0.330590508543983
+"243","c(""Non-carcase meat and meat products"", ""Other cooked meat"")",-0.768231572462044,-0.702137088805931,-0.0707450680532656,-0.160526427727589,-0.635581057320728
+"244","c(""Non-carcase meat and meat products"", ""Other fresh, chilled and frozen meat"")",-0.893799719187173,-1.28912670490453,-0.466522441218724,-1.18042128038815,-0.563747820573977
+"245","c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"")",-1.70064666234177,-1.55772377777348,-0.908645704606286,-2.11457600127934,-0.943788511398607
+"246","c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"", ""Poultry other than chicken or turkey, uncooked"")",-1.17517527543403,-0.824240422315166,-0.433176655418821,-0.907487595291577,-0.557520050389743
+"247","c(""Non-carcase meat and meat products"", ""Other poultry, uncooked (including frozen)"", ""Turkey, uncooked - whole turkey or turkey pieces"")",-1.74363913661443,-1.83858074102819,-1.3657386184589,-2.00101939100045,-1.00526851158604
+"248","c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"")",-0.546317316109972,-1.06942150727103,-0.0742398712363324,-0.579734947635931,-0.807289153708216
+"249","c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"", ""Delicatessen type sausages"")",-0.744817798344469,-0.764652712277598,0.364112936044815,0.779709416827093,-0.940790207275003
+"250","c(""Non-carcase meat and meat products"", ""Pate and delicatessen type sausage"", ""Pate"")",-0.295643402308106,-0.0900114090581004,-0.270384155356669,-0.493906505813186,-0.0280324558924309
+"251","c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"")",-1.90762306156525,-0.965048830325075,-0.650824921094462,0.168736425369401,0.803321181110267
+"252","c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"", ""Complete meat-based ready meals, frozen or not frozen"")",-1.19018551450214,-0.0591437713394927,-0.254399579415371,0.765143897347124,1.56180813998839
+"253","c(""Non-carcase meat and meat products"", ""Ready meals and convenience meat products"", ""Other convenience meat products, frozen or not frozen"")",-2.11384459901857,-1.30438466839608,-1.77001471967502,-0.839704006767324,-0.595396357836548
+"254","c(""Non-carcase meat and meat products"", ""Sausages, uncooked - beef and other sausages"")",-1.25841363851062,-0.0171951108044813,-0.315417717456584,-0.411888970366008,-0.337289700408331
+"255","c(""Non-carcase meat and meat products"", ""Sausages, uncooked - pork"")",-0.416879592726399,-0.456255598999553,-0.360718318779842,0.444344198357953,-0.337033501826336
+"256","c(""Non-carcase meat and meat products"", ""Takeaway meats"")",-0.807212999098051,0.0707474867744197,0.46292889907772,1.69873297160733,-0.407085536858431
+"257","c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway burger and bun"")",-0.775807068212616,-0.991185248513039,-0.717942303467547,-1.65657397086374,-1.11591589171119
+"258","c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway kebabs"")",-1.8321216741036,-0.152038753203479,-0.732178870337841,-0.32888240728466,-0.482973402364022
+"259","c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway meat based meals"")",-1.4053414823533,0.41430793844762,1.52056167537762,1.93077751904347,-0.136567078762737
+"260","c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway meat pies and pasties"")",-0.338531331782674,-2.16859454567557,-1.23618029242116,-1.0645128506572,-1.08203847068771
+"261","c(""Non-carcase meat and meat products"", ""Takeaway meats"", ""Takeaway sausages and saveloys"")",-0.189525258333981,-0.738527493333724,-0.670730479841696,-0.906729463345743,-0.401163905092
+"262","c(""Other cereals and cereal products"", ""Breakfast cereals"")",-0.172593429562697,0.277907515911589,0.520456380545558,0.3408334369035,-0.216875049344978
+"263","c(""Other cereals and cereal products"", ""Breakfast cereals"", ""High fibre breakfast cereals"")",-0.610694842626336,0.528887791342705,-0.0135333175295631,0.247958300075843,-0.653250238615687
+"264","c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Muesli"")",-0.501236931685917,-0.114326988484546,-0.465247928581261,-0.572705613420493,0.324471457670518
+"265","c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Other breakfast cereals"")",-0.650284507065653,-0.506864059585819,-0.284220411200643,-0.775153810886009,0.121827346695244
+"266","c(""Other cereals and cereal products"", ""Breakfast cereals"", ""Sweetened breakfast cereals"")",-0.870613964438973,-0.402281030073685,0.443631329074511,0.205510252298666,0.635520892073784
+"267","c(""Other cereals and cereal products"", ""Cakes and pastries - frozen"")",0.573783094180386,-0.0751800756690067,0.488088407338414,0.0425956817960223,0.325174502824393
+"268","c(""Other cereals and cereal products"", ""Canned milk puddings"")",-0.0728928688806385,-0.453758279361395,-0.155960440281437,-0.0646019266129387,-0.0794644056357929
+"269","c(""Other cereals and cereal products"", ""Canned milk puddings"", ""All canned milk puddings"")",-0.169561845422529,-1.4580304758031,0.0520796384619797,-1.20620165861409,-1.0035181659957
+"270","c(""Other cereals and cereal products"", ""Canned milk puddings"", ""Canned or fresh carton custard"")",-0.10485382705615,-0.17025253337761,-0.116456400209435,-0.158563319546792,-0.23618516350368
+"271","c(""Other cereals and cereal products"", ""Infant cereal foods"")",0,-1.01541334238978,-0.678791912857427,-0.905296408591207,-0.27324327082535
+"272","c(""Other cereals and cereal products"", ""Invalid foods, slimming foods and sports foods"")",-0.469147006308823,-0.591121657558664,-0.271766337275063,-0.0329621499178387,0.262891679443428
+"273","c(""Other cereals and cereal products"", ""Oatmeal and oat products"")",-0.489613684417964,-0.243530679310935,0.70048330937911,0.398599887369084,-1.99766771878224
+"274","c(""Other cereals and cereal products"", ""Other cereal convenience foods"")",-1.33217521639028,-1.12124178758324,-0.622348228006601,-0.75227679472494,-0.321927886382988
+"275","c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Cake, pudding and dessert mixes"")",-0.38246346159459,-0.889327609731378,-0.179443545740537,-0.483057780276798,-0.0539686907816621
+"276","c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Cereal snacks"")",0.624504482669309,-0.961011150970033,0.670705118355681,0.404345526753172,1.52082664048287
+"277","c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Other cereal foods, frozen and not frozen"")",-1.62420430655046,-1.48001528962093,-1.29503844805008,-1.46688186032017,-1.25123957557304
+"278","c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Quiches and flans, frozen and not frozen"")",0.0928005498324488,-0.199119829998016,-0.55987674057384,0.567443188840815,0.351392565756066
+"279","c(""Other cereals and cereal products"", ""Other cereal convenience foods"", ""Takeaway crisps, savoury snacks, popcorn, popadums, prawn crackers"")",0,0,0,0,-0.93893447471651
+"280","c(""Other cereals and cereal products"", ""Other cereals"")",-0.8715550453469,-0.749873696551929,-1.01637360433323,0.191428237110459,-0.463766149335901
+"281","c(""Other cereals and cereal products"", ""Pasta"")",0.229767190082675,-0.210859493593035,0.126816219735612,-0.216154426625285,0.131330915980179
+"282","c(""Other cereals and cereal products"", ""Pasta"", ""Canned pasta"")",-0.285741558569145,-0.256746450317375,-1.02985820066649,-0.633003664892548,-0.220299396631586
+"283","c(""Other cereals and cereal products"", ""Pasta"", ""Dried and fresh pasta"")",0.00493390963400002,-0.498529770128033,-0.313469041595718,-0.391387938019477,-0.180701831268448
+"284","c(""Other cereals and cereal products"", ""Pasta"", ""Takeaway pasta and noodles"")",0,0,0,-0.0576575373357159,-0.286580573098533
+"285","c(""Other cereals and cereal products"", ""Pizza"")",-1.00603336223766,-0.761584532499031,-0.485998909040303,-0.36569538010033,-0.0848465528437488
+"286","c(""Other cereals and cereal products"", ""Pizza"", ""Pizzas, frozen and not frozen"")",-1.4736517295644,-0.988984257494624,-0.378152050581437,-0.679383582646663,-0.0393245841516907
+"287","c(""Other cereals and cereal products"", ""Pizza"", ""Takeaway pizza"")",-0.972584302743437,-0.739670245043145,-1.24244490836938,0.403479649071056,-0.551707755131823
+"288","c(""Other cereals and cereal products"", ""Puddings"")",0.260562841403007,-0.661440591134982,-0.206418247270307,-0.394960310855452,0.0342263880524093
+"289","c(""Other cereals and cereal products"", ""Rice"")",-0.867554328499578,-1.11994406496907,-1.36266876178289,-0.827179736789716,-0.922958465504857
+"290","c(""Other cereals and cereal products"", ""Rice"", ""Cooked rice"")",-0.273054842220141,-0.719894222566702,0.873914605637548,-2.15656762633648,-0.768232591505574
+"291","c(""Other cereals and cereal products"", ""Rice"", ""Dried rice"")",-0.339874471249451,-1.17676251668633,-0.865145837646448,-0.804515035361958,-0.804159323783862
+"292","c(""Other cereals and cereal products"", ""Rice"", ""Takeaway rice"")",-0.200680530330949,-0.715811568996449,0.823238172357038,1.47090020884213,0.68380615521289
+"293","c(""Other food and drink"", ""Baby foods"")",-0.30569820951744,-0.264464136943021,-0.0719628937539659,-0.360633609642376,-0.0177993334587894
+"294","c(""Other food and drink"", ""Ice cream products including takeaways"")",-0.513549337176408,-0.598848175122851,-0.377377103401748,-0.371196830872721,-0.204723043595917
+"295","c(""Other food and drink"", ""Ice cream products including takeaways"", ""Ice cream cornets, choc-ices, lollies with ice cream"")",-0.458139000505081,-0.163980111897602,-0.0962401459419555,-0.160557427010456,0.618361504951975
+"296","c(""Other food and drink"", ""Ice cream products including takeaways"", ""Ice lollies, sorbet, frozen mousse, frozen yoghurt"")",-0.529603502215158,-1.18984485061359,-0.462841176640555,-0.612740360475883,-0.520779022345117
+"297","c(""Other food and drink"", ""Ice cream products including takeaways"", ""Takeaway ice cream, ice cream products, milkshakes"")",-1.18119013859252,-0.9863096128628,-1.09639754071421,-0.945166520381691,-1.06967852024493
+"298","c(""Other food and drink"", ""Ice cream tub or block"")",-0.213947681246187,-1.2794498945953,-0.507100380014527,-0.6849780137433,-0.11636886872936
+"299","c(""Other food and drink"", ""Jelly squares or crystals"")",0.429054846910381,-0.0801616441613962,-0.252115145456031,-0.397630376042714,-0.435980896434867
+"300","c(""Other food and drink"", ""Mineral or spring waters"")",-1.77302297449208,-1.29277853749851,-0.948140256262951,-0.696446524777128,-0.516461513546442
+"301","c(""Other food and drink"", ""Pickles and sauces"")",-1.22651230819717,-0.642709310318576,-0.887187712364535,-0.21993332692513,-0.0287658493108913
+"302","c(""Other food and drink"", ""Pickles and sauces"", ""Pickles"")",0.579261480846856,0.687556494246077,0.115900480842433,0.498862265595549,0.013050241362708
+"303","c(""Other food and drink"", ""Pickles and sauces"", ""Sauces"")",-1.43611143168061,-0.887443791397281,-1.15584904564235,-0.626827276787288,-0.191964139160254
+"304","c(""Other food and drink"", ""Pickles and sauces"", ""Takeaway sauces and mayonnnaise"")",0,0,0,0,0
+"305","c(""Other food and drink"", ""Salt"")",-0.666462031400587,-0.997546636945524,-0.619842809869274,-0.907451032100269,-0.898379049090773
+"306","c(""Other food and drink"", ""Soups - canned or cartons"")",0.242220371607494,-0.588998905294998,-0.587708762218796,-0.880579106796808,-0.0179506382831151
+"307","c(""Other food and drink"", ""Soups - dehydrated or powdered"")",-0.530959528560775,-0.629477736227439,-0.319894161515063,-0.500030185955922,-0.101740406058239
+"308","c(""Other food and drink"", ""Soups - from takeaway"")",NA,NA,NA,0,0
+"309","c(""Other food and drink"", ""Soya and novel protein foods"")",-0.461488806964169,-0.992349584322483,-0.923220013571551,-0.747383730406635,-0.518822132828809
+"310","c(""Other food and drink"", ""Spreads and dressings"")",-1.20482923731942,-0.452780148048958,-1.69851035652429,-1.29453852169275,-0.995803477168657
+"311","c(""Other food and drink"", ""Spreads and dressings"", ""Other spreads and dresssings"")",-0.763485849926044,-0.820198349115132,0.245900493571363,0.747578150977206,0.852598503058553
+"312","c(""Other food and drink"", ""Spreads and dressings"", ""Salad dressings"")",-1.43184521598159,-1.22627606970702,-1.09223500530667,-0.76997432236642,-0.392956872238722
+"313","c(""Other food and drink"", ""Stock cubes and meat and yeast extracts"")",-1.02042104971778,-0.76191512457705,-0.317833267726249,-0.502230911049187,-1.14111386787212
+"314","c(""Soft drinks"", ""Soft drinks, concentrated, low calorie"")",0.252146774151035,-0.102780094974332,0.437348697259276,-0.884632250892705,-1.11689313191729
+"315","c(""Soft drinks"", ""Soft drinks, concentrated, not low calorie"")",-0.720109873227423,-0.321146106072198,-3.07023390337575,-2.49156491683765,-1.46101985837151
+"316","c(""Soft drinks"", ""Soft drinks, not concentrated,  not low calorie"")",-0.750846642098187,-1.67191637706355,-1.87942520982568,-2.41644255796989,-1.97273440063854
+"317","c(""Soft drinks"", ""Soft drinks, not concentrated, low calorie"")",-0.727771369164441,0.362334089389308,-0.233426664328231,0.69452639808313,0.264594752482503
+"318","c(""Sugar and preserves"", ""Honey"")",0.10529539996181,0.461369656474595,0.343025161112356,-0.51041071907017,0.715333198140627
+"319","c(""Sugar and preserves"", ""Jams and fruit curds"")",0.259105483140564,0.218067127822543,0.307870915830492,0.251960010165267,0.175215980668559
+"320","c(""Sugar and preserves"", ""Marmalade"")",0.666806124208095,0.239457205348636,-1.42744113206376,0.320586007841595,0.298191122260529
+"321","c(""Sugar and preserves"", ""Sugar"")",-1.25639129374162,-0.809297211258438,-0.771183078174192,-0.457967242626885,-0.292572567442089
+"322","c(""Sugar and preserves"", ""Syrup, treacle"")",-0.399415743410075,-0.772528271754495,-0.657692739209656,-0.500859628931237,-0.475697914187515
