@@ -44,8 +44,89 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
       <![endif]-->
 
-    <style type="text/css">
-    </style>
+<style type="text/css">
+    body {
+      /*font: 12px sans-serif;*/
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: rgba(0, 0, 0, 50);
+      shape-rendering: crispEdges;
+    }
+
+    .axisLine {
+      fill: none;
+      shape-rendering: crispEdges;
+      stroke: rgba(0, 0, 0, 1);
+      stroke-width: 5px;
+    }
+
+    .dot {
+      stroke: #000;
+      fill-opacity: .65;
+    }
+
+    .d3-tip {
+      line-height: 1;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 12px;
+      background: rgba(24, 24, 24, 0.8);
+      color: #fff;
+      border-radius: 2px;
+    }
+
+    /* Creates a small triangle extender for the tooltip */
+    .d3-tip:after {
+      box-sizing: border-box;
+      display: inline;
+      font-size: 10px;
+      width: 100%;
+      line-height: 1;
+      color: rgba(24, 24, 24, 0.8);
+      content: "\25BC";
+      position: absolute;
+      text-align: center;
+    }
+
+    /* Style northward tooltips differently */
+    .d3-tip.n:after {
+      margin: -1px 0 0 0;
+      top: 100%;
+      left: 0;
+    }
+    #exTab1 .tab-content {
+      color : white;
+      background-color: #428bca;
+      padding : 5px 15px;
+    }
+
+    #exTab2 h3 {
+      color : white;
+      background-color: #428bca;
+      padding : 5px 15px;
+    }
+
+    /* remove border radius for the tab */
+
+    #exTab1 .nav-pills > li > a {
+      border-radius: 0;
+    }
+
+    /* change border radius for the tab , apply corners on top*/
+
+    #exTab3 .nav-pills > li > a {
+      border-radius: 4px 4px 0 0 ;
+    }
+
+    #exTab3 .tab-content {
+      color : white;
+      background-color: #428bca;
+      padding : 5px 15px;
+    }
+</style>
 </head>
 <body class="skin-black">
     <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:#222">
@@ -67,68 +148,8 @@
         <hr />
         <footer></footer>
     </div>
-    <!-- header logo: style can be found in header.less -->
-    @*<header class="header">
-        <a href="index.html" class="logo">
-            Director
-        </a>
-        <!-- Header Navbar: style can be found in header.less -->
-    </header>*@
+
     <div class="wrapper row-offcanvas row-offcanvas-left">
-        <!-- Left side column. contains the logo and sidebar -->
-        @*<aside class="left-side sidebar-offcanvas" style="height:80%;">
-            <!-- sidebar: style can be found in sidebar.less -->
-            <section class="sidebar">
-                <!-- Sidebar user panel -->
-                <div class="user-panel">
-                    <div class="pull-left image">
-                        <img src="img/26115.jpg" class="img-circle" alt="User Image" />
-                    </div>
-                    <div class="pull-left info">
-                        <p>Hello, Jane</p>
-
-                        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-                    </div>
-                </div>
-                <!-- search form -->
-                <form action="#" method="get" class="sidebar-form">
-                    <div class="input-group">
-                        <input type="text" name="q" class="form-control" placeholder="Search..." />
-                        <span class="input-group-btn">
-                            <button type='submit' name='seach' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i></button>
-                        </span>
-                    </div>
-                </form>
-                <!-- /.search form -->
-                <!-- sidebar menu: : style can be found in sidebar.less -->
-                <ul class="sidebar-menu">
-                    <li class="active">
-                        <a href="index.html">
-                            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="general.html">
-                            <i class="fa fa-gavel"></i> <span>General</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="basic_form.html">
-                            <i class="fa fa-globe"></i> <span>Basic Elements</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="simple.html">
-                            <i class="fa fa-glass"></i> <span>Simple tables</span>
-                        </a>
-                    </li>
-
-                </ul>
-            </section>
-            <!-- /.sidebar -->
-        </aside>*@
 
         <aside class="right-side" style="margin-left:0px">
 
@@ -172,60 +193,101 @@
                         </div>
                     </div>
                 </div>
-                <div class="row" style="margin-bottom:20px">
-                    <div>
-                        <select id="select1" style="border-radius:5px;padding-left:5px;width:255px;height:30px;margin-left:14px;margin-top:12px;font-family: 'Lato', sans-serif;font-size:18px" onChange="changeSelect()">
-                            <option value="0">All categories</option>
-                            <option value="1">Alcoholic drinks</option>
-                            <option value="2">Beverages</option>
-                            <option value="3">Biscuits and crispbreads</option>
-                            <option value="4">Bread</option>
-                            <option value="5">Cakes, buns and pastries</option>
-                            <option value="6">Carcase meat</option>
-                            <option value="7">Cheese</option>
-                            <option value="8">Confectionery</option>
-                            <option value="9">Eggs</option>
-                            <option value="10">Fats</option>
-                            <option value="11">Fish</option>
-                            <option value="12">Flour</option>
-                            <option value="13">Fresh and processed vegetables</option>
-                            @*<option value="13">Fresh and processed fruit</option>
-                            <option value="14">Fresh and processed fruit and vegetables, excluding potatoes</option>
-                            <option value="15">Fresh and processed fruit and vegetables, including potatoes</option>
-                            <option value="16">Fresh and processed potatoes</option>
-                            <option value="17">Fresh and processed vegetables, excluding potatoes</option>
-                            <option value="18">Fresh and processed vegetables, including potatoes</option>*@
-                            <option value="19">Milk and milk products excluding cheese</option>
-                            <option value="20">Non-carcase meat and meat products</option>
-                            <option value="21">Other cereals and cereal products</option>
-                            <option value="22">Other food and drink</option>
-                            <option value="23">Soft drinks</option>
-                            <option value="24">Sugar and preserves</option>
-                        </select>
-                        <select id="select2" style="border-radius:5px;padding-left:5px;width:255px;height:30px;margin-left:30px;margin-top:12px;font-family: 'Lato', sans-serif;font-size:18px"></select>
-                        <select id="select3" style="border-radius:5px;padding-left:5px;width:255px;height:30px;margin-left:28px;margin-top:12px;font-family: 'Lato', sans-serif;font-size:18px"></select>
-                        <button name="submit" type="submit" id="changeChart" class="btn btn-primary btn-lg" style="font-size: 1.25rem;padding:.75rem 1.5rem;margin-left:28px">Submit</button>
-                    </div>
-                </div>@*padding-top:3px;border-radius:5px;width:150px;height:30px;margin-left:26px;margin-bottom:17px;padding-top:2px*@
-                <!-- Main row -->
-                <div class="row">
-                    <div class="col-md-8" style="width:100%;height:100%;">
-                        <!--earning graph start-->
-                        <section class="panel">
-                            <header class="panel-heading">
-                                Elasticity
-                            </header>
-                            <div id="scatter" class="panel-body" style="width:1050px; height:550px">
-                                @*<canvas id="linechart" width="1050" height="500" style="background-image:url(/Content/cap.jpg);background-size:1050px 500px"></canvas>*@
+                <div>
+                    <ul class="nav nav-pills">
+                        <li class="active">
+                            <a href="#1a" data-toggle="tab">Overview</a>
+                        </li>
+                        <li>
+                            <a href="#2a" data-toggle="tab">Using nav-pills</a>
+                        </li>
+                        <li>
+                            <a href="#3a" data-toggle="tab">Applying clearfix</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" clearfix>
+                        <div id="1a" class="tab-pane active">
+                            
+                            <!-- Main row -->
+                            <div class="row">
+
+                                <div class="col-md-8" style="width:100%;height:100%;">
+                                    <!--earning graph start-->
+                                    <section class="panel">
+                                        <header class="panel-heading" style="height:41px;padding-bottom:10px">
+                                            Elasticity
+                                            <select id="select1" class="selectpicker" data-style="btn-info" style="border-radius:5px;padding-left:5px;margin-bottom:2px;width:255px;height:24px;margin-left:14px;font-family: 'Lato', sans-serif;font-size:16px" onChange="changeSelect()">
+                                                <option value="0">All categories</option>
+                                                <option value="1">Alcoholic drinks</option>
+                                                <option value="2">Beverages</option>
+                                                <option value="3">Biscuits and crispbreads</option>
+                                                <option value="4">Bread</option>
+                                                <option value="5">Cakes, buns and pastries</option>
+                                                <option value="6">Carcase meat</option>
+                                                <option value="7">Cheese</option>
+                                                <option value="8">Confectionery</option>
+                                                <option value="9">Eggs</option>
+                                                <option value="10">Fats</option>
+                                                <option value="11">Fish</option>
+                                                <option value="12">Flour</option>
+                                                <option value="13">Fresh and processed vegetables</option>
+                                                <option value="14">Milk and milk products excluding cheese</option>
+                                                <option value="15">Non-carcase meat and meat products</option>
+                                                <option value="16">Other cereals and cereal products</option>
+                                                <option value="17">Other food and drink</option>
+                                                <option value="18">Soft drinks</option>
+                                                <option value="19">Sugar and preserves</option>
+                                            </select>
+                                            <select id="select2" style="border-radius:5px;padding-left:5px;margin-bottom:2px;width:255px;height:24px;margin-left:30px;font-family: 'Lato', sans-serif;font-size:16px" onchange="changeSelectTwo()">
+                                                <option value="0"></option>
+                                            </select>
+                                            
+                                            <select id="select3" style="border-radius:5px;padding-left:5px;margin-bottom:2px;width:255px;height:24px;margin-left:28px;font-family: 'Lato', sans-serif;font-size:16px">
+                                                <option value="0"></option>
+                                            </select>
+                                            <button name="submit" type="submit" id="changeChart" class="btn btn-primary btn-lg" style="font-size: 1.25rem;padding:.25rem 1.5rem;margin-left:20px;height:25px">Submit</button>
+                                        </header>
+                                        
+                                        <div id="scatter" class="panel-body" style="width:1050px; height:700px">
+                                        </div>
+                                    </section>
+                                    <!--earning graph end-->
+                                </div>
                             </div>
-                        </section>
-                        <!--earning graph end-->
+                        </div>
+                        <div id="2a" class="tab-pane">
+                            <div class="row">
+                                <div class="col-md-8" style="width:100%;height:100%;">
+                                    <section class="panel">
+                                        <header class="panel-heading" style="height:41px;padding-top:10px">
+                                            Boxplot                                        </header>
+                                        <div id="myDiv" style="width:1050px; height:700px">
+
+                                        </div>
+                                    </section>
+                                    <!--earning graph end-->
+                                </div>
+                            </div>
+                        </div>
+                        <div id="3a" class="tab-pane">
+                            <div class="row">
+                                <div class="col-md-8" style="width:100%;height:100%;">
+                                    <section class="panel">
+                                        <header class="panel-heading" style="height:41px;padding-top:10px;">
+                                            Quintile boundary
+                                        </header>
+                                        <div id ="boundary" style="width:1050px; height:700px">
+                                           @* <svg id="svg" class="panel-body" style="width:960px;height:500px"></svg>*@
+                                        </div>
+                                        
+                                    </section>
+                                    <!--earning graph end-->
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>        
-            </section><!-- /.content -->
-            <div class="footer-main">
-                @*Copyright &copy Director, 2014*@
-            </div>
+                </div>
+            </section><!-- /.content --> 
         </aside><!-- /.right-side -->
    </div>
     <!-- jQuery 2.0.2 -->
@@ -257,43 +319,24 @@
 
     <script src="https://d3js.org/d3.v3.min.js"></script>
 
-    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
-    <!-- Director for demo purposes -->
-    @*<script type="text/javascript">
-            $('input').on('ifChecked', function(event) {
-                // var element = $(this).parent().find('input:checkbox:first');
-                // element.parent().parent().parent().addClass('highlight');
-                $(this).parents('li').addClass("task-done");
-                console.log('ok');
-            });
-            $('input').on('ifUnchecked', function(event) {
-                // var element = $(this).parent().find('input:checkbox:first');
-                // element.parent().parent().parent().removeClass('highlight');
-                $(this).parents('li').removeClass("task-done");
-                console.log('not');
-            });
 
-    </script>
-    <script>
-            $('#noti-box').slimScroll({
-                height: '400px',
-                size: '5px',
-                BorderRadius: '5px'
-            });
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-            $('input[type="checkbox"].flat-grey, input[type="radio"].flat-grey').iCheck({
-                checkboxClass: 'icheckbox_flat-grey',
-                radioClass: 'iradio_flat-grey'
-            });
-    </script>*@
+    <script src="~/Scripts/d3-tip.js"></script>
     <script>
         $("#changeChart").click(function () {
-            var select1 = document.getElementById('select1').value;
-            var select2 = document.getElementById('select2').value;
-            var select3 = document.getElementById('select3').value;
+            var select1 = document.getElementById('select1');
+            var select2 = document.getElementById('select2');
+            var select3 = document.getElementById('select3');
+            var index1 = select1.selectedIndex;
+            var index2 = select2.selectedIndex;
+            var index3 = select3.selectedIndex;
+            var text1 = select1.options[index1].text;
+            var text2 = select2.options[index2].text;
+            var text3 = select3.options[index3].text;
             document.getElementById('scatter').innerHTML = '';
-            data = JSON.stringify({ t1: select1, t2: select2, t3: select3 });
-
+            data = JSON.stringify({ t1: text1, t2: text2, t3: text3 });
+            alert(data)
             $.ajax({
                 type: "post",
                 dataType: "json",
@@ -301,26 +344,25 @@
                 data: data,
                 conteneType:"application/json",
                 success: function (da) {
-                    var margin = { top: 20, right: 170, bottom: 30, left: 100 },
-                    width = 1000 - margin.left - margin.right,
-                    height = 500 - margin.top - margin.bottom;
+                    var margin = { top: 20, right: 280, bottom: 200, left: 40 },
+                                width = 1000 - margin.left - margin.right,
+                                height = 700 - margin.top - margin.bottom;
 
-                    var x = d3.scale.ordinal()
-                        .rangeRoundBands([0, width], 1)
+                    var x = d3.scaleBand()
+                        .rangeRound([0, width])
+                        .padding(1);
 
-                    var y = d3.scale.linear()
+                    var y = d3.scaleLinear()
                         .range([height, 0]);
 
-                    var color = d3.scale.category10();
+                    var color = d3.scaleOrdinal(d3.schemeCategory20);
+                    //var color = d3.scale.ordinal().range(["#48A36D",  "#56AE7C",  "#64B98C", "#72C39B", "#80CEAA", "#80CCB3", "#7FC9BD", "#7FC7C6", "#7EC4CF", "#7FBBCF", "#7FB1CF", "#80A8CE", "#809ECE", "#8897CE", "#8F90CD", "#9788CD", "#9E81CC", "#AA81C5", "#B681BE", "#C280B7", "#CE80B0", "#D3779F", "#D76D8F", "#DC647E", "#E05A6D", "#E16167", "#E26962", "#E2705C", "#E37756", "#E38457", "#E39158", "#E29D58", "#E2AA59", "#E0B15B", "#DFB95C", "#DDC05E", "#DBC75F", "#E3CF6D", "#EAD67C", "#F2DE8A"]);
+                    var color2 = d3.scaleOrdinal(d3.schemeCategory10);
 
-                    var xAxis = d3.svg.axis()
-                        .scale(x)
-                        .orient("bottom");
-                    var yAxis = d3.svg.axis()
-                        .scale(y)
-                        .orient("left");
-                    var xCat = "quintile";
-                    var colorCat = "category";
+                    var xAxis = d3.axisBottom(x);
+
+                    var yAxis = d3.axisLeft(y);
+
 
                     var svg = d3.select("#scatter").append("svg")
                         .attr("width", width + margin.left + margin.right)
@@ -328,53 +370,66 @@
                       .append("g")
                         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-                    var line1 = svg.append("line")
-                            .attr("x1", 0)
-                            .attr("x2", width)
-                            .attr("y1", height - 100)
-                            .attr("y2", height - 100)
-                            .attr("stroke-width", 1)
-                            .attr("stroke", "black")
-                    var line1 = svg.append("line")
-                            .attr("x1", 0)
-                            .attr("x2", width)
-                            .attr("y1", height - 300)
-                            .attr("y2", height - 300)
-                            .attr("stroke-width", 1)
-                            .attr("stroke", "black")
-                    var text1 = svg.append("text")
-                          .attr("class", "label")
-                          .attr("x", width)
-                          .attr("y", height - 120)
-                          .style("text-anchor", "end")
-                          .style("font-size", "20px")
-                          .text("Inelastic");
-                    var text1 = svg.append("text")
-                          .attr("class", "label")
-                          .attr("x", width)
-                          .attr("y", height - 320)
-                          .style("text-anchor", "end")
-                          .style("font-size", "20px")
-                          .text("Elastic");
+
+
                     var data = JSON.parse(da);
                     data.forEach(function (d) {
-                        d.category = d.category;
-                        d.elasticity = +d.elasticity;
-                        d.quintile = +d.quintile;
-                        d.number = +d.number
+                        d.Category = d.Category;
+                        d.Elasticity = +d.Elasticity;
+                        d.Quintile = +d.Quintile;
+                        d.id = +d.number
+
                     });
+                    var yMax = d3.max(data, function (d) { return d.Elasticity; });
+                    var yMin = d3.min(data, function (d) { return d.Elasticity; });
+
+                    var xCat = "Quintile";
+                    var yCat = "Elasticity";
+                    var colorCat = "Category";
+
                     x.domain(data.map(function (d) { return d[xCat]; }));
-                    //y.domain(d3.extent(data, function (d) { return d.elasticity; })).nice();
-                    y.domain([-3, 3]);
+                    y.domain([yMin, yMax]).nice();
+                    var no_category = d3.max(data, function (d) { return d.id / 5; })
+
+
+                    var line = svg.append("line")
+                          .attr("x1", 0)
+                          .attr("x2", width)
+                          .attr("y1", y(+1))
+                          .attr("y2", y(+1))
+                          .attr("stroke-width", 1)
+                          .attr("stroke", "black")
+                    var line1 = svg.append("line")
+                          .attr("x1", 0)
+                          .attr("x2", width)
+                          .attr("y1", y(+-1))
+                          .attr("y2", y(+-1))
+                          .attr("stroke-width", 1)
+                          .attr("stroke", "black")
+                    var text = svg.append("text")
+                        .attr("class", "label")
+                        .attr("x", width)
+                        .attr("y", y(+1) - 10)
+                        .style("text-anchor", "end")
+                        .style("font-size", "20px")
+                        .text("Elastic");
+                    var text1 = svg.append("text")
+                         .attr("class", "label")
+                         .attr("x", width)
+                         .attr("y", y(+-1) - 10)
+                         .style("text-anchor", "end")
+                         .style("font-size", "20px")
+                         .text("Inelastic");
 
                     var fade = function (opacity) {
                         return function (g, i) {
                             svg.selectAll(".dot")
                                 .filter(function (d) {
-                                    return d.number % 10 != (i + 1) % 10;
+                                    return d.id % no_category != (i + 1) % no_category;
+
                                 })
-                                .transition()
-                                .style("opacity", opacity)
+                              .transition()
+                              .style("opacity", opacity)
                             ;
                         };
                     };
@@ -383,8 +438,9 @@
                         .attr("class", "x axis")
                         .attr("transform", "translate(0," + height + ")")
                         .call(xAxis)
-                        .append("text")
+                      .append("text")
                         .attr("class", "label")
+                        .attr("fill", "#000000")
                         .attr("x", width)
                         .attr("y", -6)
                         .style("text-anchor", "end")
@@ -394,21 +450,21 @@
                     svg.append("g")
                         .attr("class", "y axis")
                         .call(yAxis)
-                        .append("text")
+                      .append("text")
                         .attr("class", "label")
+                        .attr("fill", "#000000")
                         .attr("transform", "rotate(-90)")
                         .attr("y", 6)
                         .attr("dy", ".71em")
                         .style("text-anchor", "end")
                         .style("font-size", "12px")
                         .text("Price Elasticity")
-                    
                     var tip = d3.tip()
-                                .attr("class", "d3-tip")
-                                .offset([-10, 0])
-                                .html(function (d) {
-                                    return "Elasticity" + ": " + d.elasticity;
-                                });
+                        .attr("class", "d3-tip")
+                        .offset([-10, 0])
+                        .html(function (d) {
+                            return "Elasticity" + ": " + d.Elasticity + "<br>" + "Category: " + d.Category + "<br>" + "Subategory: " + d.Subcategory + ',' + d.Subsubcategory + "<br>" + "Quintile: " + d.Quintile;
+                        });
                     svg.call(tip);
 
                     var objects = svg.append("svg")
@@ -418,21 +474,21 @@
 
                     objects.selectAll(".dot")
                         .data(data)
-                        .enter().append("circle")
+                      .enter().append("circle")
                         .attr("class", "dot")
                         .attr("r", 8)
-                        .attr("transform", function (d) { return "translate(" + x(d[xCat]) + "," + y(d.elasticity) + ")"; })
+                        .attr("transform", function (d) { return "translate(" + x(d[xCat]) + "," + y(d[yCat]) + ")"; })
                         .style("fill", function (d) { return color(d[colorCat]); })
-                            .on("mousedown", tip.show)
-                            .on("mouseup", tip.hide)
-                            .on("mouseover", fade(0.1))
-                            .on("mouseout", fade(1))
+                          .on("mousedown", tip.show)
+                          .on("mouseup", tip.hide)
+                          .on("mouseover", fade(0.01))
+                          .on("mouseout", fade(1))
                     ;
 
                     var legend = svg.selectAll(".legend")
                         .data(color.domain())
-                        .enter().append("g")
-                        .attr("class", "leg")
+                      .enter().append("g")
+                        .attr("class", "legend")
                         .attr("transform", function (d, i) { return "translate(0," + i * 20 + ")"; });
 
                     legend.append("rect")
@@ -448,47 +504,75 @@
                         .attr("y", 9)
                         .attr("dy", ".35em")
                         .style("text-anchor", "end")
-                        .text(function (d) { return "Category " + d; });
+                        .text(function (d) { return d; });
 
-                    //d3.select("input").on("click", change);
-                    //d3.select("#Quintile").on("click", change2);
+
+                    d3.select("input").on("click", change);
+                    d3.select("#Quintile").on("click", change2);
 
                     function change() {
+                        xCat='Category';
+                        colorCat='Quintile';
+                        x.domain(data.map(function(d) { return d[xCat]; }));
 
-                        x.domain(data.map(function (d) { return d.category; }));
+                        scatter = d3v3.select("#scatter").transition();
 
-                        var svg = d3.select("#scatter").transition();
+                        scatter.select(".x.axis").duration(750).call(xAxis).selectAll('text')
+                        .attr("y", 50)
+                          .attr("x", 9)
+                          .attr("dy", ".50em")
+                          .style("text-align", "center")
+                          .attr("transform", "rotate(90)")
+                        ;
 
-                        svg.select(".x.axis").duration(750).call(xAxis).select(".label").text("Category");
+                        scatter.select(".x.axis").duration(750).call(xAxis).select(".label").text(xCat)
+                        .attr("y", -6)
+                          .attr("x", width)
+                          .style("text-anchor", "end")
+                          .attr("transform", "rotate(0)");
+
+
+
+                        //scatter.select(".x.axis").duration(750).call(xAxis).tick
+
+                        objects.data(data).enter();
 
                         objects.selectAll(".dot").transition()
                             .duration(1000)
-                            .attr("transform", function (d) { return "translate(" + x(d.category) + "," + y(d.elasticity) + ")"; })
-                            .style("fill", function (d) { return color(d.quintile); });
+                            .attr("transform", function(d){return "translate(" + x(d[xCat]) + "," + y(d[yCat]) + ")";})
+                            .style("fill", function(d) { return color2(d[colorCat]); });
 
-                        var legend = svg.selectAll(".leg").transition();
-                        var rect = svg.selectAll(".rect").transition().style("fill", color);
-                        var text = svg.selectAll(".text").transition().attr("dy", ".35em").text(function (d) { return "Quintile " + d; });;
+                        //scatter.selectAll(".legend2").transition().style("opacity",1);
+                        //scatter.selectAll(".legend").transition().style("opacity",1e-6);
+                        //scatter.selectAll(".rect").transition().style("fill", color2);
+                        //scatter.selectAll(".text").transition().attr("dy", ".35em").text(function(d) { return colorCat+" "+d; });
+
+
+                        legend.data(color2.domain()).enter();
+                        scatter.selectAll('.legend').transition();
+                        scatter.selectAll('.rect').transition().style("fill", color2);
+                        scatter.selectAll('.text').transition().text(function(d) { return colorCat+" "+d; });
 
                     }
                     function change2() {
+                        xCat='Quintile';
+                        colorCat='Category';
+                        x.domain(data.map(function(d) { return d[xCat]; }));
 
-                        x.domain(data.map(function (d) { return d.quintile; }));
+                        var svg = d3v3.select("#scatter").transition();
 
-                        var svg = d3.select("#scatter").transition();
-
-                        svg.select(".x.axis").duration(750).call(xAxis).select(".label").text("Quintile");
+                        svg.select(".x.axis").duration(750).call(xAxis).select(".label").text("Income "+xCat);
 
                         objects.selectAll(".dot").transition()
                             .duration(1000)
-                            .attr("transform", function (d) { return "translate(" + x(d.quintile) + "," + y(d.elasticity) + ")"; })
-                            .style("fill", function (d) { return color(d.category); });
+                            .attr("transform", function(d){return "translate(" + x(d[xCat]) + "," + y(d[yCat]) + ")";})
+                            .style("fill", function(d) { return color(d[colorCat]); });
 
-                        var legend = svg.selectAll(".leg").transition();
-                        var rect = svg.selectAll(".rect").transition().style("fill", color);
-                        var text = svg.selectAll(".text").transition().attr("dy", ".35em").text(function (d) { return "Category " + d; });;
+                        svg.selectAll(".legend").transition();
+                        svg.selectAll(".rect").transition().style("fill", color);
+                        svg.selectAll(".text").transition().attr("dy", ".35em").text(function(d) { return d; });
 
-                    };
+                    }
                 },
                 error: function(){
                     alert("error")
@@ -496,9 +580,222 @@
             })
         });
 
+    </script>
+    <script>
+        var colours = ['rgba(93, 164, 214, 0.5)', 'rgba(255, 144, 14, 0.5)', 'rgba(44, 160, 101, 0.5)', 'rgba(255, 65, 54, 0.5)', 'rgba(207, 114, 255, 0.5)']
+        d3.csv("../../csv/boxdata3.csv", function(error, csv) {
+        	var data = [];
+			data[0] = [];
+			data[1] = [];
+			data[2] = [];
+			data[3] = [];
+			data[4] = [];
+			// add more rows if your csv file has more columns
+
+			// add here the header of the csv file
+			data[0][0] = "Q1";
+			data[1][0] = "Q2";
+			data[2][0] = "Q3";
+			data[3][0] = "Q4";
+			data[4][0] = "Q5";
+			// add more rows if your csv file has more columns
+
+			data[0][1] = [];
+			data[1][1] = [];
+			data[2][1] = [];
+			data[3][1] = [];
+			data[4][1] = [];
+
+			csv.forEach(function(x) {
+
+				data[0][1].push(x.Q1);
+				data[1][1].push(x.Q2);
+				data[2][1].push(x.Q3);
+				data[3][1].push(x.Q4);
+				data[4][1].push(x.Q5);
+			});
+			var trace1 = {
+			  y: data[0][1],
+			  type: 'box',
+			  name: data[0][0],
+			  marker: {
+			    color: colours[0]
+			  },
+			  boxpoints: 'Outliers'
+			};
+			var trace2 = {
+			  y: data[1][1],
+			  type: 'box',
+			  name: data[1][0],
+			  marker: {
+			    color: colours[1]
+			  },
+			  boxpoints: 'Outliers'
+			};
+			var trace3 = {
+			  y: data[2][1],
+			  type: 'box',
+			  name: data[2][0],
+			  marker: {
+			    color: colours[2]
+			  },
+			  boxpoints: 'Outliers'
+			};
+			var trace4 = {
+			  y: data[3][1],
+			  type: 'box',
+			  name: data[3][0],
+			  marker: {
+			    color: colours[3]
+			  },
+			  boxpoints: 'Outliers'
+			};
+			var trace5 = {
+			  y: data[4][1],
+			  type: 'box',
+			  name: data[4][0],
+			  marker: {
+			    color: colours[4]
+			  },
+			  boxpoints: 'Outliers'
+			};
+			var dat = [trace1,trace2,trace3,trace4,trace5];
+
+			var layout = {
+			  title: 'Box Plot Styling Outliers'
+			};
+			var layout = {
+			  yaxis: {
+			    title: 'Price Elasticity',
+			    zeroline: false
+			  },
+			  xaxis:{
+			  	title: 'Quintile',
+			    zeroline: false
+			  }
+			};
+
+			Plotly.newPlot('myDiv', dat, layout);
+        });
+    </script>
+
+    <script>var d3v4 = d3;</script>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script>
+        //var di = d3.select("#boundary")
+        var  margin = {top: 20, right: 200, bottom: 80, left: 80},
+            width = 1000 - margin.left - margin.right,
+            height = 500 - margin.top - margin.bottom;
+        var svg = d3v4.select("#boundary").append("svg")
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+           
+
+        var parseDate = d3v4.timeParse("%Y");
+
+        var x = d3v4.scaleTime().range([0, width]),
+            y = d3v4.scaleLinear().range([height, 0]),
+	        //z = d3v4.scaleOrdinal(d3v4.schemeCategory20b);
+            //z = d3v4.scaleOrdinal(["#FF0000","#FFBF00","#00FF40","#0080FF","#FE2EC8"]);
+	        //z = d3v4.scaleOrdinal(["#0000FF","#0040FF","#0080FF","#00BFFF","#00FFFF"]);
+	        z = d3v4.scaleOrdinal(["#282043","5F4DA1","#8A6FEA","#ADA0DC","#EBE5FE"])
+
+        var stack = d3v4.stack();
+
+        var area = d3v4.area()
+	        .curve(d3v4.curveMonotoneX)
+            .x(function(d, i) { return x(d.data.Year); })
+            .y0(function(d) { return y(d[0]); })
+            .y1(function(d) { return y(d[1]); });
+
+        var g = svg.append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        d3v4.csv("../../csv/boundary3.csv", function(error, data) {
+          if (error) throw error;
+
+          var keys = data.columns.slice(1);
+          data.forEach(function(d) {
+                d.Year=parseDate(d.Year);
+          });
+
+          //console.log(d3v4.max(data, function(d) { return d.Year; }));
+          x.domain(d3v4.extent(data, function(d) { return d.Year; }));
+          y.domain([0,1200]);
+          z.domain(keys);
+          stack.keys(keys);
+          //console.log(stack(data));
+
+          var layer = g.selectAll(".layer")
+            .data(stack(data))
+            .enter().append("g")
+              .attr("class", "layer");
+
+          layer.append("path")
+              .attr("class", "area")
+              .style("fill", function(d) { return z(d.key); })
+              .attr("d", area)
 
 
+          var legend = svg.selectAll(".legend")
+              .data(stack(data))
+            .enter().append("g")
+              .attr("class", "legend")
+              .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+          legend.append("rect")
+              .attr("class", "rect")
+              .attr("x", width+margin.right-40)
+              .attr("width", 18)
+              .attr("height", 18)
+              .style("fill", function(d) { return z(d.key); });
+
+          legend.append("text")
+              .attr("class", "text")
+              .attr("x", width+margin.right-50)
+              .attr("y", 9)
+              .attr("dy", ".35em")
+              .style("text-anchor", "end")
+              .text(function(d) { return d.key; });
+
+          g.append("g")
+              .attr("class", "axis axis--x")
+              .attr("transform", "translate(0," + height + ")")
+              .call(d3v4.axisBottom(x))
+	          .append("text")
+		        .attr("fill", "#000")
+		        .attr("x", width / 2)
+		        .attr("y", 46)
+		        .style("text-anchor", "middle")
+		        .text("Year");
+
+          g.append("g")
+              .attr("class", "axis axis--y")
+              .call(d3v4.axisLeft(y))
+	          .append("text")
+	          .attr("fill", "#000")
+	          .attr("transform", "rotate(-90)")
+	          .attr("x", -height / 2)
+	          .attr("y", -54)
+	          .style("text-anchor", "middle")
+	          .text("Weekly Income (Pence per Person)");
+        });
+
+        function type(d, i, columns) {
+            d.Year = parseDate(d.Year);
+            console.log(d.Year);
+
+          //for (var i = 1, n = columns.length; i < n; ++i) d[columns[i]] = d[columns[i]] / 100;
+          //return d;
+        }
     </script>
 </body>
 </html>
+
+
+
+
+
+
 
