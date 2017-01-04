@@ -248,7 +248,7 @@
                                             <button name="submit" type="submit" id="changeChart" class="btn btn-primary btn-lg" style="font-size: 1.25rem;padding:.25rem 1.5rem;margin-left:20px;height:25px">Submit</button>
                                         </header>
                                         
-                                        <div id="scatter" class="panel-body" style="width:1050px; height:700px">
+                                        <div id="scatter" class="panel-body" style="width:100%; height:700px;margin-right:0px">
                                         </div>
                                     </section>
                                     <!--earning graph end-->
@@ -276,7 +276,7 @@
                                         <header class="panel-heading" style="height:41px;padding-top:10px;">
                                             Quintile boundary
                                         </header>
-                                        <div id ="boundary" style="width:1050px; height:700px">
+                                        <div id ="boundary" style="width:1050px; height:700px;padding-top:50px">
                                            @* <svg id="svg" class="panel-body" style="width:960px;height:500px"></svg>*@
                                         </div>
                                         
@@ -324,7 +324,9 @@
 
     <script src="~/Scripts/d3-tip.js"></script>
     <script>
-        $("#changeChart").click(function () {
+        window.onload=elas();
+        $("#changeChart").click(elas);
+        function elas () {
             var select1 = document.getElementById('select1');
             var select2 = document.getElementById('select2');
             var select3 = document.getElementById('select3');
@@ -335,18 +337,17 @@
             var text2 = select2.options[index2].text;
             var text3 = select3.options[index3].text;
             document.getElementById('scatter').innerHTML = '';
-            data = JSON.stringify({ t1: text1, t2: text2, t3: text3 });
-            alert(data)
+            jsonData = JSON.stringify({ t1: text1, t2: text2, t3: text3 });
             $.ajax({
-                type: "post",
-                dataType: "json",
+                type: 'POST',
+                dataType: 'json',
                 url: "/Home/charts",
-                data: data,
-                conteneType:"application/json",
+                data: jsonData,
+                conteneType: "application/json",
                 success: function (da) {
-                    var margin = { top: 20, right: 280, bottom: 200, left: 40 },
-                                width = 1000 - margin.left - margin.right,
-                                height = 700 - margin.top - margin.bottom;
+                    var margin = { top: 70, right: 403, bottom: 130, left: 80 },
+                                width = 1050 - margin.left - margin.right,
+                                height = 680 - margin.top - margin.bottom;
 
                     var x = d3.scaleBand()
                         .rangeRound([0, width])
@@ -382,13 +383,21 @@
                     });
                     var yMax = d3.max(data, function (d) { return d.Elasticity; });
                     var yMin = d3.min(data, function (d) { return d.Elasticity; });
+                    if (yMax < 1) {
+                        yMax = 1;
+                    }
+                    if (yMin > -1) {
+                        yMin = -1;
+                    }
 
                     var xCat = "Quintile";
                     var yCat = "Elasticity";
                     var colorCat = "Category";
 
                     x.domain(data.map(function (d) { return d[xCat]; }));
-                    y.domain([yMin, yMax]).nice();
+                    y.domain([yMin - 0.5, yMax + 0.5]).nice();
+
+
                     var no_category = d3.max(data, function (d) { return d.id / 5; })
 
 
@@ -412,14 +421,14 @@
                         .attr("y", y(+1) - 10)
                         .style("text-anchor", "end")
                         .style("font-size", "20px")
-                        .text("Elastic");
+                        .text("elastic");
                     var text1 = svg.append("text")
                          .attr("class", "label")
                          .attr("x", width)
                          .attr("y", y(+-1) - 10)
                          .style("text-anchor", "end")
                          .style("font-size", "20px")
-                         .text("Inelastic");
+                         .text("inelastic");
 
                     var fade = function (opacity) {
                         return function (g, i) {
@@ -511,9 +520,9 @@
                     d3.select("#Quintile").on("click", change2);
 
                     function change() {
-                        xCat='Category';
-                        colorCat='Quintile';
-                        x.domain(data.map(function(d) { return d[xCat]; }));
+                        xCat = 'Category';
+                        colorCat = 'Quintile';
+                        x.domain(data.map(function (d) { return d[xCat]; }));
 
                         scatter = d3v3.select("#scatter").transition();
 
@@ -539,8 +548,8 @@
 
                         objects.selectAll(".dot").transition()
                             .duration(1000)
-                            .attr("transform", function(d){return "translate(" + x(d[xCat]) + "," + y(d[yCat]) + ")";})
-                            .style("fill", function(d) { return color2(d[colorCat]); });
+                            .attr("transform", function (d) { return "translate(" + x(d[xCat]) + "," + y(d[yCat]) + ")"; })
+                            .style("fill", function (d) { return color2(d[colorCat]); });
 
                         //scatter.selectAll(".legend2").transition().style("opacity",1);
                         //scatter.selectAll(".legend").transition().style("opacity",1e-6);
@@ -551,34 +560,34 @@
                         legend.data(color2.domain()).enter();
                         scatter.selectAll('.legend').transition();
                         scatter.selectAll('.rect').transition().style("fill", color2);
-                        scatter.selectAll('.text').transition().text(function(d) { return colorCat+" "+d; });
+                        scatter.selectAll('.text').transition().text(function (d) { return colorCat + " " + d; });
 
                     }
                     function change2() {
-                        xCat='Quintile';
-                        colorCat='Category';
-                        x.domain(data.map(function(d) { return d[xCat]; }));
+                        xCat = 'Quintile';
+                        colorCat = 'Category';
+                        x.domain(data.map(function (d) { return d[xCat]; }));
 
                         var svg = d3v3.select("#scatter").transition();
 
-                        svg.select(".x.axis").duration(750).call(xAxis).select(".label").text("Income "+xCat);
+                        svg.select(".x.axis").duration(750).call(xAxis).select(".label").text("Income " + xCat);
 
                         objects.selectAll(".dot").transition()
                             .duration(1000)
-                            .attr("transform", function(d){return "translate(" + x(d[xCat]) + "," + y(d[yCat]) + ")";})
-                            .style("fill", function(d) { return color(d[colorCat]); });
+                            .attr("transform", function (d) { return "translate(" + x(d[xCat]) + "," + y(d[yCat]) + ")"; })
+                            .style("fill", function (d) { return color(d[colorCat]); });
 
                         svg.selectAll(".legend").transition();
                         svg.selectAll(".rect").transition().style("fill", color);
-                        svg.selectAll(".text").transition().attr("dy", ".35em").text(function(d) { return d; });
+                        svg.selectAll(".text").transition().attr("dy", ".35em").text(function (d) { return d; });
 
                     }
                 },
-                error: function(){
+                error: function () {
                     alert("error")
                 }
             })
-        });
+        }
 
     </script>
     <script>
@@ -676,6 +685,7 @@
 			};
 
 			Plotly.newPlot('myDiv', dat, layout);
+			
         });
     </script>
 
@@ -685,12 +695,11 @@
     <script>
         //var di = d3.select("#boundary")
         var  margin = {top: 20, right: 200, bottom: 80, left: 80},
-            width = 1000 - margin.left - margin.right,
-            height = 500 - margin.top - margin.bottom;
+            width = 1100 - margin.left - margin.right,
+            height = 600 - margin.top - margin.bottom;
         var svg = d3v4.select("#boundary").append("svg")
                         .attr("width", width + margin.left + margin.right)
                         .attr("height", height + margin.top + margin.bottom)
-           
 
         var parseDate = d3v4.timeParse("%Y");
 
@@ -746,14 +755,14 @@
 
           legend.append("rect")
               .attr("class", "rect")
-              .attr("x", width+margin.right-40)
+              .attr("x", width+margin.right+10)
               .attr("width", 18)
               .attr("height", 18)
               .style("fill", function(d) { return z(d.key); });
 
           legend.append("text")
               .attr("class", "text")
-              .attr("x", width+margin.right-50)
+              .attr("x", width+margin.right)
               .attr("y", 9)
               .attr("dy", ".35em")
               .style("text-anchor", "end")

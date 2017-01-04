@@ -1,8 +1,10 @@
-﻿function changeSelect() {
+﻿
+function changeSelect() {
     var x = document.getElementById("select1");
     var y = document.getElementById("select2");
     var z = document.getElementById("select3");
-    y.options.length = 0; // 清除second下拉框的所有内容  
+    y.options.length = 1; // 清除second下拉框的所有内容  
+    z.options.length = 1;
     if (x.value == 0) { }
     if (x.value == 1) {
         y.options.add(new Option("Alcopops", "1"));
@@ -167,7 +169,7 @@ function changeSelectTwo() {
     var x = document.getElementById("select1");
     var y = document.getElementById("select2");
     var z = document.getElementById("select3");
-    z.options.length = 0;
+    z.options.length = 1;
     if (x.value == 1 && y.value == 9) {
         z.options.add(new Option("Champagne, sparkling wines and wine with mixer", "1"));
         z.options.add(new Option("Table wine", "2"));
