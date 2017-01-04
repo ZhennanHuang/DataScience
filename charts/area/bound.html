@@ -4,14 +4,44 @@
 body {
   font: 12px sans-serif;
 }
+.d3-tip {
+  line-height: 1;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(24, 24, 24, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 5px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(24, 24, 24, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
 </style>
 <body>
-<svg width="960" height="500"></svg>
+<svg id="bound" width="960" height="500"></svg>
 <script src="//d3js.org/d3.v4.min.js"></script>
+<script src="d3-tip.js"></script>
 <script>
 
-var svg = d3.select("svg"),
-    margin = {top: 20, right: 200, bottom: 80, left: 80},
+var svg = d3.select("#bound"),
+    margin = {top: 30, right: 200, bottom: 80, left: 80},
     width = svg.attr("width") - margin.left - margin.right,
     height = svg.attr("height") - margin.top - margin.bottom;
 
@@ -22,7 +52,7 @@ var x = d3.scaleTime().range([0, width]),
 	//z = d3.scaleOrdinal(d3.schemeCategory20b);
     //z = d3.scaleOrdinal(["#FF0000","#FFBF00","#00FF40","#0080FF","#FE2EC8"]);
 	//z = d3.scaleOrdinal(["#0000FF","#0040FF","#0080FF","#00BFFF","#00FFFF"]);
-	z = d3.scaleOrdinal(["#282043","5F4DA1","#8A6FEA","#ADA0DC","#EBE5FE"])
+	z = d3.scaleOrdinal(["#282043","5F4DA1","#8A6FEA","#ADA0DC","#CFC7DE"])
 
 var stack = d3.stack();
 
@@ -35,7 +65,7 @@ var area = d3.area()
 var g = svg.append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("boundary3.csv", function(error, data) {
+d3.csv("boundary6.csv", function(error, data) {
   if (error) throw error;
 
   var keys = data.columns.slice(1);
@@ -43,23 +73,49 @@ d3.csv("boundary3.csv", function(error, data) {
   d.Year=parseDate(d.Year);
   });
 
-  console.log(d3.max(data, function(d) { return d.Year; }));
   x.domain(d3.extent(data, function(d) { return d.Year; }));
   y.domain([0,1200]);
   z.domain(keys);
   stack.keys(keys);
   console.log(stack(data));
-
+  
+  var fade = function(opacity) {
+        return function(g, i) {
+          svg.selectAll(".area")
+              .filter(function(d,j) {
+                return j!=i ;
+				
+              })
+            .transition()
+            .style("opacity", opacity)
+			;
+        };
+      };
+  var tip = d3.tip()
+	  .attr("class", "d3-tip")
+	  .offset([30, 0])
+	  .html(function(d,i ) {
+		return "Quintile: "+(i+1);
+	  });
+  svg.call(tip);
+  
+  
   var layer = g.selectAll(".layer")
     .data(stack(data))
     .enter().append("g")
-      .attr("class", "layer");
+      .attr("class", "layer")
+	  ;
 
   layer.append("path")
       .attr("class", "area")
       .style("fill", function(d) { return z(d.key); })
       .attr("d", area)
-	  .style("opacity", 0.8);
+	  .style("opacity", 0.8)
+	  .on("mouseover",fade(0.3))
+	  .on("mousedown",tip.show)
+	  .on("mouseup",tip.hide)
+	  .on("mouseout",fade(1));
+  
 
   var legend = svg.selectAll(".legend")
       .data(stack(data))
