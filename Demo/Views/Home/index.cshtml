@@ -67,36 +67,35 @@
       stroke: #000;
       fill-opacity: .65;
     }
+.d3-tip {
+  line-height: 1;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(24, 24, 24, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
 
-    .d3-tip {
-      line-height: 1;
-      font-size: 18px;
-      font-weight: bold;
-      padding: 12px;
-      background: rgba(24, 24, 24, 0.8);
-      color: #fff;
-      border-radius: 2px;
-    }
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 5px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(24, 24, 24, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
 
-    /* Creates a small triangle extender for the tooltip */
-    .d3-tip:after {
-      box-sizing: border-box;
-      display: inline;
-      font-size: 10px;
-      width: 100%;
-      line-height: 1;
-      color: rgba(24, 24, 24, 0.8);
-      content: "\25BC";
-      position: absolute;
-      text-align: center;
-    }
-
-    /* Style northward tooltips differently */
-    .d3-tip.n:after {
-      margin: -1px 0 0 0;
-      top: 100%;
-      left: 0;
-    }
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
     #exTab1 .tab-content {
       color : white;
       background-color: #428bca;
@@ -421,14 +420,14 @@
                         .attr("y", y(+1) - 10)
                         .style("text-anchor", "end")
                         .style("font-size", "20px")
-                        .text("elastic");
+                        .text("Elastic");
                     var text1 = svg.append("text")
                          .attr("class", "label")
                          .attr("x", width)
                          .attr("y", y(+-1) - 10)
                          .style("text-anchor", "end")
                          .style("font-size", "20px")
-                         .text("inelastic");
+                         .text("Inelastic");
 
                     var fade = function (opacity) {
                         return function (g, i) {
@@ -472,7 +471,7 @@
                         .attr("class", "d3-tip")
                         .offset([-10, 0])
                         .html(function (d) {
-                            return "Elasticity" + ": " + d.Elasticity + "<br>" + "Category: " + d.Category + "<br>" + "Subategory: " + d.Subcategory + ',' + d.Subsubcategory + "<br>" + "Quintile: " + d.Quintile;
+                            return "Elasticity" + ": " + d.Elasticity + "<br>" + "Category: " + d.Category + "<br>" + "Quintile: " + d.Quintile;
                         });
                     svg.call(tip);
 
@@ -701,19 +700,19 @@
                         .attr("width", width + margin.left + margin.right)
                         .attr("height", height + margin.top + margin.bottom)
 
-        var parseDate = d3v4.timeParse("%Y");
+        var parseDate = d3.timeParse("%Y");
 
-        var x = d3v4.scaleTime().range([0, width]),
-            y = d3v4.scaleLinear().range([height, 0]),
-	        //z = d3v4.scaleOrdinal(d3v4.schemeCategory20b);
-            //z = d3v4.scaleOrdinal(["#FF0000","#FFBF00","#00FF40","#0080FF","#FE2EC8"]);
-	        //z = d3v4.scaleOrdinal(["#0000FF","#0040FF","#0080FF","#00BFFF","#00FFFF"]);
-	        z = d3v4.scaleOrdinal(["#282043","5F4DA1","#8A6FEA","#ADA0DC","#EBE5FE"])
+        var x = d3.scaleTime().range([0, width]),
+            y = d3.scaleLinear().range([height, 0]),
+            //z = d3.scaleOrdinal(d3.schemeCategory20b);
+            //z = d3.scaleOrdinal(["#FF0000","#FFBF00","#00FF40","#0080FF","#FE2EC8"]);
+            //z = d3.scaleOrdinal(["#0000FF","#0040FF","#0080FF","#00BFFF","#00FFFF"]);
+            z = d3.scaleOrdinal(["#282043","5F4DA1","#8A6FEA","#ADA0DC","#CFC7DE"])
 
-        var stack = d3v4.stack();
+        var stack = d3.stack();
 
-        var area = d3v4.area()
-	        .curve(d3v4.curveMonotoneX)
+        var area = d3.area()
+            .curve(d3.curveMonotoneX)
             .x(function(d, i) { return x(d.data.Year); })
             .y0(function(d) { return y(d[0]); })
             .y1(function(d) { return y(d[1]); });
@@ -721,83 +720,104 @@
         var g = svg.append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-        d3v4.csv("../../csv/boundary3.csv", function(error, data) {
-          if (error) throw error;
+        d3.csv("../../csv/boundary6.csv", function(error, data) {
+            if (error) throw error;
 
-          var keys = data.columns.slice(1);
-          data.forEach(function(d) {
+            var keys = data.columns.slice(1);
+            data.forEach(function(d) {
                 d.Year=parseDate(d.Year);
-          });
+            });
 
-          //console.log(d3v4.max(data, function(d) { return d.Year; }));
-          x.domain(d3v4.extent(data, function(d) { return d.Year; }));
-          y.domain([0,1200]);
-          z.domain(keys);
-          stack.keys(keys);
-          //console.log(stack(data));
-
-          var layer = g.selectAll(".layer")
-            .data(stack(data))
-            .enter().append("g")
-              .attr("class", "layer");
-
-          layer.append("path")
-              .attr("class", "area")
-              .style("fill", function(d) { return z(d.key); })
-              .attr("d", area)
-
-
-          var legend = svg.selectAll(".legend")
+            x.domain(d3.extent(data, function(d) { return d.Year; }));
+            y.domain([0,1200]);
+            z.domain(keys);
+            stack.keys(keys);
+            console.log(stack(data));
+  
+            var fade = function(opacity) {
+                return function(g, i) {
+                    svg.selectAll(".area")
+                        .filter(function(d,j) {
+                            return j!=i ;
+				
+                        })
+                      .transition()
+                      .style("opacity", opacity)
+                    ;
+                };
+            };
+            var tip = d3.tip()
+                .attr("class", "d3-tip")
+                .offset([30, 0])
+                .html(function(d,i ) {
+                    return "Quintile: "+(i+1);
+                });
+            svg.call(tip);
+  
+  
+            var layer = g.selectAll(".layer")
               .data(stack(data))
-            .enter().append("g")
-              .attr("class", "legend")
-              .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+              .enter().append("g")
+                .attr("class", "layer")
+            ;
 
-          legend.append("rect")
-              .attr("class", "rect")
-              .attr("x", width+margin.right+10)
-              .attr("width", 18)
-              .attr("height", 18)
-              .style("fill", function(d) { return z(d.key); });
+            layer.append("path")
+                .attr("class", "area")
+                .style("fill", function(d) { return z(d.key); })
+                .attr("d", area)
+                .style("opacity", 0.8)
+                .on("mouseover",fade(0.3))
+                .on("mousedown",tip.show)
+                .on("mouseup",tip.hide)
+                .on("mouseout",fade(1));
+  
 
-          legend.append("text")
-              .attr("class", "text")
-              .attr("x", width+margin.right)
-              .attr("y", 9)
-              .attr("dy", ".35em")
-              .style("text-anchor", "end")
-              .text(function(d) { return d.key; });
+            var legend = svg.selectAll(".legend")
+                .data(stack(data))
+              .enter().append("g")
+                .attr("class", "legend")
+                .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+	  
+            legend.append("rect")
+                .attr("class", "rect")
+                .attr("x", width+margin.right-40)
+                .attr("width", 18)
+                .attr("height", 18)
+                .style("fill", function(d) { return z(d.key); });
 
-          g.append("g")
-              .attr("class", "axis axis--x")
-              .attr("transform", "translate(0," + height + ")")
-              .call(d3v4.axisBottom(x))
-	          .append("text")
-		        .attr("fill", "#000")
-		        .attr("x", width / 2)
-		        .attr("y", 46)
-		        .style("text-anchor", "middle")
-		        .text("Year");
+            legend.append("text")
+                .attr("class", "text")
+                .attr("x", width+margin.right-50)
+                .attr("y", 9)
+                .attr("dy", ".35em")
+                .style("text-anchor", "end")
+                .text(function(d) { return d.key; });
 
-          g.append("g")
-              .attr("class", "axis axis--y")
-              .call(d3v4.axisLeft(y))
-	          .append("text")
-	          .attr("fill", "#000")
-	          .attr("transform", "rotate(-90)")
-	          .attr("x", -height / 2)
-	          .attr("y", -54)
-	          .style("text-anchor", "middle")
-	          .text("Weekly Income (Pence per Person)");
+            g.append("g")
+                .attr("class", "axis axis--x")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(x))
+                .append("text")
+                  .attr("fill", "#000")
+                  .attr("x", width / 2)
+                  .attr("y", 46)
+                  .style("text-anchor", "middle")
+                  .text("Year");
+
+            g.append("g")
+                .attr("class", "axis axis--y")
+                .call(d3.axisLeft(y))
+                .append("text")
+                .attr("fill", "#000")
+                .attr("transform", "rotate(-90)")
+                .attr("x", -height / 2)
+                .attr("y", -54)
+                .style("text-anchor", "middle")
+                .text("Weekly Income (Pence per Person)");
         });
 
-        function type(d, i, columns) {
-            d.Year = parseDate(d.Year);
-            console.log(d.Year);
 
-          //for (var i = 1, n = columns.length; i < n; ++i) d[columns[i]] = d[columns[i]] / 100;
-          //return d;
-        }
+        
     </script>
 </body>
 </html>

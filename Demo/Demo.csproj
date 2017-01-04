@@ -166,6 +166,7 @@
     <Content Include="csv\boxdata2.csv" />
     <Content Include="csv\boxdata3.csv" />
     <Content Include="csv\boundary3.csv" />
+    <Content Include="csv\boundary6.csv" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
