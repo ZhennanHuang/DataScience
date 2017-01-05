@@ -443,8 +443,9 @@
                     };
 
                     svg.append("g")
-                        .attr("class", "x axis")
+                        .attr("class", "x.axis")
                         .attr("transform", "translate(0," + height + ")")
+                        .style("font-size", "14px")
                         .call(xAxis)
                       .append("text")
                         .attr("class", "label")
@@ -452,11 +453,12 @@
                         .attr("x", width)
                         .attr("y", -6)
                         .style("text-anchor", "end")
-                        .style("font-size", "12px")
+                        .style("font-size", "14px")
                         .text("Income Quintile");
 
                     svg.append("g")
                         .attr("class", "y axis")
+                        .style("font-size", "14px")
                         .call(yAxis)
                       .append("text")
                         .attr("class", "label")
@@ -465,8 +467,9 @@
                         .attr("y", 6)
                         .attr("dy", ".71em")
                         .style("text-anchor", "end")
-                        .style("font-size", "12px")
+                        .style("font-size", "14px")
                         .text("Price Elasticity")
+
                     var tip = d3.tip()
                         .attr("class", "d3-tip")
                         .offset([-10, 0])
@@ -796,16 +799,19 @@
             g.append("g")
                 .attr("class", "axis axis--x")
                 .attr("transform", "translate(0," + height + ")")
+                .style("font-size", 14)
                 .call(d3.axisBottom(x))
                 .append("text")
                   .attr("fill", "#000")
                   .attr("x", width / 2)
                   .attr("y", 46)
                   .style("text-anchor", "middle")
+                  .style("font-size",18)
                   .text("Year");
 
             g.append("g")
                 .attr("class", "axis axis--y")
+                .style("font-size", 14)
                 .call(d3.axisLeft(y))
                 .append("text")
                 .attr("fill", "#000")
@@ -813,6 +819,7 @@
                 .attr("x", -height / 2)
                 .attr("y", -54)
                 .style("text-anchor", "middle")
+                .style("font-size", 18)
                 .text("Weekly Income (Pence per Person)");
         });
 
