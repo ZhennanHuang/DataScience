@@ -69,7 +69,7 @@ function changeSelect() {
         y.options.add(new Option("Blue fish, dried or salted or smoked", "1"));
         y.options.add(new Option("Herrings and other blue fish, fresh, chilled or frozen", "2"));
         y.options.add(new Option("Other tinned or bottled fish", "3"));
-        y.options.add(new Option("Ready meals and other fish products - frozen or not frozen", "4"));
+        y.options.add(new Option("Ready meals and other fish products", "4"));
         y.options.add(new Option("Salmon, fresh, chilled or frozen", "5"));
         y.options.add(new Option("Salmon, tinned", "6"));
         y.options.add(new Option("Shellfish", "7"));
@@ -86,12 +86,12 @@ function changeSelect() {
         y.options.add(new Option("Processed fruit and fruit products", "2"));
         y.options.add(new Option("Fresh potatoes", "3"));
         y.options.add(new Option("Processed potatoes", "4"));
-        y.options.add(new Option("Fresh and processed fruit", "5"));
-        y.options.add(new Option("Fresh and processed fruit and vegetables, excluding potatoes", "6"));
-        y.options.add(new Option("Fresh and processed fruit and vegetables, including potatoes", "7"));
-        y.options.add(new Option("Fresh and processed potatoes", "8"));
-        y.options.add(new Option("Fresh and processed vegetables, excluding potatoes", "9"));
-        y.options.add(new Option("Fresh and processed vegetables, including potatoes", "10"));
+        y.options.add(new Option("Fruit", "5"));
+        y.options.add(new Option("Fruit and vegetables, excluding potatoes", "6"));
+        y.options.add(new Option("Fruit and vegetables, including potatoes", "7"));
+        y.options.add(new Option("Potatoes", "8"));
+        y.options.add(new Option("Vegetables, excluding potatoes", "9"));
+        y.options.add(new Option("Vegetables, including potatoes", "10"));
         y.options.add(new Option("Fresh green vegetables", "11"));
         y.options.add(new Option("Other fresh vegetables", "12"));
         y.options.add(new Option("Processed vegetables excluding processed potatoes", "13"));
@@ -280,7 +280,7 @@ function changeSelectTwo() {
     if (x.value == 13 && y.value == 2) {
         z.options.add(new Option("All other tinned or bottled fruit", "1"));
         z.options.add(new Option("Dried fruit", "2"));
-        z.options.add(new Option("Frozen strawberries, apple slices, peach halves, oranges and other frozen fruits", "3"));
+        z.options.add(new Option("Frozen fruits", "3"));
         z.options.add(new Option("Nuts, edible seeds and peanut butter", "4"));
         z.options.add(new Option("Pure fruit juices", "5"));
         z.options.add(new Option("Tinned peaches, pears and pineapples", "6"));
@@ -391,7 +391,7 @@ function changeSelectTwo() {
         z.options.add(new Option("Cereal snacks", "2"));
         z.options.add(new Option("Other cereal foods, frozen and not frozen", "3"));
         z.options.add(new Option("Quiches and flans, frozen and not frozen", "4"));
-        z.options.add(new Option("Takeaway crisps, savoury snacks, popcorn, popadums, prawn crackers", "5"));
+        z.options.add(new Option("Takeaway cereal snacks", "5"));
     }
     if (x.value == 16 && y.value == 9) {
         z.options.add(new Option("Canned pasta", "1"));

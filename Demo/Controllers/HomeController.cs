@@ -66,7 +66,7 @@ namespace Demo.Controllers
             var list = js.Deserialize<DropDownList>(stream);
             DropDownList dd = list;
 
-            string collectionName= "elasticity_v4";
+            string collectionName= "elasticity_v5";
             string title1="";
             string title2="";
             string title3="";
@@ -111,13 +111,11 @@ namespace Demo.Controllers
                 list = Collections.Find(x => x.Subcategory == "").ToList();
                 foreach (var f in list)
                 {
-                    
                     points p = new points();
                     p.Category = f.Category;
                     p.Elasticity = f.Elasticity;
                     p.Quintile = f.Quintile;
                     pl.Add(p);
-                    
                 }
             }
             else if (title2 == "") {

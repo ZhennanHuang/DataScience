@@ -186,7 +186,7 @@
                         <div class="sm-st clearfix">
                             <span class="sm-st-icon st-green"><i class="fa fa-paperclip"></i></span>
                             <div class="sm-st-info">
-                                <span>2</span>
+                                <span>3</span>
                                 Total Datasets
                             </div>
                         </div>
@@ -198,10 +198,10 @@
                             <a href="#1a" data-toggle="tab">Overview</a>
                         </li>
                         <li>
-                            <a href="#2a" data-toggle="tab">Using nav-pills</a>
+                            <a href="#2a" data-toggle="tab">Boxplot</a>
                         </li>
                         <li>
-                            <a href="#3a" data-toggle="tab">Applying clearfix</a>
+                            <a href="#3a" data-toggle="tab">Quintile boundary</a>
                         </li>
                     </ul>
                     <div class="tab-content" clearfix>
@@ -229,7 +229,7 @@
                                                 <option value="10">Fats</option>
                                                 <option value="11">Fish</option>
                                                 <option value="12">Flour</option>
-                                                <option value="13">Fresh and processed vegetables</option>
+                                                <option value="13">Fruits and vegetables</option>
                                                 <option value="14">Milk and milk products excluding cheese</option>
                                                 <option value="15">Non-carcase meat and meat products</option>
                                                 <option value="16">Other cereals and cereal products</option>
@@ -248,6 +248,7 @@
                                         </header>
                                         
                                         <div id="scatter" class="panel-body" style="width:100%; height:700px;margin-right:0px">
+                                        
                                         </div>
                                     </section>
                                     <!--earning graph end-->
@@ -417,18 +418,46 @@
                     var text = svg.append("text")
                         .attr("class", "label")
                         .attr("x", width)
-                        .attr("y", y(+1) - 10)
+                        .attr("y", y(+-1) + 25)
                         .style("text-anchor", "end")
                         .style("font-size", "20px")
-                        .text("Elastic");
+                        .text("Zone3");
                     var text1 = svg.append("text")
                          .attr("class", "label")
                          .attr("x", width)
-                         .attr("y", y(+-1) - 10)
+                         .attr("y", y(+1) + 25)
                          .style("text-anchor", "end")
                          .style("font-size", "20px")
-                         .text("Inelastic");
+                         .text("Zone2");
+                    var text1 = svg.append("text")
+                         .attr("class", "label")
+                         .attr("x", width)
+                         .attr("y", 25)
+                         .style("text-anchor", "end")
+                         .style("font-size", "20px")
+                         .text("Zone1");
 
+                    svg.append("text")
+                         .attr("class", "label")
+                         .attr("x", 0)
+                         .attr("y", 600)
+                         //.style("text-anchor", "end")
+                         .style("font-size", "15px")
+                         .text("Zone3: Higher price, higher demand");
+                    svg.append("text")
+                         .attr("class", "label")
+                         .attr("x", 0)
+                         .attr("y", 580)
+                         //.style("text-anchor", "end")
+                         .style("font-size", "15px")
+                         .text("Zone2: Price and demand are weakly related");
+                    svg.append("text")
+                         .attr("class", "label")
+                         .attr("x", 0)
+                         .attr("y", 560)
+                         //.style("text-anchor", "end")
+                         .style("font-size", "15px")
+                         .text("Zone1: Higher price, lower demand");
                     var fade = function (opacity) {
                         return function (g, i) {
                             svg.selectAll(".dot")
@@ -450,9 +479,9 @@
                       .append("text")
                         .attr("class", "label")
                         .attr("fill", "#000000")
-                        .attr("x", width)
-                        .attr("y", -6)
-                        .style("text-anchor", "end")
+                        .attr("x", width/2)
+                        .attr("y", 46)
+                        .style("text-anchor", "middle")
                         .style("font-size", "14px")
                         .text("Income Quintile");
 
@@ -464,9 +493,10 @@
                         .attr("class", "label")
                         .attr("fill", "#000000")
                         .attr("transform", "rotate(-90)")
-                        .attr("y", 6)
+                        .attr("x",-height/2)
+                        .attr("y", -54)
                         .attr("dy", ".71em")
-                        .style("text-anchor", "end")
+                        .style("text-anchor", "middle")
                         .style("font-size", "14px")
                         .text("Price Elasticity")
 
@@ -500,7 +530,7 @@
                         .data(color.domain())
                       .enter().append("g")
                         .attr("class", "legend")
-                        .attr("transform", function (d, i) { return "translate(0," + i * 20 + ")"; });
+                        .attr("transform", function (d, i) { return "translate(0," + i * 23 + ")"; });
 
                     legend.append("rect")
                         .attr("class", "rect")
@@ -517,73 +547,6 @@
                         .style("text-anchor", "end")
                         .text(function (d) { return d; });
 
-
-                    d3.select("input").on("click", change);
-                    d3.select("#Quintile").on("click", change2);
-
-                    function change() {
-                        xCat = 'Category';
-                        colorCat = 'Quintile';
-                        x.domain(data.map(function (d) { return d[xCat]; }));
-
-                        scatter = d3v3.select("#scatter").transition();
-
-                        scatter.select(".x.axis").duration(750).call(xAxis).selectAll('text')
-                        .attr("y", 50)
-                          .attr("x", 9)
-                          .attr("dy", ".50em")
-                          .style("text-align", "center")
-                          .attr("transform", "rotate(90)")
-                        ;
-
-                        scatter.select(".x.axis").duration(750).call(xAxis).select(".label").text(xCat)
-                        .attr("y", -6)
-                          .attr("x", width)
-                          .style("text-anchor", "end")
-                          .attr("transform", "rotate(0)");
-
-
-
-                        //scatter.select(".x.axis").duration(750).call(xAxis).tick
-
-                        objects.data(data).enter();
-
-                        objects.selectAll(".dot").transition()
-                            .duration(1000)
-                            .attr("transform", function (d) { return "translate(" + x(d[xCat]) + "," + y(d[yCat]) + ")"; })
-                            .style("fill", function (d) { return color2(d[colorCat]); });
-
-                        //scatter.selectAll(".legend2").transition().style("opacity",1);
-                        //scatter.selectAll(".legend").transition().style("opacity",1e-6);
-                        //scatter.selectAll(".rect").transition().style("fill", color2);
-                        //scatter.selectAll(".text").transition().attr("dy", ".35em").text(function(d) { return colorCat+" "+d; });
-
-
-                        legend.data(color2.domain()).enter();
-                        scatter.selectAll('.legend').transition();
-                        scatter.selectAll('.rect').transition().style("fill", color2);
-                        scatter.selectAll('.text').transition().text(function (d) { return colorCat + " " + d; });
-
-                    }
-                    function change2() {
-                        xCat = 'Quintile';
-                        colorCat = 'Category';
-                        x.domain(data.map(function (d) { return d[xCat]; }));
-
-                        var svg = d3v3.select("#scatter").transition();
-
-                        svg.select(".x.axis").duration(750).call(xAxis).select(".label").text("Income " + xCat);
-
-                        objects.selectAll(".dot").transition()
-                            .duration(1000)
-                            .attr("transform", function (d) { return "translate(" + x(d[xCat]) + "," + y(d[yCat]) + ")"; })
-                            .style("fill", function (d) { return color(d[colorCat]); });
-
-                        svg.selectAll(".legend").transition();
-                        svg.selectAll(".rect").transition().style("fill", color);
-                        svg.selectAll(".text").transition().attr("dy", ".35em").text(function (d) { return d; });
-
-                    }
                 },
                 error: function () {
                     alert("error")
@@ -777,9 +740,9 @@
 
             var legend = svg.selectAll(".legend")
                 .data(stack(data))
-              .enter().append("g")
+                .enter().append("g")
                 .attr("class", "legend")
-                .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+                .attr("transform", function(d, i) { return "translate(0," + (i+1) * 20 + ")"; });
 	  
             legend.append("rect")
                 .attr("class", "rect")
