@@ -128,25 +128,7 @@
 </style>
 </head>
 <body class="skin-black">
-    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:#222">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            
-        </div>
-    </div>
-
-    <div class="container body-content">
-        @*@RenderBody()*@
-        <hr />
-        <footer></footer>
-    </div>
+ 
 
     <div class="wrapper row-offcanvas row-offcanvas-left">
 
@@ -154,6 +136,9 @@
 
             <!-- Main content -->
             <section class="content">
+            <div style="text-align:center"><h3>Application name</h3></div>
+            <div style="text-align:center"><h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4></div>
+            <hr />
                 <div class="row" style="margin-bottom:5px;">
                     <div class="col-md-3">
                         <div class="sm-st clearfix">
@@ -195,13 +180,13 @@
                 <div>
                     <ul class="nav nav-pills">
                         <li class="active">
-                            <a href="#1a" data-toggle="tab">Overview</a>
+                            <a href="#1a" data-toggle="tab" style="width:200px">Overview</a>
                         </li>
                         <li>
-                            <a href="#2a" data-toggle="tab">Boxplot</a>
+                            <a href="#2a" data-toggle="tab" style="width:200px">Boxplot</a>
                         </li>
                         <li>
-                            <a href="#3a" data-toggle="tab">Quintile boundary</a>
+                            <a href="#3a" data-toggle="tab" style="width:200px">Quintile boundary</a>
                         </li>
                     </ul>
                     <div class="tab-content" clearfix>
@@ -287,6 +272,7 @@
                         </div>
                     </div>
                 </div>
+                <div style="text-align:left;"><h4>Dataset&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4> </div>
             </section><!-- /.content --> 
         </aside><!-- /.right-side -->
    </div>
@@ -395,7 +381,7 @@
                     var colorCat = "Category";
 
                     x.domain(data.map(function (d) { return d[xCat]; }));
-                    y.domain([yMin - 0.5, yMax + 0.5]).nice();
+                    y.domain([yMin- 0.5, yMax + 0.5]).nice();
 
 
                     var no_category = d3.max(data, function (d) { return d.id / 5; })
@@ -421,21 +407,21 @@
                         .attr("y", y(+-1) + 25)
                         .style("text-anchor", "end")
                         .style("font-size", "20px")
-                        .text("Zone3");
+                        .text("Elastic");
                     var text1 = svg.append("text")
                          .attr("class", "label")
                          .attr("x", width)
-                         .attr("y", y(+1) + 25)
+                         .attr("y", y(+1) + 100)
                          .style("text-anchor", "end")
                          .style("font-size", "20px")
-                         .text("Zone2");
+                         .text("Inelastic");
                     var text1 = svg.append("text")
                          .attr("class", "label")
                          .attr("x", width)
-                         .attr("y", 25)
+                         .attr("y", y(+1)-15)
                          .style("text-anchor", "end")
                          .style("font-size", "20px")
-                         .text("Zone1");
+                         .text("Elastic");
 
                     svg.append("text")
                          .attr("class", "label")
@@ -443,21 +429,21 @@
                          .attr("y", 600)
                          //.style("text-anchor", "end")
                          .style("font-size", "15px")
-                         .text("Zone3: Higher price, higher demand");
+                         .text("Inelactic       : Demand is not sensitive to price changes");
                     svg.append("text")
                          .attr("class", "label")
                          .attr("x", 0)
                          .attr("y", 580)
                          //.style("text-anchor", "end")
                          .style("font-size", "15px")
-                         .text("Zone2: Price and demand are weakly related");
+                         .text("Elastic         : Demand is sensitive to price changes.");
                     svg.append("text")
                          .attr("class", "label")
                          .attr("x", 0)
                          .attr("y", 560)
                          //.style("text-anchor", "end")
                          .style("font-size", "15px")
-                         .text("Zone1: Higher price, lower demand");
+                         .text("Elasticity = 0  : Demand does not vary with a change in price.");
                     var fade = function (opacity) {
                         return function (g, i) {
                             svg.selectAll(".dot")
@@ -482,7 +468,7 @@
                         .attr("x", width/2)
                         .attr("y", 46)
                         .style("text-anchor", "middle")
-                        .style("font-size", "14px")
+                        .style("font-size", "18px")
                         .text("Income Quintile");
 
                     svg.append("g")
@@ -497,7 +483,7 @@
                         .attr("y", -54)
                         .attr("dy", ".71em")
                         .style("text-anchor", "middle")
-                        .style("font-size", "14px")
+                        .style("font-size", "18px")
                         .text("Price Elasticity")
 
                     var tip = d3.tip()
