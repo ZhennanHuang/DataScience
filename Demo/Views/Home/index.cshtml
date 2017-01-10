@@ -127,17 +127,13 @@
     }
 </style>
 </head>
-<body class="skin-black">
- 
-
-    <div class="wrapper row-offcanvas row-offcanvas-left">
-
+<body class="skin-black" >
+    <div class="wrapper row-offcanvas row-offcanvas-left" >
         <aside class="right-side" style="margin-left:0px">
-
             <!-- Main content -->
             <section class="content">
-            <div style="text-align:center"><h3>Application name</h3></div>
-            <div style="text-align:center"><h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4></div>
+            <div style="text-align:center"><h3>Does your income level affect what you eat?</h3><br />
+                <h4>NO</h4></div>
             <hr />
                 <div class="row" style="margin-bottom:5px;">
                     <div class="col-md-3">
@@ -272,7 +268,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="text-align:left;"><h4>Dataset&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4> </div>
+                <div style="text-align:left;"><h4>DataSource&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4> </div>
             </section><!-- /.content --> 
         </aside><!-- /.right-side -->
    </div>
@@ -411,7 +407,7 @@
                     var text1 = svg.append("text")
                          .attr("class", "label")
                          .attr("x", width)
-                         .attr("y", y(+1) + 100)
+                         .attr("y", y(+0))
                          .style("text-anchor", "end")
                          .style("font-size", "20px")
                          .text("Inelastic");
@@ -543,7 +539,7 @@
     </script>
     <script>
         var colours = ['rgba(93, 164, 214, 0.5)', 'rgba(255, 144, 14, 0.5)', 'rgba(44, 160, 101, 0.5)', 'rgba(255, 65, 54, 0.5)', 'rgba(207, 114, 255, 0.5)']
-        d3.csv("../../csv/boxdata3.csv", function(error, csv) {
+        d3.csv("../../csv/boxdata4.csv", function(error, csv) {
         	var data = [];
 			data[0] = [];
 			data[1] = [];
