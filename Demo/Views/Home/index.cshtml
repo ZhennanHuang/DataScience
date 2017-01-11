@@ -1,6 +1,6 @@
 ﻿
 @{
-    ViewBag.Title = "index";
+    ViewBag.Title = "Do rich people care less about the price changes when they buy food?";
 }
 
 <!DOCTYPE html>
@@ -132,8 +132,8 @@
         <aside class="right-side" style="margin-left:0px">
             <!-- Main content -->
             <section class="content">
-            <div style="text-align:center"><h3>Do rich people care less about the price tags when they buy food?</h3><br />
-                <h4>Overall, NO. The price elasticities in different income quintiles are similar. However, for some type of food, e.g. baby food, milk, richer people tend to be less sensitive with the price.</h4></div>
+            <div style="text-align:center"><h3>Do rich people care less about the price changes when they buy food?</h3><br />
+                <h4>Overall, NO. The price elasticities in different income quintiles are similar. However, for some types of food, e.g. baby food, sugar, richer people tend to be less sensitive to the change in price.</h4></div>
             <hr />
                 <div class="row" style="margin-bottom:5px;">
                     <div class="col-md-3">
@@ -179,10 +179,10 @@
                             <a href="#1a" data-toggle="tab" style="width:200px">Overview</a>
                         </li>
                         <li>
-                            <a href="#2a" data-toggle="tab" style="width:200px">Boxplot</a>
+                            <a href="#2a" data-toggle="tab" style="width:200px">Distribution</a>
                         </li>
                         <li>
-                            <a href="#3a" data-toggle="tab" style="width:200px">Income Quintile</a>
+                            <a href="#3a" data-toggle="tab" style="width:200px">Income Quintiles</a>
                         </li>
                     </ul>
                     <div class="tab-content" clearfix>
@@ -255,7 +255,7 @@
                                 <div class="col-md-8" style="width:100%;height:100%;">
                                     <section class="panel">
                                         <header class="panel-heading" style="height:41px;padding-top:10px;">
-                                            Income Quintile boundary for each year
+                                            Income Quintile boundaries for each year
                                         </header>
                                         <div id ="boundary" style="width:1050px; height:700px;padding-top:50px">
                                            @* <svg id="svg" class="panel-body" style="width:960px;height:500px"></svg>*@
@@ -668,7 +668,7 @@
         var g = svg.append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-        d3.csv("../../csv/boundary6.csv", function(error, data) {
+        d3.csv("../../csv/boundary.csv", function(error, data) {
             if (error) throw error;
 
             var keys = data.columns.slice(1);
@@ -677,7 +677,7 @@
             });
 
             x.domain(d3.extent(data, function(d) { return d.Year; }));
-            y.domain([0,1200]);
+            y.domain([0, 1500]);
             z.domain(keys);
             stack.keys(keys);
             console.log(stack(data));
@@ -757,7 +757,7 @@
             g.append("g")
                 .attr("class", "axis axis--y")
                 .style("font-size", 14)
-                .call(d3.axisLeft(y))
+                .call(d3.axisLeft(y).tickFormat(function (d) { return '£' + d; }))
                 .append("text")
                 .attr("fill", "#000")
                 .attr("transform", "rotate(-90)")
@@ -765,7 +765,7 @@
                 .attr("y", -54)
                 .style("text-anchor", "middle")
                 .style("font-size", 18)
-                .text("Weekly Income (Pence per Person)");
+                .text("Gross Weekly Family Income");
         });
 
 
