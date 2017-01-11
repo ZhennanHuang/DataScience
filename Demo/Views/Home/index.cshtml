@@ -127,17 +127,13 @@
     }
 </style>
 </head>
-<body class="skin-black">
- 
-
-    <div class="wrapper row-offcanvas row-offcanvas-left">
-
+<body class="skin-black" >
+    <div class="wrapper row-offcanvas row-offcanvas-left" >
         <aside class="right-side" style="margin-left:0px">
-
             <!-- Main content -->
             <section class="content">
-            <div style="text-align:center"><h3>Application name</h3></div>
-            <div style="text-align:center"><h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4></div>
+            <div style="text-align:center"><h3>Do rich people care less about the price tags when they buy food?</h3><br />
+                <h4>Overall, NO. The price elasticities in different income quintiles are similar. However, for some type of food, e.g. baby food, milk, richer people tend to be less sensitive with the price.</h4></div>
             <hr />
                 <div class="row" style="margin-bottom:5px;">
                     <div class="col-md-3">
@@ -186,7 +182,7 @@
                             <a href="#2a" data-toggle="tab" style="width:200px">Boxplot</a>
                         </li>
                         <li>
-                            <a href="#3a" data-toggle="tab" style="width:200px">Quintile boundary</a>
+                            <a href="#3a" data-toggle="tab" style="width:200px">Income Quintile</a>
                         </li>
                     </ul>
                     <div class="tab-content" clearfix>
@@ -199,7 +195,7 @@
                                     <!--earning graph start-->
                                     <section class="panel">
                                         <header class="panel-heading" style="height:41px;padding-bottom:10px">
-                                            Elasticity
+                                            Select category to explore the price elasticity<br /><br />
                                             <select id="select1" class="selectpicker" data-style="btn-info" style="border-radius:5px;padding-left:5px;margin-bottom:2px;width:255px;height:24px;margin-left:14px;font-family: 'Lato', sans-serif;font-size:16px" onChange="changeSelect()">
                                                 <option value="0">All categories</option>
                                                 <option value="1">Alcoholic drinks</option>
@@ -232,7 +228,7 @@
                                             <button name="submit" type="submit" id="changeChart" class="btn btn-primary btn-lg" style="font-size: 1.25rem;padding:.25rem 1.5rem;margin-left:20px;height:25px">Submit</button>
                                         </header>
                                         
-                                        <div id="scatter" class="panel-body" style="width:100%; height:700px;margin-right:0px">
+                                        <div id="scatter" class="panel-body" style="width:100%; height:700px;margin-right:0px;margin-top:30px;">
                                         
                                         </div>
                                     </section>
@@ -245,7 +241,7 @@
                                 <div class="col-md-8" style="width:100%;height:100%;">
                                     <section class="panel">
                                         <header class="panel-heading" style="height:41px;padding-top:10px">
-                                            Boxplot                                        </header>
+                                            Distribution of price elasticity through the income quintiles                                        </header>
                                         <div id="myDiv" style="width:1050px; height:700px">
 
                                         </div>
@@ -259,7 +255,7 @@
                                 <div class="col-md-8" style="width:100%;height:100%;">
                                     <section class="panel">
                                         <header class="panel-heading" style="height:41px;padding-top:10px;">
-                                            Quintile boundary
+                                            Income Quintile boundary for each year
                                         </header>
                                         <div id ="boundary" style="width:1050px; height:700px;padding-top:50px">
                                            @* <svg id="svg" class="panel-body" style="width:960px;height:500px"></svg>*@
@@ -272,7 +268,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="text-align:left;"><h4>Dataset&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4> </div>
+                <div style="text-align:left;"><h4>Data Source: Data.gov, Familiy Food, StephenMorley.org&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4> </div>
             </section><!-- /.content --> 
         </aside><!-- /.right-side -->
    </div>
@@ -411,7 +407,7 @@
                     var text1 = svg.append("text")
                          .attr("class", "label")
                          .attr("x", width)
-                         .attr("y", y(+1) + 100)
+                         .attr("y", y(+0))
                          .style("text-anchor", "end")
                          .style("font-size", "20px")
                          .text("Inelastic");
@@ -543,7 +539,7 @@
     </script>
     <script>
         var colours = ['rgba(93, 164, 214, 0.5)', 'rgba(255, 144, 14, 0.5)', 'rgba(44, 160, 101, 0.5)', 'rgba(255, 65, 54, 0.5)', 'rgba(207, 114, 255, 0.5)']
-        d3.csv("../../csv/boxdata3.csv", function(error, csv) {
+        d3.csv("../../csv/boxdata4.csv", function(error, csv) {
         	var data = [];
 			data[0] = [];
 			data[1] = [];
