@@ -1,7 +1,9 @@
-big_loglog_coef_1 <- big_loglog_coef
-big_loglog_coef_2 <- big_loglog_coef
-big_loglog_coef_3 <- big_loglog_coef
-big_loglog_coef_4 <- big_loglog_coef
-big_loglog_coef_5 <- big_loglog_coef
+#label based on quintile number
 
-source(file= "clean_workspace.R")
+loglog_coef_dt_1 <- loglog_coef_dt
+loglog_coef_dt_2 <- loglog_coef_dt
+loglog_coef_dt_3 <- loglog_coef_dt
+loglog_coef_dt_4 <- loglog_coef_dt
+loglog_coef_dt_5 <- loglog_coef_dt
+
+#source(file= "clean_workspace.R")
