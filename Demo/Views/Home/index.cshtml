@@ -132,8 +132,8 @@
         <aside class="right-side" style="margin-left:0px">
             <!-- Main content -->
             <section class="content">
-            <div style="text-align:center"><h3>Do rich people care less about the price changes when they buy food?</h3><br />
-                <h4>Overall, NO. The price elasticities in different income quintiles are similar. However, for some types of food, e.g. baby food, sugar, richer people tend to be less sensitive to the change in price.</h4></div>
+            <div style="text-align:center"><h3>Do rich people care less about the price changes of food?</h3><br />
+                <h4>Overall, NO. The price elasticities in different income quintiles are similar. <br />However, for some types of food, e.g. baby food, sugar, richer people tend to be less sensitive to the change in price.</h4></div>
             <hr />
                 <div class="row" style="margin-bottom:5px;">
                     <div class="col-md-3">
@@ -179,7 +179,7 @@
                             <a href="#1a" data-toggle="tab" style="width:200px">Overview</a>
                         </li>
                         <li>
-                            <a href="#2a" data-toggle="tab" style="width:200px">Distribution</a>
+                            <a href="#2a" data-toggle="tab" style="width:200px">Distributions</a>
                         </li>
                         <li>
                             <a href="#3a" data-toggle="tab" style="width:200px">Income Quintiles</a>
@@ -241,7 +241,7 @@
                                 <div class="col-md-8" style="width:100%;height:100%;">
                                     <section class="panel">
                                         <header class="panel-heading" style="height:41px;padding-top:10px">
-                                            Distribution of price elasticity through the income quintiles                                        </header>
+                                            The distributions of price elasticity through of different income quintiles are similar                                       </header>
                                         <div id="myDiv" style="width:1050px; height:700px">
 
                                         </div>
@@ -268,7 +268,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="text-align:left;"><h4>Data Source: Data.gov, Familiy Food, StephenMorley.org&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4> </div>
+                <div style="text-align:left;"><h4>Data Source: Data.gov, Family Food, StephenMorley.org&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4> </div>
             </section><!-- /.content --> 
         </aside><!-- /.right-side -->
    </div>
@@ -411,6 +411,20 @@
                          .style("text-anchor", "end")
                          .style("font-size", "20px")
                          .text("Inelastic");
+                    var text1 = svg.append("text")
+                         .attr("class", "label")
+                         .attr("x", 50)
+                         .attr("y", 500)
+                         .style("text-anchor", "end")
+                         .style("font-size", "14px")
+                         .text("Poor");
+                    var text1 = svg.append("text")
+                         .attr("class", "label")
+                         .attr("x", width-20)
+                         .attr("y", 500)
+                         .style("text-anchor", "end")
+                         .style("font-size", "14px")
+                         .text("Rich");
                     var text1 = svg.append("text")
                          .attr("class", "label")
                          .attr("x", width)
