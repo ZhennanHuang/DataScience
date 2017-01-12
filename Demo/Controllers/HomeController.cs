@@ -45,8 +45,8 @@ namespace Demo.Controllers
         // GET: Home
         public HomeController()
         {
-            var client = new MongoClient(ConfigurationManager.AppSettings["connectionString"]);
-
+            //var client = new MongoClient(ConfigurationManager.AppSettings["connectionString"]);
+            var client = new MongoClient("mongodb://localhost:27017");
             database = client.GetDatabase("expenditure");
             //var Collections = db.GetCollection<food>("expenditure");
         }
