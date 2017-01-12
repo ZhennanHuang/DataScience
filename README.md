@@ -7,7 +7,7 @@ However, for some types of food, e.g. baby food, sugar, richer people tend to be
 
 
 ###Structure
-* ~/Scripts: Programs to deal with data.
+* ~/Scripts: Programs to process data.
 * ~/Demo: Web application.
 * ~/charts: Using javascript to draw graphs.
 
